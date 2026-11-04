@@ -1,0 +1,144 @@
+{
+ "n": 21,
+ "agreement": 0.8571428571428571,
+ "kappa": 0.4878048780487805,
+ "judge_pos": 18,
+ "human_pos": 17,
+ "human_faithful_share_baseline": 0.8421052631578947,
+ "judge_decomposed_context": [
+  "T02",
+  "T04",
+  "T11",
+  "T24",
+  "T26"
+ ],
+ "reviewer": "LLM-експерт Claude (claude-opus-5-5) за контекстом із logs/rag_log.jsonl; потребує підтвердження студентом",
+ "items": [
+  {
+   "id": "baseline T01",
+   "judge": 1,
+   "human": 1,
+   "comment": "дата є у W14:s001"
+  },
+  {
+   "id": "baseline T02",
+   "judge": 1,
+   "human": 1,
+   "comment": "вірно; суддя додав твердження з контексту, а не з відповіді"
+  },
+  {
+   "id": "baseline T03",
+   "judge": 1,
+   "human": 1,
+   "comment": "TensorFlow є у W06:s004"
+  },
+  {
+   "id": "baseline T04",
+   "judge": 1,
+   "human": 1,
+   "comment": "дослівно W26:s001; 2-ге «твердження» судді взято з контексту"
+  },
+  {
+   "id": "baseline T05",
+   "judge": 1,
+   "human": 1,
+   "comment": "перефраз W13:s001/s009/s010"
+  },
+  {
+   "id": "baseline T06",
+   "judge": 1,
+   "human": 1,
+   "comment": "W05:s002"
+  },
+  {
+   "id": "baseline T07",
+   "judge": 1,
+   "human": 1,
+   "comment": "W07:s000"
+  },
+  {
+   "id": "baseline T08",
+   "judge": 1,
+   "human": 1,
+   "comment": "W15:s001"
+  },
+  {
+   "id": "baseline T09",
+   "judge": 1,
+   "human": 1,
+   "comment": "перефраз W10:s000, стилістично неточно"
+  },
+  {
+   "id": "baseline T10",
+   "judge": 1,
+   "human": 1,
+   "comment": "W14:s005, W19:s000"
+  },
+  {
+   "id": "baseline T11",
+   "judge": 1,
+   "human": 0,
+   "comment": "«психологічні тактики, соціальна інформація» в контексті немає; суддя розклав контекст замість відповіді"
+  },
+  {
+   "id": "baseline T12",
+   "judge": 1,
+   "human": 1,
+   "comment": "зміст є в графі; але цитата [G:OFF-03] не про першоджерело"
+  },
+  {
+   "id": "baseline T13",
+   "judge": 1,
+   "human": 1,
+   "comment": "вердикт і Ф-04 є в рядку [G:VRD-10]"
+  },
+  {
+   "id": "baseline T14",
+   "judge": 1,
+   "human": 0,
+   "comment": "правило названо «R1–R4» (це назва каталогу); дію «позначити як повторно використаний» спотворено"
+  },
+  {
+   "id": "baseline T15",
+   "judge": 0,
+   "human": 0,
+   "comment": "«14 публікацій» — немає в контексті (4+3+6=13, а насправді 17)"
+  },
+  {
+   "id": "baseline T24",
+   "judge": 1,
+   "human": 1,
+   "comment": "INT-REG-2026:s001"
+  },
+  {
+   "id": "baseline T25",
+   "judge": 1,
+   "human": 1,
+   "comment": "INT-REG-2026:s002"
+  },
+  {
+   "id": "baseline T26",
+   "judge": 1,
+   "human": 1,
+   "comment": "INT-REG-2026:s001"
+  },
+  {
+   "id": "baseline T27",
+   "judge": 1,
+   "human": 1,
+   "comment": "обидві версії регламенту в контексті"
+  },
+  {
+   "id": "k=3 T15",
+   "judge": 0,
+   "human": 0,
+   "comment": "«13 публікацій» — арифметика з 3 тверджень, правильне число 17 не в контексті"
+  },
+  {
+   "id": "k=3 T27",
+   "judge": 0,
+   "human": 1,
+   "comment": "«один доказ» є в INT-REG-2025:s001 — суддя помилився"
+  }
+ ]
+}
