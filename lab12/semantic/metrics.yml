@@ -1,0 +1,127 @@
+# ЛР12 · семантичний шар: метрики й виміри куба «Перевірка публікацій»
+# Генерація SQL: semantic/semantic.py → metric_sql(metrics, dimensions, filters)
+version: 1.0.0
+model: fact_check
+base_table: fact_check AS f
+
+joins:            # підключаються лише ті, що потрібні вибраним метрикам/вимірам/фільтрам
+  v:  "JOIN dim_verdict v ON v.verdict_key = f.verdict_key"
+  s:  "JOIN dim_taxonomy s ON s.taxonomy_key = f.signal_key"
+  m:  "JOIN dim_taxonomy m ON m.taxonomy_key = f.method_key"
+  d:  "JOIN dim_date d ON d.date_key = f.date_key"
+  p:  "JOIN dim_platform p ON p.platform_key = f.platform_key"
+  a:  "JOIN dim_account a ON a.account_key = f.account_key"
+  an: "JOIN dim_analyst an ON an.analyst_key = f.analyst_key"
+  n:  "JOIN dim_narrative n ON n.narrative_key = f.narrative_key"
+
+dimensions:
+  signal_class:   {column: s.class_label,   join: s, description: "клас ознаки дезінформації (рівень 2 таксономії)"}
+  signal:         {column: s.label,         join: s, description: "ознака дезінформації (рівень 3 таксономії)"}
+  signal_iri:     {column: s.concept_iri,   join: s, description: "IRI ознаки в онтології"}
+  method_class:   {column: m.class_label,   join: m, description: "клас методу перевірки (рівень 2)"}
+  method:         {column: m.label,         join: m, description: "метод перевірки (рівень 3)"}
+  month:          {column: d.month,         join: d, description: "номер місяця вердикту (7–10)"}
+  month_name:     {column: d.month_name,    join: d, description: "назва місяця вердикту"}
+  week_start:     {column: d.week_start,    join: d, description: "понеділок тижня вердикту"}
+  verdict_date:   {column: d.full_date,     join: d, description: "дата вердикту"}
+  platform:       {column: p.platform,      join: p, description: "платформа публікації"}
+  platform_type:  {column: p.platform_type, join: p, description: "месенджер / соцмережа / відеоплатформа"}
+  account_kind:   {column: a.kind,          join: a, description: "тип акаунта-автора"}
+  trust_at_check: {column: a.trust_label,   join: a, description: "рівень довіри автора на момент перевірки (SCD2)"}
+  analyst:        {column: an.analyst_id,   join: an, description: "фактчекер"}
+  organization:   {column: an.org_name,     join: an, description: "фактчекінгова організація"}
+  narrative:      {column: n.name,          join: n, description: "наратив ('без наративу' для поодиноких)"}
+  priority:       {column: f.priority,      join: null, description: "пріоритет перевірки"}
+  verdict:        {column: v.category,      join: v, description: "категорія вердикту"}
+
+metrics:
+  - name: checks_count
+    label: Кількість перевірок
+    definition: Кількість завершених перевірок публікацій (зерно факту).
+    formula: "SUM(f.check_count)"
+    unit: шт.
+    additivity: адитивна
+    joins: []
+    owner: Хоптій Д. (аналітик Hub)
+    sources: [fact_check]
+    constraints: "Рахує перевірки, а не унікальні публікації; повторна перевірка тієї самої публікації — окремий рядок."
+    review_date: 2026-11-04
+    status: approved
+
+  - name: false_verdict_rate
+    label: Частка хибних вердиктів
+    definition: Відсоток перевірок, що завершилися вердиктом «фейк» або «маніпуляція».
+    formula: "round(100.0 * SUM(CASE WHEN v.is_false THEN f.check_count ELSE 0 END) / SUM(f.check_count), 1)"
+    unit: "%"
+    additivity: неадитивна (відношення; не усереднювати частки підгруп)
+    joins: [v]
+    owner: Хоптій Д. (аналітик Hub)
+    sources: [fact_check, dim_verdict]
+    constraints: "Залежить від відбору публікацій на перевірку (перевіряють підозрілі) — це не частка фейків у мережі. «Неможливо перевірити» рахується як не хибний."
+    review_date: 2026-11-04
+    status: approved
+
+  - name: false_reach
+    label: Охоплення хибних публікацій
+    definition: Сума поширень на момент перевірки для публікацій із вердиктом «фейк» або «маніпуляція».
+    formula: "SUM(CASE WHEN v.is_false THEN f.shares_at_check ELSE 0 END)"
+    unit: поширень
+    additivity: адитивна
+    joins: [v]
+    owner: Хоптій Д. (аналітик Hub)
+    sources: [fact_check, dim_verdict]
+    constraints: "Знімок на момент перевірки; подальше поширення не враховано. Одна аудиторія може рахуватися кілька разів."
+    review_date: 2026-11-04
+    status: approved
+
+  - name: avg_hours_to_verdict
+    label: Середній час до вердикту
+    definition: Середня тривалість від виявлення публікації до винесення вердикту.
+    formula: "round(AVG(f.hours_to_verdict), 1)"
+    unit: год
+    additivity: неадитивна (лише AVG / перцентилі)
+    joins: []
+    owner: Хоптій Д. (аналітик Hub)
+    sources: [fact_check]
+    constraints: "Чутлива до викидів (запит до експерта до 64 год) — для SLA дивитися також p90."
+    review_date: 2026-11-04
+    status: approved
+
+  - name: sla_compliance_rate
+    label: Виконання SLA
+    definition: "Відсоток перевірок, завершених у межах SLA регламенту v2.0: високий пріоритет ≤ 12 год, середній ≤ 24 год, низький ≤ 48 год."
+    formula: "round(100.0 * AVG(CASE WHEN f.sla_met THEN 1 ELSE 0 END), 1)"
+    unit: "%"
+    additivity: неадитивна (відношення)
+    joins: []
+    owner: Хоптій Д. (аналітик Hub)
+    sources: [fact_check, "регламент перевірки v2.0"]
+    constraints: "Пороги для середнього й низького пріоритету — припущення (у регламенті явно лише 12 год для високого); статус draft до підтвердження."
+    review_date: 2026-11-04
+    status: draft
+
+  - name: avg_backlog
+    label: Середня черга аналітика
+    definition: Середня кількість відкритих справ аналітика на момент винесення вердикту.
+    formula: "round(AVG(f.backlog_open), 2)"
+    unit: справ
+    additivity: напівадитивна (сумувати лише між аналітиками на один момент; за часом — AVG)
+    joins: []
+    owner: Хоптій Д. (аналітик Hub)
+    sources: [fact_check]
+    constraints: "Знімок у моменти вердиктів, а не рівномірна вибірка в часі."
+    review_date: 2026-11-04
+    status: approved
+
+  - name: evidence_per_false_verdict
+    label: Доказів на хибний вердикт
+    definition: Середня кількість доказів у перевірках із вердиктом «фейк»/«маніпуляція» (регламент вимагає ≥ 2).
+    formula: "round(SUM(CASE WHEN v.is_false THEN f.evidence_count ELSE 0 END) * 1.0 / NULLIF(SUM(CASE WHEN v.is_false THEN 1 ELSE 0 END), 0), 2)"
+    unit: доказів
+    additivity: неадитивна (відношення двох адитивних сум)
+    joins: [v]
+    owner: Хоптій Д. (аналітик Hub)
+    sources: [fact_check, dim_verdict, "регламент перевірки v2.0"]
+    constraints: "Не показує незалежність доказів — лише їх кількість."
+    review_date: 2026-11-04
+    status: approved

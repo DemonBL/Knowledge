@@ -1,0 +1,5 @@
+notation,signal,concept_iri,checks,false_pct,reach
+S2.1,Новий неверифікований акаунт,http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#Oznaka_NovyiAkaunt,287,67.6,209314.0
+S2.2,Масові репости бот-мережі,http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#Oznaka_BotMerezha,287,79.8,178441.0
+S2.3,Різка зміна тематики акаунта,http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#Oznaka_ZminaTematyky,95,50.5,79697.0
+S2.4,Автор має спростовані дописи,http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#Oznaka_SprostovaniDopysy,91,69.2,80623.0

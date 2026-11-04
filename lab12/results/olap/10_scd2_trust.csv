@@ -1,0 +1,5 @@
+trust_level,trust_at_check,checks,false_pct,checks_on_old_version,now_downgraded_to
+1,низький,1403,73.1,0.0,
+2,знижений,460,63.7,94.0,низький
+3,середній,239,41.8,85.0,знижений
+4,високий,36,41.7,14.0,середній

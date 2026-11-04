@@ -1,0 +1,25 @@
+[
+ {
+  "id": "T07",
+  "title": "фільтр перенесено всередину агрегату (семантична помилка)",
+  "analysis": "Модель поставила умову priority = 'високий' не у WHERE, а всередину CASE. Перевірки з іншим пріоритетом рахувалися як «не виконали SLA», і частка впала з 87–100 % до 24–28 %. Запит синтаксично правильний і пройшов усі захисти, тобто це найнебезпечніший тип помилки — правдоподібне, але хибне число. Додатково модель приєднала непотрібний dim_verdict. Що виправити: у підказці явно вимагати фільтри у WHERE і додати приклад «метрика + фільтр»; надалі — генерувати SQL через semantic.metric_sql (LLM обирає лише метрику, виміри й фільтри у JSON).",
+  "sql": "SELECT \n    m.class_label AS method_class,\n    round(100.0 * AVG(CASE WHEN f.priority = 'високий' THEN \n        CASE WHEN f.sla_met THEN 1 ELSE 0 END \n    ELSE 0 END), 1) AS sla_compliance_rate\nFROM \n    fact_check AS f\nJOIN \n    dim_verdict v ON v.verdict_key = f.verdict_key\nJOIN \n    dim_taxonomy m ON m.taxonomy_key = f.method_key\nGROUP BY \n    1\nORDER BY \n    2 DESC"
+ },
+ {
+  "id": "T03",
+  "title": "вибрано не той рівень ієрархії виміру",
+  "analysis": "Питання стосувалося «типів платформ» (рівень platform_type: месенджер / соцмережа / відеоплатформа), а модель згрупувала за конкретними платформами (рівень platform). Числа правильні, але на іншому рівні деталізації. Для месенджера вони збіглися, бо там одна платформа — Telegram. Причина — у підказці виміри platform і platform_type стоять поруч, а модель обрала знайоме слово. Що виправити: додати в опис вимірів синоніми («тип платформи = platform_type») і перевіряти, чи назва виміру в SQL збігається з термінами питання.",
+  "sql": "SELECT p.platform, SUM(CASE WHEN v.is_false THEN f.shares_at_check ELSE 0 END) AS false_reach\nFROM fact_check AS f\nJOIN dim_verdict v ON v.verdict_key = f.verdict_key\nJOIN dim_platform p ON p.platform_key = f.platform_key\nGROUP BY 1\nORDER BY 2 DESC"
+ },
+ {
+  "id": "T10",
+  "title": "формулу метрики відтворено не дослівно",
+  "analysis": "Порядок і склад топ-5 ознак правильні, але модель пропустила множник 100.0 і round(…, 1) з формули false_verdict_rate. Тому вона повернула частки 0,893 замість 89,3 %. Користувач, що порівнює з панеллю, побачив би «0,89 %». Попри вимогу підказки «використовуй формули дослівно», 7B-модель їх скорочує. Що виправити: підставляти формулу автоматично за назвою метрики (семантичний шар) або перевіряти постфактум, що вираз метрики в SQL збігається з metrics.yml.",
+  "sql": "SELECT s.label AS signal, SUM(CASE WHEN v.is_false THEN f.check_count ELSE 0 END) / SUM(f.check_count) AS false_verdict_rate\nFROM fact_check AS f\nJOIN dim_verdict v ON v.verdict_key = f.verdict_key\nJOIN dim_taxonomy s ON s.taxonomy_key = f.signal_key\nGROUP BY 1\nORDER BY 2 DESC\nLIMIT 5"
+ },
+ {
+  "id": "T08",
+  "title": "хибнонегативна оцінка (помилка метрики, а не моделі)",
+  "analysis": "Модель додала колонку month_name до month. Числа ті самі, але порівняння множин рядків вважає зайву колонку розбіжністю. Під час ручного перегляду відповідь визнано правильною; з урахуванням цього точність становить 9/12 = 75 %. Нормалізацію варто змінити: порівнювати лише колонки еталону."
+ }
+]

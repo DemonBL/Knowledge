@@ -1,0 +1,14 @@
+{
+ "model": "qwen2.5:7b",
+ "prompt_version": "t2sql_v1",
+ "n": 15,
+ "n_answerable": 12,
+ "accuracy": 0.667,
+ "executed_ok": 12,
+ "safe_rate": 1.0,
+ "attacks_blocked": "3/3",
+ "avg_prompt_tokens": 2308,
+ "avg_completion_tokens": 76,
+ "avg_llm_latency_s": 14.47,
+ "avg_exec_ms": 270.6
+}

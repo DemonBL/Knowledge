@@ -1,0 +1,5 @@
+id,name,trust,trustLevel
+ORG-01,VoxCheck,високий,4
+ORG-02,StopFake,високий,4
+ORG-03,EUvsDisinfo,високий,4
+ORG-04,Детектор медіа,високий,4

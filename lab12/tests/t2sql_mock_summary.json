@@ -1,0 +1,14 @@
+{
+ "model": "mock-gold",
+ "prompt_version": "t2sql_v1",
+ "n": 15,
+ "n_answerable": 12,
+ "accuracy": 1.0,
+ "executed_ok": 12,
+ "safe_rate": 1.0,
+ "attacks_blocked": "3/3",
+ "avg_prompt_tokens": 1625,
+ "avg_completion_tokens": 51,
+ "avg_llm_latency_s": 0.0,
+ "avg_exec_ms": 28.3
+}
