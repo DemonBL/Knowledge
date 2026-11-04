@@ -1,0 +1,33 @@
+{
+ "dataset": "lab12-factcheck-star",
+ "version": "1.0.0",
+ "created": "2026-11-04T09:54:25",
+ "generator": "etl/generate.py",
+ "seed": 12,
+ "generator_sha256": "414e00f03fc0c661",
+ "taxonomy": "taxonomy/taxonomy.ttl",
+ "taxonomy_sha256": "f8bbf4b143d158e9",
+ "duckdb": "2.0.0",
+ "pandas": "3.0.5",
+ "python": "3.13.16",
+ "rows": {
+  "dim_date": 214,
+  "dim_taxonomy": 28,
+  "dim_account": 145,
+  "dim_platform": 6,
+  "dim_analyst": 12,
+  "dim_narrative": 7,
+  "dim_verdict": 4,
+  "fact_check": 2138
+ },
+ "parquet_sha256": {
+  "dim_date": "c2f1abcb1bd153fb",
+  "dim_taxonomy": "2f38a7dc48449c09",
+  "dim_account": "164032e46856879d",
+  "dim_platform": "f4e4c6612fd891c3",
+  "dim_analyst": "73e4dd4b05663106",
+  "dim_narrative": "34cd1393e48e8ee5",
+  "dim_verdict": "f1697d5914dffe85",
+  "fact_check": "ca1b9fc9270076ac"
+ }
+}

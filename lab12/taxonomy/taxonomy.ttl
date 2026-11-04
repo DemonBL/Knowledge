@@ -1,0 +1,180 @@
+@prefix : <http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Metod_AnalizEXIF a skos:Concept ;
+    skos:broader :Metody_TekhnichnaVeryfikatsiia ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M1.2" ;
+    skos:prefLabel "Аналіз EXIF"@uk .
+
+:Metod_BazyFaktcheckeriv a skos:Concept ;
+    skos:broader :Metody_ZvirkaZBazamy ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M2.1" ;
+    skos:prefLabel "Пошук у базах фактчекерів"@uk .
+
+:Metod_Heolokatsiia a skos:Concept ;
+    skos:broader :Metody_TekhnichnaVeryfikatsiia ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M1.3" ;
+    skos:prefLabel "Геолокація"@uk .
+
+:Metod_MerezhaPoshyrennia a skos:Concept ;
+    skos:broader :Metody_TekhnichnaVeryfikatsiia ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M1.4" ;
+    skos:prefLabel "Аналіз мережі поширення"@uk .
+
+:Metod_OfitsiineDzherelo a skos:Concept ;
+    skos:broader :Metody_ZvirkaZBazamy ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M2.2" ;
+    skos:prefLabel "Звірка з офіційним джерелом"@uk .
+
+:Metod_PerekhresnaPerevirka a skos:Concept ;
+    skos:broader :Metody_EkspertnaPerevirka ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M3.2" ;
+    skos:prefLabel "Перехресна перевірка"@uk .
+
+:Metod_PershodzhereloLantsiuzhok a skos:Concept ;
+    skos:broader :Metody_EkspertnaPerevirka ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M3.1" ;
+    skos:prefLabel "Пошук першоджерела (ланцюжок репостів)"@uk .
+
+:Metod_ReversyvnyiPoshuk a skos:Concept ;
+    skos:broader :Metody_TekhnichnaVeryfikatsiia ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M1.1" ;
+    skos:prefLabel "Реверсивний пошук зображень"@uk .
+
+:Metod_ZapytEksperta a skos:Concept ;
+    skos:broader :Metody_EkspertnaPerevirka ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M3.3" ;
+    skos:prefLabel "Запит до галузевого експерта"@uk .
+
+:Oznaka_BotMerezha a skos:Concept ;
+    skos:broader :Oznaky_ZaAvtorom ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S2.2" ;
+    skos:prefLabel "Масові репости бот-мережі"@uk .
+
+:Oznaka_Dypfeik a skos:Concept ;
+    skos:broader :Oznaky_ZaMedia ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S3.3" ;
+    skos:prefLabel "Дипфейк або монтаж"@uk .
+
+:Oznaka_EmotsiinaLeksyka a skos:Concept ;
+    skos:broader :Oznaky_ZaZmistom ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S1.1" ;
+    skos:prefLabel "Емоційна лексика"@uk .
+
+:Oznaka_HeolokatsiiaNeZbihaietsia a skos:Concept ;
+    skos:broader :Oznaky_ZaMedia ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S3.2" ;
+    skos:prefLabel "Невідповідність геолокації"@uk .
+
+:Oznaka_NemaPershodzherela a skos:Concept ;
+    skos:broader :Oznaky_ZaZmistom ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S1.2" ;
+    skos:prefLabel "Немає першоджерела"@uk .
+
+:Oznaka_NovyiAkaunt a skos:Concept ;
+    skos:broader :Oznaky_ZaAvtorom ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S2.1" ;
+    skos:prefLabel "Новий неверифікований акаунт"@uk .
+
+:Oznaka_SprostovaniDopysy a skos:Concept ;
+    skos:broader :Oznaky_ZaAvtorom ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S2.4" ;
+    skos:prefLabel "Автор має спростовані дописи"@uk .
+
+:Oznaka_VyrvanyiKontekst a skos:Concept ;
+    skos:broader :Oznaky_ZaZmistom ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S1.3" ;
+    skos:prefLabel "Вирваний або змінений контекст"@uk .
+
+:Oznaka_ZastarileFoto a skos:Concept ;
+    skos:broader :Oznaky_ZaMedia ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S3.1" ;
+    skos:prefLabel "Застаріле фото (EXIF)"@uk .
+
+:Oznaka_ZbirKoshtiv a skos:Concept ;
+    skos:broader :Oznaky_ZaZmistom ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S1.4" ;
+    skos:prefLabel "Терміновий збір коштів на приватну картку"@uk .
+
+:Oznaka_ZminaTematyky a skos:Concept ;
+    skos:broader :Oznaky_ZaAvtorom ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S2.3" ;
+    skos:prefLabel "Різка зміна тематики акаунта"@uk .
+
+:Metody_ZvirkaZBazamy a skos:Concept ;
+    skos:broader :Metody ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M2" ;
+    skos:prefLabel "Звірка з базами"@uk .
+
+:Metody a skos:Concept ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M" ;
+    skos:prefLabel "Методи перевірки"@uk ;
+    skos:topConceptOf :MetodyScheme .
+
+:Metody_EkspertnaPerevirka a skos:Concept ;
+    skos:broader :Metody ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M3" ;
+    skos:prefLabel "Експертна перевірка"@uk .
+
+:Oznaky a skos:Concept ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S" ;
+    skos:prefLabel "Ознаки дезінформації"@uk ;
+    skos:topConceptOf :OznakyScheme .
+
+:Oznaky_ZaMedia a skos:Concept ;
+    skos:broader :Oznaky ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S3" ;
+    skos:prefLabel "За медіа"@uk .
+
+:Metody_TekhnichnaVeryfikatsiia a skos:Concept ;
+    skos:broader :Metody ;
+    skos:inScheme :MetodyScheme ;
+    skos:notation "M1" ;
+    skos:prefLabel "Технічна верифікація"@uk .
+
+:Oznaky_ZaAvtorom a skos:Concept ;
+    skos:broader :Oznaky ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S2" ;
+    skos:prefLabel "За автором"@uk .
+
+:Oznaky_ZaZmistom a skos:Concept ;
+    skos:broader :Oznaky ;
+    skos:inScheme :OznakyScheme ;
+    skos:notation "S1" ;
+    skos:prefLabel "За змістом"@uk .
+
+:MetodyScheme a skos:ConceptScheme ;
+    dcterms:modified "2026-11-04" ;
+    skos:prefLabel "Таксономія: методи перевірки"@uk .
+
+:OznakyScheme a skos:ConceptScheme ;
+    dcterms:modified "2026-11-04" ;
+    skos:prefLabel "Таксономія: ознаки дезінформації"@uk .
+

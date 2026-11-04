@@ -1,0 +1,93 @@
+{
+ "generated": "2026-11-04T09:54:25",
+ "dataset_version": "1.0.0",
+ "staging": {
+  "raw_rows": 2144,
+  "duplicates_removed": 4,
+  "quarantined_orphans": 2
+ },
+ "orphans_by_fk": {
+  "account": 0,
+  "platform": 0,
+  "analyst": 0,
+  "narrative": 0,
+  "signal": 0,
+  "method": 0,
+  "verdict": 0,
+  "date": 0
+ },
+ "checks": [
+  {
+   "id": "DQ1",
+   "kind": "not null",
+   "description": "ключі та міри факту не порожні",
+   "violations": 0,
+   "severity": "error",
+   "status": "pass",
+   "sql": "SELECT count(*) FROM fact_check WHERE account_key IS NULL OR platform_key IS NULL OR analyst_key IS NULL OR narrative_key IS NULL OR signal_key IS NULL OR method_key IS NULL OR verdict_key IS NULL OR date_key IS NULL OR hours_to_verdict IS NULL OR confidence IS NULL"
+  },
+  {
+   "id": "DQ2",
+   "kind": "унікальність",
+   "description": "check_id унікальний; одна поточна версія акаунта",
+   "violations": 0,
+   "severity": "error",
+   "status": "pass",
+   "sql": "SELECT (SELECT count(*) - count(DISTINCT check_id) FROM fact_check) + (SELECT count(*) FROM (SELECT account_id FROM dim_account WHERE is_current GROUP BY 1 HAVING count(*) <> 1))"
+  },
+  {
+   "id": "DQ3",
+   "kind": "сироти (FK)",
+   "description": "кожен ключ факту знайдено у вимірі",
+   "violations": 0,
+   "severity": "error",
+   "status": "pass",
+   "sql": "SELECT sum(n) FROM (SELECT 'account' AS fk, count(*) AS n FROM fact_check f LEFT JOIN dim_account d USING (account_key) WHERE d.account_key IS NULL UNION ALL SELECT 'platform', count(*) FROM fact_check f LEFT JOIN dim_platform d USING (platform_key) WHERE d.platform_key IS NULL UNION ALL SELECT 'analyst', count(*) FROM fact_check f LEFT JOIN dim_analyst d USING (analyst_key) WHERE d.analyst_key IS NULL UNION ALL SELECT 'narrative', count(*) FROM fact_check f LEFT JOIN dim_narrative d USING (narrative_key) WHERE d.narrative_key IS NULL UNION ALL SELECT 'signal', count(*) FROM fact_check f LEFT JOIN dim_taxonomy d ON d.taxonomy_key = f.signal_key WHERE d.taxonomy_key IS NULL UNION ALL SELECT 'method', count(*) FROM fact_check f LEFT JOIN dim_taxonomy d ON d.taxonomy_key = f.method_key WHERE d.taxonomy_key IS NULL UNION ALL SELECT 'verdict', count(*) FROM fact_check f LEFT JOIN dim_verdict d USING (verdict_key) WHERE d.verdict_key IS NULL UNION ALL SELECT 'date', count(*) FROM fact_check f LEFT JOIN dim_date d USING (date_key) WHERE d.date_key IS NULL)"
+  },
+  {
+   "id": "DQ4",
+   "kind": "діапазони",
+   "description": "confidence ∈ [0;1], hours > 0 і ≤ 168, shares ≥ 0, evidence ∈ [0;10]",
+   "violations": 0,
+   "severity": "error",
+   "status": "pass",
+   "sql": "SELECT count(*) FROM fact_check WHERE confidence NOT BETWEEN 0 AND 1 OR hours_to_verdict <= 0 OR hours_to_verdict > 168 OR shares_at_check < 0 OR evidence_count NOT BETWEEN 0 AND 10"
+  },
+  {
+   "id": "DQ5",
+   "kind": "узгодженість дат",
+   "description": "вердикт не раніше виявлення; дата в межах 01.07–31.10.2026 (+1 день)",
+   "violations": 0,
+   "severity": "error",
+   "status": "pass",
+   "sql": "SELECT count(*) FROM fact_check WHERE date_key < detected_date_key OR date_key NOT BETWEEN 20260701 AND 20261101"
+  },
+  {
+   "id": "DQ6",
+   "kind": "таксономія",
+   "description": "ознака — листок гілки «Ознаки», метод — листок гілки «Методи»",
+   "violations": 0,
+   "severity": "error",
+   "status": "pass",
+   "sql": "SELECT count(*) FROM fact_check f JOIN dim_taxonomy s ON s.taxonomy_key = f.signal_key JOIN dim_taxonomy m ON m.taxonomy_key = f.method_key WHERE s.level <> 3 OR m.level <> 3 OR s.notation NOT LIKE 'S%' OR m.notation NOT LIKE 'M%'"
+  },
+  {
+   "id": "DQ7",
+   "kind": "SCD2",
+   "description": "версії акаунта не перетинаються і без розривів",
+   "violations": 0,
+   "severity": "error",
+   "status": "pass",
+   "sql": "SELECT count(*) FROM (SELECT valid_from, lag(valid_to) OVER (PARTITION BY account_id ORDER BY valid_from) AS prev_to FROM dim_account) WHERE prev_to IS NOT NULL AND prev_to <> valid_from - 1"
+  },
+  {
+   "id": "DQ8",
+   "kind": "бізнес-правило",
+   "description": "«фейк»/«маніпуляція» мають ≥ 2 доказів (регламент v2.0)",
+   "violations": 39,
+   "severity": "warning",
+   "status": "warn",
+   "sql": "SELECT count(*) FROM fact_check f JOIN dim_verdict v USING (verdict_key) WHERE v.is_false AND evidence_count < 2"
+  }
+ ]
+}

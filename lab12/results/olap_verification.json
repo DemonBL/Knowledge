@@ -1,0 +1,33 @@
+{
+ "Q01_class_totals": {
+  "match": true,
+  "pandas": [
+   {
+    "s_class_label": "За автором",
+    "checks": 760,
+    "false_pct": 70.3
+   },
+   {
+    "s_class_label": "За змістом",
+    "checks": 943,
+    "false_pct": 67.7
+   },
+   {
+    "s_class_label": "За медіа",
+    "checks": 435,
+    "false_pct": 60.0
+   }
+  ]
+ },
+ "Q08_NAR05_cum_ma7": {
+  "match": true,
+  "days": 123,
+  "pandas_last": {
+   "fakes": 0.0,
+   "cum": 209.0,
+   "ma7": 0.71
+  },
+  "pandas_peak_ma7": 7.86,
+  "peak_date": "2026-10-05"
+ }
+}

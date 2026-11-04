@@ -1,0 +1,59 @@
+[
+ {
+  "question": "Яка частка хибних вердиктів за класами ознак?",
+  "metric": "false_verdict_rate × signal_class",
+  "paths": [
+   "semantic layer",
+   "Q01 ROLLUP (grouping_id = 1)",
+   "pandas"
+  ],
+  "values": {
+   "За автором": 70.3,
+   "За змістом": 67.7,
+   "За медіа": 60.0
+  },
+  "match": true,
+  "sql": "SELECT s.class_label AS signal_class, round(100.0 * SUM(CASE WHEN v.is_false THEN f.check_count ELSE 0 END) / SUM(f.check_count), 1) AS false_verdict_rate, SUM(f.check_count) AS checks_count\nFROM fact_check AS f\nJOIN dim_verdict v ON v.verdict_key = f.verdict_key\nJOIN dim_taxonomy s ON s.taxonomy_key = f.signal_key\nGROUP BY 1\nORDER BY 1"
+ },
+ {
+  "question": "Скільки в середньому триває перевірка і яка частка SLA за класами методів?",
+  "metric": "avg_hours_to_verdict, sla_compliance_rate × method_class",
+  "paths": [
+   "semantic layer",
+   "Q04 GROUPING SETS (method_class)",
+   "pandas"
+  ],
+  "values": {
+   "Експертна перевірка": {
+    "avg_hours_to_verdict": 12.8,
+    "sla_compliance_rate": 92.8
+   },
+   "Звірка з базами": {
+    "avg_hours_to_verdict": 4.6,
+    "sla_compliance_rate": 100.0
+   },
+   "Технічна верифікація": {
+    "avg_hours_to_verdict": 7.3,
+    "sla_compliance_rate": 99.1
+   }
+  },
+  "match": true,
+  "sql": "SELECT m.class_label AS method_class, round(AVG(f.hours_to_verdict), 1) AS avg_hours_to_verdict, round(100.0 * AVG(CASE WHEN f.sla_met THEN 1 ELSE 0 END), 1) AS sla_compliance_rate\nFROM fact_check AS f\nJOIN dim_taxonomy m ON m.taxonomy_key = f.method_key\nGROUP BY 1\nORDER BY 1"
+ },
+ {
+  "question": "Яке охоплення хибних публікацій за типами платформ?",
+  "metric": "false_reach × platform_type",
+  "paths": [
+   "semantic layer",
+   "Q03 CUBE (grouping_id = 1)",
+   "pandas"
+  ],
+  "values": {
+   "відеоплатформа": 114754.0,
+   "месенджер": 706850.0,
+   "соцмережа": 363321.0
+  },
+  "match": true,
+  "sql": "SELECT p.platform_type AS platform_type, SUM(CASE WHEN v.is_false THEN f.shares_at_check ELSE 0 END) AS false_reach\nFROM fact_check AS f\nJOIN dim_verdict v ON v.verdict_key = f.verdict_key\nJOIN dim_platform p ON p.platform_key = f.platform_key\nGROUP BY 1\nORDER BY 1"
+ }
+]

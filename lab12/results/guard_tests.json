@@ -1,0 +1,128 @@
+[
+ {
+  "sql": "SELECT count(*) FROM fact_check",
+  "expected": "pass",
+  "got": "pass",
+  "info": "SELECT COUNT(*) FROM fact_check LIMIT 200",
+  "ok": true
+ },
+ {
+  "sql": "WITH x AS (SELECT * FROM fact_check) SELECT count(*) FROM x",
+  "expected": "pass",
+  "got": "pass",
+  "info": "WITH x AS (SELECT * FROM fact_check) SELECT COUNT(*) FROM x LIMIT 200",
+  "ok": true
+ },
+ {
+  "sql": "SELECT * FROM fact_check LIMIT 5000",
+  "expected": "pass",
+  "got": "pass",
+  "info": "SELECT * FROM fact_check LIMIT 1000",
+  "ok": true
+ },
+ {
+  "sql": "DELETE FROM fact_check WHERE verdict_key = 4",
+  "expected": "block",
+  "got": "block",
+  "info": "дозволено лише SELECT, отримано Delete",
+  "ok": true
+ },
+ {
+  "sql": "UPDATE dim_account SET trust_level = 4",
+  "expected": "block",
+  "got": "block",
+  "info": "дозволено лише SELECT, отримано Update",
+  "ok": true
+ },
+ {
+  "sql": "DROP TABLE dim_account",
+  "expected": "block",
+  "got": "block",
+  "info": "дозволено лише SELECT, отримано Drop",
+  "ok": true
+ },
+ {
+  "sql": "SELECT 1; DROP TABLE dim_account",
+  "expected": "block",
+  "got": "block",
+  "info": "очікується рівно 1 оператор, отримано 2",
+  "ok": true
+ },
+ {
+  "sql": "ATTACH 'x.db' AS y",
+  "expected": "block",
+  "got": "block",
+  "info": "дозволено лише SELECT, отримано Attach",
+  "ok": true
+ },
+ {
+  "sql": "COPY fact_check TO 'out.csv'",
+  "expected": "block",
+  "got": "block",
+  "info": "дозволено лише SELECT, отримано Copy",
+  "ok": true
+ },
+ {
+  "sql": "INSTALL httpfs",
+  "expected": "block",
+  "got": "block",
+  "info": "дозволено лише SELECT, отримано Install",
+  "ok": true
+ },
+ {
+  "sql": "PRAGMA database_list",
+  "expected": "block",
+  "got": "block",
+  "info": "дозволено лише SELECT, отримано Pragma",
+  "ok": true
+ },
+ {
+  "sql": "SELECT * FROM read_csv('C:/Windows/win.ini')",
+  "expected": "block",
+  "got": "block",
+  "info": "заборонена функція READ_CSV",
+  "ok": true
+ },
+ {
+  "sql": "SELECT * FROM read_parquet('a.parquet')",
+  "expected": "block",
+  "got": "block",
+  "info": "заборонена функція READ_PARQUET",
+  "ok": true
+ },
+ {
+  "sql": "SELECT * FROM 'data/fact_check.parquet'",
+  "expected": "block",
+  "got": "block",
+  "info": "таблиця поза кубом: data/fact_check.parquet",
+  "ok": true
+ },
+ {
+  "sql": "SELECT getenv('PATH')",
+  "expected": "block",
+  "got": "block",
+  "info": "заборонена функція getenv",
+  "ok": true
+ },
+ {
+  "sql": "SELECT * FROM information_schema.tables",
+  "expected": "block",
+  "got": "block",
+  "info": "таблиця поза кубом: tables",
+  "ok": true
+ },
+ {
+  "sql": "3-кратний декартів добуток (≈ 9,8 млрд комбінацій)",
+  "expected": "timeout",
+  "got": "timeout",
+  "info": "перевищено тайм-аут 2.0 с; зупинено за 2.03 с",
+  "ok": true
+ },
+ {
+  "sql": "DELETE через read-only з'єднання (в обхід guard)",
+  "expected": "error",
+  "ok": true,
+  "got": "error",
+  "info": "Invalid Input Error: Cannot execute statement of type \"DELETE\" on database \"t2sql_test\" which is attached in read-only m"
+ }
+]
