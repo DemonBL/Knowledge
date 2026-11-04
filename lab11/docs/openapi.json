@@ -1,0 +1,322 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Domain Knowledge Hub · RAG-бот «Аналіз достовірності інформації»",
+  "description": "ЛР11: RAG + граф знань, цитування, політика «не знаю», ролі доступу.",
+  "version": "1.0"
+ },
+ "paths": {
+  "/health": {
+   "get": {
+    "summary": "Стан сервісу",
+    "operationId": "health_health_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  "/ask": {
+   "post": {
+    "summary": "Питання → відповідь із джерелами",
+    "operationId": "ask_ask_post",
+    "parameters": [
+     {
+      "name": "X-API-Key",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Api-Key"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/AskRequest"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/AskResponse"
+        }
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/sources/{source_id}": {
+   "get": {
+    "summary": "Повний текст джерела з перевіркою прав",
+    "operationId": "source_sources__source_id__get",
+    "parameters": [
+     {
+      "name": "source_id",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Source Id"
+      }
+     },
+     {
+      "name": "X-API-Key",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "X-Api-Key"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "AskRequest": {
+    "properties": {
+     "question": {
+      "type": "string",
+      "maxLength": 500,
+      "minLength": 3,
+      "title": "Question",
+      "description": "Питання українською"
+     },
+     "use_graph": {
+      "type": "boolean",
+      "title": "Use Graph",
+      "description": "Додавати підграф із Neo4j",
+      "default": true
+     },
+     "k": {
+      "type": "integer",
+      "maximum": 10.0,
+      "minimum": 1.0,
+      "title": "K",
+      "description": "Кількість фрагментів контексту",
+      "default": 5
+     }
+    },
+    "type": "object",
+    "required": [
+     "question"
+    ],
+    "title": "AskRequest"
+   },
+   "AskResponse": {
+    "properties": {
+     "answer": {
+      "type": "string",
+      "title": "Answer"
+     },
+     "abstained": {
+      "type": "boolean",
+      "title": "Abstained"
+     },
+     "sources": {
+      "items": {
+       "$ref": "#/components/schemas/Source"
+      },
+      "type": "array",
+      "title": "Sources"
+     },
+     "citations_valid": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Citations Valid"
+     },
+     "citations_invalid": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Citations Invalid"
+     },
+     "graph_entities": {
+      "items": {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      "type": "array",
+      "title": "Graph Entities"
+     },
+     "role": {
+      "type": "string",
+      "title": "Role"
+     },
+     "latency_s": {
+      "type": "number",
+      "title": "Latency S"
+     },
+     "tokens": {
+      "additionalProperties": true,
+      "type": "object",
+      "title": "Tokens"
+     }
+    },
+    "type": "object",
+    "required": [
+     "answer",
+     "abstained",
+     "sources",
+     "citations_valid",
+     "citations_invalid",
+     "graph_entities",
+     "role",
+     "latency_s",
+     "tokens"
+    ],
+    "title": "AskResponse"
+   },
+   "HTTPValidationError": {
+    "properties": {
+     "detail": {
+      "items": {
+       "$ref": "#/components/schemas/ValidationError"
+      },
+      "type": "array",
+      "title": "Detail"
+     }
+    },
+    "type": "object",
+    "title": "HTTPValidationError"
+   },
+   "Source": {
+    "properties": {
+     "id": {
+      "type": "string",
+      "title": "Id"
+     },
+     "title": {
+      "type": "string",
+      "title": "Title"
+     },
+     "sensitivity": {
+      "type": "string",
+      "enum": [
+       "public",
+       "internal",
+       "restricted"
+      ],
+      "title": "Sensitivity"
+     },
+     "score": {
+      "type": "number",
+      "title": "Score"
+     }
+    },
+    "type": "object",
+    "required": [
+     "id",
+     "title",
+     "sensitivity",
+     "score"
+    ],
+    "title": "Source"
+   },
+   "ValidationError": {
+    "properties": {
+     "loc": {
+      "items": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "integer"
+        }
+       ]
+      },
+      "type": "array",
+      "title": "Location"
+     },
+     "msg": {
+      "type": "string",
+      "title": "Message"
+     },
+     "type": {
+      "type": "string",
+      "title": "Error Type"
+     },
+     "input": {
+      "title": "Input"
+     },
+     "ctx": {
+      "type": "object",
+      "title": "Context"
+     }
+    },
+    "type": "object",
+    "required": [
+     "loc",
+     "msg",
+     "type"
+    ],
+    "title": "ValidationError"
+   }
+  }
+ }
+}

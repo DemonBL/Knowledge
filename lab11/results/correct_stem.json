@@ -1,0 +1,36 @@
+{
+ "baseline_k5": {
+  "answer_correct_stem": 0.867,
+  "changed": {
+   "T06": [
+    false,
+    true
+   ],
+   "T11": [
+    false,
+    true
+   ],
+   "T15": [
+    true,
+    false
+   ]
+  }
+ },
+ "opt_k3": {
+  "answer_correct_stem": 0.933,
+  "changed": {
+   "T06": [
+    false,
+    true
+   ],
+   "T11": [
+    false,
+    true
+   ],
+   "T15": [
+    true,
+    false
+   ]
+  }
+ }
+}

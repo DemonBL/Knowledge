@@ -1,0 +1,80 @@
+[
+ {
+  "n": 1,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 2,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 3,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 4,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 5,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 6,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 7,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 8,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 9,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 10,
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ },
+ {
+  "n": 11,
+  "status": 429,
+  "retry_after": "60",
+  "error": "Перевищено ліміт 10 запитів за 60 с"
+ },
+ {
+  "n": 12,
+  "status": 429,
+  "retry_after": "60",
+  "error": "Перевищено ліміт 10 запитів за 60 с"
+ },
+ {
+  "n": "інший ключ (analyst)",
+  "status": 200,
+  "retry_after": null,
+  "error": null
+ }
+]
