@@ -1,0 +1,23 @@
+numpy
+pandas
+requests
+sentence-transformers
+faiss-cpu
+rank_bm25
+neo4j
+pyoxigraph
+rdflib
+fastapi
+uvicorn
+pydantic
+httpx
+scikit-learn
+networkx
+tiktoken
+# ЛР 12
+duckdb==2.0.0
+sqlglot==30.29.0
+pyyaml
+pyarrow
+matplotlib
+plotly

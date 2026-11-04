@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.duckdb
+*.duckdb.wal
+keys.local.json
+.env
+logs/uvicorn.log
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
