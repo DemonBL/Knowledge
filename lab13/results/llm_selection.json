@@ -1,0 +1,8 @@
+{
+ "dev_quick_rel_f1": {
+  "llm_v1": 0.135,
+  "llm_v2": 0.127
+ },
+ "selected": "llm_v1",
+ "note": "вибір лише за dev"
+}

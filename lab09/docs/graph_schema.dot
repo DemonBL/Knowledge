@@ -1,0 +1,37 @@
+digraph G {
+  graph [rankdir=LR, fontname="DejaVu Sans", fontsize=11, nodesep=0.45, ranksep=0.9, bgcolor="white", pad=0.3];
+  node  [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=11, fillcolor="#EAF2FB", color="#3B6EA8", penwidth=1.3, margin="0.12,0.06"];
+  edge  [fontname="DejaVu Sans", fontsize=9, color="#555555", arrowsize=0.7];
+
+  Account        [label="Account\nid · name · kind · trust\ntrustLevel · followers · createdAt"];
+  Publication    [label="Publication\nid · text · shares\nplatform · publishedAt"];
+  Claim          [label="Claim\nid · text · priority · city"];
+  Narrative      [label="Narrative\nid · name"];
+  Media          [label="Media\nid · kind · exifDate\nreverseSearch"];
+  Verdict        [label="Verdict\nid · category\nconfidence · decidedAt", fillcolor="#FDF0E2", color="#B9772A"];
+  FactChecker    [label="FactChecker\nid · name · specialization", fillcolor="#FDF0E2", color="#B9772A"];
+  Tool           [label="Tool\nid · name · kind", fillcolor="#FDF0E2", color="#B9772A"];
+  OfficialSource [label="OfficialSource\nid · name · trust", fillcolor="#E8F5EA", color="#3C8C4B"];
+  FactCheckOrg   [label="FactCheckOrg\nid · name · trust", fillcolor="#E8F5EA", color="#3C8C4B"];
+  Rule           [label="Rule\nid · condition · action", fillcolor="#FDF0E2", color="#B9772A"];
+
+  Account -> Publication [label="PUBLISHED"];
+  Account -> Publication [label="REPOSTED\n(+minutesAfter)", style=dashed];
+  Publication -> Publication [label="DERIVED_FROM"];
+  Publication -> Claim [label="MAKES_CLAIM"];
+  Publication -> Media [label="CONTAINS"];
+  Claim -> Narrative [label="PART_OF"];
+  Media -> Tool [label="VERIFIED_WITH"];
+  Verdict -> Claim [label="ABOUT"];
+  FactChecker -> Verdict [label="ISSUED"];
+  Verdict -> OfficialSource [label="BASED_ON"];
+  Verdict -> Tool [label="BASED_ON"];
+  Verdict -> FactCheckOrg [label="BASED_ON"];
+  OfficialSource -> Claim [label="REFUTES | CONFIRMS"];
+  FactChecker -> Tool [label="USES"];
+  FactChecker -> FactCheckOrg [label="WORKS_FOR"];
+  FactChecker -> Rule [label="FORMALIZED_IN"];
+
+  legend [shape=note, fillcolor="#FFFFFF", color="#999999", fontsize=9,
+          label="Усі зв'язки мають властивості походження:\nsource · confidence · validFrom\nУнікальні обмеження: id для всіх 11 міток"];
+}

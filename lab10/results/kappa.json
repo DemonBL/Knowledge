@@ -1,0 +1,211 @@
+{
+ "n_queries": 12,
+ "n_pairs": 94,
+ "kappa_A_B": 0.404,
+ "agreement_A_B": 0.702,
+ "kappa_A_gold": 0.732,
+ "kappa_B_gold": 0.255,
+ "positives": {
+  "A": 19,
+  "B": 47,
+  "gold": 12
+ },
+ "disagreements": [
+  {
+   "qid": "G01",
+   "chunk_id": "W14:s004",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G01",
+   "chunk_id": "W14:s007",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G02",
+   "chunk_id": "W06:s003",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G02",
+   "chunk_id": "W14:s000",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G03",
+   "chunk_id": "W19:s003",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G03",
+   "chunk_id": "W01:s023",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G03",
+   "chunk_id": "W19:s008",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G03",
+   "chunk_id": "W19:s007",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G03",
+   "chunk_id": "W19:s005",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G03",
+   "chunk_id": "W19:s002",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G04",
+   "chunk_id": "W12:s000",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G04",
+   "chunk_id": "W03:s003",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G08",
+   "chunk_id": "W13:s009",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G08",
+   "chunk_id": "W13:s007",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G08",
+   "chunk_id": "W13:s003",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G08",
+   "chunk_id": "W13:s005",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G09",
+   "chunk_id": "W01:s000",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G09",
+   "chunk_id": "W01:s003",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G09",
+   "chunk_id": "W10:s006",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G09",
+   "chunk_id": "W01:s005",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G09",
+   "chunk_id": "W01:s002",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G10",
+   "chunk_id": "W16:s073",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G10",
+   "chunk_id": "W25:s076",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G10",
+   "chunk_id": "W16:s044",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G11",
+   "chunk_id": "W26:s011",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G12",
+   "chunk_id": "W20:s004",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G12",
+   "chunk_id": "W20:s008",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  },
+  {
+   "qid": "G12",
+   "chunk_id": "W20:s009",
+   "A": 0,
+   "B": 1,
+   "gold": 0
+  }
+ ]
+}

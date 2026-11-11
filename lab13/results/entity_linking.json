@@ -1,0 +1,4427 @@
+{
+ "n_entities": 349,
+ "n_merged": 47,
+ "entities": [
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/дезінформація",
+   "label": "дезінформація",
+   "type": "PHENOMENON",
+   "variants": {
+    "# Дезінформація\n\n##": 1,
+    "Дезінформування": 1,
+    "дезінформація —": 1,
+    "дезінформування": 3,
+    "дезінформації —": 1,
+    "дезінформація)": 1,
+    "неправдивої інформації": 2,
+    "дезінформацією": 1,
+    "дезінформації": 6,
+    "дезінформація": 2,
+    "Дезінформацію": 1,
+    "дезінформацію": 2,
+    "Дезінформація": 1,
+    "# Дезінформація": 1,
+    "«дезінформацією»": 1,
+    "неправдиву інформацію": 1
+   },
+   "docs": [
+    "W01",
+    "W02",
+    "W14",
+    "W19",
+    "W25",
+    "W26"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_тролінг",
+   "label": "тролінг",
+   "type": "PHENOMENON",
+   "variants": {
+    "# Тролінг\n\n##": 1,
+    "Тролінг": 1,
+    "тролінг": 2,
+    "» тролінгу": 2,
+    "» тролінг": 1,
+    "тролінг»": 1,
+    "«тролінг»": 1,
+    "«тролінг": 1
+   },
+   "docs": [
+    "W17"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/бот",
+   "label": "бот",
+   "type": "PHENOMENON",
+   "variants": {
+    "# Бот": 1,
+    "ботів": 4,
+    "ботами": 1,
+    "боти": 2,
+    "-боти": 1,
+    "Боти": 2,
+    "чат-боти": 1
+   },
+   "docs": [
+    "W18",
+    "W22"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/соціальні_мережі",
+   "label": "соціальні мережі",
+   "type": "PLATFORM",
+   "variants": {
+    "соціальних мереж": 2,
+    "соціальних мережах": 3,
+    "соціальні мережі": 3,
+    "соцмережах": 1,
+    "соціальній мережі": 1,
+    "соціальних медіа": 2,
+    "соцмережі": 1
+   },
+   "docs": [
+    "INT-REG-2026",
+    "W02",
+    "W08",
+    "W14",
+    "W22",
+    "W26"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/StopFake",
+   "label": "StopFake",
+   "type": "ORG",
+   "variants": {
+    "# StopFake\n\n##": 1,
+    "StopFake": 5,
+    "СтопФейк) —": 1,
+    "stopfake.org": 1,
+    "StopFake —": 1,
+    "«StopFake»": 1
+   },
+   "docs": [
+    "W14",
+    "W26"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/дипфейк",
+   "label": "дипфейк",
+   "type": "PHENOMENON",
+   "variants": {
+    "# Дипфейк\n\n##": 1,
+    "Дипфейк": 2,
+    "діпфейк": 1,
+    "\n\nДипфейк": 1,
+    "дипфейк-": 1,
+    "дипфейк": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/фейк",
+   "label": "фейк",
+   "type": "PHENOMENON",
+   "variants": {
+    "фейк-": 1,
+    "Фейк-": 1,
+    "фейками": 2,
+    "фейків": 1,
+    "«фейк»": 1,
+    "фейк": 1
+   },
+   "docs": [
+    "INT-REG-2026",
+    "W02",
+    "W14",
+    "W26"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/Центр_протидії_дезінформації",
+   "label": "Центр протидії дезінформації",
+   "type": "ORG",
+   "variants": {
+    "Центр протидії дезінформації": 3,
+    "# Центр протидії дезінформації": 1,
+    "Центр протидії дезінформації —": 1,
+    "Центру протидії дезінформації»": 1,
+    "Центру протидії дезінформації": 2
+   },
+   "docs": [
+    "W06",
+    "W19"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/соціальний_бот",
+   "label": "соціальний бот",
+   "type": "PHENOMENON",
+   "variants": {
+    "# Соціальний бот\n\n#": 1,
+    "Соціальний бот —": 1,
+    "Соціальні боти": 1,
+    "соціальних ботів": 1,
+    "соціальний бот": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/фейкові_новини",
+   "label": "фейкові новини",
+   "type": "PHENOMENON",
+   "variants": {
+    "# Фейкові новини\n\n#": 1,
+    "Фейкові новини": 1,
+    "фейк-ньюз": 2,
+    "фейкових новин": 1,
+    "фейкові новини": 1
+   },
+   "docs": [
+    "W02"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/Exif",
+   "label": "Exif",
+   "type": "METHOD",
+   "variants": {
+    "# Exif\n\n##": 1,
+    "Exif": 6,
+    "«Exif": 1,
+    "EXIF": 1
+   },
+   "docs": [
+    "INT-RULES",
+    "W12"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_України",
+   "label": "України",
+   "type": "LOCATION",
+   "variants": {
+    "Україну": 2,
+    "Україні": 3,
+    "України": 4,
+    "Україна": 1
+   },
+   "docs": [
+    "W06",
+    "W14",
+    "W19",
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_Фішинг",
+   "label": "Фішинг",
+   "type": "PHENOMENON",
+   "variants": {
+    "# Фішинг\n\n##": 1,
+    "Фішинг —": 2,
+    "фішингу": 1,
+    "фішинг": 1
+   },
+   "docs": [
+    "W09"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_клікбейт",
+   "label": "клікбейт",
+   "type": "PHENOMENON",
+   "variants": {
+    "# Клікбейт\n\n##": 1,
+    "Клікбейт —": 1,
+    "клікбейт-": 1,
+    "клікбейт": 1
+   },
+   "docs": [
+    "W08"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/Андрій_Коваленко",
+   "label": "Андрій Коваленко",
+   "type": "PERSON",
+   "variants": {
+    "Коваленка Андрія Валерійовича": 1,
+    "Андрія Коваленка": 1,
+    "Коваленка Андрій Валерійович": 1
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Дніпра",
+   "label": "Дніпра",
+   "type": "LOCATION",
+   "variants": {
+    "Дніпра": 2,
+    "Дніпрі": 1,
+    "Дніпро": 1
+   },
+   "docs": [
+    "INT-NAR-03",
+    "INT-NAR-05",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Одесі",
+   "label": "Одесі",
+   "type": "LOCATION",
+   "variants": {
+    "Одесі": 4,
+    "Одеса": 4,
+    "Одеси": 1
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-05",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_геолокація",
+   "label": "геолокація",
+   "type": "METHOD",
+   "variants": {
+    "\n\n## Геолокація": 1,
+    "геолокація)": 1,
+    "геолокація": 1
+   },
+   "docs": [
+    "INT-REG-2026",
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_маніпуляцій",
+   "label": "маніпуляцій",
+   "type": "PHENOMENON",
+   "variants": {
+    "маніпуляцій": 1,
+    "«маніпуляція»": 1,
+    "маніпуляція": 1
+   },
+   "docs": [
+    "INT-REG-2026",
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/штучний_інтелект",
+   "label": "штучний інтелект",
+   "type": "METHOD",
+   "variants": {
+    "штучному інтелекті": 1,
+    "штучний інтелект": 4,
+    "штучного інтелекту": 1
+   },
+   "docs": [
+    "W06",
+    "W18"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2014",
+   "label": "2014",
+   "type": "DATE",
+   "variants": {
+    "2014 році": 1,
+    "2014 року": 1
+   },
+   "docs": [
+    "W14",
+    "W25"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2020-03",
+   "label": "2020-03",
+   "type": "DATE",
+   "variants": {
+    "березні 2020 року": 1,
+    "березня 2020 року": 2
+   },
+   "docs": [
+    "W14",
+    "W26"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_ACC-001",
+   "label": "ACC-001",
+   "type": "CASE_ID",
+   "variants": {
+    "ACC-001": 5,
+    "Анонімний Telegram-канал #1": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_ACC-002",
+   "label": "ACC-002",
+   "type": "CASE_ID",
+   "variants": {
+    "ACC-002": 5,
+    "Анонімний Telegram-канал #2": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_ACC-003",
+   "label": "ACC-003",
+   "type": "CASE_ID",
+   "variants": {
+    "ACC-003": 5,
+    "Анонімний Telegram-канал #3": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_ACC-004",
+   "label": "ACC-004",
+   "type": "CASE_ID",
+   "variants": {
+    "ACC-004": 5,
+    "Анонімний Telegram-канал #4": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_ACC-005",
+   "label": "ACC-005",
+   "type": "CASE_ID",
+   "variants": {
+    "ACC-005": 2,
+    "Анонімний Telegram-канал #5": 2
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_ACC-006",
+   "label": "ACC-006",
+   "type": "CASE_ID",
+   "variants": {
+    "ACC-006": 2,
+    "Анонімний Telegram-канал #6": 2
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_ACC-007",
+   "label": "ACC-007",
+   "type": "CASE_ID",
+   "variants": {
+    "ACC-007": 2,
+    "Анонімний Telegram-канал #7": 2
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_ACC-008",
+   "label": "ACC-008",
+   "type": "CASE_ID",
+   "variants": {
+    "ACC-008": 2,
+    "Анонімний Telegram-канал #8": 2
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/Facebook",
+   "label": "Facebook",
+   "type": "PLATFORM",
+   "variants": {
+    "Facebook": 13,
+    "\n\n## Facebook": 1
+   },
+   "docs": [
+    "W14",
+    "W18",
+    "W22",
+    "W26"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/JEIDA",
+   "label": "JEIDA",
+   "type": "ORG",
+   "variants": {
+    "JEIDA": 2,
+    "Japan Electronic Industries Development Association": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/Twitter",
+   "label": "Twitter",
+   "type": "PLATFORM",
+   "variants": {
+    "Twitter": 4,
+    "Твіттер": 1
+   },
+   "docs": [
+    "W06",
+    "W26"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/VoxCheck",
+   "label": "VoxCheck",
+   "type": "ORG",
+   "variants": {
+    "VoxCheck)": 1,
+    "VoxCheck": 3
+   },
+   "docs": [
+    "INT-SAMPLE-INJ",
+    "W14"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Андрій_Шаповалов",
+   "label": "Андрій Шаповалов",
+   "type": "PERSON",
+   "variants": {
+    "Андрія Шаповалова": 1,
+    "Андрій Шаповалов": 1
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ВООЗ",
+   "label": "ВООЗ",
+   "type": "ORG",
+   "variants": {
+    "Всесвітня організація охорони здоров'я": 1,
+    "ВООЗ": 3
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Запоріжжя",
+   "label": "Запоріжжя",
+   "type": "LOCATION",
+   "variants": {
+    "Запоріжжя": 4,
+    "Запоріжжі": 1
+   },
+   "docs": [
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Лео_Грассет",
+   "label": "Лео Грассет",
+   "type": "PERSON",
+   "variants": {
+    "Лео Грассетом": 1,
+    "Лео Грассет": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Львов",
+   "label": "Львов",
+   "type": "LOCATION",
+   "variants": {
+    "Львові": 1,
+    "Львов": 1
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/МОЗ_України",
+   "label": "МОЗ України",
+   "type": "ORG",
+   "variants": {
+    "МОЗ України": 4,
+    "МОЗ": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/НАБУ",
+   "label": "НАБУ",
+   "type": "ORG",
+   "variants": {
+    "Національного антикорупційного бюро України": 1,
+    "Національне антикорупційне бюро України": 1
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/Нацрада_з_питань_телебачення_і_радіомовлення",
+   "label": "Нацрада з питань телебачення і радіомовлення",
+   "type": "ORG",
+   "variants": {
+    "Нацради": 1,
+    "Нацрада з ТБ та радіо": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Поліна_Лисенко",
+   "label": "Поліна Лисенко",
+   "type": "PERSON",
+   "variants": {
+    "Поліну Лисенко": 1,
+    "Поліна Лисенко": 2
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Росії",
+   "label": "Росії",
+   "type": "LOCATION",
+   "variants": {
+    "Росії": 1,
+    "Росією": 1
+   },
+   "docs": [
+    "W25",
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Харкова",
+   "label": "Харкова",
+   "type": "LOCATION",
+   "variants": {
+    "Харкова": 4,
+    "Харків": 1
+   },
+   "docs": [
+    "INT-NAR-02",
+    "INT-NAR-04",
+    "INT-NAR-05",
+    "INT-SAMPLE-INJ"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Харкові",
+   "label": "Харкові",
+   "type": "LOCATION",
+   "variants": {
+    "Харкові": 2,
+    "Харков": 1
+   },
+   "docs": [
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/пропаганда",
+   "label": "пропаганда",
+   "type": "PHENOMENON",
+   "variants": {
+    "пропаганди": 2,
+    "пропаганді": 1
+   },
+   "docs": [
+    "W14",
+    "W19",
+    "W25"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON__Дезінформування_від_зворотного",
+   "label": "\n\nДезінформування від зворотного",
+   "type": "PHENOMENON",
+   "variants": {
+    "\n\nДезінформування від зворотного": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON__Термінологічне_мінування",
+   "label": "\n\nТермінологічне «мінування",
+   "type": "PHENOMENON",
+   "variants": {
+    "\n\nТермінологічне «мінування": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1821",
+   "label": "1821",
+   "type": "DATE",
+   "variants": {
+    "1821 року": 1
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1858",
+   "label": "1858",
+   "type": "DATE",
+   "variants": {
+    "1858 році": 1
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1942",
+   "label": "1942",
+   "type": "DATE",
+   "variants": {
+    "1942 році": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1944-05",
+   "label": "1944-05",
+   "type": "DATE",
+   "variants": {
+    "травень-червень 1944 року": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1967",
+   "label": "1967",
+   "type": "DATE",
+   "variants": {
+    "1967 році": 1
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1980s",
+   "label": "1980s",
+   "type": "DATE",
+   "variants": {
+    "у кінці 1980-х": 1
+   },
+   "docs": [
+    "W17"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1990-02-08",
+   "label": "1990-02-08",
+   "type": "DATE",
+   "variants": {
+    "8 лютого 1990 року": 1
+   },
+   "docs": [
+    "W17"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1990s",
+   "label": "1990s",
+   "type": "DATE",
+   "variants": {
+    "початку 1990-х": 1
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_1998-06-12",
+   "label": "1998-06-12",
+   "type": "DATE",
+   "variants": {
+    "12 червнем 1998": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2002-02-20",
+   "label": "2002-02-20",
+   "type": "DATE",
+   "variants": {
+    "20 лютого 2002": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2002-04",
+   "label": "2002-04",
+   "type": "DATE",
+   "variants": {
+    "квітні 2002": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2003-07-11",
+   "label": "2003-07-11",
+   "type": "DATE",
+   "variants": {
+    "11 липня 2003": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2003-09",
+   "label": "2003-09",
+   "type": "DATE",
+   "variants": {
+    "вересні 2003": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2004",
+   "label": "2004",
+   "type": "DATE",
+   "variants": {
+    "2004 році": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2004-11-30",
+   "label": "2004-11-30",
+   "type": "DATE",
+   "variants": {
+    "30 листопада 2004 року": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2010-04-26",
+   "label": "2010-04-26",
+   "type": "DATE",
+   "variants": {
+    "26 квітня 2010": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2013-05",
+   "label": "2013-05",
+   "type": "DATE",
+   "variants": {
+    "травні 2013": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2014-03-02",
+   "label": "2014-03-02",
+   "type": "DATE",
+   "variants": {
+    "2 березня 2014 року": 2
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2015",
+   "label": "2015",
+   "type": "DATE",
+   "variants": {
+    "2015 року": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2016-03",
+   "label": "2016-03",
+   "type": "DATE",
+   "variants": {
+    "березень 2016 року": 1
+   },
+   "docs": [
+    "W09"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2016-04",
+   "label": "2016-04",
+   "type": "DATE",
+   "variants": {
+    "квітні 2016 року": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2017",
+   "label": "2017",
+   "type": "DATE",
+   "variants": {
+    "2017 року": 2
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2017-08-01",
+   "label": "2017-08-01",
+   "type": "DATE",
+   "variants": {
+    "1 серпня 2017 року": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2018",
+   "label": "2018",
+   "type": "DATE",
+   "variants": {
+    "2018 році": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2019",
+   "label": "2019",
+   "type": "DATE",
+   "variants": {
+    "2019 року": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2020-02-02",
+   "label": "2020-02-02",
+   "type": "DATE",
+   "variants": {
+    "2 лютого 2020 року": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2020-07",
+   "label": "2020-07",
+   "type": "DATE",
+   "variants": {
+    "липні 2020 року": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2021-03-11",
+   "label": "2021-03-11",
+   "type": "DATE",
+   "variants": {
+    "11 березня 2021 року": 2
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2021-03-19",
+   "label": "2021-03-19",
+   "type": "DATE",
+   "variants": {
+    "19 березня 2021 року": 2
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2021-04-02",
+   "label": "2021-04-02",
+   "type": "DATE",
+   "variants": {
+    "2 квітня 2021 року": 2
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2021-07",
+   "label": "2021-07",
+   "type": "DATE",
+   "variants": {
+    "липні 2021 року": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2021-08-19",
+   "label": "2021-08-19",
+   "type": "DATE",
+   "variants": {
+    "19 серпня 2021 року": 2
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2022",
+   "label": "2022",
+   "type": "DATE",
+   "variants": {
+    "2022 року": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2022-02",
+   "label": "2022-02",
+   "type": "DATE",
+   "variants": {
+    "лютому 2022 року": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2024-01-26",
+   "label": "2024-01-26",
+   "type": "DATE",
+   "variants": {
+    "26 січня 2024 року": 2
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_2026-09-28",
+   "label": "2026-09-28",
+   "type": "DATE",
+   "variants": {
+    "28 вересня 2026 року": 2
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ACC-001",
+   "label": "ACC-001",
+   "type": "ORG",
+   "variants": {
+    "ACC-001": 1
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ACC-002",
+   "label": "ACC-002",
+   "type": "ORG",
+   "variants": {
+    "ACC-002": 1
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ACC-003",
+   "label": "ACC-003",
+   "type": "ORG",
+   "variants": {
+    "ACC-003": 1
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ACC-004",
+   "label": "ACC-004",
+   "type": "ORG",
+   "variants": {
+    "ACC-004": 1
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ACC-005",
+   "label": "ACC-005",
+   "type": "ORG",
+   "variants": {
+    "ACC-005": 1
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ACC-006",
+   "label": "ACC-006",
+   "type": "ORG",
+   "variants": {
+    "ACC-006": 1
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ACC-007",
+   "label": "ACC-007",
+   "type": "ORG",
+   "variants": {
+    "ACC-007": 1
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ACC-008",
+   "label": "ACC-008",
+   "type": "ORG",
+   "variants": {
+    "ACC-008": 1
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Adobe_RGB",
+   "label": "Adobe RGB",
+   "type": "ORG",
+   "variants": {
+    "Adobe RGB": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Betfair",
+   "label": "Betfair",
+   "type": "ORG",
+   "variants": {
+    "Betfair": 2
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-01",
+   "label": "CLM-01",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-01": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-02",
+   "label": "CLM-02",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-02": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-03",
+   "label": "CLM-03",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-03": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-04",
+   "label": "CLM-04",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-04": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-09",
+   "label": "CLM-09",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-09": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-10",
+   "label": "CLM-10",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-10": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-11",
+   "label": "CLM-11",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-11": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-12",
+   "label": "CLM-12",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-12": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-17",
+   "label": "CLM-17",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-17": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-18",
+   "label": "CLM-18",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-18": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-19",
+   "label": "CLM-19",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-19": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-20",
+   "label": "CLM-20",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-20": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-21",
+   "label": "CLM-21",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-21": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-22",
+   "label": "CLM-22",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-22": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-23",
+   "label": "CLM-23",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-23": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-24",
+   "label": "CLM-24",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-24": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-25",
+   "label": "CLM-25",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-25": 2
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-26",
+   "label": "CLM-26",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-26": 2
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-27",
+   "label": "CLM-27",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-27": 2
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-28",
+   "label": "CLM-28",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-28": 2
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-29",
+   "label": "CLM-29",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-29": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-30",
+   "label": "CLM-30",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-30": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-31",
+   "label": "CLM-31",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-31": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_CLM-32",
+   "label": "CLM-32",
+   "type": "CASE_ID",
+   "variants": {
+    "CLM-32": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_COVID-19",
+   "label": "COVID-19",
+   "type": "ORG",
+   "variants": {
+    "COVID-19": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_DCF",
+   "label": "DCF",
+   "type": "ORG",
+   "variants": {
+    "DCF": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_DCF_2_0",
+   "label": "DCF 2.0",
+   "type": "METHOD",
+   "variants": {
+    "DCF 2.0": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Detroit_Free_Press",
+   "label": "Detroit Free Press",
+   "type": "ORG",
+   "variants": {
+    "Detroit Free Press": 2
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Digital_Future_of_Journalism",
+   "label": "Digital Future of Journalism",
+   "type": "ORG",
+   "variants": {
+    "Digital Future of Journalism": 2
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_Exif_Print",
+   "label": "Exif Print",
+   "type": "PHENOMENON",
+   "variants": {
+    "Exif Print": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Facebook",
+   "label": "Facebook",
+   "type": "ORG",
+   "variants": {
+    "Facebook": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Facebook_Messenger",
+   "label": "Facebook Messenger",
+   "type": "PLATFORM",
+   "variants": {
+    "Facebook Messenger": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_FakeApp",
+   "label": "FakeApp",
+   "type": "ORG",
+   "variants": {
+    "FakeApp": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_FakeApp",
+   "label": "FakeApp",
+   "type": "PLATFORM",
+   "variants": {
+    "FakeApp": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Fazze",
+   "label": "Fazze",
+   "type": "ORG",
+   "variants": {
+    "Fazze": 2
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Flickr",
+   "label": "Flickr",
+   "type": "ORG",
+   "variants": {
+    "Flickr": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Flickr",
+   "label": "Flickr",
+   "type": "PLATFORM",
+   "variants": {
+    "Flickr": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_GPS",
+   "label": "GPS",
+   "type": "METHOD",
+   "variants": {
+    "GPS": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Google",
+   "label": "Google",
+   "type": "ORG",
+   "variants": {
+    "Google": 2
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Google",
+   "label": "Google",
+   "type": "PLATFORM",
+   "variants": {
+    "Google": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Google_Usenet",
+   "label": "Google Usenet",
+   "type": "ORG",
+   "variants": {
+    "Google Usenet": 1
+   },
+   "docs": [
+    "W17"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Instagram",
+   "label": "Instagram",
+   "type": "PLATFORM",
+   "variants": {
+    "Instagram": 2
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_JEITA",
+   "label": "JEITA",
+   "type": "ORG",
+   "variants": {
+    "JEITA": 2
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_LinkedIn",
+   "label": "LinkedIn",
+   "type": "ORG",
+   "variants": {
+    "LinkedIn": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_LinkedIn",
+   "label": "LinkedIn",
+   "type": "PLATFORM",
+   "variants": {
+    "LinkedIn": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Mark_Miller",
+   "label": "Mark Miller",
+   "type": "ORG",
+   "variants": {
+    "Mark Miller": 1
+   },
+   "docs": [
+    "W17"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Messenger_Фейсбук",
+   "label": "Messenger Фейсбук",
+   "type": "ORG",
+   "variants": {
+    "Messenger Фейсбук": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Microsoft",
+   "label": "Microsoft",
+   "type": "ORG",
+   "variants": {
+    "Microsoft": 2
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_NAR-01",
+   "label": "NAR-01",
+   "type": "CASE_ID",
+   "variants": {
+    "NAR-01": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_NAR-02",
+   "label": "NAR-02",
+   "type": "CASE_ID",
+   "variants": {
+    "NAR-02": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_NAR-03",
+   "label": "NAR-03",
+   "type": "CASE_ID",
+   "variants": {
+    "NAR-03": 1
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_NAR-04",
+   "label": "NAR-04",
+   "type": "CASE_ID",
+   "variants": {
+    "NAR-04": 1
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_NAR-05",
+   "label": "NAR-05",
+   "type": "CASE_ID",
+   "variants": {
+    "NAR-05": 4
+   },
+   "docs": [
+    "INT-NAR-05",
+    "INT-SAMPLE-INJ"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_NAR-06",
+   "label": "NAR-06",
+   "type": "CASE_ID",
+   "variants": {
+    "NAR-06": 1
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_OFF-01",
+   "label": "OFF-01",
+   "type": "CASE_ID",
+   "variants": {
+    "OFF-01": 6
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_OFF-01",
+   "label": "OFF-01",
+   "type": "ORG",
+   "variants": {
+    "OFF-01": 1
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_OFF-03",
+   "label": "OFF-03",
+   "type": "CASE_ID",
+   "variants": {
+    "OFF-03": 7
+   },
+   "docs": [
+    "INT-NAR-02",
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_OFF-03",
+   "label": "OFF-03",
+   "type": "ORG",
+   "variants": {
+    "OFF-03": 1
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_OFF-04",
+   "label": "OFF-04",
+   "type": "CASE_ID",
+   "variants": {
+    "OFF-04": 4
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_OFF-05",
+   "label": "OFF-05",
+   "type": "CASE_ID",
+   "variants": {
+    "OFF-05": 3
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_P3D",
+   "label": "P3D",
+   "type": "DATE",
+   "variants": {
+    "трьох діб": 2
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/DATE_PT12H",
+   "label": "PT12H",
+   "type": "DATE",
+   "variants": {
+    "12 годин": 2
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "ISO-нормалізація дати"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-001",
+   "label": "PUB-001",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-001": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-004",
+   "label": "PUB-004",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-004": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-008",
+   "label": "PUB-008",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-008": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-011",
+   "label": "PUB-011",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-011": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-032",
+   "label": "PUB-032",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-032": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-036",
+   "label": "PUB-036",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-036": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-040",
+   "label": "PUB-040",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-040": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-045",
+   "label": "PUB-045",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-045": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-067",
+   "label": "PUB-067",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-067": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-071",
+   "label": "PUB-071",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-071": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-074",
+   "label": "PUB-074",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-074": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-080",
+   "label": "PUB-080",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-080": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-084",
+   "label": "PUB-084",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-084": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-087",
+   "label": "PUB-087",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-087": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-090",
+   "label": "PUB-090",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-090": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-095",
+   "label": "PUB-095",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-095": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-099",
+   "label": "PUB-099",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-099": 1
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-103",
+   "label": "PUB-103",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-103": 1
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-105",
+   "label": "PUB-105",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-105": 1
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-111",
+   "label": "PUB-111",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-111": 1
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-114",
+   "label": "PUB-114",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-114": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-118",
+   "label": "PUB-118",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-118": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-123",
+   "label": "PUB-123",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-123": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_PUB-125",
+   "label": "PUB-125",
+   "type": "CASE_ID",
+   "variants": {
+    "PUB-125": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Panoramio",
+   "label": "Panoramio",
+   "type": "ORG",
+   "variants": {
+    "Panoramio": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Panoramio",
+   "label": "Panoramio",
+   "type": "PLATFORM",
+   "variants": {
+    "Panoramio": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_PhishMe",
+   "label": "PhishMe",
+   "type": "ORG",
+   "variants": {
+    "PhishMe": 2
+   },
+   "docs": [
+    "W09"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Pornhub",
+   "label": "Pornhub",
+   "type": "ORG",
+   "variants": {
+    "Pornhub": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Pornhub",
+   "label": "Pornhub",
+   "type": "PLATFORM",
+   "variants": {
+    "Pornhub": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_RULE-1",
+   "label": "RULE-1",
+   "type": "CASE_ID",
+   "variants": {
+    "RULE-1": 2
+   },
+   "docs": [
+    "INT-RULES"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_RULE-3",
+   "label": "RULE-3",
+   "type": "CASE_ID",
+   "variants": {
+    "RULE-3": 2
+   },
+   "docs": [
+    "INT-RULES"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_RULE-4",
+   "label": "RULE-4",
+   "type": "CASE_ID",
+   "variants": {
+    "RULE-4": 2
+   },
+   "docs": [
+    "INT-RULES"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Reddit",
+   "label": "Reddit",
+   "type": "ORG",
+   "variants": {
+    "Reddit": 2
+   },
+   "docs": [
+    "W06",
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Reddit",
+   "label": "Reddit",
+   "type": "PLATFORM",
+   "variants": {
+    "Reddit": 2
+   },
+   "docs": [
+    "W06",
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/Telegram",
+   "label": "Telegram",
+   "type": "PLATFORM",
+   "variants": {
+    "Telegram": 2
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "KB: збіг із канонічною назвою"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_TensorFlow",
+   "label": "TensorFlow",
+   "type": "ORG",
+   "variants": {
+    "TensorFlow": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_TensorFlow",
+   "label": "TensorFlow",
+   "type": "METHOD",
+   "variants": {
+    "TensorFlow": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_The_Guardian",
+   "label": "The Guardian",
+   "type": "ORG",
+   "variants": {
+    "The Guardian": 2
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Usenet",
+   "label": "Usenet",
+   "type": "LOCATION",
+   "variants": {
+    "Usenet": 2
+   },
+   "docs": [
+    "W17"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-01",
+   "label": "VRD-01",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-01": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-02",
+   "label": "VRD-02",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-02": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-03",
+   "label": "VRD-03",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-03": 2
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-07",
+   "label": "VRD-07",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-07": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-08",
+   "label": "VRD-08",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-08": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-09",
+   "label": "VRD-09",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-09": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-14",
+   "label": "VRD-14",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-14": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-15",
+   "label": "VRD-15",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-15": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-16",
+   "label": "VRD-16",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-16": 2
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-17",
+   "label": "VRD-17",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-17": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-18",
+   "label": "VRD-18",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-18": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-19",
+   "label": "VRD-19",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-19": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-20",
+   "label": "VRD-20",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-20": 2
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-21",
+   "label": "VRD-21",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-21": 2
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-22",
+   "label": "VRD-22",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-22": 2
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-23",
+   "label": "VRD-23",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-23": 2
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-24",
+   "label": "VRD-24",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-24": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-25",
+   "label": "VRD-25",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-25": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_VRD-26",
+   "label": "VRD-26",
+   "type": "CASE_ID",
+   "variants": {
+    "VRD-26": 2
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Viber",
+   "label": "Viber)",
+   "type": "PLATFORM",
+   "variants": {
+    "Viber)": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Vimeo",
+   "label": "Vimeo",
+   "type": "ORG",
+   "variants": {
+    "Vimeo": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Vimeo",
+   "label": "Vimeo",
+   "type": "PLATFORM",
+   "variants": {
+    "Vimeo": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/VoxUkraine",
+   "label": "VoxUkraine",
+   "type": "ORG",
+   "variants": {
+    "VoxUkraine": 2
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "KB: збіг із канонічною назвою"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_WebService_API",
+   "label": "WebService API",
+   "type": "METHOD",
+   "variants": {
+    "WebService API": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/WhatsApp",
+   "label": "WhatsApp",
+   "type": "PLATFORM",
+   "variants": {
+    "Whatsapp": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/YouTube",
+   "label": "YouTube",
+   "type": "PLATFORM",
+   "variants": {
+    "YouTube": 4
+   },
+   "docs": [
+    "W06",
+    "W26"
+   ],
+   "rule": "KB: збіг із канонічною назвою"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_YouTuber",
+   "label": "YouTuber",
+   "type": "ORG",
+   "variants": {
+    "YouTuber": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_YouTuber_у",
+   "label": "YouTuber'у",
+   "type": "ORG",
+   "variants": {
+    "YouTuber'у": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_eBay",
+   "label": "eBay",
+   "type": "PLATFORM",
+   "variants": {
+    "eBay": 2
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_eBay",
+   "label": "eBay",
+   "type": "ORG",
+   "variants": {
+    "eBay": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_locr",
+   "label": "locr",
+   "type": "PLATFORM",
+   "variants": {
+    "locr": 1
+   },
+   "docs": [
+    "W12"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_ransomware",
+   "label": "ransomware",
+   "type": "PHENOMENON",
+   "variants": {
+    "ransomware": 1
+   },
+   "docs": [
+    "W09"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ілон_Маск",
+   "label": "Ілон Маск",
+   "type": "PERSON",
+   "variants": {
+    "Ілон Маск": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Індії",
+   "label": "Індії",
+   "type": "LOCATION",
+   "variants": {
+    "Індії": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Аналітик_Ф-01",
+   "label": "Аналітик Ф-01",
+   "type": "PERSON",
+   "variants": {
+    "Аналітик Ф-01": 4
+   },
+   "docs": [
+    "INT-NAR-06",
+    "INT-RULES"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Аналітик_Ф-02",
+   "label": "Аналітик Ф-02",
+   "type": "PERSON",
+   "variants": {
+    "Аналітик Ф-02": 5
+   },
+   "docs": [
+    "INT-NAR-03",
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Аналітик_Ф-03",
+   "label": "Аналітик Ф-03",
+   "type": "PERSON",
+   "variants": {
+    "Аналітик Ф-03": 2
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-RULES"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Аналітик_Ф-04",
+   "label": "Аналітик Ф-04",
+   "type": "PERSON",
+   "variants": {
+    "Аналітик Ф-04": 2
+   },
+   "docs": [
+    "INT-NAR-03",
+    "INT-RULES"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Аналітик_Ф-05",
+   "label": "Аналітик Ф-05",
+   "type": "PERSON",
+   "variants": {
+    "Аналітик Ф-05": 5
+   },
+   "docs": [
+    "INT-NAR-03",
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Аналітик_Ф-06",
+   "label": "Аналітик Ф-06",
+   "type": "PERSON",
+   "variants": {
+    "Аналітик Ф-06": 1
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Аналітичний_звіт_щодо_наративу_Втеча_місцевої_влади",
+   "label": "Аналітичний звіт щодо наративу «Втеча місцевої влади»",
+   "type": "CASE_ID",
+   "variants": {
+    "Аналітичний звіт щодо наративу «Втеча місцевої влади»": 1
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Аналітичний_звіт_щодо_наративу_Колапс_критичної_інфраструктури",
+   "label": "Аналітичний звіт щодо наративу «Колапс критичної інфраструктури»",
+   "type": "CASE_ID",
+   "variants": {
+    "Аналітичний звіт щодо наративу «Колапс критичної інфраструктури»": 1
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Аналітичний_звіт_щодо_наративу_Отруєна_питна_вода",
+   "label": "Аналітичний звіт щодо наративу «Отруєна питна вода»",
+   "type": "CASE_ID",
+   "variants": {
+    "Аналітичний звіт щодо наративу «Отруєна питна вода»": 1
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Аналітичний_звіт_щодо_наративу_Повна_втрата_контролю_над_містом",
+   "label": "Аналітичний звіт щодо наративу «Повна втрата контролю над містом»",
+   "type": "CASE_ID",
+   "variants": {
+    "Аналітичний звіт щодо наративу «Повна втрата контролю над містом»": 1
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Аналітичний_звіт_щодо_наративу_Фейкові_збори_коштів",
+   "label": "Аналітичний звіт щодо наративу «Фейкові збори коштів»",
+   "type": "CASE_ID",
+   "variants": {
+    "Аналітичний звіт щодо наративу «Фейкові збори коштів»": 1
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Анонімний_Telegram-канал_1",
+   "label": "Анонімний Telegram-канал #1",
+   "type": "PLATFORM",
+   "variants": {
+    "Анонімний Telegram-канал #1": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Анонімний_Telegram-канал_2",
+   "label": "Анонімний Telegram-канал #2",
+   "type": "PLATFORM",
+   "variants": {
+    "Анонімний Telegram-канал #2": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Анонімний_Telegram-канал_3",
+   "label": "Анонімний Telegram-канал #3",
+   "type": "PLATFORM",
+   "variants": {
+    "Анонімний Telegram-канал #3": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Анонімний_Telegram-канал_4",
+   "label": "Анонімний Telegram-канал #4",
+   "type": "PLATFORM",
+   "variants": {
+    "Анонімний Telegram-канал #4": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Анонімний_Telegram-канал_5",
+   "label": "Анонімний Telegram-канал #5",
+   "type": "PLATFORM",
+   "variants": {
+    "Анонімний Telegram-канал #5": 3
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Анонімний_Telegram-канал_6",
+   "label": "Анонімний Telegram-канал #6",
+   "type": "PLATFORM",
+   "variants": {
+    "Анонімний Telegram-канал #6": 3
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Анонімний_Telegram-канал_7",
+   "label": "Анонімний Telegram-канал #7",
+   "type": "PLATFORM",
+   "variants": {
+    "Анонімний Telegram-канал #7": 3
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_Анонімний_Telegram-канал_8",
+   "label": "Анонімний Telegram-канал #8",
+   "type": "PLATFORM",
+   "variants": {
+    "Анонімний Telegram-канал #8": 3
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_Бойові_боти",
+   "label": "Бойові боти",
+   "type": "PHENOMENON",
+   "variants": {
+    "Бойові боти —": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Бразилії",
+   "label": "Бразилії",
+   "type": "LOCATION",
+   "variants": {
+    "Бразилії": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Білл_Дедмен",
+   "label": "Білл Дедмен",
+   "type": "PERSON",
+   "variants": {
+    "Білл Дедмен": 2
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_ВКонтакті",
+   "label": "ВКонтакті",
+   "type": "PLATFORM",
+   "variants": {
+    "ВКонтакті": 2
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Великої_Британії",
+   "label": "Великої Британії",
+   "type": "LOCATION",
+   "variants": {
+    "Великої Британії": 2
+   },
+   "docs": [
+    "W14",
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Володимира_Зеленського",
+   "label": "Володимира Зеленського",
+   "type": "PERSON",
+   "variants": {
+    "Володимира Зеленського": 4
+   },
+   "docs": [
+    "W06",
+    "W19"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Всесвітня_організація_охорони_здоров_я_ВООЗ",
+   "label": "Всесвітня організація охорони здоров'я (ВООЗ)",
+   "type": "ORG",
+   "variants": {
+    "Всесвітня організація охорони здоров'я (ВООЗ)": 1
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/Віктор_Янукович",
+   "label": "Віктор Янукович",
+   "type": "PERSON",
+   "variants": {
+    "Януковича": 2
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Грубий",
+   "label": "Грубий",
+   "type": "PERSON",
+   "variants": {
+    "Грубий": 1
+   },
+   "docs": [
+    "W17"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_Гіперболізовані_боти",
+   "label": "Гіперболізовані боти",
+   "type": "PHENOMENON",
+   "variants": {
+    "Гіперболізовані боти —": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ДНР",
+   "label": "ДНР",
+   "type": "ORG",
+   "variants": {
+    "ДНР": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ДСНС_України",
+   "label": "ДСНС України",
+   "type": "ORG",
+   "variants": {
+    "ДСНС України": 8
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-06"
+   ],
+   "rule": "KB: збіг із канонічною назвою"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Даніель_Лауфер",
+   "label": "Даніель Лауфер",
+   "type": "PERSON",
+   "variants": {
+    "Даніель Лауфер": 2
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Департамент_міжнародно-правової_співпраці_та_повернення_активів_Офісу_генера",
+   "label": "Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України",
+   "type": "ORG",
+   "variants": {
+    "Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України": 1
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Департаменті_міжнародно-правової_співпраці",
+   "label": "Департаменті міжнародно-правової співпраці",
+   "type": "ORG",
+   "variants": {
+    "Департаменті міжнародно-правової співпраці": 1
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Дьєпп",
+   "label": "Дьєпп",
+   "type": "LOCATION",
+   "variants": {
+    "Дьєпп": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ендрю",
+   "label": "Ендрю",
+   "type": "PERSON",
+   "variants": {
+    "Ендрю": 1
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_Журналістика_даних",
+   "label": "Журналістика даних",
+   "type": "PHENOMENON",
+   "variants": {
+    "Журналістика даних": 1
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_Зливні_боти",
+   "label": "Зливні боти",
+   "type": "PHENOMENON",
+   "variants": {
+    "Зливні боти —": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Кале",
+   "label": "Кале",
+   "type": "LOCATION",
+   "variants": {
+    "Кале": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Києв",
+   "label": "Києв",
+   "type": "LOCATION",
+   "variants": {
+    "Києв": 1
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Києва",
+   "label": "Києва",
+   "type": "LOCATION",
+   "variants": {
+    "Києва": 2
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-NAR-05"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Києві",
+   "label": "Києві",
+   "type": "LOCATION",
+   "variants": {
+    "Києві": 1
+   },
+   "docs": [
+    "INT-NAR-01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_ЛНР",
+   "label": "ЛНР",
+   "type": "ORG",
+   "variants": {
+    "ЛНР": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Львів",
+   "label": "Львів",
+   "type": "LOCATION",
+   "variants": {
+    "Львів": 2
+   },
+   "docs": [
+    "INT-NAR-02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/МЗС_Чехії",
+   "label": "МЗС Чехії",
+   "type": "ORG",
+   "variants": {
+    "міністерство іноземних справ Чеської республіки": 2
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Майдані",
+   "label": "Майдані",
+   "type": "LOCATION",
+   "variants": {
+    "Майдані": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Марк_Цукерберг",
+   "label": "Марк Цукерберг",
+   "type": "PERSON",
+   "variants": {
+    "Марк Цукерберг": 1
+   },
+   "docs": [
+    "W18"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Миколаєва",
+   "label": "Миколаєва",
+   "type": "LOCATION",
+   "variants": {
+    "Миколаєва": 1
+   },
+   "docs": [
+    "INT-NAR-03"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Могилянська_школа_журналістики_НаУКМА",
+   "label": "Могилянська школа журналістики (НаУКМА)",
+   "type": "ORG",
+   "variants": {
+    "Могилянська школа журналістики (НаУКМА)": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Могилянської_школи_журналістики",
+   "label": "Могилянської школи журналістики",
+   "type": "ORG",
+   "variants": {
+    "Могилянської школи журналістики": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Міжнародний_фонд_Відродження",
+   "label": "Міжнародний фонд «Відродження»",
+   "type": "ORG",
+   "variants": {
+    "Міжнародний фонд «Відродження»": 2
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Мірко_Дротчман",
+   "label": "Мірко Дротчман",
+   "type": "PERSON",
+   "variants": {
+    "Мірко Дротчман": 2
+   },
+   "docs": [
+    "W26"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_НаУКМА",
+   "label": "НаУКМА",
+   "type": "ORG",
+   "variants": {
+    "НаУКМА": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Найтінгейл",
+   "label": "Найтінгейл",
+   "type": "PERSON",
+   "variants": {
+    "Найтінгейл": 2
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Національна_поліція_України",
+   "label": "Національна поліція України",
+   "type": "ORG",
+   "variants": {
+    "Національна поліція України": 4
+   },
+   "docs": [
+    "INT-NAR-05"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Національний_фонд",
+   "label": "Національний фонд",
+   "type": "ORG",
+   "variants": {
+    "Національний фонд": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Національний_фонд_в_підтримку_демократії",
+   "label": "Національний фонд в підтримку демократії",
+   "type": "ORG",
+   "variants": {
+    "Національний фонд в підтримку демократії": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Небезпека_укриттів_і_пунктів_незламності",
+   "label": "Небезпека укриттів і пунктів незламності",
+   "type": "CASE_ID",
+   "variants": {
+    "Небезпека укриттів і пунктів незламності": 1
+   },
+   "docs": [
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Оксфордському_словнику_англійської_мови",
+   "label": "Оксфордському словнику англійської мови",
+   "type": "ORG",
+   "variants": {
+    "Оксфордському словнику англійської мови": 1
+   },
+   "docs": [
+    "W17"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ольга_Юркова",
+   "label": "Ольга Юркова",
+   "type": "PERSON",
+   "variants": {
+    "Ольга Юркова": 2
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Офісу_генерального_прокурора_України",
+   "label": "Офісу генерального прокурора України",
+   "type": "ORG",
+   "variants": {
+    "Офісу генерального прокурора України": 1
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Офіційні_канали_міських_рад",
+   "label": "Офіційні канали міських рад",
+   "type": "ORG",
+   "variants": {
+    "Офіційні канали міських рад": 12
+   },
+   "docs": [
+    "INT-NAR-02",
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Па-де",
+   "label": "Па-де",
+   "type": "LOCATION",
+   "variants": {
+    "Па-де-": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Православної_церкви_України",
+   "label": "Православної церкви України",
+   "type": "ORG",
+   "variants": {
+    "Православної церкви України": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/РНБО",
+   "label": "РНБО",
+   "type": "ORG",
+   "variants": {
+    "Ради національної безпеки і оборони України": 2
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "словник KB (синонім/абревіатура)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Російської_Федерації",
+   "label": "Російської Федерації",
+   "type": "LOCATION",
+   "variants": {
+    "Російської Федерації": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_Скандинавії",
+   "label": "Скандинавії",
+   "type": "LOCATION",
+   "variants": {
+    "Скандинавії": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Стів_Дойг",
+   "label": "Стів Дойг",
+   "type": "PERSON",
+   "variants": {
+    "Стів Дойг": 2
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Сігрід_Раузінг",
+   "label": "Сігрід Раузінг",
+   "type": "ORG",
+   "variants": {
+    "Сігрід Раузінг": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Твердження",
+   "label": "Твердження",
+   "type": "PERSON",
+   "variants": {
+    "Твердження": 1
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_Технічні_боти",
+   "label": "Технічні боти",
+   "type": "PHENOMENON",
+   "variants": {
+    "Технічні боти —": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Томосу",
+   "label": "Томосу",
+   "type": "PERSON",
+   "variants": {
+    "Томосу": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_УПЦ_МП",
+   "label": "УПЦ МП",
+   "type": "ORG",
+   "variants": {
+    "УПЦ МП": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_Упереджене_викладення_фактів",
+   "label": "Упереджене викладення фактів",
+   "type": "PHENOMENON",
+   "variants": {
+    "Упереджене викладення фактів —": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Ф-01",
+   "label": "Ф-01",
+   "type": "CASE_ID",
+   "variants": {
+    "Ф-01": 3
+   },
+   "docs": [
+    "INT-NAR-05",
+    "INT-NAR-06",
+    "INT-RULES"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ф-01",
+   "label": "Ф-01",
+   "type": "PERSON",
+   "variants": {
+    "Ф-01": 2
+   },
+   "docs": [
+    "INT-NAR-05",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Ф-02",
+   "label": "Ф-02",
+   "type": "CASE_ID",
+   "variants": {
+    "Ф-02": 5
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-03",
+    "INT-NAR-04",
+    "INT-NAR-05",
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ф-02",
+   "label": "Ф-02",
+   "type": "PERSON",
+   "variants": {
+    "Ф-02": 4
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-04",
+    "INT-NAR-05",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Ф-03",
+   "label": "Ф-03",
+   "type": "CASE_ID",
+   "variants": {
+    "Ф-03": 2
+   },
+   "docs": [
+    "INT-NAR-04",
+    "INT-RULES"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ф-03",
+   "label": "Ф-03",
+   "type": "PERSON",
+   "variants": {
+    "Ф-03": 1
+   },
+   "docs": [
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Ф-04",
+   "label": "Ф-04",
+   "type": "CASE_ID",
+   "variants": {
+    "Ф-04": 5
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-05",
+    "INT-RULES"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ф-04",
+   "label": "Ф-04",
+   "type": "PERSON",
+   "variants": {
+    "Ф-04": 3
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-05"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Ф-05",
+   "label": "Ф-05",
+   "type": "CASE_ID",
+   "variants": {
+    "Ф-05": 4
+   },
+   "docs": [
+    "INT-NAR-02",
+    "INT-NAR-03",
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ф-05",
+   "label": "Ф-05",
+   "type": "PERSON",
+   "variants": {
+    "Ф-05": 3
+   },
+   "docs": [
+    "INT-NAR-02",
+    "INT-NAR-04",
+    "INT-NAR-06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_Ф-06",
+   "label": "Ф-06",
+   "type": "CASE_ID",
+   "variants": {
+    "Ф-06": 3
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-04"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Ф-06",
+   "label": "Ф-06",
+   "type": "PERSON",
+   "variants": {
+    "Ф-06": 3
+   },
+   "docs": [
+    "INT-NAR-01",
+    "INT-NAR-02",
+    "INT-NAR-04"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Флоренс_Найтінгейл",
+   "label": "Флоренс Найтінгейл",
+   "type": "PERSON",
+   "variants": {
+    "Флоренс Найтінгейл": 2
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PERSON_Філіп_Мейер",
+   "label": "Філіп Мейер",
+   "type": "PERSON",
+   "variants": {
+    "Філіп Мейер": 2
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_Центру",
+   "label": "Центру",
+   "type": "ORG",
+   "variants": {
+    "Центру": 3
+   },
+   "docs": [
+    "W19"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/аналіз_EXIF",
+   "label": "аналіз EXIF",
+   "type": "METHOD",
+   "variants": {
+    "аналіз EXIF": 2
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "KB: збіг із канонічною назвою"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_антифішинг",
+   "label": "антифішинг",
+   "type": "METHOD",
+   "variants": {
+    "антифішинг": 1
+   },
+   "docs": [
+    "W09"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_вебконтент",
+   "label": "вебконтент",
+   "type": "PHENOMENON",
+   "variants": {
+    "вебконтент": 1
+   },
+   "docs": [
+    "W08"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_візуалізація_даних",
+   "label": "візуалізація даних",
+   "type": "PHENOMENON",
+   "variants": {
+    "візуалізація даних": 1
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_військова_тематика",
+   "label": "військова тематика",
+   "type": "PHENOMENON",
+   "variants": {
+    "військова тематика": 1
+   },
+   "docs": [
+    "INT-RULES"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_гіперболізовану",
+   "label": "гіперболізовану",
+   "type": "LOCATION",
+   "variants": {
+    "гіперболізовану": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_дезінформування_від_зворотного",
+   "label": "дезінформування від зворотного",
+   "type": "METHOD",
+   "variants": {
+    "дезінформування від зворотного": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_зневажливий_термін",
+   "label": "зневажливий термін",
+   "type": "PHENOMENON",
+   "variants": {
+    "зневажливий термін": 1
+   },
+   "docs": [
+    "W08"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_кіберзлочинці",
+   "label": "кіберзлочинці",
+   "type": "ORG",
+   "variants": {
+    "кіберзлочинці": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація",
+   "label": "маніпулятивне спотворення фактів; дезінформація",
+   "type": "PHENOMENON",
+   "variants": {
+    "маніпулятивне спотворення фактів; дезінформація": 1
+   },
+   "docs": [
+    "W02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_медіа_та_фото",
+   "label": "медіа та фото",
+   "type": "PHENOMENON",
+   "variants": {
+    "медіа та фото": 1
+   },
+   "docs": [
+    "INT-RULES"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_месенджерів",
+   "label": "месенджерів",
+   "type": "PLATFORM",
+   "variants": {
+    "месенджерів": 1
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/CASE_ID_операція_Фортитьюд",
+   "label": "операція «Фортитьюд»",
+   "type": "CASE_ID",
+   "variants": {
+    "операція «Фортитьюд»": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "код CASE_ID / псевдонім → ACC"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_перевірки_повідомлень",
+   "label": "перевірки повідомлень",
+   "type": "METHOD",
+   "variants": {
+    "перевірки повідомлень": 1
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_посольство_Великої_Британії_в_Україні",
+   "label": "посольство Великої Британії в Україні",
+   "type": "ORG",
+   "variants": {
+    "посольство Великої Британії в Україні": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_програма",
+   "label": "програма",
+   "type": "METHOD",
+   "variants": {
+    "програма": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_підробка_чи_імітація_новин",
+   "label": "підробка чи імітація новин",
+   "type": "PHENOMENON",
+   "variants": {
+    "підробка чи імітація новин": 1
+   },
+   "docs": [
+    "W02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_реверсивний_пошук",
+   "label": "реверсивний пошук",
+   "type": "METHOD",
+   "variants": {
+    "реверсивний пошук": 2
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_російська_православна_церква",
+   "label": "російська православна церква",
+   "type": "ORG",
+   "variants": {
+    "російська православна церква": 1
+   },
+   "docs": [
+    "W25"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/LOCATION_російського_вторгнення_в_Україну",
+   "label": "російського вторгнення в Україну",
+   "type": "LOCATION",
+   "variants": {
+    "російського вторгнення в Україну": 1
+   },
+   "docs": [
+    "W06"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_соцмережі_й_боти",
+   "label": "соцмережі й боти",
+   "type": "PHENOMENON",
+   "variants": {
+    "соцмережі й боти": 1
+   },
+   "docs": [
+    "INT-RULES"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PLATFORM_соціальних_мереж_і_месенджерів",
+   "label": "соціальних мереж і месенджерів",
+   "type": "PLATFORM",
+   "variants": {
+    "соціальних мереж і месенджерів": 1
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_соціальної_інженерії",
+   "label": "соціальної інженерії",
+   "type": "PHENOMENON",
+   "variants": {
+    "соціальної інженерії": 2
+   },
+   "docs": [
+    "W09"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_термінологічне_мінування",
+   "label": "термінологічне «мінування»",
+   "type": "METHOD",
+   "variants": {
+    "термінологічне «мінування»": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/METHOD_упереджене_висвітлення_фактів",
+   "label": "упереджене висвітлення фактів",
+   "type": "METHOD",
+   "variants": {
+    "упереджене висвітлення фактів": 1
+   },
+   "docs": [
+    "W01"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_фактчекінгової_організації",
+   "label": "фактчекінгової організації",
+   "type": "ORG",
+   "variants": {
+    "фактчекінгової організації": 1
+   },
+   "docs": [
+    "INT-REG-2026"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_фейк-ньюз_-с",
+   "label": "фейк-ньюз(-с)",
+   "type": "PHENOMENON",
+   "variants": {
+    "фейк-ньюз(-с)": 1
+   },
+   "docs": [
+    "W02"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_фонд_Сігрід_Раузінг",
+   "label": "фонд «Сігрід Раузінг»",
+   "type": "ORG",
+   "variants": {
+    "фонд «Сігрід Раузінг»": 1
+   },
+   "docs": [
+    "W14"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/ORG_інтернет-маркетологи",
+   "label": "інтернет-маркетологи",
+   "type": "ORG",
+   "variants": {
+    "інтернет-маркетологи": 1
+   },
+   "docs": [
+    "W22"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  },
+  {
+   "iri": "http://www.lnu.edu.ua/kb/entity/PHENOMENON_інфографіка",
+   "label": "інфографіка",
+   "type": "PHENOMENON",
+   "variants": {
+    "інфографіка": 1
+   },
+   "docs": [
+    "W23"
+   ],
+   "rule": "лемматизація (5-символьні основи)"
+  }
+ ]
+}

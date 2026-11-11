@@ -1,0 +1,2294 @@
+{
+ "started": "2026-10-20T01:44:03+03:00",
+ "steps": {
+  "generate+copy csv": {
+   "ok": true,
+   "sec": 0.6
+  },
+  "schema+import": {
+   "ok": true,
+   "sec": 3.8
+  },
+  "queries": {
+   "ok": true,
+   "sec": 1.4
+  },
+  "manual verification": {
+   "ok": true,
+   "sec": 0.0
+  },
+  "gds": {
+   "ok": true,
+   "sec": 0.7
+  },
+  "profile": {
+   "ok": true,
+   "sec": 1.4
+  },
+  "sparql vs cypher": {
+   "ok": true,
+   "sec": 0.6
+  }
+ },
+ "neo4j": [
+  [
+   "Neo4j Kernel",
+   "5.26.0",
+   "community"
+  ]
+ ],
+ "constraints": {
+  "cols": [
+   "name",
+   "type",
+   "labelsOrTypes",
+   "properties"
+  ],
+  "rows": [
+   [
+    "account_id",
+    "UNIQUENESS",
+    [
+     "Account"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "claim_id",
+    "UNIQUENESS",
+    [
+     "Claim"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "factchecker_id",
+    "UNIQUENESS",
+    [
+     "FactChecker"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "factcheckorg_id",
+    "UNIQUENESS",
+    [
+     "FactCheckOrg"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "media_id",
+    "UNIQUENESS",
+    [
+     "Media"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "narrative_id",
+    "UNIQUENESS",
+    [
+     "Narrative"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "officialsource_id",
+    "UNIQUENESS",
+    [
+     "OfficialSource"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "publication_id",
+    "UNIQUENESS",
+    [
+     "Publication"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "rule_id",
+    "UNIQUENESS",
+    [
+     "Rule"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "tool_id",
+    "UNIQUENESS",
+    [
+     "Tool"
+    ],
+    [
+     "id"
+    ]
+   ],
+   [
+    "verdict_id",
+    "UNIQUENESS",
+    [
+     "Verdict"
+    ],
+    [
+     "id"
+    ]
+   ]
+  ]
+ },
+ "indexes": {
+  "cols": [
+   "name",
+   "type",
+   "labelsOrTypes",
+   "properties",
+   "state"
+  ],
+  "rows": [
+   [
+    "account_id",
+    "RANGE",
+    [
+     "Account"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "account_trust",
+    "RANGE",
+    [
+     "Account"
+    ],
+    [
+     "trustLevel"
+    ],
+    "ONLINE"
+   ],
+   [
+    "claim_id",
+    "RANGE",
+    [
+     "Claim"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "claim_priority",
+    "RANGE",
+    [
+     "Claim"
+    ],
+    [
+     "priority"
+    ],
+    "ONLINE"
+   ],
+   [
+    "claim_text",
+    "TEXT",
+    [
+     "Claim"
+    ],
+    [
+     "text"
+    ],
+    "ONLINE"
+   ],
+   [
+    "factchecker_id",
+    "RANGE",
+    [
+     "FactChecker"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "factcheckorg_id",
+    "RANGE",
+    [
+     "FactCheckOrg"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "index_343aff4e",
+    "LOOKUP",
+    null,
+    null,
+    "ONLINE"
+   ],
+   [
+    "index_f7700477",
+    "LOOKUP",
+    null,
+    null,
+    "ONLINE"
+   ],
+   [
+    "media_id",
+    "RANGE",
+    [
+     "Media"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "narrative_id",
+    "RANGE",
+    [
+     "Narrative"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "officialsource_id",
+    "RANGE",
+    [
+     "OfficialSource"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "publication_id",
+    "RANGE",
+    [
+     "Publication"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "rule_id",
+    "RANGE",
+    [
+     "Rule"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "tool_id",
+    "RANGE",
+    [
+     "Tool"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ],
+   [
+    "verdict_category",
+    "RANGE",
+    [
+     "Verdict"
+    ],
+    [
+     "category"
+    ],
+    "ONLINE"
+   ],
+   [
+    "verdict_id",
+    "RANGE",
+    [
+     "Verdict"
+    ],
+    [
+     "id"
+    ],
+    "ONLINE"
+   ]
+  ]
+ },
+ "import_runs": [
+  {
+   "nodes": 297,
+   "rels": 808,
+   "by_label": [
+    [
+     "Account",
+     45
+    ],
+    [
+     "Claim",
+     40
+    ],
+    [
+     "FactCheckOrg",
+     4
+    ],
+    [
+     "FactChecker",
+     6
+    ],
+    [
+     "Media",
+     13
+    ],
+    [
+     "Narrative",
+     6
+    ],
+    [
+     "OfficialSource",
+     5
+    ],
+    [
+     "Publication",
+     137
+    ],
+    [
+     "Rule",
+     4
+    ],
+    [
+     "Tool",
+     5
+    ],
+    [
+     "Verdict",
+     32
+    ]
+   ],
+   "by_type": [
+    [
+     "ABOUT",
+     32
+    ],
+    [
+     "BASED_ON",
+     74
+    ],
+    [
+     "CONFIRMS",
+     6
+    ],
+    [
+     "CONTAINS",
+     13
+    ],
+    [
+     "DERIVED_FROM",
+     97
+    ],
+    [
+     "FORMALIZED_IN",
+     4
+    ],
+    [
+     "ISSUED",
+     32
+    ],
+    [
+     "MAKES_CLAIM",
+     137
+    ],
+    [
+     "PART_OF",
+     32
+    ],
+    [
+     "PUBLISHED",
+     137
+    ],
+    [
+     "REFUTES",
+     26
+    ],
+    [
+     "REPOSTED",
+     181
+    ],
+    [
+     "USES",
+     15
+    ],
+    [
+     "VERIFIED_WITH",
+     16
+    ],
+    [
+     "WORKS_FOR",
+     6
+    ]
+   ],
+   "sec": 2.96
+  },
+  {
+   "nodes": 297,
+   "rels": 808,
+   "by_label": [
+    [
+     "Account",
+     45
+    ],
+    [
+     "Claim",
+     40
+    ],
+    [
+     "FactCheckOrg",
+     4
+    ],
+    [
+     "FactChecker",
+     6
+    ],
+    [
+     "Media",
+     13
+    ],
+    [
+     "Narrative",
+     6
+    ],
+    [
+     "OfficialSource",
+     5
+    ],
+    [
+     "Publication",
+     137
+    ],
+    [
+     "Rule",
+     4
+    ],
+    [
+     "Tool",
+     5
+    ],
+    [
+     "Verdict",
+     32
+    ]
+   ],
+   "by_type": [
+    [
+     "ABOUT",
+     32
+    ],
+    [
+     "BASED_ON",
+     74
+    ],
+    [
+     "CONFIRMS",
+     6
+    ],
+    [
+     "CONTAINS",
+     13
+    ],
+    [
+     "DERIVED_FROM",
+     97
+    ],
+    [
+     "FORMALIZED_IN",
+     4
+    ],
+    [
+     "ISSUED",
+     32
+    ],
+    [
+     "MAKES_CLAIM",
+     137
+    ],
+    [
+     "PART_OF",
+     32
+    ],
+    [
+     "PUBLISHED",
+     137
+    ],
+    [
+     "REFUTES",
+     26
+    ],
+    [
+     "REPOSTED",
+     181
+    ],
+    [
+     "USES",
+     15
+    ],
+    [
+     "VERIFIED_WITH",
+     16
+    ],
+    [
+     "WORKS_FOR",
+     6
+    ]
+   ],
+   "sec": 0.31
+  }
+ ],
+ "idempotent": true,
+ "constraint_violation": {
+  "raised": true,
+  "code": "Neo.ClientError.Schema.ConstraintValidationFailed",
+  "message": "Node(297) already exists with label `Account` and property `id` = 'ACC-001'"
+ },
+ "queries": [
+  {
+   "id": "Q01",
+   "cq": "CQ1",
+   "kind": "агрегація + WITH + ORDER BY",
+   "title": "Автори зі спростованими публікаціями та їхнє охоплення",
+   "question": "Хто з авторів поширює спростовані твердження, який у них індекс довіри і яке сумарне охоплення?",
+   "cypher": "MATCH (a:Account)-[:PUBLISHED]->(p:Publication)-[:MAKES_CLAIM]->(c:Claim)<-[:ABOUT]-(v:Verdict)\nWHERE v.category IN ['фейк', 'маніпуляція']\nWITH a, count(DISTINCT p) AS refutedPubs, sum(p.shares) AS reach\nRETURN a.id AS account, a.name AS name, a.kind AS kind, a.trust AS trust, refutedPubs, reach\nORDER BY reach DESC LIMIT 10",
+   "cols": [
+    "account",
+    "name",
+    "kind",
+    "trust",
+    "refutedPubs",
+    "reach"
+   ],
+   "rows": [
+    [
+     "ACC-005",
+     "Анонімний Telegram-канал #5",
+     "анонімний канал",
+     "знижений",
+     4,
+     13046
+    ],
+    [
+     "ACC-007",
+     "Анонімний Telegram-канал #7",
+     "анонімний канал",
+     "низький",
+     4,
+     12364
+    ],
+    [
+     "ACC-002",
+     "Анонімний Telegram-канал #2",
+     "анонімний канал",
+     "низький",
+     3,
+     12029
+    ],
+    [
+     "ACC-006",
+     "Анонімний Telegram-канал #6",
+     "анонімний канал",
+     "знижений",
+     3,
+     11603
+    ],
+    [
+     "ACC-003",
+     "Анонімний Telegram-канал #3",
+     "анонімний канал",
+     "низький",
+     3,
+     11196
+    ],
+    [
+     "ACC-001",
+     "Анонімний Telegram-канал #1",
+     "анонімний канал",
+     "низький",
+     3,
+     10403
+    ],
+    [
+     "ACC-008",
+     "Анонімний Telegram-канал #8",
+     "анонімний канал",
+     "низький",
+     3,
+     9885
+    ],
+    [
+     "ACC-015",
+     "Бот-акаунт A7",
+     "бот",
+     "низький",
+     6,
+     6030
+    ],
+    [
+     "ACC-004",
+     "Анонімний Telegram-канал #4",
+     "анонімний канал",
+     "низький",
+     3,
+     5837
+    ],
+    [
+     "ACC-023",
+     "Бот-акаунт B5",
+     "бот",
+     "низький",
+     6,
+     5730
+    ]
+   ],
+   "ms_median": 9.3
+  },
+  {
+   "id": "Q02",
+   "cq": "CQ2",
+   "kind": "кілька типів зв'язку + collect",
+   "title": "Офіційні джерела: що підтвердили, що спростували",
+   "question": "Яке офіційне джерело підтвердило чи спростувало які твердження?",
+   "cypher": "MATCH (o:OfficialSource)-[r:REFUTES|CONFIRMS]->(c:Claim)\nRETURN o.name AS source, type(r) AS action, count(c) AS claims, collect(c.id)[..6] AS examples\nORDER BY source, action",
+   "cols": [
+    "source",
+    "action",
+    "claims",
+    "examples"
+   ],
+   "rows": [
+    [
+     "ДСНС України",
+     "CONFIRMS",
+     1,
+     [
+      "CLM-34"
+     ]
+    ],
+    [
+     "ДСНС України",
+     "REFUTES",
+     9,
+     [
+      "CLM-08",
+      "CLM-30",
+      "CLM-29",
+      "CLM-31",
+      "CLM-03",
+      "CLM-02"
+     ]
+    ],
+    [
+     "МОЗ України",
+     "REFUTES",
+     3,
+     [
+      "CLM-18",
+      "CLM-17",
+      "CLM-19"
+     ]
+    ],
+    [
+     "Національна поліція України",
+     "REFUTES",
+     3,
+     [
+      "CLM-28",
+      "CLM-25",
+      "CLM-27"
+     ]
+    ],
+    [
+     "Офіційні канали міських рад",
+     "REFUTES",
+     11,
+     [
+      "CLM-13",
+      "CLM-12",
+      "CLM-10",
+      "CLM-23",
+      "CLM-14",
+      "CLM-24"
+     ]
+    ],
+    [
+     "Повітряні сили ЗСУ",
+     "CONFIRMS",
+     5,
+     [
+      "CLM-38",
+      "CLM-33",
+      "CLM-36",
+      "CLM-37",
+      "CLM-35"
+     ]
+    ]
+   ],
+   "ms_median": 9.0
+  },
+  {
+   "id": "Q03",
+   "cq": "CQ3",
+   "kind": "OPTIONAL MATCH + фільтр на null",
+   "title": "Вердикт щодо кожного твердження; незавершені перевірки",
+   "question": "Який вердикт винесено щодо кожного твердження з високим пріоритетом і які ще не перевірені?",
+   "cypher": "MATCH (c:Claim {priority: 'високий'})\nOPTIONAL MATCH (c)<-[:ABOUT]-(v:Verdict)<-[:ISSUED]-(f:FactChecker)\nWITH c, v, f\nRETURN CASE WHEN v IS NULL THEN 'очікує перевірки' ELSE v.category END AS status,\n       count(c) AS claims, collect(c.id)[..8] AS examples\nORDER BY claims DESC",
+   "cols": [
+    "status",
+    "claims",
+    "examples"
+   ],
+   "rows": [
+    [
+     "фейк",
+     13,
+     [
+      "CLM-03",
+      "CLM-04",
+      "CLM-05",
+      "CLM-07",
+      "CLM-10",
+      "CLM-13",
+      "CLM-15",
+      "CLM-18"
+     ]
+    ],
+    [
+     "очікує перевірки",
+     5,
+     [
+      "CLM-06",
+      "CLM-11",
+      "CLM-20",
+      "CLM-26",
+      "CLM-32"
+     ]
+    ],
+    [
+     "маніпуляція",
+     3,
+     [
+      "CLM-02",
+      "CLM-22",
+      "CLM-23"
+     ]
+    ]
+   ],
+   "ms_median": 7.8
+  },
+  {
+   "id": "Q04",
+   "cq": "CQ4",
+   "kind": "фільтр за датами + duration",
+   "title": "Повторно використані медіафайли (правило RULE-4)",
+   "question": "Які публікації містять медіафайли, зняті більш ніж на 7 днів раніше за публікацію, і чим це виявлено?",
+   "cypher": "MATCH (p:Publication)-[:CONTAINS]->(m:Media)\nWHERE m.exifDate < p.publishedAt - duration({days: 7})\nOPTIONAL MATCH (m)-[:VERIFIED_WITH]->(t:Tool)\nRETURN p.id AS publication, m.id AS media, m.exifDate AS shot, p.publishedAt AS published,\n       duration.inDays(m.exifDate, p.publishedAt).days AS ageDays, collect(t.name) AS tools\nORDER BY ageDays DESC",
+   "cols": [
+    "publication",
+    "media",
+    "shot",
+    "published",
+    "ageDays",
+    "tools"
+   ],
+   "rows": [
+    [
+     "PUB-011",
+     "MED-02",
+     "2022-11-14",
+     "2026-09-14",
+     1400,
+     [
+      "Реверсивний пошук зображень"
+     ]
+    ],
+    [
+     "PUB-080",
+     "MED-09",
+     "2022-11-12",
+     "2026-09-04",
+     1392,
+     [
+      "Геолокація за супутниковими знімками"
+     ]
+    ],
+    [
+     "PUB-111",
+     "MED-12",
+     "2023-01-31",
+     "2026-09-23",
+     1331,
+     [
+      "Геолокація за супутниковими знімками"
+     ]
+    ],
+    [
+     "PUB-067",
+     "MED-07",
+     "2023-05-04",
+     "2026-10-07",
+     1252,
+     [
+      "Геолокація за супутниковими знімками"
+     ]
+    ],
+    [
+     "PUB-105",
+     "MED-11",
+     "2024-04-22",
+     "2026-09-17",
+     878,
+     [
+      "Геолокація за супутниковими знімками"
+     ]
+    ],
+    [
+     "PUB-036",
+     "MED-06",
+     "2024-10-09",
+     "2026-09-21",
+     712,
+     [
+      "Реверсивний пошук зображень"
+     ]
+    ],
+    [
+     "PUB-123",
+     "MED-13",
+     "2024-09-25",
+     "2026-09-07",
+     712,
+     [
+      "Реверсивний пошук зображень",
+      "Геолокація за супутниковими знімками"
+     ]
+    ]
+   ],
+   "ms_median": 7.4
+  },
+  {
+   "id": "Q05",
+   "cq": "CQ5",
+   "kind": "два OPTIONAL MATCH + агрегація",
+   "title": "Інструменти фактчекерів: заявлені vs використані у вердиктах",
+   "question": "Які інструменти застосовує кожен фактчекер і скільки разів вони стали доказом у його вердиктах?",
+   "cypher": "MATCH (f:FactChecker)-[:USES]->(t:Tool)\nOPTIONAL MATCH (f)-[:ISSUED]->(v:Verdict)-[:BASED_ON]->(t)\nWITH f, t, count(v) AS usedInVerdicts\nRETURN f.name AS checker, collect(t.name + ' (' + toString(usedInVerdicts) + ')') AS tools,\n       sum(usedInVerdicts) AS evidenceCount\nORDER BY evidenceCount DESC",
+   "cols": [
+    "checker",
+    "tools",
+    "evidenceCount"
+   ],
+   "rows": [
+    [
+     "Аналітик Ф-04 (соцмережі й боти)",
+     [
+      "Геолокація за супутниковими знімками (2)",
+      "Реверсивний пошук зображень (1)",
+      "Архів вебсторінок (Wayback Machine) (3)"
+     ],
+     6
+    ],
+    [
+     "Аналітик Ф-02 (регіональні новини)",
+     [
+      "Реверсивний пошук зображень (1)",
+      "Геолокація за супутниковими знімками (1)",
+      "Аналіз EXIF-метаданих (1)"
+     ],
+     3
+    ],
+    [
+     "Аналітик Ф-06 (фінансові шахрайства)",
+     [
+      "Реверсивний пошук зображень (0)",
+      "Архів вебсторінок (Wayback Machine) (1)",
+      "Аналіз мережі поширення (2)"
+     ],
+     3
+    ],
+    [
+     "Аналітик Ф-05 (здоров'я та медицина)",
+     [
+      "Аналіз мережі поширення (1)",
+      "Реверсивний пошук зображень (1)"
+     ],
+     2
+    ],
+    [
+     "Аналітик Ф-01 (військова тематика)",
+     [
+      "Архів вебсторінок (Wayback Machine) (1)",
+      "Реверсивний пошук зображень (0)"
+     ],
+     1
+    ],
+    [
+     "Аналітик Ф-03 (медіа та фото)",
+     [
+      "Реверсивний пошук зображень (0)",
+      "Аналіз EXIF-метаданих (0)"
+     ],
+     0
+    ]
+   ],
+   "ms_median": 6.9
+  },
+  {
+   "id": "Q06",
+   "cq": "CQ6",
+   "kind": "шлях змінної довжини *0..4",
+   "title": "Охоплення наративів з урахуванням похідних публікацій",
+   "question": "Які твердження належать до кожного наративу і яке сумарне охоплення мають усі публікації ланцюжків поширення?",
+   "cypher": "MATCH (n:Narrative)<-[:PART_OF]-(c:Claim)<-[:MAKES_CLAIM]-(origin:Publication)\nWHERE NOT (origin)-[:DERIVED_FROM]->()\nMATCH (p:Publication)-[:DERIVED_FROM*0..4]->(origin)\nWITH n, collect(DISTINCT c) AS cs, collect(DISTINCT p) AS ps\nRETURN n.name AS narrative, size(cs) AS claims, size(ps) AS publications,\n       reduce(s = 0, x IN ps | s + x.shares) AS reach\nORDER BY publications DESC",
+   "cols": [
+    "narrative",
+    "claims",
+    "publications",
+    "reach"
+   ],
+   "rows": [
+    [
+     "Колапс критичної інфраструктури",
+     8,
+     35,
+     43359
+    ],
+    [
+     "Повна втрата контролю над містом",
+     8,
+     31,
+     34092
+    ],
+    [
+     "Отруєна питна вода",
+     4,
+     17,
+     25314
+    ],
+    [
+     "Небезпека укриттів і пунктів незламності",
+     4,
+     16,
+     19564
+    ],
+    [
+     "Втеча місцевої влади",
+     4,
+     15,
+     19855
+    ],
+    [
+     "Фейкові збори коштів",
+     4,
+     15,
+     23016
+    ]
+   ],
+   "ms_median": 7.3
+  },
+  {
+   "id": "Q07",
+   "cq": "CQ7",
+   "kind": "labels() + UNWIND",
+   "title": "На яких доказах ґрунтуються вердикти",
+   "question": "На яких типах доказів (офіційне джерело / інструмент / фактчекінгова організація) ґрунтуються вердикти кожної категорії?",
+   "cypher": "MATCH (v:Verdict)-[b:BASED_ON]->(e)\nWITH v.category AS category, labels(e)[0] AS evidenceType, count(*) AS n, avg(b.confidence) AS avgConf\nRETURN category, evidenceType, n, round(avgConf, 2) AS avgConfidence\nORDER BY category, n DESC",
+   "cols": [
+    "category",
+    "evidenceType",
+    "n",
+    "avgConfidence"
+   ],
+   "rows": [
+    [
+     "маніпуляція",
+     "Tool",
+     4,
+     0.87
+    ],
+    [
+     "маніпуляція",
+     "OfficialSource",
+     4,
+     0.95
+    ],
+    [
+     "маніпуляція",
+     "FactCheckOrg",
+     4,
+     0.9
+    ],
+    [
+     "правда",
+     "OfficialSource",
+     6,
+     0.94
+    ],
+    [
+     "фейк",
+     "Tool",
+     22,
+     0.82
+    ],
+    [
+     "фейк",
+     "OfficialSource",
+     22,
+     0.92
+    ],
+    [
+     "фейк",
+     "FactCheckOrg",
+     12,
+     0.9
+    ]
+   ],
+   "ms_median": 5.4
+  },
+  {
+   "id": "Q08",
+   "cq": "CQ8",
+   "kind": "OPTIONAL MATCH + collect",
+   "title": "Правила верифікації, формалізовані з досвіду фактчекерів",
+   "question": "Які правила верифікації сформульовано на основі досвіду кожного фактчекера?",
+   "cypher": "MATCH (f:FactChecker)\nOPTIONAL MATCH (f)-[:FORMALIZED_IN]->(r:Rule)\nRETURN f.name AS checker, collect(r.id) AS rules, count(r) AS n\nORDER BY n DESC, checker",
+   "cols": [
+    "checker",
+    "rules",
+    "n"
+   ],
+   "rows": [
+    [
+     "Аналітик Ф-01 (військова тематика)",
+     [
+      "RULE-1",
+      "RULE-2"
+     ],
+     2
+    ],
+    [
+     "Аналітик Ф-03 (медіа та фото)",
+     [
+      "RULE-4"
+     ],
+     1
+    ],
+    [
+     "Аналітик Ф-04 (соцмережі й боти)",
+     [
+      "RULE-3"
+     ],
+     1
+    ],
+    [
+     "Аналітик Ф-02 (регіональні новини)",
+     [],
+     0
+    ],
+    [
+     "Аналітик Ф-05 (здоров'я та медицина)",
+     [],
+     0
+    ],
+    [
+     "Аналітик Ф-06 (фінансові шахрайства)",
+     [],
+     0
+    ]
+   ],
+   "ms_median": 5.1
+  },
+  {
+   "id": "Q09",
+   "cq": "CQ9",
+   "kind": "shortestPath",
+   "title": "Найкоротший шлях від першоджерела до звичайних користувачів",
+   "question": "Через скільки кроків контент анонімного каналу ACC-005 доходить до звичайних користувачів?",
+   "cypher": "MATCH (src:Account {id: 'ACC-005'}), (u:Account {kind: 'користувач'})\nMATCH path = shortestPath((src)-[:PUBLISHED|DERIVED_FROM*..10]-(u))\nRETURN u.id AS user, u.name AS name, length(path) AS hops,\n       [x IN nodes(path) | x.id] AS route\nORDER BY hops, user LIMIT 5",
+   "cols": [
+    "user",
+    "name",
+    "hops",
+    "route"
+   ],
+   "rows": [
+    [
+     "ACC-037",
+     "Користувач #5",
+     5,
+     [
+      "ACC-005",
+      "PUB-014",
+      "PUB-015",
+      "PUB-017",
+      "PUB-018",
+      "ACC-037"
+     ]
+    ],
+    [
+     "ACC-044",
+     "Користувач #12",
+     5,
+     [
+      "ACC-005",
+      "PUB-049",
+      "PUB-050",
+      "PUB-052",
+      "PUB-053",
+      "ACC-044"
+     ]
+    ],
+    [
+     "ACC-034",
+     "Користувач #2",
+     6,
+     [
+      "ACC-005",
+      "PUB-014",
+      "PUB-015",
+      "ACC-015",
+      "PUB-121",
+      "PUB-122",
+      "ACC-034"
+     ]
+    ],
+    [
+     "ACC-036",
+     "Користувач #4",
+     6,
+     [
+      "ACC-005",
+      "PUB-014",
+      "PUB-015",
+      "ACC-015",
+      "PUB-006",
+      "PUB-007",
+      "ACC-036"
+     ]
+    ],
+    [
+     "ACC-042",
+     "Користувач #10",
+     6,
+     [
+      "ACC-005",
+      "PUB-049",
+      "PUB-050",
+      "PUB-052",
+      "PUB-053",
+      "PUB-054",
+      "ACC-042"
+     ]
+    ]
+   ],
+   "ms_median": 5.9
+  },
+  {
+   "id": "Q10",
+   "cq": "CQ10",
+   "kind": "аналіз впливу, глибина ≥ 3",
+   "title": "Вплив спростування ДСНС: які публікації й акаунти треба позначити",
+   "question": "Якщо ДСНС спростувала твердження, які публікації (з похідними до 4 кроків) і які акаунти їх поширили?",
+   "cypher": "MATCH (o:OfficialSource {id: 'OFF-01'})-[:REFUTES]->(c:Claim)<-[:MAKES_CLAIM]-(origin:Publication)\nWHERE NOT (origin)-[:DERIVED_FROM]->()\nMATCH (p:Publication)-[:DERIVED_FROM*0..4]->(origin)\nMATCH (acc:Account)-[:PUBLISHED|REPOSTED]->(p)\nWITH collect(DISTINCT c) AS cs, collect(DISTINCT p) AS ps, collect(DISTINCT acc) AS accs\nRETURN size(cs) AS refutedClaims, size(ps) AS publicationsToLabel, size(accs) AS accountsToNotify,\n       reduce(s = 0, x IN ps | s + x.shares) AS reachAffected",
+   "cols": [
+    "refutedClaims",
+    "publicationsToLabel",
+    "accountsToNotify",
+    "reachAffected"
+   ],
+   "rows": [
+    [
+     9,
+     36,
+     22,
+     42694
+    ]
+   ],
+   "ms_median": 5.5
+  },
+  {
+   "id": "Q11",
+   "cq": "CQ11",
+   "kind": "аналіз впливу, глибина ≥ 3",
+   "title": "Вплив блокування першоджерела ACC-005",
+   "question": "Якщо акаунт ACC-005 заблокують, які похідні публікації (1–4 кроки), наративи та акаунти це зачепить?",
+   "cypher": "MATCH (src:Account {id: 'ACC-005'})-[:PUBLISHED]->(own:Publication)\nMATCH chain = (d:Publication)-[:DERIVED_FROM*1..4]->(own)\nMATCH (d)-[:MAKES_CLAIM]->(:Claim)-[:PART_OF]->(n:Narrative)\nMATCH (a:Account)-[:PUBLISHED]->(d)\nRETURN count(DISTINCT own) AS ownPublications, count(DISTINCT d) AS derivedPublications,\n       max(length(chain)) AS maxDepth, collect(DISTINCT n.name) AS narratives,\n       count(DISTINCT a) AS dependentAccounts",
+   "cols": [
+    "ownPublications",
+    "derivedPublications",
+    "maxDepth",
+    "narratives",
+    "dependentAccounts"
+   ],
+   "rows": [
+    [
+     4,
+     15,
+     4,
+     [
+      "Колапс критичної інфраструктури",
+      "Повна втрата контролю над містом",
+      "Небезпека укриттів і пунктів незламності",
+      "Втеча місцевої влади"
+     ],
+     11
+    ]
+   ],
+   "ms_median": 6.0
+  }
+ ],
+ "manual_check": {
+  "Q01_top3": [
+   [
+    "ACC-005",
+    4,
+    13046
+   ],
+   [
+    "ACC-007",
+    4,
+    12364
+   ],
+   [
+    "ACC-002",
+    3,
+    12029
+   ]
+  ],
+  "Q10": {
+   "refutedClaims": 9,
+   "publicationsToLabel": 36,
+   "accountsToNotify": 22,
+   "reachAffected": 42694
+  },
+  "Q11": {
+   "ownPublications": 4,
+   "derivedPublications": 15,
+   "maxDepth": 4,
+   "narratives": [
+    "NAR-01",
+    "NAR-02",
+    "NAR-04",
+    "NAR-06"
+   ],
+   "dependentAccounts": 11
+  },
+  "Q11_chain_example": {
+   "PUB-014": [
+    [
+     "PUB-015",
+     1
+    ],
+    [
+     "PUB-017",
+     2
+    ],
+    [
+     "PUB-018",
+     3
+    ],
+    [
+     "PUB-019",
+     4
+    ],
+    [
+     "PUB-016",
+     1
+    ]
+   ],
+   "PUB-049": [
+    [
+     "PUB-050",
+     1
+    ],
+    [
+     "PUB-052",
+     2
+    ],
+    [
+     "PUB-053",
+     3
+    ],
+    [
+     "PUB-054",
+     4
+    ],
+    [
+     "PUB-051",
+     1
+    ]
+   ],
+   "PUB-084": [
+    [
+     "PUB-085",
+     1
+    ],
+    [
+     "PUB-086",
+     2
+    ]
+   ],
+   "PUB-114": [
+    [
+     "PUB-115",
+     1
+    ],
+    [
+     "PUB-117",
+     2
+    ],
+    [
+     "PUB-116",
+     1
+    ]
+   ]
+  }
+ },
+ "gds_version": "2.13.2",
+ "gds_spread_graph": {
+  "nodeCount": 182,
+  "relationshipCount": 415
+ },
+ "pagerank_run": {
+  "didConverge": true,
+  "nodePropertiesWritten": 182,
+  "ranIterations": 7
+ },
+ "pagerank_top10": {
+  "cols": [
+   "label",
+   "id",
+   "name",
+   "kind",
+   "pagerank"
+  ],
+  "rows": [
+   [
+    "Account",
+    "ACC-001",
+    "Анонімний Telegram-канал #1",
+    "анонімний канал",
+    2.246
+   ],
+   [
+    "Account",
+    "ACC-008",
+    "Анонімний Telegram-канал #8",
+    "анонімний канал",
+    2.048
+   ],
+   [
+    "Account",
+    "ACC-007",
+    "Анонімний Telegram-канал #7",
+    "анонімний канал",
+    2.045
+   ],
+   [
+    "Account",
+    "ACC-004",
+    "Анонімний Telegram-канал #4",
+    "анонімний канал",
+    2.037
+   ],
+   [
+    "Account",
+    "ACC-002",
+    "Анонімний Telegram-канал #2",
+    "анонімний канал",
+    1.985
+   ],
+   [
+    "Account",
+    "ACC-003",
+    "Анонімний Telegram-канал #3",
+    "анонімний канал",
+    1.96
+   ],
+   [
+    "Account",
+    "ACC-006",
+    "Анонімний Telegram-канал #6",
+    "анонімний канал",
+    1.899
+   ],
+   [
+    "Account",
+    "ACC-005",
+    "Анонімний Telegram-канал #5",
+    "анонімний канал",
+    1.874
+   ],
+   [
+    "Account",
+    "ACC-027",
+    "Суспільне Новини",
+    "медіа",
+    0.79
+   ],
+   [
+    "Account",
+    "ACC-028",
+    "Укрінформ",
+    "медіа",
+    0.79
+   ]
+  ]
+ },
+ "pagerank_by_kind": {
+  "cols": [
+   "kind",
+   "accounts",
+   "avgPR",
+   "maxPR"
+  ],
+  "rows": [
+   [
+    "анонімний канал",
+    8,
+    2.012,
+    2.246
+   ],
+   [
+    "медіа",
+    6,
+    0.573,
+    0.79
+   ],
+   [
+    "бот",
+    18,
+    0.499,
+    0.748
+   ],
+   [
+    "користувач",
+    13,
+    0.258,
+    0.395
+   ]
+  ]
+ },
+ "gds_community_graph": {
+  "nodeCount": 228,
+  "relationshipCount": 1168
+ },
+ "louvain_run": {
+  "communityCount": 10,
+  "modularity": 0.5701,
+  "ranLevels": 3
+ },
+ "louvain_top": {
+  "cols": [
+   "community",
+   "size",
+   "accounts",
+   "bots",
+   "mediaAcc",
+   "publications",
+   "narratives",
+   "botExamples"
+  ],
+  "rows": [
+   [
+    148,
+    68,
+    11,
+    8,
+    0,
+    43,
+    [
+     "Отруєна питна вода",
+     "Втеча місцевої влади",
+     "Фейкові збори коштів"
+    ],
+    [
+     "Бот-акаунт B1",
+     "Бот-акаунт B2",
+     "Бот-акаунт B3",
+     "Бот-акаунт B4"
+    ]
+   ],
+   [
+    54,
+    40,
+    5,
+    4,
+    0,
+    27,
+    [
+     "Повна втрата контролю над містом"
+    ],
+    [
+     "Бот-акаунт A4",
+     "Бот-акаунт A5",
+     "Бот-акаунт A7",
+     "Бот-акаунт A8"
+    ]
+   ],
+   [
+    109,
+    24,
+    3,
+    2,
+    0,
+    17,
+    [],
+    [
+     "Бот-акаунт A1",
+     "Бот-акаунт A3"
+    ]
+   ],
+   [
+    181,
+    24,
+    12,
+    0,
+    4,
+    6,
+    [],
+    []
+   ],
+   [
+    160,
+    19,
+    3,
+    1,
+    0,
+    12,
+    [
+     "Небезпека укриттів і пунктів незламності"
+    ],
+    [
+     "Бот-акаунт A6"
+    ]
+   ],
+   [
+    101,
+    18,
+    3,
+    2,
+    0,
+    11,
+    [
+     "Колапс критичної інфраструктури"
+    ],
+    [
+     "Бот-акаунт A9",
+     "Бот-акаунт A10"
+    ]
+   ],
+   [
+    85,
+    17,
+    4,
+    1,
+    1,
+    10,
+    [],
+    [
+     "Бот-акаунт A2"
+    ]
+   ],
+   [
+    153,
+    10,
+    3,
+    0,
+    1,
+    5,
+    [],
+    []
+   ]
+  ]
+ },
+ "gds_written": [
+  182,
+  228
+ ],
+ "profile_q1": {
+  "query": "MATCH (a:Account)-[:PUBLISHED]->(p:Publication)\nWHERE p.shares > 3000\nRETURN a.name AS author, p.id AS publication, p.shares AS shares\nORDER BY shares DESC",
+  "index": "CREATE INDEX publication_shares IF NOT EXISTS FOR (n:Publication) ON (n.shares)",
+  "before": {
+   "operators": [
+    {
+     "depth": 0,
+     "operator": "ProduceResults",
+     "rows": 24,
+     "dbHits": 0,
+     "details": "author, publication, shares"
+    },
+    {
+     "depth": 1,
+     "operator": "Projection",
+     "rows": 24,
+     "dbHits": 48,
+     "details": "a.name AS author, p.id AS publication"
+    },
+    {
+     "depth": 2,
+     "operator": "Sort",
+     "rows": 24,
+     "dbHits": 0,
+     "details": "shares DESC"
+    },
+    {
+     "depth": 3,
+     "operator": "Projection",
+     "rows": 24,
+     "dbHits": 0,
+     "details": "cache[p.shares] AS shares"
+    },
+    {
+     "depth": 4,
+     "operator": "Filter",
+     "rows": 24,
+     "dbHits": 24,
+     "details": "a:Account"
+    },
+    {
+     "depth": 5,
+     "operator": "Expand(All)",
+     "rows": 24,
+     "dbHits": 208,
+     "details": "(p)<-[anon_0:PUBLISHED]-(a)"
+    },
+    {
+     "depth": 6,
+     "operator": "Filter",
+     "rows": 24,
+     "dbHits": 137,
+     "details": "cache[p.shares] > $autoint_0"
+    },
+    {
+     "depth": 7,
+     "operator": "NodeByLabelScan",
+     "rows": 137,
+     "dbHits": 138,
+     "details": "p:Publication"
+    }
+   ],
+   "totalDbHits": 555,
+   "ms_median": 7.1
+  },
+  "after": {
+   "operators": [
+    {
+     "depth": 0,
+     "operator": "ProduceResults",
+     "rows": 24,
+     "dbHits": 0,
+     "details": "author, publication, shares"
+    },
+    {
+     "depth": 1,
+     "operator": "Projection",
+     "rows": 24,
+     "dbHits": 48,
+     "details": "a.name AS author, p.id AS publication, cache[p.shares] AS shares"
+    },
+    {
+     "depth": 2,
+     "operator": "Filter",
+     "rows": 24,
+     "dbHits": 24,
+     "details": "a:Account"
+    },
+    {
+     "depth": 3,
+     "operator": "Expand(All)",
+     "rows": 24,
+     "dbHits": 208,
+     "details": "(p)<-[anon_0:PUBLISHED]-(a)"
+    },
+    {
+     "depth": 4,
+     "operator": "NodeIndexSeekByRange",
+     "rows": 24,
+     "dbHits": 25,
+     "details": "RANGE INDEX p:Publication(shares) WHERE shares > $autoint_0, cache[p.shares]"
+    }
+   ],
+   "totalDbHits": 305,
+   "ms_median": 5.32
+  }
+ },
+ "profile_q2": {
+  "query": "MATCH (o:OfficialSource {id: 'OFF-01'})-[:REFUTES]->(c:Claim)<-[:MAKES_CLAIM]-(origin:Publication)\nWHERE NOT (origin)-[:DERIVED_FROM]->()\nMATCH (p:Publication)-[:DERIVED_FROM*0..4]->(origin)\nMATCH (acc:Account)-[:PUBLISHED|REPOSTED]->(p)\nWITH collect(DISTINCT c) AS cs, collect(DISTINCT p) AS ps, collect(DISTINCT acc) AS accs\nRETURN size(cs) AS refutedClaims, size(ps) AS publicationsToLabel, size(accs) AS accountsToNotify,\n       reduce(s = 0, x IN ps | s + x.shares) AS reachAffected",
+  "plan": {
+   "operators": [
+    {
+     "depth": 0,
+     "operator": "ProduceResults",
+     "rows": 1,
+     "dbHits": 0,
+     "details": "refutedClaims, publicationsToLabel, accountsToNotify, reachAffected"
+    },
+    {
+     "depth": 1,
+     "operator": "Projection",
+     "rows": 1,
+     "dbHits": 36,
+     "details": "size(cs) AS refutedClaims, size(ps) AS publicationsToLabel, size(accs) AS accountsToNotify, reduce(s = $autoint_1, x IN "
+    },
+    {
+     "depth": 2,
+     "operator": "EagerAggregation",
+     "rows": 1,
+     "dbHits": 0,
+     "details": "collect(DISTINCT c) AS cs, collect(DISTINCT p) AS ps, collect(DISTINCT acc) AS accs"
+    },
+    {
+     "depth": 3,
+     "operator": "Filter",
+     "rows": 73,
+     "dbHits": 73,
+     "details": "acc:Account"
+    },
+    {
+     "depth": 4,
+     "operator": "Expand(All)",
+     "rows": 73,
+     "dbHits": 205,
+     "details": "(p)<-[anon_5:PUBLISHED|REPOSTED]-(acc)"
+    },
+    {
+     "depth": 5,
+     "operator": "Filter",
+     "rows": 36,
+     "dbHits": 36,
+     "details": "p:Publication"
+    },
+    {
+     "depth": 6,
+     "operator": "VarLengthExpand(Pruning,BFS,All)",
+     "rows": 36,
+     "dbHits": 197,
+     "details": "(origin)<-[:DERIVED_FROM*0..4]-(p) "
+    },
+    {
+     "depth": 7,
+     "operator": "Filter",
+     "rows": 9,
+     "dbHits": 45,
+     "details": "NOT getDegree((origin)-[:DERIVED_FROM]->()) > 0 AND origin:Publication"
+    },
+    {
+     "depth": 8,
+     "operator": "Expand(All)",
+     "rows": 36,
+     "dbHits": 72,
+     "details": "(c)<-[anon_1:MAKES_CLAIM]-(origin)"
+    },
+    {
+     "depth": 9,
+     "operator": "Filter",
+     "rows": 9,
+     "dbHits": 9,
+     "details": "c:Claim"
+    },
+    {
+     "depth": 10,
+     "operator": "Expand(All)",
+     "rows": 9,
+     "dbHits": 21,
+     "details": "(o)-[anon_0:REFUTES]->(c)"
+    },
+    {
+     "depth": 11,
+     "operator": "NodeUniqueIndexSeek",
+     "rows": 1,
+     "dbHits": 2,
+     "details": "UNIQUE o:OfficialSource(id) WHERE id = $autostring_0"
+    }
+   ],
+   "totalDbHits": 696,
+   "ms_median": 4.32
+  }
+ },
+ "profile_q2_rewrite": {
+  "query": "MATCH (o:OfficialSource {id: 'OFF-01'})-[:REFUTES]->(c:Claim)\nMATCH (c)<-[:MAKES_CLAIM]-(origin:Publication)\nWHERE NOT (origin)-[:DERIVED_FROM]->()\nWITH collect(DISTINCT c) AS cs, collect(origin) AS origins\nUNWIND origins AS origin\nMATCH (p:Publication)-[:DERIVED_FROM*0..4]->(origin)\nWITH cs, collect(DISTINCT p) AS ps\nUNWIND ps AS p\nMATCH (acc:Account)-[:PUBLISHED|REPOSTED]->(p)\nWITH cs, ps, collect(DISTINCT acc) AS accs\nRETURN size(cs) AS refutedClaims, size(ps) AS publicationsToLabel, size(accs) AS accountsToNotify,\n       reduce(s = 0, x IN ps | s + x.shares) AS reachAffected",
+  "plan": {
+   "operators": [
+    {
+     "depth": 0,
+     "operator": "ProduceResults",
+     "rows": 1,
+     "dbHits": 0,
+     "details": "refutedClaims, publicationsToLabel, accountsToNotify, reachAffected"
+    },
+    {
+     "depth": 1,
+     "operator": "Projection",
+     "rows": 1,
+     "dbHits": 36,
+     "details": "size(cs) AS refutedClaims, size(ps) AS publicationsToLabel, size(accs) AS accountsToNotify, reduce(s = $autoint_1, x IN "
+    },
+    {
+     "depth": 2,
+     "operator": "EagerAggregation",
+     "rows": 1,
+     "dbHits": 0,
+     "details": "cs, ps, collect(DISTINCT acc) AS accs"
+    },
+    {
+     "depth": 3,
+     "operator": "Filter",
+     "rows": 73,
+     "dbHits": 73,
+     "details": "acc:Account"
+    },
+    {
+     "depth": 4,
+     "operator": "Expand(All)",
+     "rows": 73,
+     "dbHits": 205,
+     "details": "(p)<-[anon_5:PUBLISHED|REPOSTED]-(acc)"
+    },
+    {
+     "depth": 5,
+     "operator": "Unwind",
+     "rows": 36,
+     "dbHits": 0,
+     "details": "ps AS p"
+    },
+    {
+     "depth": 6,
+     "operator": "EagerAggregation",
+     "rows": 1,
+     "dbHits": 0,
+     "details": "cs, collect(DISTINCT p) AS ps"
+    },
+    {
+     "depth": 7,
+     "operator": "Filter",
+     "rows": 36,
+     "dbHits": 36,
+     "details": "p:Publication"
+    },
+    {
+     "depth": 8,
+     "operator": "VarLengthExpand(Pruning,BFS,All)",
+     "rows": 36,
+     "dbHits": 197,
+     "details": "(origin)<-[:DERIVED_FROM*0..4]-(p) "
+    },
+    {
+     "depth": 9,
+     "operator": "Unwind",
+     "rows": 9,
+     "dbHits": 0,
+     "details": "origins AS origin"
+    },
+    {
+     "depth": 10,
+     "operator": "EagerAggregation",
+     "rows": 1,
+     "dbHits": 0,
+     "details": "collect(DISTINCT c) AS cs, collect(origin) AS origins"
+    },
+    {
+     "depth": 11,
+     "operator": "Filter",
+     "rows": 9,
+     "dbHits": 45,
+     "details": "NOT getDegree((origin)-[:DERIVED_FROM]->()) > 0 AND origin:Publication"
+    },
+    {
+     "depth": 12,
+     "operator": "Expand(All)",
+     "rows": 36,
+     "dbHits": 72,
+     "details": "(c)<-[anon_1:MAKES_CLAIM]-(origin)"
+    },
+    {
+     "depth": 13,
+     "operator": "Filter",
+     "rows": 9,
+     "dbHits": 9,
+     "details": "c:Claim"
+    },
+    {
+     "depth": 14,
+     "operator": "Expand(All)",
+     "rows": 9,
+     "dbHits": 21,
+     "details": "(o)-[anon_0:REFUTES]->(c)"
+    },
+    {
+     "depth": 15,
+     "operator": "NodeUniqueIndexSeek",
+     "rows": 1,
+     "dbHits": 2,
+     "details": "UNIQUE o:OfficialSource(id) WHERE id = $autostring_0"
+    }
+   ],
+   "totalDbHits": 696,
+   "ms_median": 6.7
+  },
+  "same_result": true,
+  "result": [
+   [
+    9,
+    36,
+    22,
+    42694
+   ]
+  ]
+ },
+ "rdf_triples": 2021,
+ "sparql_vs_cypher": [
+  {
+   "id": "S1",
+   "cq": "CQ2",
+   "title": "Скільки тверджень спростувало/підтвердило кожне офіційне джерело",
+   "cypher": "MATCH (o:OfficialSource)-[r:REFUTES|CONFIRMS]->(c:Claim)\nRETURN o.name AS source, type(r) AS action, count(c) AS n ORDER BY source, action",
+   "sparql": "PREFIX : <http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#>\nSELECT ?source ?action (COUNT(?c) AS ?n) WHERE {\n  ?o a :OfitsiineDzherelo ; :maieNazvu ?source .\n  { ?o :sprostovuie ?c . BIND(\"REFUTES\" AS ?action) }\n  UNION\n  { ?o :pidtverdzhuie ?c . BIND(\"CONFIRMS\" AS ?action) }\n} GROUP BY ?source ?action ORDER BY ?source ?action",
+   "cypher_cols": [
+    "source",
+    "action",
+    "n"
+   ],
+   "cypher_rows": [
+    [
+     "ДСНС України",
+     "CONFIRMS",
+     1
+    ],
+    [
+     "ДСНС України",
+     "REFUTES",
+     9
+    ],
+    [
+     "МОЗ України",
+     "REFUTES",
+     3
+    ],
+    [
+     "Національна поліція України",
+     "REFUTES",
+     3
+    ],
+    [
+     "Офіційні канали міських рад",
+     "REFUTES",
+     11
+    ],
+    [
+     "Повітряні сили ЗСУ",
+     "CONFIRMS",
+     5
+    ]
+   ],
+   "sparql_cols": [
+    "source",
+    "action",
+    "n"
+   ],
+   "sparql_rows": [
+    [
+     "ДСНС України",
+     "CONFIRMS",
+     1
+    ],
+    [
+     "ДСНС України",
+     "REFUTES",
+     9
+    ],
+    [
+     "МОЗ України",
+     "REFUTES",
+     3
+    ],
+    [
+     "Національна поліція України",
+     "REFUTES",
+     3
+    ],
+    [
+     "Офіційні канали міських рад",
+     "REFUTES",
+     11
+    ],
+    [
+     "Повітряні сили ЗСУ",
+     "CONFIRMS",
+     5
+    ]
+   ],
+   "match": true,
+   "match_as_set": true,
+   "cypher_ms": 3.91,
+   "sparql_ms": 0.35,
+   "cypher_lines": 2,
+   "sparql_lines": 6,
+   "cypher_chars": 138,
+   "sparql_chars": 268
+  },
+  {
+   "id": "S2",
+   "cq": "CQ3",
+   "title": "Статус перевірки тверджень із високим пріоритетом",
+   "cypher": "MATCH (c:Claim {priority: 'високий'})\nOPTIONAL MATCH (c)<-[:ABOUT]-(v:Verdict)\nRETURN coalesce(v.category, 'очікує') AS status, count(c) AS n ORDER BY status",
+   "sparql": "PREFIX : <http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#>\nSELECT ?status (COUNT(?c) AS ?n) WHERE {\n  ?c a :Tverdzhennia ; :priorytetPerevirky \"високий\" .\n  OPTIONAL { ?v :vynosytsiaSchodo ?c ; :kategoriiaVerdyktu ?cat . }\n  BIND(COALESCE(?cat, \"очікує\") AS ?status)\n} GROUP BY ?status ORDER BY ?status",
+   "cypher_cols": [
+    "status",
+    "n"
+   ],
+   "cypher_rows": [
+    [
+     "маніпуляція",
+     3
+    ],
+    [
+     "очікує",
+     5
+    ],
+    [
+     "фейк",
+     13
+    ]
+   ],
+   "sparql_cols": [
+    "status",
+    "n"
+   ],
+   "sparql_rows": [
+    [
+     "маніпуляція",
+     3
+    ],
+    [
+     "очікує",
+     5
+    ],
+    [
+     "фейк",
+     13
+    ]
+   ],
+   "match": true,
+   "match_as_set": true,
+   "cypher_ms": 3.4,
+   "sparql_ms": 0.52,
+   "cypher_lines": 3,
+   "sparql_lines": 5,
+   "cypher_chars": 157,
+   "sparql_chars": 243
+  },
+  {
+   "id": "S3",
+   "cq": "CQ1",
+   "title": "Топ-5 авторів за охопленням спростованих публікацій",
+   "cypher": "MATCH (a:Account)-[:PUBLISHED]->(p:Publication)-[:MAKES_CLAIM]->(:Claim)<-[:ABOUT]-(v:Verdict)\nWHERE v.category IN ['фейк', 'маніпуляція']\nRETURN a.id AS account, sum(p.shares) AS reach ORDER BY reach DESC, account LIMIT 5",
+   "sparql": "PREFIX : <http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?account (SUM(?s) AS ?reach) WHERE {\n  ?a :publikuie ?p ; rdfs:label ?account .\n  ?p :kilkistPoshyren ?s ; :vysuvaie ?c .\n  ?v :vynosytsiaSchodo ?c ; :kategoriiaVerdyktu ?cat .\n  FILTER(?cat IN (\"фейк\", \"маніпуляція\"))\n} GROUP BY ?account ORDER BY DESC(?reach) ?account LIMIT 5",
+   "cypher_cols": [
+    "account",
+    "reach"
+   ],
+   "cypher_rows": [
+    [
+     "ACC-005",
+     13046
+    ],
+    [
+     "ACC-007",
+     12364
+    ],
+    [
+     "ACC-002",
+     12029
+    ],
+    [
+     "ACC-006",
+     11603
+    ],
+    [
+     "ACC-003",
+     11196
+    ]
+   ],
+   "sparql_cols": [
+    "account",
+    "reach"
+   ],
+   "sparql_rows": [
+    [
+     "ACC-005",
+     13046
+    ],
+    [
+     "ACC-007",
+     12364
+    ],
+    [
+     "ACC-002",
+     12029
+    ],
+    [
+     "ACC-006",
+     11603
+    ],
+    [
+     "ACC-003",
+     11196
+    ]
+   ],
+   "match": true,
+   "match_as_set": true,
+   "cypher_ms": 4.53,
+   "sparql_ms": 1.88,
+   "cypher_lines": 3,
+   "sparql_lines": 7,
+   "cypher_chars": 222,
+   "sparql_chars": 337
+  },
+  {
+   "id": "S4",
+   "cq": "CQ6",
+   "title": "Кількість публікацій у ланцюжках поширення кожного наративу",
+   "cypher": "MATCH (n:Narrative)<-[:PART_OF]-(:Claim)<-[:MAKES_CLAIM]-(o:Publication)\nWHERE NOT (o)-[:DERIVED_FROM]->()\nMATCH (p:Publication)-[:DERIVED_FROM*0..]->(o)\nRETURN n.name AS narrative, count(DISTINCT p) AS publications ORDER BY narrative",
+   "sparql": "PREFIX : <http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#>\nSELECT ?narrative (COUNT(DISTINCT ?p) AS ?publications) WHERE {\n  ?n a :Naratyv ; :maieNazvu ?narrative .\n  ?c :nalezhytDoNaratyvu ?n . ?o :vysuvaie ?c .\n  FILTER NOT EXISTS { ?o :pokhodytVid ?x }\n  ?p :pokhodytVid* ?o .\n} GROUP BY ?narrative ORDER BY ?narrative",
+   "cypher_cols": [
+    "narrative",
+    "publications"
+   ],
+   "cypher_rows": [
+    [
+     "Втеча місцевої влади",
+     15
+    ],
+    [
+     "Колапс критичної інфраструктури",
+     35
+    ],
+    [
+     "Небезпека укриттів і пунктів незламності",
+     16
+    ],
+    [
+     "Отруєна питна вода",
+     17
+    ],
+    [
+     "Повна втрата контролю над містом",
+     31
+    ],
+    [
+     "Фейкові збори коштів",
+     15
+    ]
+   ],
+   "sparql_cols": [
+    "narrative",
+    "publications"
+   ],
+   "sparql_rows": [
+    [
+     "Втеча місцевої влади",
+     15
+    ],
+    [
+     "Колапс критичної інфраструктури",
+     35
+    ],
+    [
+     "Небезпека укриттів і пунктів незламності",
+     16
+    ],
+    [
+     "Отруєна питна вода",
+     17
+    ],
+    [
+     "Повна втрата контролю над містом",
+     31
+    ],
+    [
+     "Фейкові збори коштів",
+     15
+    ]
+   ],
+   "match": true,
+   "match_as_set": true,
+   "cypher_ms": 4.84,
+   "sparql_ms": 1.14,
+   "cypher_lines": 4,
+   "sparql_lines": 6,
+   "cypher_chars": 234,
+   "sparql_chars": 262
+  },
+  {
+   "id": "S5",
+   "cq": "CQ11",
+   "title": "Похідні публікації від публікацій акаунта ACC-005 (аналіз впливу)",
+   "cypher": "MATCH (:Account {id: 'ACC-005'})-[:PUBLISHED]->(own:Publication)\nMATCH (d:Publication)-[:DERIVED_FROM*1..]->(own)\nRETURN count(DISTINCT d) AS derived",
+   "sparql": "PREFIX : <http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT (COUNT(DISTINCT ?d) AS ?derived) WHERE {\n  ?a rdfs:label \"ACC-005\" ; :publikuie ?own .\n  ?d :pokhodytVid+ ?own .\n}",
+   "cypher_cols": [
+    "derived"
+   ],
+   "cypher_rows": [
+    [
+     15
+    ]
+   ],
+   "sparql_cols": [
+    "derived"
+   ],
+   "sparql_rows": [
+    [
+     15
+    ]
+   ],
+   "match": true,
+   "match_as_set": true,
+   "cypher_ms": 3.79,
+   "sparql_ms": 0.25,
+   "cypher_lines": 3,
+   "sparql_lines": 5,
+   "cypher_chars": 149,
+   "sparql_chars": 174
+  }
+ ],
+ "finished": "2026-10-20T01:44:19+03:00"
+}

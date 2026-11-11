@@ -3,7 +3,7 @@
 R1: демо конвеєра (5 запитів) + журнал;   R2: «лише текст» vs «текст + підграф» (12 питань);
 R4: 31 тест (k=5, текст+граф) + LLM-суддя (інша модель) → faithfulness, context recall,
     citation accuracy, abstention rate;   R5: та сама оцінка з k=3 (змінюємо ОДИН фактор).
-Запуск: python lab11\\src\\run_lab11.py [stage]
+Запуск: F:\\kms_tools\\venv\\Scripts\\python.exe lab11\\src\\run_lab11.py [stage]
 """
 import json
 import re

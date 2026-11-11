@@ -1,0 +1,17 @@
+start,end,source,confidence,validFrom
+MED-01,TOOL-03,analyst_case_file,0.97,2026-10-05
+MED-02,TOOL-01,analyst_case_file,0.93,2026-09-15
+MED-03,TOOL-01,analyst_case_file,0.93,2026-09-29
+MED-03,TOOL-03,analyst_case_file,0.87,2026-09-29
+MED-04,TOOL-03,analyst_case_file,0.94,2026-09-14
+MED-04,TOOL-01,analyst_case_file,0.86,2026-09-14
+MED-05,TOOL-02,analyst_case_file,0.9,2026-09-15
+MED-06,TOOL-01,analyst_case_file,0.88,2026-09-22
+MED-07,TOOL-03,analyst_case_file,0.88,2026-10-08
+MED-08,TOOL-03,analyst_case_file,0.96,2026-09-22
+MED-09,TOOL-03,analyst_case_file,0.92,2026-09-05
+MED-10,TOOL-01,analyst_case_file,0.89,2026-09-18
+MED-11,TOOL-03,analyst_case_file,0.98,2026-09-18
+MED-12,TOOL-03,analyst_case_file,0.93,2026-09-24
+MED-13,TOOL-01,analyst_case_file,0.97,2026-09-08
+MED-13,TOOL-03,analyst_case_file,0.82,2026-09-08

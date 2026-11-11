@@ -1,0 +1,95 @@
+{
+ "llm_version": "llm_v1",
+ "routing": {
+  "ENT:ORG": {
+   "A": 0.786,
+   "B": 0.75,
+   "use": "A"
+  },
+  "ENT:PERSON": {
+   "A": 0.857,
+   "B": 0.2,
+   "use": "A"
+  },
+  "ENT:PLATFORM": {
+   "A": 0.966,
+   "B": 0.387,
+   "use": "A"
+  },
+  "ENT:PHENOMENON": {
+   "A": 0.909,
+   "B": 0.348,
+   "use": "A"
+  },
+  "ENT:METHOD": {
+   "A": 1.0,
+   "B": 0.571,
+   "use": "A"
+  },
+  "ENT:LOCATION": {
+   "A": 0.56,
+   "B": 0.143,
+   "use": "A"
+  },
+  "ENT:DATE": {
+   "A": 1.0,
+   "B": 0.308,
+   "use": "A"
+  },
+  "ENT:CASE_ID": {
+   "A": 1.0,
+   "B": 0.789,
+   "use": "A"
+  },
+  "REL:FOUNDED_ON": {
+   "A": 0.667,
+   "B": 0.0,
+   "use": "A"
+  },
+  "REL:PART_OF": {
+   "A": 1.0,
+   "B": 0.0,
+   "use": "A"
+  },
+  "REL:LEADS": {
+   "A": 1.0,
+   "B": 0.667,
+   "use": "A"
+  },
+  "REL:COUNTERS": {
+   "A": 0.737,
+   "B": 0.0,
+   "use": "A"
+  },
+  "REL:COOPERATES_WITH": {
+   "A": 0.875,
+   "B": 0.4,
+   "use": "A"
+  },
+  "REL:SUBTYPE_OF": {
+   "A": 0.833,
+   "B": 0.444,
+   "use": "A"
+  },
+  "REL:SPREADS": {
+   "A": 1.0,
+   "B": 0.0,
+   "use": "A"
+  },
+  "REL:SPREADS_VIA": {
+   "A": 0.667,
+   "B": 0.2,
+   "use": "A"
+  },
+  "REL:REFUTES": {
+   "A": 1.0,
+   "B": 0.0,
+   "use": "A"
+  },
+  "REL:USES": {
+   "A": 0.667,
+   "B": 0.0,
+   "use": "A"
+  }
+ }
+}
