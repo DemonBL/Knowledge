@@ -1,0 +1,511 @@
+{
+ "transactions": 469,
+ "docs": 34,
+ "items": 56,
+ "min_support": 0.012,
+ "min_confidence": 0.25,
+ "min_lift": 1.2,
+ "top_items": [
+  [
+   "пропаганда",
+   123
+  ],
+  [
+   "дезінформація",
+   87
+  ],
+  [
+   "соціальні мережі",
+   46
+  ],
+  [
+   "бот",
+   46
+  ],
+  [
+   "інформаційної війни",
+   33
+  ],
+  [
+   "фейк",
+   27
+  ],
+  [
+   "гібридної війни",
+   21
+  ],
+  [
+   "маніпуляції",
+   20
+  ],
+  [
+   "цензури",
+   20
+  ],
+  [
+   "штучний інтелект",
+   18
+  ],
+  [
+   "Facebook",
+   18
+  ],
+  [
+   "чутки",
+   15
+  ],
+  [
+   "теорія змови",
+   14
+  ],
+  [
+   "StopFake",
+   12
+  ],
+  [
+   "Центр протидії дезінформації",
+   11
+  ]
+ ],
+ "rules": [
+  {
+   "antecedent": "Facebook",
+   "consequent": "Instagram",
+   "support": 0.0128,
+   "confidence": 0.333,
+   "lift": 22.33,
+   "count": 6,
+   "p_fisher": 8.88e-09,
+   "p_perm": 0.001,
+   "lift_ci95": [
+    0,
+    63.4
+   ],
+   "share_boot_lift_gt1": 0.96,
+   "wiki": {
+    "support": 0.014184397163120567,
+    "confidence": 0.3333333333333333,
+    "lift": 20.142857142857142,
+    "n": 423
+   },
+   "internal": {
+    "support": 0.0,
+    "confidence": 0,
+    "lift": 0,
+    "n": 46
+   },
+   "docs_with_both": [
+    "W22",
+    "W25",
+    "W26"
+   ]
+  },
+  {
+   "antecedent": "Instagram",
+   "consequent": "Facebook",
+   "support": 0.0128,
+   "confidence": 0.857,
+   "lift": 22.33,
+   "count": 6,
+   "p_fisher": 8.88e-09,
+   "p_perm": 0.001,
+   "lift_ci95": [
+    0.0,
+    53.5
+   ],
+   "share_boot_lift_gt1": 0.95,
+   "wiki": {
+    "support": 0.014184397163120567,
+    "confidence": 0.8571428571428571,
+    "lift": 20.142857142857142,
+    "n": 423
+   },
+   "internal": {
+    "support": 0.0,
+    "confidence": 0,
+    "lift": 0,
+    "n": 46
+   },
+   "docs_with_both": [
+    "W22",
+    "W25",
+    "W26"
+   ]
+  },
+  {
+   "antecedent": "Facebook",
+   "consequent": "соціальні мережі",
+   "support": 0.0149,
+   "confidence": 0.389,
+   "lift": 3.96,
+   "count": 7,
+   "p_fisher": 0.000772,
+   "p_perm": 0.001,
+   "lift_ci95": [
+    0.0,
+    9.4
+   ],
+   "share_boot_lift_gt1": 0.958,
+   "wiki": {
+    "support": 0.016548463356973995,
+    "confidence": 0.3888888888888889,
+    "lift": 3.7386363636363638,
+    "n": 423
+   },
+   "internal": {
+    "support": 0.0,
+    "confidence": 0,
+    "lift": 0,
+    "n": 46
+   },
+   "docs_with_both": [
+    "W22",
+    "W25",
+    "W26"
+   ]
+  },
+  {
+   "antecedent": "StopFake",
+   "consequent": "дезінформація",
+   "support": 0.0128,
+   "confidence": 0.5,
+   "lift": 2.7,
+   "count": 6,
+   "p_fisher": 0.0124,
+   "p_perm": 0.008,
+   "lift_ci95": [
+    0.0,
+    9.24
+   ],
+   "share_boot_lift_gt1": 0.873,
+   "wiki": {
+    "support": 0.014184397163120567,
+    "confidence": 0.5,
+    "lift": 2.4310344827586206,
+    "n": 423
+   },
+   "internal": {
+    "support": 0.0,
+    "confidence": 0,
+    "lift": 0,
+    "n": 46
+   },
+   "docs_with_both": [
+    "W14",
+    "W26"
+   ]
+  },
+  {
+   "antecedent": "Facebook",
+   "consequent": "дезінформація",
+   "support": 0.0128,
+   "confidence": 0.333,
+   "lift": 1.8,
+   "count": 6,
+   "p_fisher": 0.0958,
+   "p_perm": 0.1059,
+   "lift_ci95": [
+    0.0,
+    6.9
+   ],
+   "share_boot_lift_gt1": 0.757,
+   "wiki": {
+    "support": 0.014184397163120567,
+    "confidence": 0.3333333333333333,
+    "lift": 1.620689655172414,
+    "n": 423
+   },
+   "internal": {
+    "support": 0.0,
+    "confidence": 0,
+    "lift": 0,
+    "n": 46
+   },
+   "docs_with_both": [
+    "W14",
+    "W25",
+    "W26"
+   ]
+  },
+  {
+   "antecedent": "соціальні мережі",
+   "consequent": "дезінформація",
+   "support": 0.0256,
+   "confidence": 0.261,
+   "lift": 1.41,
+   "count": 12,
+   "p_fisher": 0.12,
+   "p_perm": 0.1289,
+   "lift_ci95": [
+    0.57,
+    2.38
+   ],
+   "share_boot_lift_gt1": 0.887,
+   "wiki": {
+    "support": 0.028368794326241134,
+    "confidence": 0.2727272727272727,
+    "lift": 1.3260188087774294,
+    "n": 423
+   },
+   "internal": {
+    "support": 0.0,
+    "confidence": 0.0,
+    "lift": 0,
+    "n": 46
+   },
+   "docs_with_both": [
+    "W01",
+    "W14",
+    "W25",
+    "W26"
+   ]
+  },
+  {
+   "antecedent": "фейк",
+   "consequent": "дезінформація",
+   "support": 0.0149,
+   "confidence": 0.259,
+   "lift": 1.4,
+   "count": 7,
+   "p_fisher": 0.217,
+   "p_perm": 0.2258,
+   "lift_ci95": [
+    0.78,
+    3.42
+   ],
+   "share_boot_lift_gt1": 0.851,
+   "wiki": {
+    "support": 0.016548463356973995,
+    "confidence": 0.30434782608695654,
+    "lift": 1.4797601199400299,
+    "n": 423
+   },
+   "internal": {
+    "support": 0.0,
+    "confidence": 0.0,
+    "lift": 0,
+    "n": 46
+   },
+   "docs_with_both": [
+    "W01",
+    "W02",
+    "W14",
+    "W19",
+    "W25",
+    "W26"
+   ]
+  }
+ ],
+ "claims_set": {
+  "transactions": 32,
+  "items": 30,
+  "min_support": 0.1,
+  "min_confidence": 0.6,
+  "rules": [
+   {
+    "antecedent": "наратив=NAR-04",
+    "consequent": "спростовує=Офіційні канали міських рад",
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 2.91,
+    "count": 4,
+    "p_fisher": 0.00918,
+    "p_perm": 0.008,
+    "narratives": [
+     "NAR-04"
+    ]
+   },
+   {
+    "antecedent": "спростовує=ДСНС України",
+    "consequent": "наратив=NAR-01",
+    "support": 0.188,
+    "confidence": 0.667,
+    "lift": 2.67,
+    "count": 6,
+    "p_fisher": 0.0021,
+    "p_perm": 0.004,
+    "narratives": [
+     "NAR-01"
+    ]
+   },
+   {
+    "antecedent": "наратив=NAR-01",
+    "consequent": "спростовує=ДСНС України",
+    "support": 0.188,
+    "confidence": 0.75,
+    "lift": 2.67,
+    "count": 6,
+    "p_fisher": 0.0021,
+    "p_perm": 0.004,
+    "narratives": [
+     "NAR-01"
+    ]
+   },
+   {
+    "antecedent": "спростовує=Офіційні канали міських рад",
+    "consequent": "наратив=NAR-02",
+    "support": 0.219,
+    "confidence": 0.636,
+    "lift": 2.55,
+    "count": 7,
+    "p_fisher": 0.000675,
+    "p_perm": 0.001,
+    "narratives": [
+     "NAR-02"
+    ]
+   },
+   {
+    "antecedent": "наратив=NAR-02",
+    "consequent": "спростовує=Офіційні канали міських рад",
+    "support": 0.219,
+    "confidence": 0.875,
+    "lift": 2.55,
+    "count": 7,
+    "p_fisher": 0.000675,
+    "p_perm": 0.001,
+    "narratives": [
+     "NAR-02"
+    ]
+   },
+   {
+    "antecedent": "наратив=NAR-04",
+    "consequent": "пріоритет=високий",
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.52,
+    "count": 4,
+    "p_fisher": 0.166,
+    "p_perm": 0.1628,
+    "narratives": [
+     "NAR-04"
+    ]
+   },
+   {
+    "antecedent": "першоджерело=ACC-002",
+    "consequent": "пріоритет=високий",
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.52,
+    "count": 4,
+    "p_fisher": 0.166,
+    "p_perm": 0.1868,
+    "narratives": [
+     "NAR-01",
+     "NAR-02",
+     "NAR-03",
+     "NAR-05"
+    ]
+   },
+   {
+    "antecedent": "першоджерело=ACC-007",
+    "consequent": "пріоритет=високий",
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.52,
+    "count": 4,
+    "p_fisher": 0.166,
+    "p_perm": 0.1668,
+    "narratives": [
+     "NAR-01",
+     "NAR-02",
+     "NAR-04",
+     "NAR-06"
+    ]
+   },
+   {
+    "antecedent": "першоджерело=ACC-005",
+    "consequent": "вердикт=фейк",
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.45,
+    "count": 4,
+    "p_fisher": 0.203,
+    "p_perm": 0.2208,
+    "narratives": [
+     "NAR-01",
+     "NAR-02",
+     "NAR-04",
+     "NAR-06"
+    ]
+   },
+   {
+    "antecedent": "місто=Одеса",
+    "consequent": "пріоритет=високий",
+    "support": 0.25,
+    "confidence": 0.889,
+    "lift": 1.35,
+    "count": 8,
+    "p_fisher": 0.0903,
+    "p_perm": 0.0989,
+    "narratives": [
+     "NAR-01",
+     "NAR-02",
+     "NAR-05",
+     "NAR-06"
+    ]
+   },
+   {
+    "antecedent": "місто=Одеса",
+    "consequent": "вердикт=фейк",
+    "support": 0.25,
+    "confidence": 0.889,
+    "lift": 1.29,
+    "count": 8,
+    "p_fisher": 0.132,
+    "p_perm": 0.1439,
+    "narratives": [
+     "NAR-01",
+     "NAR-02",
+     "NAR-05",
+     "NAR-06"
+    ]
+   },
+   {
+    "antecedent": "спростовує=ДСНС України",
+    "consequent": "вердикт=фейк",
+    "support": 0.25,
+    "confidence": 0.889,
+    "lift": 1.29,
+    "count": 8,
+    "p_fisher": 0.132,
+    "p_perm": 0.1319,
+    "narratives": [
+     "NAR-01",
+     "NAR-06"
+    ]
+   },
+   {
+    "antecedent": "вердикт=не завершено",
+    "consequent": "пріоритет=високий",
+    "support": 0.156,
+    "confidence": 0.833,
+    "lift": 1.27,
+    "count": 5,
+    "p_fisher": 0.307,
+    "p_perm": 0.3087,
+    "narratives": [
+     "NAR-01",
+     "NAR-02",
+     "NAR-03",
+     "NAR-05",
+     "NAR-06"
+    ]
+   },
+   {
+    "antecedent": "місто=Запоріжжя",
+    "consequent": "пріоритет=високий",
+    "support": 0.125,
+    "confidence": 0.8,
+    "lift": 1.22,
+    "count": 4,
+    "p_fisher": 0.428,
+    "p_perm": 0.4196,
+    "narratives": [
+     "NAR-01",
+     "NAR-03",
+     "NAR-04"
+    ]
+   }
+  ]
+ }
+}

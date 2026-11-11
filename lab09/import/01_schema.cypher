@@ -1,0 +1,15 @@
+CREATE CONSTRAINT account_id IF NOT EXISTS FOR (n:Account) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT publication_id IF NOT EXISTS FOR (n:Publication) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT claim_id IF NOT EXISTS FOR (n:Claim) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT narrative_id IF NOT EXISTS FOR (n:Narrative) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT verdict_id IF NOT EXISTS FOR (n:Verdict) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT factchecker_id IF NOT EXISTS FOR (n:FactChecker) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT tool_id IF NOT EXISTS FOR (n:Tool) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT officialsource_id IF NOT EXISTS FOR (n:OfficialSource) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT factcheckorg_id IF NOT EXISTS FOR (n:FactCheckOrg) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT media_id IF NOT EXISTS FOR (n:Media) REQUIRE n.id IS UNIQUE;
+CREATE CONSTRAINT rule_id IF NOT EXISTS FOR (n:Rule) REQUIRE n.id IS UNIQUE;
+CREATE INDEX account_trust IF NOT EXISTS FOR (n:Account) ON (n.trustLevel);
+CREATE INDEX claim_priority IF NOT EXISTS FOR (n:Claim) ON (n.priority);
+CREATE TEXT INDEX claim_text IF NOT EXISTS FOR (n:Claim) ON (n.text);
+CREATE INDEX verdict_category IF NOT EXISTS FOR (n:Verdict) ON (n.category);

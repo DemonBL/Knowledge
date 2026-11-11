@@ -27,7 +27,7 @@ python etl/olap_run.py            # OLAP-запити → docs/olap_results.md +
 python semantic/consistency.py    # семантичний шар → docs/semantic_layer.md
 python tests/test_guard.py        # тести захистів text-to-SQL (18)
 python t2sql/t2sql.py --mock gold # конвеєр без LLM
-python t2sql/t2sql.py --model qwen2.5:7b   # оцінювання на 15 питаннях (Ollama)
+python t2sql/t2sql.py --model qwen2.5:7b   # оцінювання на 15 питаннях (на Windows: run_lab12_t2sql.bat)
 python dashboard/build_dashboard.py        # панель → dashboard/dashboard.html, v1–v5.png
 ```
 

@@ -1,0 +1,16 @@
+start,end,source,confidence,validFrom
+FCH-01,TOOL-01,analyst_profile,0.9,2026-05-24
+FCH-01,TOOL-05,analyst_profile,0.9,2026-05-24
+FCH-02,TOOL-03,analyst_profile,0.9,2026-05-24
+FCH-02,TOOL-02,analyst_profile,0.9,2026-05-24
+FCH-02,TOOL-01,analyst_profile,0.9,2026-05-24
+FCH-03,TOOL-02,analyst_profile,0.9,2026-05-24
+FCH-03,TOOL-01,analyst_profile,0.9,2026-05-24
+FCH-04,TOOL-05,analyst_profile,0.9,2026-05-24
+FCH-04,TOOL-01,analyst_profile,0.9,2026-05-24
+FCH-04,TOOL-03,analyst_profile,0.9,2026-05-24
+FCH-05,TOOL-04,analyst_profile,0.9,2026-05-24
+FCH-05,TOOL-01,analyst_profile,0.9,2026-05-24
+FCH-06,TOOL-01,analyst_profile,0.9,2026-05-24
+FCH-06,TOOL-05,analyst_profile,0.9,2026-05-24
+FCH-06,TOOL-04,analyst_profile,0.9,2026-05-24

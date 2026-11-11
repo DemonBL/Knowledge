@@ -1,0 +1,257 @@
+{
+ "StopFake": {
+  "type": "ORG",
+  "aliases": [
+   "СтопФейк",
+   "Стопфейк",
+   "stopfake.org",
+   "Stop Fake"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/StopFake"
+ },
+ "VoxCheck": {
+  "type": "ORG",
+  "aliases": [
+   "Вокс Чек"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/VoxCheck"
+ },
+ "VoxUkraine": {
+  "type": "ORG",
+  "aliases": [
+   "Vox Ukraine"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/VoxUkraine"
+ },
+ "Центр протидії дезінформації": {
+  "type": "ORG",
+  "aliases": [
+   "ЦПД",
+   "Центр протидії дезінформації при РНБО"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/Центр_протидії_дезінформації"
+ },
+ "РНБО": {
+  "type": "ORG",
+  "aliases": [
+   "Рада національної безпеки і оборони України",
+   "Рада національної безпеки і оборони",
+   "РНБО України",
+   "Ради національної безпеки і оборони України"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/РНБО"
+ },
+ "ВООЗ": {
+  "type": "ORG",
+  "aliases": [
+   "Всесвітня організація охорони здоров'я",
+   "WHO",
+   "Всесвітньої організації охорони здоров'я"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/ВООЗ"
+ },
+ "НАБУ": {
+  "type": "ORG",
+  "aliases": [
+   "Національне антикорупційне бюро України"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/НАБУ"
+ },
+ "Нацрада з питань телебачення і радіомовлення": {
+  "type": "ORG",
+  "aliases": [
+   "Нацрада з ТБ та радіо",
+   "Національна рада з питань телебачення і радіомовлення",
+   "Нацрада"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/Нацрада_з_питань_телебачення_і_радіомовлення"
+ },
+ "МОЗ України": {
+  "type": "ORG",
+  "aliases": [
+   "Міністерство охорони здоров'я України",
+   "МОЗ"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/МОЗ_України"
+ },
+ "ДСНС України": {
+  "type": "ORG",
+  "aliases": [
+   "ДСНС",
+   "Державна служба України з надзвичайних ситуацій"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/ДСНС_України"
+ },
+ "JEIDA": {
+  "type": "ORG",
+  "aliases": [
+   "Japan Electronic Industries Development Association"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/JEIDA"
+ },
+ "МЗС Чехії": {
+  "type": "ORG",
+  "aliases": [
+   "міністерство іноземних справ Чеської республіки"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/МЗС_Чехії"
+ },
+ "Facebook": {
+  "type": "PLATFORM",
+  "aliases": [
+   "Фейсбук",
+   "Meta"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/Facebook"
+ },
+ "Twitter": {
+  "type": "PLATFORM",
+  "aliases": [
+   "Твіттер",
+   "Твітер"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/Twitter"
+ },
+ "WhatsApp": {
+  "type": "PLATFORM",
+  "aliases": [
+   "Whatsapp",
+   "Вотсап"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/WhatsApp"
+ },
+ "YouTube": {
+  "type": "PLATFORM",
+  "aliases": [
+   "Ютуб"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/YouTube"
+ },
+ "Telegram": {
+  "type": "PLATFORM",
+  "aliases": [
+   "Телеграм"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/Telegram"
+ },
+ "соціальні мережі": {
+  "type": "PLATFORM",
+  "aliases": [
+   "соцмережі",
+   "соціальні медіа",
+   "соцмережа",
+   "соціальна мережа",
+   "соціальні мережі"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/соціальні_мережі"
+ },
+ "фейкові новини": {
+  "type": "PHENOMENON",
+  "aliases": [
+   "фейк-ньюз",
+   "фейк-ньюс",
+   "fake news",
+   "підроблені новини",
+   "фейкова новина",
+   "фейкові повідомлення"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/фейкові_новини"
+ },
+ "фейк": {
+  "type": "PHENOMENON",
+  "aliases": [
+   "фейки"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/фейк"
+ },
+ "дипфейк": {
+  "type": "PHENOMENON",
+  "aliases": [
+   "діпфейк",
+   "deepfake",
+   "дипфейки",
+   "дипфейку"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/дипфейк"
+ },
+ "дезінформація": {
+  "type": "PHENOMENON",
+  "aliases": [
+   "дезінформування",
+   "неправдива інформація",
+   "дезінформаційні кампанії"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/дезінформація"
+ },
+ "теорія змови": {
+  "type": "PHENOMENON",
+  "aliases": [
+   "конспірологічні теорії",
+   "конспірологічна теорія",
+   "теорії змови"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/теорія_змови"
+ },
+ "пропаганда": {
+  "type": "PHENOMENON",
+  "aliases": [
+   "пропаганди"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/пропаганда"
+ },
+ "бот": {
+  "type": "PHENOMENON",
+  "aliases": [
+   "боти",
+   "чат-бот",
+   "чат-боти",
+   "інтернет-бот"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/бот"
+ },
+ "соціальний бот": {
+  "type": "PHENOMENON",
+  "aliases": [
+   "соціальні боти"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/соціальний_бот"
+ },
+ "Exif": {
+  "type": "METHOD",
+  "aliases": [
+   "EXIF",
+   "Exchangeable image file format"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/Exif"
+ },
+ "аналіз EXIF": {
+  "type": "METHOD",
+  "aliases": [
+   "аналізу EXIF",
+   "аналіз Exif"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/аналіз_EXIF"
+ },
+ "штучний інтелект": {
+  "type": "METHOD",
+  "aliases": [
+   "ШІ",
+   "AI"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/штучний_інтелект"
+ },
+ "Віктор Янукович": {
+  "type": "PERSON",
+  "aliases": [
+   "Янукович"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/Віктор_Янукович"
+ },
+ "Андрій Коваленко": {
+  "type": "PERSON",
+  "aliases": [
+   "Коваленко Андрій Валерійович"
+  ],
+  "iri": "http://www.lnu.edu.ua/kb/entity/Андрій_Коваленко"
+ }
+}

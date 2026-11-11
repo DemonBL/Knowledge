@@ -1,6 +1,6 @@
 # REST API (ЛР11, Результат 3)
 
-Сервіс FastAPI, запуск: `python -m uvicorn main:app --app-dir api --port 8000` (з папки lab11).
+Сервіс FastAPI, запуск: `F:\kms_tools\venv\Scripts\python -m uvicorn main:app --app-dir api --port 8000` (з папки lab11).
 Повна специфікація OpenAPI 3: `docs/openapi.json` (також інтерактивно: http://127.0.0.1:8000/docs).
 
 ## Ендпоінти

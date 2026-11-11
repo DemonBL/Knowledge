@@ -1,6 +1,6 @@
 """ЛР11 · перевірка ліміту запитів (10 / 60 с) справжнього api/main.py через FastAPI TestClient.
 RAG підмінено заглушкою (лише by_id), бо перевіряється шар auth + rate limit, а не генерація.
-Запуск (з lab11): python api\\test_rate_limit.py  → results/api_ratelimit_test.json"""
+Запуск (з lab11): F:\\kms_tools\\venv\\Scripts\\python api\\test_rate_limit.py  → results/api_ratelimit_test.json"""
 import json, sys, types
 from pathlib import Path
 HERE = Path(__file__).resolve().parents[1]  # lab11

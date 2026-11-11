@@ -1,0 +1,11 @@
+id,твердження,тип,джерело,рівень верифікації,статус,коментар
+C01,"Для CQ про поширення (CQ6, CQ9–CQ11) потрібні шляхи змінної довжини по DERIVED_FROM, тому мережу поширення варто моделювати в LPG","гіпотеза","LLM-експерт (Claude), пропозиція схеми","V2","verified","Q06, Q09–Q11 виконуються одним MATCH зі шляхом *0..4 / shortestPath; у SPARQL (S4, S5) потрібні property paths без обмеження глибини"
+C02,"Підкласи Verdykt* з ЛР7 краще замінити властивістю category з індексом","правило","LLM-експерт (Claude)","V2","verified","Q03, Q07 і S2 коректно групують за category; індекс verdict_category ONLINE"
+C03,"Повторний імпорт через MERGE не створює дублікатів","факт","Neo4j Cypher Manual (MERGE); перевірка виконанням","V2","verified","import run 1 і run 2: 297 вузлів / 808 зв'язків"
+C04,"Унікальне обмеження відхиляє створення вузла з наявним id","факт","Neo4j Cypher Manual (constraints)","V2","verified","Neo.ClientError.Schema.ConstraintValidationFailed для ACC-001"
+C05,"Індекс за Publication.shares замінить NodeByLabelScan+Filter на NodeIndexSeekByRange і зменшить db hits","гіпотеза","LLM-експерт (Claude)","V2","verified","PROFILE: 555 → 305 db hits; медіана 7,1 → 5,3 мс"
+C06,"Переписування запиту Q10 через collect/UNWIND зменшить db hits","гіпотеза","LLM-експерт (Claude)","V2","rejected","PROFILE: 696 → 696 db hits, час зріс 4,3 → 6,7 мс; планувальник уже обирав той самий порядок обходу"
+C07,"PageRank на графі репостів/похідних публікацій виділяє першоджерела дезінформації","гіпотеза","LLM-експерт (Claude)","V2","verified","Топ-8 PageRank — усі 8 анонімних каналів-першоджерел"
+C08,"Louvain відокремить бот-мережі A і B за наративами","гіпотеза","LLM-експерт (Claude)","V2","verified","Спільнота 148 — боти B + наративи NAR-03/04/05; спільнота 54 — боти A + NAR-01; модулярність 0,57"
+C09,"Результати 5 питань у SPARQL і Cypher збігаються на тих самих даних","факт","виконання S1–S5","V2","verified","match = True для всіх 5"
+C10,"Neo4j Community не має RBAC-ролей, тому read-only для text-to-Cypher забезпечується READ-сесією і валідатором","факт","Neo4j Operations Manual (Community vs Enterprise)","V1","verified","див. t2c_results.json: server_guard"

@@ -1,0 +1,44 @@
+{
+ "docs": 23,
+ "by_split": {
+  "dev": 8,
+  "test": 15
+ },
+ "by_source": {
+  "encyclopedia": 14,
+  "incident_report": 6,
+  "regulation": 1,
+  "rulebook": 1,
+  "sample": 1
+ },
+ "entity_mentions": 495,
+ "unique_entities": 346,
+ "relations": 160,
+ "rel_by_split": {
+  "dev": 58,
+  "test": 102
+ },
+ "rel_types": {
+  "SUBTYPE_OF": 11,
+  "SPREADS_VIA": 14,
+  "SPREADS": 34,
+  "USES": 12,
+  "COUNTERS": 23,
+  "COOPERATES_WITH": 14,
+  "FOUNDED_ON": 2,
+  "LEADS": 5,
+  "PART_OF": 26,
+  "REFUTES": 19
+ },
+ "ent_types": {
+  "PHENOMENON": 72,
+  "DATE": 40,
+  "LOCATION": 46,
+  "PLATFORM": 53,
+  "ORG": 72,
+  "METHOD": 28,
+  "PERSON": 18,
+  "CASE_ID": 166
+ },
+ "chars": 34597
+}
