@@ -1,0 +1,110 @@
+15:40:49 ===== e5
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  71%|███████   | 141/199 [00:00<00:00, 1394.58it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1907.01it/s]
+F:\4 курс\Сховище знань\Hub\lab10\src\search_core.py:31: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.dim = self.m.get_sentence_embedding_dimension()
+15:42:02 e5: (529, 384) за 71.5 с
+15:42:02 ===== eval
+15:42:02 $ F:\kms_tools\venv\Scripts\python.exe -u reco/eval.py --emb e5
+16 w* (0.1, 0.6, 0.3) {'popularity': 0.05, 'graph': 0.095, 'embeddings': 0.089, 'hybrid_weighted': 0.119, 'hybrid_rrf': 0.132}
+17 w* (0.4, 0.5, 0.1) {'popularity': 0.06, 'graph': 0.144, 'embeddings': 0.063, 'hybrid_weighted': 0.154, 'hybrid_rrf': 0.125}
+18 w* (0.7, 0.3, -0.0) {'popularity': 0.042, 'graph': 0.188, 'embeddings': 0.155, 'hybrid_weighted': 0.208, 'hybrid_rrf': 0.197}
+19 w* (0.1, 0.5, 0.4) {'popularity': 0.064, 'graph': 0.155, 'embeddings': 0.124, 'hybrid_weighted': 0.157, 'hybrid_rrf': 0.159}
+20 w* (0.4, 0.4, 0.2) {'popularity': 0.055, 'graph': 0.218, 'embeddings': 0.18, 'hybrid_weighted': 0.259, 'hybrid_rrf': 0.217}
+popularity       p5=0.038±0.005  r5=0.043±0.014  ndcg10=0.054±0.009  coverage10=0.042±0.005  novelty10=6.728±0.160
+graph            p5=0.092±0.024  r5=0.137±0.051  ndcg10=0.160±0.047  coverage10=0.464±0.026  novelty10=9.183±0.059
+embeddings       p5=0.072±0.030  r5=0.103±0.038  ndcg10=0.122±0.048  coverage10=0.353±0.014  novelty10=9.683±0.112
+hybrid_weighted  p5=0.107±0.037  r5=0.165±0.068  ndcg10=0.179±0.055  coverage10=0.357±0.122  novelty10=8.477±0.780
+hybrid_rrf       p5=0.096±0.025  r5=0.140±0.036  ndcg10=0.166±0.040  coverage10=0.392±0.022  novelty10=8.587±0.098
+
+15:42:56 $ F:\kms_tools\venv\Scripts\python.exe -u reco/cold_start.py --emb e5
+16 {'pop_global': 0.063, 'pop_topic': 0.194, 'onboard_hybrid': 0.146, 'warm3': 0.211} {'popularity': 0.0, 'graph': 0.016, 'embeddings': 0.042, 'hybrid_rrf': 0.012, 'hybrid_rrf+new_slot2': 0.053}
+17 {'pop_global': 0.015, 'pop_topic': 0.096, 'onboard_hybrid': 0.11, 'warm3': 0.2} {'popularity': 0.0, 'graph': 0.0, 'embeddings': 0.028, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.03}
+18 {'pop_global': 0.06, 'pop_topic': 0.241, 'onboard_hybrid': 0.194, 'warm3': 0.22} {'popularity': 0.0, 'graph': 0.019, 'embeddings': 0.044, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.023}
+19 {'pop_global': 0.066, 'pop_topic': 0.238, 'onboard_hybrid': 0.155, 'warm3': 0.271} {'popularity': 0.0, 'graph': 0.0, 'embeddings': 0.038, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.021}
+20 {'pop_global': 0.023, 'pop_topic': 0.182, 'onboard_hybrid': 0.182, 'warm3': 0.32} {'popularity': 0.0, 'graph': 0.064, 'embeddings': 0.1, 'hybrid_rrf': 0.008, 'hybrid_rrf+new_slot2': 0.017}
+A pop_global      p5=0.030±0.018  r5=0.026±0.020  ndcg10=0.045±0.024  coverage10=0.020±0.002
+A pop_topic       p5=0.159±0.056  r5=0.134±0.047  ndcg10=0.190±0.059  coverage10=0.144±0.011
+A onboard_hybrid  p5=0.127±0.027  r5=0.096±0.019  ndcg10=0.157±0.033  coverage10=0.190±0.007
+A warm3           p5=0.155±0.016  r5=0.241±0.052  ndcg10=0.244±0.050  coverage10=0.420±0.033
+B popularity      hit10_new=0.000±0.000  exposure_new=0.000±0.000
+B graph           hit10_new=0.020±0.026  exposure_new=0.164±0.034
+B embeddings      hit10_new=0.050±0.028  exposure_new=0.305±0.024
+B hybrid_rrf      hit10_new=0.004±0.006  exposure_new=0.080±0.024
+B hybrid_rrf+new_slot2 hit10_new=0.029±0.014  exposure_new=0.345±0.022
+
+15:43:25 ===== explain
+15:43:26 $ F:\kms_tools\venv\Scripts\python.exe -u reco/explain.py --llm --emb e5
+льний бот" (розділ "Види соціальних ботів"), оскільки ви вже ознайомилися 
+U025 W26:s008 tpl True llm False | Рекомендуємо ознайомитися з «Дезінформацією щодо пандемії COVID-19» (розділ «Китайська біологічна зброя»), оскільки ви в
+U025 W26:s010 tpl True llm True | Рекомендуємо мати на увазі "Дезінформацію щодо пандемії COVID-19" з розділу "Біологічна зброя США", оскільки ви вже озна
+U025 W26:s009 tpl True llm True | Аналітикі, рекомендуємо ознайомитися з «Дезінформацією щодо пандемії COVID-19» (розділ «Китайська біологічна зброя»), ос
+U031 INT-REG-2026:s001 tpl True llm False | Аналітикі, рекомендуємо використовувати "Регламент перевірки повідомлень, версія 2.0 (ЧИННИЙ з 2026-09-01)" (розділ «2. 
+U031 W11:s007 tpl True llm True | Аналітикі, рекомендуємо вчити "Інформаційну безпеку" (розділ "Історія"), оскільки ви вже переглядвали цей самий розділ "
+U031 INT-REG-2026:s003 tpl True llm False | Аналітикі, на основі вашої ознайомленості з «Соціальною інженерією» (розділ «Основна модель соціальної інженерії») та зг
+U037 INT-REG-2026:s001 tpl True llm True | Аналітикі, рекомендуємо використовувати "Регламент перевірки повідомлень, версія 2.0 (ЧИННИЙ з 2026-09-01)" (розділ «2. 
+U037 INT-RULES:s004 tpl True llm True | Аналітикі, рекомендуємо використовувати «Каталог правил верифікації RULE-1 – RULE-4 (скорочено R1–R4)» (розділ «Правило 
+U037 W05:s015 tpl True llm True | Аналітикі, рекомендуємо ознайомитися з розділом «Види» статті «Інформаційна війна», оскільки ви вже переглянули розділ «
+U043 W25:s001 tpl True llm True | Аналітикі, рекомендуємо ознайомитися з розділом «Передумови» документу «Російська дезінформація під час російсько-україн
+U043 W26:s003 tpl True llm False | Ви переглянули розділ «Боротьба проти дезінформації» щодо пандемії COVID-19, тому рекомендуємо ознайомитися з «Дезінформ
+U043 W26:s002 tpl True llm True | Аналітикі, ми рекомендуємо переглянути "Дезінформацію щодо пандемії COVID-19" (розділ "Боротьба проти дезінформації"), о
+U049 W26:s011 tpl True llm False | Аналітикі, рекомендуємо ознайомитися з «Дезінформацією щодо пандемії COVID-19» (розділ «Біологічна зброя США»), оскільки
+U049 W26:s014 tpl True llm True | Аналітикі, рекомендуємо звернутися до розділу «Вакцина існує» у «Дезінформації щодо пандемії COVID-19», оскільки ви вже 
+U049 W26:s016 tpl True llm True | Аналітикі, рекомендуємо ознайомитися з розділом «Навмисне поширення хвороби задля отримання надприбутків від вакцини» з 
+U055 W16:s001 tpl True llm True | Аналітикі, рекомендуємо вибрати розділ «Суть» з документу «Російська пропаганда», оскільки ви вже ознайомилися з розділо
+U055 W12:s002 tpl True llm True | Аналітикі, рекомендуємо ознайомитися з «Exif» (розділ «Передумови»), оскільки ви вже переглянули цей розділ, і він знахо
+U055 W16:s002 tpl True llm True | Аналітикі, рекомендуємо від looked at "Російська пропаганда" (розділ "Відмінні риси"), оскільки ви вже ознайомилися з "Р
+{'n': 30, 'template_correct': 1.0, 'llm_correct': 0.6666666666666666, 'llm_model': 'qwen2.5:7b'}
+
+15:51:20 ===== docker
+15:51:20 $ docker version --format {{.Server.Version}}
+27.5.1
+
+15:51:21 $ docker compose -p hub16 down -v --rmi all --remove-orphans
+time="2026-11-08T15:51:21+02:00" level=warning msg="Warning: No resource found to remove for project \"hub16\"."
+
+15:51:21 $ docker compose -p hub16 build --no-cache --pull
+s, MarkupSafe, jsonpointer, idna, h11, duckdb, distro, cloudpickle, click, charset_normalizer, certifi, cachetools, blinker, attrs, annotated-types, annotated-doc, uvicorn, typing-inspection, scipy, requests, referencing, rdflib, python-dateutil, pydantic-core, opentelemetry-api, langchain-protocol, jsonpatch, joblib, jinja2, httpcore2, httpcore, gitdb, anyio, starlette, scikit-learn, requests-toolbelt, pydeck, pydantic, pandas, jsonschema-specifications, httpx2, httpx, gitpython, langsmith, jsonschema, fastapi, langchain-core, altair, streamlit, langgraph-sdk, langgraph-checkpoint, langgraph-prebuilt, langgraph
+#26 367.6 Successfully installed MarkupSafe-3.0.4 PyYAML-6.0.3 altair-5.5.0 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.16.0 attrs-26.1.0 blinker-1.9.0 cachetools-6.2.6 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.1 cloudpickle-3.1.2 distro-1.9.0 duckdb-2.0.0 fastapi-0.162.0 gitdb-4.0.12 gitpython-3.2.1 h11-0.16.0 httpcore-1.0.9 httpcore2-2.16.0 httpx-0.28.1 httpx2-2.16.0 idna-3.20 jinja2-3.1.6 joblib-1.6.0 jsonpatch-1.44 jsonpointer-3.10 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 langchain-core-1.7.6 langchain-protocol-0.0.21 langgraph-1.2.20 langgraph-checkpoint-4.3.1 langgraph-prebuilt-1.1.1 langgraph-sdk-0.4.14 langsmith-0.14.17 narwhals-2.28.0 numpy-2.5.3 opentelemetry-api-1.45.2 orjson-3.13.0 ormsgpack-1.13.0 packaging-25.0 pandas-2.3.3 pillow-11.3.0 protobuf-6.33.6 pyarrow-26.0.1 pydantic-2.14.3 pydantic-core-2.50.4 pydeck-0.9.3 pyoxigraph-0.5.12 pyparsing-3.3.3 python-dateutil-4.0.0 pytz-2026.6 rdflib-7.6.0 referencing-0.37.0 requests-2.34.2 requests-toolbelt-1.0.0 rpds-py-2026.9.1 scikit-learn-1.9.1 scipy-1.18.1 smmap-5.0.3 sniffio-1.3.1 starlette-1.10.0 streamlit-1.50.0 tenacity-9.2.1 threadpoolctl-3.8.0 toml-0.10.2 tornado-6.6 truststore-0.10.5 typing-extensions-4.16.0 typing-inspection-0.4.5 tzdata-2026.6 urllib3-2.8.0 uuid-utils-0.19.0 uvicorn-0.53.0 watchdog-6.0.0 websockets-17.4 xxhash-4.0.2 zstandard-0.25.0
+#26 367.6 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#26 DONE 368.7s
+
+#27 [ui 5/6] COPY . /hub
+#27 DONE 0.6s
+
+#28 [ui 6/6] RUN useradd --create-home --uid 1000 hub  && mkdir -p /logs /data /hub/lab15/traces /hub/lab15/llm_log /hub/lab16/llm_log  && chown -R hub /logs /data /hub/lab15/traces /hub/lab15/llm_log /hub/lab16/llm_log
+#28 DONE 0.5s
+
+#29 [ui] exporting to image
+#29 exporting layers
+#29 exporting layers 7.1s done
+#29 writing image sha256:c71cc8abbb540dafdd384716f21b4502afb1744e8235850e493dc44e70815b73 done
+#29 naming to docker.io/library/hub16:latest 0.0s done
+#29 DONE 7.2s
+
+#30 [ui] resolving provenance for metadata file
+#30 DONE 0.0s
+ api  Built
+ graph  Built
+ ui  Built
+
+16:08:07 $ docker compose -p hub16 up -d
+ Network hub16_default  Creating
+ Network hub16_default  Created
+ Volume "hub16_graph_data"  Creating
+ Volume "hub16_graph_data"  Created
+ Container hub16-graph-1  Creating
+ Container hub16-graph-1  Created
+ Container hub16-api-1  Creating
+ Container hub16-api-1  Created
+ Container hub16-ui-1  Creating
+ Container hub16-ui-1  Created
+ Container hub16-graph-1  Starting
+ Container hub16-graph-1  Started
+ Container hub16-graph-1  Waiting
+ Container hub16-graph-1  Healthy
+ Container hub16-api-1  Starting
+ Container hub16-api-1  Started
+ Container hub16-api-1  Waiting
+ Container hub16-api-1  Error
+dependency failed to start: container hub16-api-1 is unhealthy
+

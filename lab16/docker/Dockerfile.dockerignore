@@ -1,0 +1,19 @@
+# Білий список: в образ потрапляє лише потрібне для демонстратора (без venv, моделей, звітів, секретів).
+*
+!common/
+!lab10/src/
+!lab12/semantic/
+!lab12/t2sql/
+!lab12/data/lab12.duckdb
+!lab13/results/entity_linking.json
+!lab14/quality/
+!lab14/data/
+!lab15/agent/
+!lab16/
+lab16/logs
+lab16/data/graph_store
+lab16/whitepaper
+**/__pycache__
+**/*.pyc
+**/.env
+**/*password*

@@ -1,0 +1,10 @@
+16 w* (0.3, 0.3, 0.4) {'popularity': 0.05, 'graph': 0.095, 'embeddings': 0.084, 'hybrid_weighted': 0.111, 'hybrid_rrf': 0.129}
+17 w* (0.5, 0.3, 0.2) {'popularity': 0.06, 'graph': 0.144, 'embeddings': 0.076, 'hybrid_weighted': 0.18, 'hybrid_rrf': 0.13}
+18 w* (0.3, 0.5, 0.2) {'popularity': 0.042, 'graph': 0.188, 'embeddings': 0.149, 'hybrid_weighted': 0.204, 'hybrid_rrf': 0.168}
+19 w* (0.1, 0.5, 0.4) {'popularity': 0.064, 'graph': 0.155, 'embeddings': 0.105, 'hybrid_weighted': 0.153, 'hybrid_rrf': 0.16}
+20 w* (0.1, 0.7, 0.2) {'popularity': 0.055, 'graph': 0.218, 'embeddings': 0.17, 'hybrid_weighted': 0.209, 'hybrid_rrf': 0.241}
+popularity       p5=0.038±0.005  r5=0.043±0.014  ndcg10=0.054±0.009  coverage10=0.042±0.005  novelty10=6.728±0.160
+graph            p5=0.092±0.024  r5=0.137±0.051  ndcg10=0.160±0.047  coverage10=0.464±0.026  novelty10=9.183±0.059
+embeddings       p5=0.071±0.023  r5=0.103±0.039  ndcg10=0.117±0.041  coverage10=0.381±0.018  novelty10=9.490±0.036
+hybrid_weighted  p5=0.100±0.029  r5=0.139±0.048  ndcg10=0.171±0.041  coverage10=0.342±0.086  novelty10=8.152±0.543
+hybrid_rrf       p5=0.106±0.019  r5=0.143±0.038  ndcg10=0.165±0.046  coverage10=0.389±0.018  novelty10=8.506±0.116

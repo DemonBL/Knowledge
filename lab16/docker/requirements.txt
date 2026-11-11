@@ -1,0 +1,15 @@
+# ЛР16 · залежності образу hub16 (python:3.12-slim). Без torch/transformers: e5-вектори фрагментів рахуються на ПК заздалегідь.
+numpy==2.5.3
+pandas==2.3.3
+scikit-learn==1.9.1
+PyYAML==6.0.3
+duckdb==2.0.0
+rdflib==7.6.0
+langgraph==1.2.20
+pyoxigraph==0.5.12
+fastapi==0.162.0
+uvicorn==0.53.0
+streamlit==1.50.0
+requests==2.34.2
+rank-bm25==0.2.2
+sqlglot==30.29.0

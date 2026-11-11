@@ -1,0 +1,72 @@
+# ЛР16 · фінальний демонстратор Domain Knowledge Hub — запуск однією командою:
+#   docker compose -p hub16 up -d --build        (з теки lab16)
+# Сервіси: graph (SPARQL лише читання, pyoxigraph) → api (рекомендації, пошук, агент ЛР15) → ui (Streamlit).
+# LLM (Ollama, qwen2.5:7b) працює на хості, не в контейнері: api звертається до неї через host.docker.internal.
+name: hub16
+
+# Образ збирається ОДИН раз (сервіс graph); api і ui використовують готовий hub16:latest.
+# (У першій версії build був у всіх трьох сервісах — з --no-cache той самий образ збирався тричі, ≈ 3 × 5,5 хв.)
+x-hub-image: &hub-image
+  image: hub16:latest
+  pull_policy: never
+  restart: unless-stopped
+
+services:
+  graph:
+    <<: *hub-image
+    pull_policy: build        # образ hub16 збирається тут (з кешем — за секунди)
+    build:
+      context: ..
+      dockerfile: lab16/docker/Dockerfile
+    command: ["python", "lab16/api/graph_service.py"]
+    environment:
+      HOST: 0.0.0.0
+      PORT: "7878"
+      GRAPH_STORE: /data/graph_store
+    volumes:
+      - graph_data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:7878/health',timeout=3)"]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+
+  api:
+    <<: *hub-image
+    command: ["python", "lab16/api/app.py"]
+    environment:
+      HOST: 0.0.0.0
+      PORT: "8000"
+      GRAPH_URL: http://graph:7878
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:7b}
+      RECO_EMB: ${RECO_EMB:-auto}
+      LOG_DIR: /logs
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./logs:/logs
+    ports:
+      - "127.0.0.1:${API_PORT:-8000}:8000"
+    depends_on:
+      graph:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/health',timeout=5)"]
+      interval: 5s
+      timeout: 6s
+      retries: 36
+
+  ui:
+    <<: *hub-image
+    command: ["streamlit", "run", "lab16/ui/app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.headless=true", "--browser.gatherUsageStats=false"]
+    environment:
+      API_URL: http://api:8000
+    ports:
+      - "127.0.0.1:${UI_PORT:-8501}:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  graph_data:

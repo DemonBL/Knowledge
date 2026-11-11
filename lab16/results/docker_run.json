@@ -1,0 +1,35 @@
+{
+ "started": "2026-11-08T16:16:26",
+ "docker_server": "27.5.1",
+ "down": 1.3,
+ "build_s": 305.7,
+ "build_exit": 0,
+ "up_s": 13.7,
+ "up_exit": 0,
+ "health_wait_s": 0.0,
+ "health": {
+  "status": "ok",
+  "items": 529,
+  "users": 60,
+  "interactions": 2188,
+  "embeddings": "e5",
+  "load_s": 1.61,
+  "graph": {
+   "status": "ok",
+   "loaded_from": "hub_graph.nt",
+   "load_s": 0.11,
+   "triples": 8322
+  },
+  "llm": {
+   "status": "ok",
+   "model": "qwen2.5:7b",
+   "available": true
+  }
+ },
+ "ui_ok": true,
+ "ps": "SERVICE   STATUS                   PORTS\napi       Up 3 minutes (healthy)   7878/tcp, 8501/tcp, 127.0.0.1:8000->8000/tcp\ngraph     Up 3 minutes (healthy)   7878/tcp, 8000/tcp, 8501/tcp\nui        Up 3 minutes             7878/tcp, 8000/tcp, 127.0.0.1:8501->8501/tcp\n",
+ "image": "hub16:latest 944MB",
+ "demo_s": 69.7,
+ "demo_tail": "ми (0.02 s)\nPASS 2. Відповідь агента з доказами (48.11 s)\nPASS 3. «Не знаю»: відповіді немає в сховищі (21.15 s)\nPASS 4a. Атака: ін'єкція + підвищення ролі в /ask (0.03 s)\nPASS 4b. Атака: гість заявляє роль admin у /recommend (0.03 s)\nPASS 4c. Атака: SPARQL-запис через API (0.01 s)\nPASS 5. Холодний старт: новий користувач обирає теми (0.02 s)\nPASS + Фільтр свіжості (≤ 60 днів) (0.03 s)\npassed 8/8\n",
+ "finished": "2026-11-08T16:26:01"
+}

@@ -1,0 +1,44 @@
+{
+ "emb": "lsa",
+ "a": "hybrid_weighted",
+ "b": "hybrid_rrf",
+ "metric": "ndcg10",
+ "mean_diff_a_minus_b": 0.006175216007852861,
+ "ci95": [
+  -0.008696758803103886,
+  0.020514189672554802
+ ],
+ "n_user_pairs": 256,
+ "share_ties": 0.55078125,
+ "seed_wins": {
+  "hybrid_weighted": 2,
+  "hybrid_rrf": 3
+ },
+ "per_seed": {
+  "16": {
+   "mean_diff": -0.01793664943902594,
+   "users": 51,
+   "ties": 30
+  },
+  "17": {
+   "mean_diff": 0.05095671793929711,
+   "users": 52,
+   "ties": 29
+  },
+  "18": {
+   "mean_diff": 0.036456312141705416,
+   "users": 50,
+   "ties": 25
+  },
+  "19": {
+   "mean_diff": -0.007482995042881739,
+   "users": 53,
+   "ties": 30
+  },
+  "20": {
+   "mean_diff": -0.031606835665106664,
+   "users": 50,
+   "ties": 27
+  }
+ }
+}

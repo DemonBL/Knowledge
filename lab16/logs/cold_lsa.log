@@ -1,0 +1,14 @@
+16 {'pop_global': 0.063, 'pop_topic': 0.194, 'onboard_hybrid': 0.179, 'warm3': 0.221} {'popularity': 0.0, 'graph': 0.016, 'embeddings': 0.058, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.012}
+17 {'pop_global': 0.015, 'pop_topic': 0.096, 'onboard_hybrid': 0.121, 'warm3': 0.206} {'popularity': 0.0, 'graph': 0.0, 'embeddings': 0.021, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.019}
+18 {'pop_global': 0.06, 'pop_topic': 0.241, 'onboard_hybrid': 0.204, 'warm3': 0.216} {'popularity': 0.0, 'graph': 0.019, 'embeddings': 0.033, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.012}
+19 {'pop_global': 0.066, 'pop_topic': 0.238, 'onboard_hybrid': 0.177, 'warm3': 0.257} {'popularity': 0.0, 'graph': 0.0, 'embeddings': 0.021, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.0}
+20 {'pop_global': 0.023, 'pop_topic': 0.182, 'onboard_hybrid': 0.164, 'warm3': 0.313} {'popularity': 0.0, 'graph': 0.064, 'embeddings': 0.094, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.0}
+A pop_global      p5=0.030±0.018  r5=0.026±0.020  ndcg10=0.045±0.024  coverage10=0.020±0.002
+A pop_topic       p5=0.159±0.056  r5=0.134±0.047  ndcg10=0.190±0.059  coverage10=0.144±0.011
+A onboard_hybrid  p5=0.140±0.027  r5=0.107±0.022  ndcg10=0.169±0.031  coverage10=0.189±0.009
+A warm3           p5=0.152±0.020  r5=0.245±0.054  ndcg10=0.243±0.044  coverage10=0.417±0.031
+B popularity      hit10_new=0.000±0.000  exposure_new=0.000±0.000
+B graph           hit10_new=0.020±0.026  exposure_new=0.164±0.034
+B embeddings      hit10_new=0.046±0.031  exposure_new=0.335±0.035
+B hybrid_rrf      hit10_new=0.000±0.000  exposure_new=0.033±0.015
+B hybrid_rrf+new_slot2 hit10_new=0.008±0.008  exposure_new=0.356±0.044
