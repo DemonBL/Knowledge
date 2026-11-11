@@ -1,0 +1,2 @@
+MATCH (s {id:'ORG-02'}) SET s.altLabels = coalesce(s.altLabels, []) + ['stopfake.org'], s.altLabelProv = coalesce(s.altLabelProv, []) + ['F92a64b'];
+MATCH (s {id:'ORG-02'}) MERGE (o {id:'Facebook'}) MERGE (s)-[r:COOPERATES_WITH]->(o) SET r += {source:'W14:s004', quote:"журналісти StopFake стали партнером Facebook у сфері інформаційного захисту", proposedBy:"агент Hub (демо-сценарій Р5)", approvedBy:"людина: Хоптій Дмитро", ts:'2026-11-07T23:46:29+02:00', proposalId:'F4336ce'};

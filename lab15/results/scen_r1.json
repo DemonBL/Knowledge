@@ -1,0 +1,459 @@
+{
+ "version": "v1",
+ "model": "qwen2.5:7b",
+ "model_version": "qwen2 7.6B Q4_K_M",
+ "rows": [
+  {
+   "request_id": "e43017ae",
+   "question": "Який вердикт винесено щодо твердження CLM-13 і хто його виніс?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання. [W14:s001]",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 3008,
+   "completion_tokens": 100,
+   "latency_s": 26.31,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S01",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['фейк'], ['FCH-04', 'Ф-04']]",
+    "статус abstained"
+   ]
+  },
+  {
+   "request_id": "821ea81a",
+   "question": "Скільки всього публікацій має наратив «Отруєна питна вода»?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Кількість перевірок, пов'язаних з наративом «Отруєна питна вода», становить 323 штук [SQL:12dd39]. Важливо зазначити, що це кількість перевірок, а не унікальних публікацій, оскільки повторна перевірка тієї самої публікації вважається окремим рядком [SQL:12dd39].",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "olap_metrics"
+   ],
+   "prompt_tokens": 3235,
+   "completion_tokens": 292,
+   "latency_s": 42.3,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "SQL:12dd39"
+   ],
+   "id": "S02",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['17']]",
+    "не викликано ['kb_graph'] (було ['olap_metrics'])"
+   ]
+  },
+  {
+   "request_id": "926cb367",
+   "question": "На якій платформі найвища частка хибних вердиктів і яке її значення?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Найвища частка хибних вердиктів на платформі Telegram [SQL:840f8d], її значення становить 70.9% [SQL:840f8d]. Це значення відмінне від інших платформ, де найбільша частка хибних вердиктів на Instagram [SQL:840f8d] становить 67.5% [SQL:840f8d].",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "olap_metrics"
+   ],
+   "prompt_tokens": 3420,
+   "completion_tokens": 212,
+   "latency_s": 29.56,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "SQL:840f8d"
+   ],
+   "id": "S03",
+   "type": "success",
+   "ok": true,
+   "why": []
+  },
+  {
+   "request_id": "760b689d",
+   "question": "Коли запустили сайт для перевіряння фактів StopFake?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання. [W14:s001]",
+   "status": "abstained",
+   "llm_calls": 2,
+   "tool_calls": 0,
+   "steps": 2,
+   "tools_used": [],
+   "prompt_tokens": 1634,
+   "completion_tokens": 65,
+   "latency_s": 8.33,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S04",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['2014'], ['березня']]",
+    "статус abstained",
+    "не викликано ['search_docs'] (було [])"
+   ]
+  },
+  {
+   "request_id": "689abc72",
+   "question": "Який середній час до вердикту для тверджень високого пріоритету?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Середній час до вердикту для тверджень високого пріоритету становить 5,8 годин [SQL:e729a4]. Важливо зазначити, що це значення чутливе до викидів, і для визначення SLA рекомендується врахувати також p90 [SQL:e729a4].",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "olap_metrics"
+   ],
+   "prompt_tokens": 3239,
+   "completion_tokens": 265,
+   "latency_s": 37.21,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "SQL:e729a4"
+   ],
+   "id": "S05",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['4.3', '4,3']]"
+   ]
+  },
+  {
+   "request_id": "99e1b8e2",
+   "question": "Який акаунт є першоджерелом твердження CLM-17 і скільки публікацій містять це твердження?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Першоджерело твердження CLM-17 є анонімний Telegram-канал ACC-001 [G:CLM-17]. Усього публікацій, що містять це твердження, 4 [G:PUB-067].",
+   "status": "answered",
+   "llm_calls": 4,
+   "tool_calls": 1,
+   "steps": 5,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 4448,
+   "completion_tokens": 296,
+   "latency_s": 41.03,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "G:CLM-17",
+    "G:OFF-04",
+    "G:PUB-067"
+   ],
+   "id": "S06",
+   "type": "success",
+   "ok": true,
+   "why": []
+  },
+  {
+   "request_id": "63c74df4",
+   "question": "Скільки підписників має офіційний Telegram-канал ДСНС України?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання.",
+   "status": "abstained",
+   "llm_calls": 2,
+   "tool_calls": 0,
+   "steps": 2,
+   "tools_used": [],
+   "prompt_tokens": 1660,
+   "completion_tokens": 56,
+   "latency_s": 7.47,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S07",
+   "type": "noanswer",
+   "ok": true,
+   "why": []
+  },
+  {
+   "request_id": "77d8cea3",
+   "question": "Хто керуватиме Центром протидії дезінформації у 2030 році?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання. [W14:s001]",
+   "status": "abstained",
+   "llm_calls": 2,
+   "tool_calls": 0,
+   "steps": 2,
+   "tools_used": [],
+   "prompt_tokens": 1666,
+   "completion_tokens": 65,
+   "latency_s": 9.19,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S08",
+   "type": "noanswer",
+   "ok": true,
+   "why": []
+  },
+  {
+   "request_id": "fce8494d",
+   "question": "Яка частка хибних вердиктів для публікацій у LinkedIn?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання. [W14:s001]",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "olap_metrics"
+   ],
+   "prompt_tokens": 2972,
+   "completion_tokens": 116,
+   "latency_s": 16.03,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S09",
+   "type": "noanswer",
+   "ok": true,
+   "why": []
+  },
+  {
+   "request_id": "74b9458e",
+   "question": "Скільки незалежних доказів потрібно для вердикту «фейк»?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Для вердикту «фейк» потрібно приблизно 3.53 доказів [SQL:6e7c11], але це кількість доказів, а не їх незалежність [SQL:6e7c11].",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "olap_metrics"
+   ],
+   "prompt_tokens": 3186,
+   "completion_tokens": 214,
+   "latency_s": 30.02,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "SQL:6e7c11"
+   ],
+   "id": "S10",
+   "type": "conflict",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['двох', '2 ', 'два'], ['одного', 'одн', '1 '], ['2026', '2.0', 'чинн']]",
+    "не викликано ['search_docs'] (було ['olap_metrics'])"
+   ]
+  },
+  {
+   "request_id": "3827c9f0",
+   "question": "За який час треба перевірити твердження з високим пріоритетом?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання. [W14:s001]",
+   "status": "abstained",
+   "llm_calls": 2,
+   "tool_calls": 0,
+   "steps": 2,
+   "tools_used": [],
+   "prompt_tokens": 1648,
+   "completion_tokens": 126,
+   "latency_s": 18.24,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S11",
+   "type": "conflict",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['12'], ['24'], ['2026', '2.0', 'чинн']]",
+    "статус abstained",
+    "не викликано ['search_docs'] (було [])"
+   ]
+  },
+  {
+   "request_id": "9dc68a0c",
+   "question": "Чи відповідає чинному регламенту вердикт «правда» щодо твердження CLM-34?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v1",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання. [W14:s001]",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 3020,
+   "completion_tokens": 100,
+   "latency_s": 13.89,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S12",
+   "type": "conflict",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['правда'], ['другого', 'двох', '2 ']]",
+    "статус abstained"
+   ]
+  }
+ ],
+ "summary": {
+  "n": 12,
+  "success_rate": 0.417,
+  "mean_steps": 3.42,
+  "mean_tool_calls": 0.67,
+  "mean_llm_calls": 2.75,
+  "mean_prompt_tokens": 2761,
+  "mean_completion_tokens": 159,
+  "total_tokens": 35043,
+  "mean_latency_s": 23.3,
+  "p95_latency_s": 41.0,
+  "total_latency_s": 279.6
+ },
+ "by_type": {
+  "success": {
+   "n": 6,
+   "success_rate": 0.333,
+   "mean_steps": 3.83,
+   "mean_tool_calls": 0.83,
+   "mean_llm_calls": 3,
+   "mean_prompt_tokens": 3164,
+   "mean_completion_tokens": 205,
+   "total_tokens": 20214,
+   "mean_latency_s": 30.8,
+   "p95_latency_s": 41.0,
+   "total_latency_s": 184.7
+  },
+  "noanswer": {
+   "n": 3,
+   "success_rate": 1.0,
+   "mean_steps": 2.67,
+   "mean_tool_calls": 0.33,
+   "mean_llm_calls": 2.33,
+   "mean_prompt_tokens": 2099,
+   "mean_completion_tokens": 79,
+   "total_tokens": 6535,
+   "mean_latency_s": 10.9,
+   "p95_latency_s": 9.2,
+   "total_latency_s": 32.7
+  },
+  "conflict": {
+   "n": 3,
+   "success_rate": 0.0,
+   "mean_steps": 3.33,
+   "mean_tool_calls": 0.67,
+   "mean_llm_calls": 2.67,
+   "mean_prompt_tokens": 2618,
+   "mean_completion_tokens": 147,
+   "total_tokens": 8294,
+   "mean_latency_s": 20.7,
+   "p95_latency_s": 18.2,
+   "total_latency_s": 62.1
+  }
+ }
+}

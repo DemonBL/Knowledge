@@ -1,0 +1,16 @@
+@prefix hub: <http://www.lnu.edu.ua/kb/hub#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hub:ORG-02 hub:altLabel "stopfake.org" .
+hub:stmt_F92a64b a rdf:Statement, prov:Entity ; rdf:subject hub:ORG-02 ; rdf:predicate hub:altLabel ; rdf:object "stopfake.org" ;
+  prov:wasDerivedFrom hub:chunk_W14_s001 ; hub:quote "Сайт для перевіряння фактів stopfake.org запустили 2 березня 2014 року" ;
+  prov:wasAttributedTo "агент Hub (демо-сценарій Р5)" ; hub:approvedBy "автоматично (політика: низький ризик)" ;
+  prov:generatedAtTime "2026-11-07T23:43:34+02:00"^^xsd:dateTime ; hub:proposalId "F92a64b" .
+
+hub:ORG-02 hub:COOPERATES_WITH hub:Facebook .
+hub:stmt_F4336ce a rdf:Statement, prov:Entity ; rdf:subject hub:ORG-02 ; rdf:predicate hub:COOPERATES_WITH ; rdf:object hub:Facebook ;
+  prov:wasDerivedFrom hub:chunk_W14_s004 ; hub:quote "журналісти StopFake стали партнером Facebook у сфері інформаційного захисту" ;
+  prov:wasAttributedTo "агент Hub (демо-сценарій Р5)" ; hub:approvedBy "людина: Хоптій Дмитро" ;
+  prov:generatedAtTime "2026-11-07T23:46:29+02:00"^^xsd:dateTime ; hub:proposalId "F4336ce" .

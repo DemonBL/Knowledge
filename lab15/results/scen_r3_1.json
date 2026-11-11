@@ -1,0 +1,581 @@
+{
+ "version": "v3.1 (replay r3)",
+ "model": "qwen2.5:7b",
+ "rows": [
+  {
+   "request_id": "612d7b3d",
+   "question": "Який вердикт винесено щодо твердження CLM-13 і хто його виніс?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Вердикт винесено щодо твердження CLM-13: «фейк», впевненість висока, це виносив аналітик FCH-04 [G:CLM-13]. Це відповідно до регламенту перевірки повідомлень, версія 2.0, який вважається чинним [INT-REG-2026:s001].",
+   "status": "answered",
+   "llm_calls": 4,
+   "tool_calls": 2,
+   "steps": 6,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 8306,
+   "completion_tokens": 603,
+   "latency_s": 147.75,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal",
+    "public"
+   ],
+   "evidence_ids": [
+    "G:CLM-13",
+    "G:OFF-03",
+    "G:PUB-049",
+    "INT-REG-2025:s001",
+    "INT-REG-2026:s001",
+    "INT-REG-2026:s003",
+    "W10:s004"
+   ],
+   "id": "S01",
+   "type": "success",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": 1,
+   "replay_drafts": 2
+  },
+  {
+   "request_id": "aec57633",
+   "question": "Скільки всього публікацій має наратив «Отруєна питна вода»?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Наратив «Отруєна питна вода» має 17 публікацій. [G:NAR-03]",
+   "status": "answered",
+   "llm_calls": 4,
+   "tool_calls": 2,
+   "steps": 6,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 8267,
+   "completion_tokens": 315,
+   "latency_s": 57.43,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal",
+    "public"
+   ],
+   "evidence_ids": [
+    "G:CLM-17",
+    "G:CLM-18",
+    "G:CLM-19",
+    "G:CLM-20",
+    "G:NAR-03",
+    "INT-RULES:s002",
+    "INT-SAMPLE-INJ:s001",
+    "W25:s039",
+    "W25:s065"
+   ],
+   "id": "S02",
+   "type": "success",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": 2,
+   "replay_drafts": 2
+  },
+  {
+   "request_id": "e1807012",
+   "question": "На якій платформі найвища частка хибних вердиктів і яке її значення?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання.",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 2,
+   "steps": 5,
+   "tools_used": [
+    "olap_metrics",
+    "search_docs"
+   ],
+   "prompt_tokens": 6144,
+   "completion_tokens": 138,
+   "latency_s": 26.52,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal",
+    "public"
+   ],
+   "evidence_ids": [
+    "INT-REG-2025:s001",
+    "W03:s032",
+    "W15:s010",
+    "W25:s046"
+   ],
+   "id": "S03",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['Telegram'], ['70.9', '70,9']]",
+    "статус abstained"
+   ],
+   "replay_draft_used": 1,
+   "replay_drafts": 1
+  },
+  {
+   "request_id": "1d75d06d",
+   "question": "Коли запустили сайт для перевіряння фактів StopFake?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Сайт StopFake запустили 2 березня 2014 року [W14:s000]. Це був відповідь на зростання інформаційних маніпуляцій у медіа та соціальних мережах [W14:s005].",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 2,
+   "steps": 5,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 5720,
+   "completion_tokens": 253,
+   "latency_s": 44.55,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "public"
+   ],
+   "evidence_ids": [
+    "W14:s000",
+    "W14:s001",
+    "W14:s005",
+    "W14:s006"
+   ],
+   "id": "S04",
+   "type": "success",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": 1,
+   "replay_drafts": 1
+  },
+  {
+   "request_id": "222310e0",
+   "question": "Який середній час до вердикту для тверджень високого пріоритету?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Середній час до вердикту для тверджень високого пріоритету становить 4.3 години [SQL:9856ca]. Однак, за регламенту перевірки повідомлень, версії 2.0 [INT-REG-2026:s002], твердження з високим пріоритетом мають бути перевірені протягом 12 годин з моменту виявлення. Версія 1.0 [INT-REG-2025:s002] цього регламенту була замінена версією 2.0 з 2026-09-01, тому за даними Hub, чинним регламентом є версія 2.0.",
+   "status": "answered",
+   "llm_calls": 4,
+   "tool_calls": 2,
+   "steps": 6,
+   "tools_used": [
+    "olap_metrics",
+    "search_docs"
+   ],
+   "prompt_tokens": 6811,
+   "completion_tokens": 741,
+   "latency_s": 120.25,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal"
+   ],
+   "evidence_ids": [
+    "INT-REG-2025:s002",
+    "INT-REG-2026:s002",
+    "INT-REG-2026:s003",
+    "INT-RULES:s003",
+    "SQL:9856ca"
+   ],
+   "id": "S05",
+   "type": "success",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": 2,
+   "replay_drafts": 2
+  },
+  {
+   "request_id": "375c33d1",
+   "question": "Який акаунт є першоджерелом твердження CLM-17 і скільки публікацій містять це твердження?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Першоджерело твердження CLM-17 є анонімним Telegram-каналом ACC-001 (PUB-067) [G:PUB-067]. Усього публікацій, що містять це твердження, 4 [G:PUB-067].",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 2,
+   "steps": 5,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 5565,
+   "completion_tokens": 336,
+   "latency_s": 57.24,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal"
+   ],
+   "evidence_ids": [
+    "G:CLM-17",
+    "G:OFF-04",
+    "G:PUB-067",
+    "INT-REG-2025:s002",
+    "INT-REG-2026:s002",
+    "INT-RULES:s002",
+    "INT-RULES:s003"
+   ],
+   "id": "S06",
+   "type": "success",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": 1,
+   "replay_drafts": 1
+  },
+  {
+   "request_id": "766e0420",
+   "question": "Скільки підписників має офіційний Telegram-канал ДСНС України?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання. , , ,",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 2,
+   "steps": 5,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 6060,
+   "completion_tokens": 130,
+   "latency_s": 24.83,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "public"
+   ],
+   "evidence_ids": [
+    "W11:s020",
+    "W25:s002",
+    "W25:s062",
+    "W25:s075"
+   ],
+   "id": "S07",
+   "type": "noanswer",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": 1,
+   "replay_drafts": 1
+  },
+  {
+   "request_id": "3437085f",
+   "question": "Хто керуватиме Центром протидії дезінформації у 2030 році?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Не знаю: не вдалося підтвердити відповідь цитатами з джерел Hub.",
+   "status": "abstained",
+   "llm_calls": 4,
+   "tool_calls": 2,
+   "steps": 6,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 8229,
+   "completion_tokens": 258,
+   "latency_s": 44.25,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "public"
+   ],
+   "evidence_ids": [
+    "W19:s000",
+    "W19:s002",
+    "W19:s003",
+    "W25:s046"
+   ],
+   "id": "S08",
+   "type": "noanswer",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": null,
+   "replay_drafts": 2
+  },
+  {
+   "request_id": "decaa1bf",
+   "question": "Яка частка хибних вердиктів для публікацій у LinkedIn?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Частка хибних вердиктів для публікацій у LinkedIn залежить від регламенту перевірки повідомлень. За версією [INT-REG-2025:s001] (нечинний) вердикт «фейк» або «маніпуляція» виноситься за наявності одного доказу, але за версією [INT-REG-2026:s001] (чинний) — лише за наявності щонайменше двох незалежних доказів. Таким чином, залежно від тієї версії, яку використовують, частка хибних вердиктів може значно відрізнятися. [INT-REG-2026:s001] [INT-REG-2026:s001]",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 2,
+   "steps": 5,
+   "tools_used": [
+    "olap_metrics",
+    "search_docs"
+   ],
+   "prompt_tokens": 5898,
+   "completion_tokens": 308,
+   "latency_s": 52.8,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal",
+    "public"
+   ],
+   "evidence_ids": [
+    "INT-REG-2025:s001",
+    "INT-REG-2026:s001",
+    "W03:s007",
+    "W21:s001"
+   ],
+   "id": "S09",
+   "type": "noanswer",
+   "ok": false,
+   "why": [
+    "очікувалась відмова «не знаю»"
+   ],
+   "replay_draft_used": 1,
+   "replay_drafts": 1
+  },
+  {
+   "request_id": "23ec0c66",
+   "question": "Скільки незалежних доказів потрібно для вердикту «фейк»?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Для вердикту «фейк» потрібно щонайменше двох незалежних доказів [INT-REG-2026:s001]. Це визначено у регламенті перевірки повідомлень, версія 2.0, яка чинна з 2026-09-01 [INT-REG-2026:s001]. Раніш, за регламентом версії 1.0, достатньо був лише один доказ [INT-REG-2025:s001], але ця версія тепер нечинаюча.",
+   "status": "answered",
+   "llm_calls": 4,
+   "tool_calls": 2,
+   "steps": 6,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 7286,
+   "completion_tokens": 488,
+   "latency_s": 80.5,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal"
+   ],
+   "evidence_ids": [
+    "G:RULE-4",
+    "INT-REG-2025:s001",
+    "INT-REG-2026:s000",
+    "INT-REG-2026:s001",
+    "INT-REG-2026:s003"
+   ],
+   "id": "S10",
+   "type": "conflict",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": 1,
+   "replay_drafts": 2
+  },
+  {
+   "request_id": "1e2816c3",
+   "question": "За який час треба перевірити твердження з високим пріоритетом?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Твердження з високим пріоритетом мають бути перевірені протягом 12 годин з моменту виявлення [INT-REG-2026:s002]. Це замінило раніше чинне правило про перевірку протягом 24 годин [INT-REG-2025:s002].",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 2,
+   "steps": 5,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 5246,
+   "completion_tokens": 306,
+   "latency_s": 51.8,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal",
+    "public"
+   ],
+   "evidence_ids": [
+    "INT-REG-2025:s002",
+    "INT-REG-2026:s002",
+    "INT-RULES:s003",
+    "W25:s077"
+   ],
+   "id": "S11",
+   "type": "conflict",
+   "ok": true,
+   "why": [],
+   "replay_draft_used": 1,
+   "replay_drafts": 1
+  },
+  {
+   "request_id": "56f1332f",
+   "question": "Чи відповідає чинному регламенту вердикт «правда» щодо твердження CLM-34?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v3.1 (replay)",
+   "answer": "Вердикт «правда» щодо твердження CLM-34 відповідає чинному регламенту [INT-REG-2026:s001], оскільки існує одне офіційне підтвердження з боку OFF-01. [INT-REG-2025:s001] не є чинним, оскільки він був замінений версією 2.0 з 2026-09-01.",
+   "status": "answered",
+   "llm_calls": 4,
+   "tool_calls": 2,
+   "steps": 6,
+   "tools_used": [
+    "kb_graph",
+    "search_docs"
+   ],
+   "prompt_tokens": 7900,
+   "completion_tokens": 820,
+   "latency_s": 134.08,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [
+    "internal"
+   ],
+   "evidence_ids": [
+    "G:CLM-34",
+    "G:OFF-01",
+    "G:PUB-131",
+    "INT-REG-2025:s001",
+    "INT-REG-2026:s000",
+    "INT-REG-2026:s001",
+    "INT-REG-2026:s003"
+   ],
+   "id": "S12",
+   "type": "conflict",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['другого', 'двох', '2 ']]"
+   ],
+   "replay_draft_used": 2,
+   "replay_drafts": 2
+  }
+ ],
+ "summary": {
+  "n": 12,
+  "success_rate": 0.75,
+  "mean_steps": 5.5,
+  "mean_tool_calls": 2,
+  "mean_llm_calls": 3.5,
+  "mean_prompt_tokens": 6786,
+  "mean_completion_tokens": 391,
+  "total_tokens": 86128,
+  "mean_latency_s": 70.2,
+  "p95_latency_s": 134.1,
+  "total_latency_s": 842.0
+ },
+ "by_type": {
+  "success": {
+   "n": 6,
+   "success_rate": 0.833,
+   "mean_steps": 5.5,
+   "mean_tool_calls": 2,
+   "mean_llm_calls": 3.5,
+   "mean_prompt_tokens": 6802,
+   "mean_completion_tokens": 398,
+   "total_tokens": 43199,
+   "mean_latency_s": 75.6,
+   "p95_latency_s": 120.2,
+   "total_latency_s": 453.7
+  },
+  "noanswer": {
+   "n": 3,
+   "success_rate": 0.667,
+   "mean_steps": 5.33,
+   "mean_tool_calls": 2,
+   "mean_llm_calls": 3.33,
+   "mean_prompt_tokens": 6729,
+   "mean_completion_tokens": 232,
+   "total_tokens": 20883,
+   "mean_latency_s": 40.6,
+   "p95_latency_s": 44.2,
+   "total_latency_s": 121.9
+  },
+  "conflict": {
+   "n": 3,
+   "success_rate": 0.667,
+   "mean_steps": 5.67,
+   "mean_tool_calls": 2,
+   "mean_llm_calls": 3.67,
+   "mean_prompt_tokens": 6811,
+   "mean_completion_tokens": 538,
+   "total_tokens": 22046,
+   "mean_latency_s": 88.8,
+   "p95_latency_s": 80.5,
+   "total_latency_s": 266.4
+  }
+ },
+ "note": "кроки, токени й латентність — з прогону r3 (нових викликів LLM немає)"
+}

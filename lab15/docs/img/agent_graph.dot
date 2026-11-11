@@ -1,0 +1,16 @@
+digraph G {
+ rankdir=LR; bgcolor="white"; node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=11, fillcolor="#eef3fb", color="#2a78d6"];
+ edge [fontname="DejaVu Sans", fontsize=9, color="#555555"];
+ start [shape=circle, label="", width=0.2, fillcolor="#333333"];
+ endn [shape=doublecircle, label="", width=0.2, fillcolor="#333333"];
+ guard [label="guard_input\n(D1 фільтр запиту)"];
+ plan [label="plan\nLLM: вибір інструментів\n(tool calls)"];
+ act [label="act\nвиклик інструментів\nRBAC, ліміти, санітизація (D2–D5)"];
+ draft [label="draft\nLLM: відповідь лише з даних\nз цитатами [id]"];
+ verify [label="verify\nцитати ⊆ докази,\nчисла з доказів (D6)"];
+ tools [shape=folder, fillcolor="#fff6e5", color="#e3a008", label="kb_graph (SPARQL-шаблони, граф ЛР9/14)\nsearch_docs (BM25+e5, корпус ЛР10/14, RBAC)\nolap_metrics (семантичний шар ЛР12, read_only)"];
+ start -> guard; guard -> plan [label="ок"]; guard -> endn [label="відмова"];
+ plan -> act [label="є виклики"]; act -> plan [label="раунд ≤ 3"]; plan -> draft [label="даних досить / ліміт"];
+ act -> tools [style=dashed, dir=both, arrowhead=none];
+ draft -> verify; verify -> draft [label="ремонт ≤ 1"]; verify -> endn [label="відповідь / «не знаю»"];
+}
