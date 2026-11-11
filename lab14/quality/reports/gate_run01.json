@@ -1,0 +1,188 @@
+{
+ "run": {
+  "run": 1,
+  "ts": "2026-11-06T20:38:12+00:00",
+  "version": "baseline",
+  "label": "baseline kb-2026.11-v0 (до очищення)",
+  "status": "BLOCKED",
+  "checks": 19,
+  "passed": 8,
+  "failed_critical": 7,
+  "failed_warning": 2,
+  "skipped": 2,
+  "seconds": 2.0
+ },
+ "results": [
+  {
+   "check": "T08",
+   "test": "test_T08_chunk_ids_unique",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T09",
+   "test": "test_T09_no_exact_duplicate_chunks",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: точні дублікати фрагментів: [('W25:s055', 'W16:s041'), ('INT-NAR-02:s006', 'INT-NAR-01:s005'), ('INT-NAR-03:s004', 'INT-NAR-01:s005'), ('INT-NAR-04:s004', 'INT-NAR-01:s005'), ('INT-NAR-05:s004', 'INT-NAR-01:s005')] (усього 8)",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T10",
+   "test": "test_T10_chunk_provenance",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: фрагменти без source_url/license: 540 (напр. ['W01:s000', 'W01:s001', 'W01:s002'])",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T11",
+   "test": "test_T11_superseded_flagged",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: нечинні версії регламенту без позначки: ['INT-REG-2025']",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T12",
+   "test": "test_T12_claim_status_complete",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: твердження без вердикту й без статусу: ['CLM-01', 'CLM-06', 'CLM-11', 'CLM-20', 'CLM-26', 'CLM-32', 'CLM-39', 'CLM-40']",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T13",
+   "test": "test_T13_referential_integrity",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T14",
+   "test": "test_T14_confidence_range",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T15",
+   "test": "test_T15_rag_evidence_preserved",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T16",
+   "test": "test_T16_freshness",
+   "file": "test_data.py",
+   "severity": "warning",
+   "outcome": "failed",
+   "message": "AssertionError: застарілі документи (> 24 міс.): ['W07', 'W22', 'W23', 'W24']",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T17",
+   "test": "test_T17_chunk_schema",
+   "file": "test_schema.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: фрагменти не відповідають схемі: 540; [(0, \"'license' is a required property\"), (1, \"'license' is a required property\"), (2, \"'license' is a required property\")]",
+   "tool": "JSON Schema"
+  },
+  {
+   "check": "T18",
+   "test": "test_T18_registry_schema",
+   "file": "test_schema.py",
+   "severity": "critical",
+   "outcome": "skipped",
+   "message": "",
+   "tool": "JSON Schema"
+  },
+  {
+   "check": "T19",
+   "test": "test_T19_alternatives_schema",
+   "file": "test_schema.py",
+   "severity": "critical",
+   "outcome": "skipped",
+   "message": "",
+   "tool": "JSON Schema"
+  },
+  {
+   "check": "T01",
+   "test": "test_T01_shacl_no_violations",
+   "file": "test_shacl.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SHACL (pySHACL)"
+  },
+  {
+   "check": "T02",
+   "test": "test_T02_shacl_warnings",
+   "file": "test_shacl.py",
+   "severity": "warning",
+   "outcome": "failed",
+   "message": "AssertionError: SHACL Warning (повнота): 46; приклади: [('CLM-33', 'S4: немає явного статусу перевірки (status) — повнота'), ('CLM-10', 'S4: немає явного статусу перевірки (status) — повнота'), ('CLM-12', 'S4: немає явного статусу перевірки (status) — повнота'), ('CLM-05', 'S4: немає явного статусу ",
+   "tool": "SHACL (pySHACL)"
+  },
+  {
+   "check": "T03",
+   "test": "test_T03_true_verdict_two_sources",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: «правда» з < 2 офіційних джерел без complianceStatus: ['VRD-27', 'VRD-28', 'VRD-29', 'VRD-30', 'VRD-31', 'VRD-32']",
+   "tool": "SPARQL-інваріант (rdflib)"
+  },
+  {
+   "check": "T04",
+   "test": "test_T04_fake_two_evidence",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SPARQL-інваріант (rdflib)"
+  },
+  {
+   "check": "T05",
+   "test": "test_T05_no_refuted_and_confirmed",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SPARQL-інваріант (rdflib)"
+  },
+  {
+   "check": "T06",
+   "test": "test_T06_temporal_flagged",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: вердикт раніше за публікацію без temporalFlag: ['VRD-01', 'VRD-02', 'VRD-04', 'VRD-09', 'VRD-13', 'VRD-15', 'VRD-18', 'VRD-19', 'VRD-23', 'VRD-25']",
+   "tool": "SPARQL-інваріант (rdflib)"
+  },
+  {
+   "check": "T07",
+   "test": "test_T07_derived_not_before_parent",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SPARQL-інваріант (rdflib)"
+  }
+ ]
+}

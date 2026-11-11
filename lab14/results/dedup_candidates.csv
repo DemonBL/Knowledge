@@ -1,0 +1,1086 @@
+a,b,name_a,name_b,type_a,type_b,src_a,src_b,cos,jw,tset,stem_jacc,code,num_conflict,alias,type_compat,score
+E13:ORG_FakeApp|ORG,E13:PLATFORM_FakeApp|PLATFORM,FakeApp,FakeApp,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:ORG_Panoramio|ORG,E13:PLATFORM_Panoramio|PLATFORM,Panoramio,Panoramio,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:ORG_Pornhub|ORG,E13:PLATFORM_Pornhub|PLATFORM,Pornhub,Pornhub,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:OFF-05,E13:ORG_Національна_поліція_України|ORG,Національна поліція України,Національна поліція України,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:ORG_Vimeo|ORG,E13:PLATFORM_Vimeo|PLATFORM,Vimeo,Vimeo,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:ORG_Reddit|ORG,E13:PLATFORM_Reddit|PLATFORM,Reddit,Reddit,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+R8:FaktOrg_VoxCheck,E13:VoxCheck|ORG,VoxCheck,VoxCheck,ORG,ORG,ЛР8 RDF,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:NAR-01,R8:Naratyv_N01,Повна втрата контролю над містом,Повна втрата контролю над містом,NARRATIVE,NARRATIVE,ЛР9 граф Neo4j,ЛР8 RDF,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:ORG-01,R8:FaktOrg_VoxCheck,VoxCheck,VoxCheck,ORG,ORG,ЛР9 граф Neo4j,ЛР8 RDF,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:RULE-1,R8:Pravylo_R1,вік акаунта < 30 днів AND акаунт не верифікований,вік акаунта < 30 днів AND акаунт не верифікований,RULE,RULE,ЛР9 граф Neo4j,ЛР8 RDF,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+G9:ACC-008,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #8,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+G9:OFF-03,E13:ORG_Офіційні_канали_міських_рад|ORG,Офіційні канали міських рад,Офіційні канали міських рад,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:PLATFORM_eBay|PLATFORM,E13:ORG_eBay|ORG,eBay,eBay,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:ACC-004,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+G9:ACC-002,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+E13:ORG_LinkedIn|ORG,E13:PLATFORM_LinkedIn|PLATFORM,LinkedIn,LinkedIn,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:ORG_Google|ORG,E13:PLATFORM_Google|PLATFORM,Google,Google,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:ORG_Flickr|ORG,E13:PLATFORM_Flickr|PLATFORM,Flickr,Flickr,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:ACC-007,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+G9:TOOL-02,R8:Instrument_I02,Аналіз EXIF-метаданих,Аналіз EXIF-метаданих,METHOD,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:NAR-02,R8:Naratyv_N02,Колапс критичної інфраструктури,Колапс критичної інфраструктури,NARRATIVE,NARRATIVE,ЛР9 граф Neo4j,ЛР8 RDF,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:CASE_ID_OFF-01|CASE_ID,E13:ORG_OFF-01|ORG,OFF-01,OFF-01,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+G9:ACC-005,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+E13:Facebook|PLATFORM,E13:ORG_Facebook|ORG,Facebook,Facebook,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:OFF-01,E13:ДСНС_України|ORG,ДСНС України,ДСНС України,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:ACC-006,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+E13:PHENOMENON__Термінологічне_мінування|PHENOMENON,E13:METHOD_термінологічне_мінування|METHOD,Термінологічне «мінування,термінологічне «мінування»,PHENOMENON,METHOD,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:ACC-001,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+G9:ORG-01,E13:VoxCheck|ORG,VoxCheck,VoxCheck,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:TOOL-01,R8:Instrument_I01,Реверсивний пошук зображень,Реверсивний пошук зображень,METHOD,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+E13:CASE_ID_OFF-03|CASE_ID,E13:ORG_OFF-03|ORG,OFF-03,OFF-03,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+G9:ACC-003,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,1.0,1.0,1.0,1.0,1,0,1,1,1.0
+E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON,E13:METHOD_дезінформування_від_зворотного|METHOD,Дезінформування від зворотного,дезінформування від зворотного,PHENOMENON,METHOD,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,1,1.0
+G9:OFF-04,E13:МОЗ_України|ORG,МОЗ України,МОЗ України,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.944,1.0,1.0,1.0,0,0,1,1,0.98
+G9:ORG-02,E13:StopFake|ORG,StopFake,StopFake,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.867,1.0,1.0,1.0,0,0,1,1,0.953
+G9:ACC-008,E13:CASE_ID_ACC-008|CASE_ID,Анонімний Telegram-канал #8,ACC-008,ACCOUNT,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.827,0.0,0.121,0.0,1,0,1,1,0.95
+R8:Faktcheker_F01,E13:CASE_ID_Ф-01|CASE_ID,"Аналітик, військова тематика",Ф-01,ANALYST,CASE_ID,ЛР8 RDF,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:FCH-05,E13:PERSON_Ф-05|PERSON,Аналітик Ф-05 (здоров'я та медицина),Ф-05,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.18,0.0,1.0,0.0,1,0,0,1,0.95
+G9:FCH-05,E13:CASE_ID_Ф-05|CASE_ID,Аналітик Ф-05 (здоров'я та медицина),Ф-05,ANALYST,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.18,0.0,1.0,0.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-003|CASE_ID,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,ACC-003,Анонімний Telegram-канал #3,CASE_ID,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.833,0.0,0.121,0.0,1,0,1,1,0.95
+G9:ACC-006,E13:CASE_ID_ACC-006|CASE_ID,Анонімний Telegram-канал #6,ACC-006,ACCOUNT,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.833,0.0,0.121,0.0,1,0,1,1,0.95
+G9:ACC-006,E13:ORG_ACC-006|ORG,Анонімний Telegram-канал #6,ACC-006,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.032,0.0,0.121,0.0,1,0,0,1,0.95
+G9:ACC-003,E13:ORG_ACC-003|ORG,Анонімний Telegram-канал #3,ACC-003,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.027,0.0,0.121,0.0,1,0,0,1,0.95
+G9:ACC-003,E13:CASE_ID_ACC-003|CASE_ID,Анонімний Telegram-канал #3,ACC-003,ACCOUNT,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.833,0.0,0.121,0.0,1,0,1,1,0.95
+G9:NAR-03,E13:CASE_ID_NAR-03|CASE_ID,Отруєна питна вода,NAR-03,NARRATIVE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-05|PERSON,E13:CASE_ID_Ф-05|CASE_ID,Аналітик Ф-05,Ф-05,PERSON,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.64,0.0,1.0,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-02|PERSON,E13:CASE_ID_Ф-02|CASE_ID,Аналітик Ф-02,Ф-02,PERSON,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.644,0.0,1.0,0.0,1,0,0,1,0.95
+G9:NAR-04,E13:CASE_ID_NAR-04|CASE_ID,Втеча місцевої влади,NAR-04,NARRATIVE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:ACC-007,E13:CASE_ID_ACC-007|CASE_ID,Анонімний Telegram-канал #7,ACC-007,ACCOUNT,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.826,0.0,0.121,0.0,1,0,1,1,0.95
+R8:Faktcheker_F01,E13:PERSON_Аналітик_Ф-01|PERSON,"Аналітик, військова тематика",Аналітик Ф-01,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.39,0.675,0.762,0.333,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-04|PERSON,E13:PERSON_Ф-04|PERSON,Аналітик Ф-04,Ф-04,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.639,0.0,1.0,0.0,1,0,0,1,0.95
+G9:NAR-05,E13:CASE_ID_NAR-05|CASE_ID,Фейкові збори коштів,NAR-05,NARRATIVE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-04|PERSON,E13:CASE_ID_Ф-04|CASE_ID,Аналітик Ф-04,Ф-04,PERSON,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.639,0.0,1.0,0.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-003|CASE_ID,E13:ORG_ACC-003|ORG,ACC-003,ACC-003,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.575,1.0,1.0,1.0,1,0,1,1,0.95
+E13:PERSON_Аналітик_Ф-01|PERSON,E13:PERSON_Ф-01|PERSON,Аналітик Ф-01,Ф-01,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.633,0.0,1.0,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-01|PERSON,E13:CASE_ID_Ф-01|CASE_ID,Аналітик Ф-01,Ф-01,PERSON,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.633,0.0,1.0,0.0,1,0,0,1,0.95
+G9:RULE-1,E13:CASE_ID_RULE-1|CASE_ID,вік акаунта < 30 днів AND акаунт не верифікований,RULE-1,RULE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:ACC-008,E13:ORG_ACC-008|ORG,Анонімний Telegram-канал #8,ACC-008,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.038,0.0,0.121,0.0,1,0,0,1,0.95
+G9:ACC-002,E13:ORG_ACC-002|ORG,Анонімний Telegram-канал #2,ACC-002,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.03,0.0,0.121,0.0,1,0,0,1,0.95
+G9:ACC-002,E13:CASE_ID_ACC-002|CASE_ID,Анонімний Telegram-канал #2,ACC-002,ACCOUNT,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.833,0.0,0.121,0.0,1,0,1,1,0.95
+G9:ACC-007,E13:ORG_ACC-007|ORG,Анонімний Telegram-канал #7,ACC-007,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.037,0.0,0.121,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-03|PERSON,E13:CASE_ID_Ф-03|CASE_ID,Аналітик Ф-03,Ф-03,PERSON,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.633,0.0,1.0,0.0,1,0,0,1,0.95
+E13:ORG_ACC-003|ORG,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,ACC-003,Анонімний Telegram-канал #3,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.027,0.0,0.121,0.0,1,0,0,1,0.95
+G9:OFF-05,E13:CASE_ID_OFF-05|CASE_ID,Національна поліція України,OFF-05,ORG,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-02|PERSON,E13:PERSON_Ф-02|PERSON,Аналітик Ф-02,Ф-02,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.644,0.0,1.0,0.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-005|CASE_ID,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,ACC-005,Анонімний Telegram-канал #5,CASE_ID,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.834,0.0,0.121,0.0,1,0,1,1,0.95
+E13:ORG_ACC-002|ORG,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,ACC-002,Анонімний Telegram-канал #2,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.03,0.0,0.121,0.0,1,0,0,1,0.95
+G9:FCH-02,R8:Faktcheker_F02,Аналітик Ф-02 (регіональні новини),"Аналітик, регіональні новини",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.952,0.675,0.762,1.0,1,0,0,1,0.95
+G9:OFF-03,E13:CASE_ID_OFF-03|CASE_ID,Офіційні канали міських рад,OFF-03,ORG,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:FCH-01,E13:PERSON_Аналітик_Ф-01|PERSON,Аналітик Ф-01 (військова тематика),Аналітик Ф-01,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.359,1.0,1.0,0.333,1,0,0,1,0.95
+G9:OFF-01,E13:ORG_OFF-01|ORG,ДСНС України,OFF-01,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:FCH-02,E13:PERSON_Аналітик_Ф-02|PERSON,Аналітик Ф-02 (регіональні новини),Аналітик Ф-02,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.358,1.0,1.0,0.333,1,0,0,1,0.95
+E13:CASE_ID_ACC-006|CASE_ID,E13:ORG_ACC-006|ORG,ACC-006,ACC-006,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.579,1.0,1.0,1.0,1,0,1,1,0.95
+E13:CASE_ID_ACC-006|CASE_ID,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,ACC-006,Анонімний Telegram-канал #6,CASE_ID,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.833,0.0,0.121,0.0,1,0,1,1,0.95
+E13:CASE_ID_ACC-008|CASE_ID,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,ACC-008,Анонімний Telegram-канал #8,CASE_ID,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.827,0.0,0.121,0.0,1,0,1,1,0.95
+E13:CASE_ID_ACC-008|CASE_ID,E13:ORG_ACC-008|ORG,ACC-008,ACC-008,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.593,1.0,1.0,1.0,1,0,1,1,0.95
+G9:FCH-01,E13:PERSON_Ф-01|PERSON,Аналітик Ф-01 (військова тематика),Ф-01,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.197,0.0,1.0,0.0,1,0,0,1,0.95
+G9:FCH-01,E13:CASE_ID_Ф-01|CASE_ID,Аналітик Ф-01 (військова тематика),Ф-01,ANALYST,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.197,0.0,1.0,0.0,1,0,0,1,0.95
+G9:FCH-01,R8:Faktcheker_F01,Аналітик Ф-01 (військова тематика),"Аналітик, військова тематика",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.958,0.675,0.762,1.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-007|CASE_ID,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,ACC-007,Анонімний Telegram-канал #7,CASE_ID,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.826,0.0,0.121,0.0,1,0,1,1,0.95
+E13:CASE_ID_ACC-007|CASE_ID,E13:ORG_ACC-007|ORG,ACC-007,ACC-007,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.593,1.0,1.0,1.0,1,0,1,1,0.95
+E13:ORG_ACC-001|ORG,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,ACC-001,Анонімний Telegram-канал #1,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.028,0.0,0.121,0.0,1,0,0,1,0.95
+G9:RULE-2,R8:Pravylo_R2,автор має спростоване твердження у публікації з ≥ 1000 поширень,автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень,RULE,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.711,1.0,1.0,0.75,1,0,0,1,0.95
+G9:FCH-05,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-05 (здоров'я та медицина),Аналітик Ф-05,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.289,1.0,1.0,0.333,1,0,0,1,0.95
+G9:FCH-06,E13:PERSON_Ф-06|PERSON,Аналітик Ф-06 (фінансові шахрайства),Ф-06,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.185,0.0,1.0,0.0,1,0,0,1,0.95
+G9:FCH-03,E13:PERSON_Аналітик_Ф-03|PERSON,Аналітик Ф-03 (медіа та фото),Аналітик Ф-03,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.39,1.0,1.0,0.333,1,0,0,1,0.95
+G9:OFF-01,E13:CASE_ID_OFF-01|CASE_ID,ДСНС України,OFF-01,ORG,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-004|CASE_ID,E13:ORG_ACC-004|ORG,ACC-004,ACC-004,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.576,1.0,1.0,1.0,1,0,1,1,0.95
+G9:FCH-03,E13:CASE_ID_Ф-03|CASE_ID,Аналітик Ф-03 (медіа та фото),Ф-03,ANALYST,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.26,0.0,1.0,0.0,1,0,0,1,0.95
+G9:OFF-03,E13:ORG_OFF-03|ORG,Офіційні канали міських рад,OFF-03,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:RULE-4,E13:CASE_ID_RULE-4|CASE_ID,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,RULE-4,RULE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.394,0.03,0.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-005|CASE_ID,E13:ORG_ACC-005|ORG,ACC-005,ACC-005,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.577,1.0,1.0,1.0,1,0,1,1,0.95
+G9:FCH-02,E13:CASE_ID_Ф-02|CASE_ID,Аналітик Ф-02 (регіональні новини),Ф-02,ANALYST,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.213,0.0,1.0,0.0,1,0,0,1,0.95
+E13:ORG_ACC-008|ORG,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,ACC-008,Анонімний Telegram-канал #8,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.038,0.0,0.121,0.0,1,0,0,1,0.95
+E13:ORG_ACC-007|ORG,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,ACC-007,Анонімний Telegram-канал #7,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.037,0.0,0.121,0.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-004|CASE_ID,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,ACC-004,Анонімний Telegram-канал #4,CASE_ID,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.834,0.0,0.121,0.0,1,0,1,1,0.95
+E13:ORG_ACC-006|ORG,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,ACC-006,Анонімний Telegram-канал #6,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.032,0.0,0.121,0.0,1,0,0,1,0.95
+E13:ORG_ACC-005|ORG,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,ACC-005,Анонімний Telegram-канал #5,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.031,0.0,0.121,0.0,1,0,0,1,0.95
+R8:Faktcheker_F01,E13:PERSON_Ф-01|PERSON,"Аналітик, військова тематика",Ф-01,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:OFF-04,E13:CASE_ID_OFF-04|CASE_ID,МОЗ України,OFF-04,ORG,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-03|PERSON,E13:PERSON_Ф-03|PERSON,Аналітик Ф-03,Ф-03,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.633,0.0,1.0,0.0,1,0,0,1,0.95
+E13:ORG_ACC-004|ORG,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,ACC-004,Анонімний Telegram-канал #4,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.03,0.0,0.121,0.0,1,0,0,1,0.95
+G9:FCH-02,E13:PERSON_Ф-02|PERSON,Аналітик Ф-02 (регіональні новини),Ф-02,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.213,0.0,1.0,0.0,1,0,0,1,0.95
+R8:Faktcheker_F02,E13:CASE_ID_Ф-02|CASE_ID,"Аналітик, регіональні новини",Ф-02,ANALYST,CASE_ID,ЛР8 RDF,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-002|CASE_ID,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,ACC-002,Анонімний Telegram-канал #2,CASE_ID,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.833,0.0,0.121,0.0,1,0,1,1,0.95
+E13:CASE_ID_Ф-02|CASE_ID,E13:PERSON_Ф-02|PERSON,Ф-02,Ф-02,CASE_ID,PERSON,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,0.0,1,0,1,1,0.95
+E13:CASE_ID_Ф-03|CASE_ID,E13:PERSON_Ф-03|PERSON,Ф-03,Ф-03,CASE_ID,PERSON,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,0.0,1,0,1,1,0.95
+G9:FCH-04,E13:CASE_ID_Ф-04|CASE_ID,Аналітик Ф-04 (соцмережі й боти),Ф-04,ANALYST,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.222,0.0,1.0,0.0,1,0,0,1,0.95
+R8:Faktcheker_F02,E13:PERSON_Аналітик_Ф-02|PERSON,"Аналітик, регіональні новини",Аналітик Ф-02,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.384,0.675,0.762,0.333,1,0,0,1,0.95
+G9:NAR-01,E13:CASE_ID_NAR-01|CASE_ID,Повна втрата контролю над містом,NAR-01,NARRATIVE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+E13:CASE_ID_Ф-04|CASE_ID,E13:PERSON_Ф-04|PERSON,Ф-04,Ф-04,CASE_ID,PERSON,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,0.0,1,0,1,1,0.95
+G9:FCH-04,E13:PERSON_Ф-04|PERSON,Аналітик Ф-04 (соцмережі й боти),Ф-04,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.222,0.0,1.0,0.0,1,0,0,1,0.95
+G9:ACC-004,E13:CASE_ID_ACC-004|CASE_ID,Анонімний Telegram-канал #4,ACC-004,ACCOUNT,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.834,0.0,0.121,0.0,1,0,1,1,0.95
+G9:ACC-004,E13:ORG_ACC-004|ORG,Анонімний Telegram-канал #4,ACC-004,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.03,0.0,0.121,0.0,1,0,0,1,0.95
+E13:CASE_ID_Ф-05|CASE_ID,E13:PERSON_Ф-05|PERSON,Ф-05,Ф-05,CASE_ID,PERSON,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,0.0,1,0,1,1,0.95
+E13:CASE_ID_Ф-01|CASE_ID,E13:PERSON_Ф-01|PERSON,Ф-01,Ф-01,CASE_ID,PERSON,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,0.0,1,0,1,1,0.95
+G9:ACC-005,E13:ORG_ACC-005|ORG,Анонімний Telegram-канал #5,ACC-005,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.031,0.0,0.121,0.0,1,0,0,1,0.95
+G9:ACC-001,E13:CASE_ID_ACC-001|CASE_ID,Анонімний Telegram-канал #1,ACC-001,ACCOUNT,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.833,0.0,0.121,0.0,1,0,1,1,0.95
+R8:Faktcheker_F02,E13:PERSON_Ф-02|PERSON,"Аналітик, регіональні новини",Ф-02,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:FCH-03,E13:PERSON_Ф-03|PERSON,Аналітик Ф-03 (медіа та фото),Ф-03,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.26,0.0,1.0,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-05|PERSON,E13:PERSON_Ф-05|PERSON,Аналітик Ф-05,Ф-05,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.64,0.0,1.0,0.0,1,0,0,1,0.95
+G9:NAR-02,E13:CASE_ID_NAR-02|CASE_ID,Колапс критичної інфраструктури,NAR-02,NARRATIVE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+E13:PERSON_Аналітик_Ф-06|PERSON,E13:CASE_ID_Ф-06|CASE_ID,Аналітик Ф-06,Ф-06,PERSON,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.645,0.0,1.0,0.0,1,0,0,1,0.95
+G9:NAR-06,E13:CASE_ID_NAR-06|CASE_ID,Небезпека укриттів і пунктів незламності,NAR-06,NARRATIVE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:ACC-005,E13:CASE_ID_ACC-005|CASE_ID,Анонімний Telegram-канал #5,ACC-005,ACCOUNT,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.834,0.0,0.121,0.0,1,0,1,1,0.95
+G9:FCH-06,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-06 (фінансові шахрайства),Аналітик Ф-06,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.286,1.0,1.0,0.333,1,0,0,1,0.95
+E13:CASE_ID_Ф-06|CASE_ID,E13:PERSON_Ф-06|PERSON,Ф-06,Ф-06,CASE_ID,PERSON,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,0.0,1,0,1,1,0.95
+G9:RULE-3,E13:CASE_ID_RULE-3|CASE_ID,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,RULE-3,RULE,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.009,0.393,0.024,0.0,1,0,0,1,0.95
+E13:CASE_ID_ACC-001|CASE_ID,E13:ORG_ACC-001|ORG,ACC-001,ACC-001,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.576,1.0,1.0,1.0,1,0,1,1,0.95
+E13:CASE_ID_ACC-001|CASE_ID,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,ACC-001,Анонімний Telegram-канал #1,CASE_ID,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.833,0.0,0.121,0.0,1,0,1,1,0.95
+R8:Pravylo_R1,E13:CASE_ID_RULE-1|CASE_ID,вік акаунта < 30 днів AND акаунт не верифікований,RULE-1,RULE,CASE_ID,ЛР8 RDF,ЛР13 витяг,0.0,0.0,0.0,0.0,1,0,0,1,0.95
+G9:FCH-04,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-04 (соцмережі й боти),Аналітик Ф-04,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.362,1.0,1.0,0.333,1,0,0,1,0.95
+E13:CASE_ID_ACC-002|CASE_ID,E13:ORG_ACC-002|ORG,ACC-002,ACC-002,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.578,1.0,1.0,1.0,1,0,1,1,0.95
+E13:PERSON_Аналітик_Ф-06|PERSON,E13:PERSON_Ф-06|PERSON,Аналітик Ф-06,Ф-06,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.645,0.0,1.0,0.0,1,0,0,1,0.95
+G9:ACC-001,E13:ORG_ACC-001|ORG,Анонімний Telegram-канал #1,ACC-001,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.028,0.0,0.121,0.0,1,0,0,1,0.95
+G9:FCH-06,E13:CASE_ID_Ф-06|CASE_ID,Аналітик Ф-06 (фінансові шахрайства),Ф-06,ANALYST,CASE_ID,ЛР9 граф Neo4j,ЛР13 витяг,0.185,0.0,1.0,0.0,1,0,0,1,0.95
+E13:YouTube|PLATFORM,E13:ORG_YouTuber|ORG,YouTube,YouTuber,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.808,0.975,0.933,1.0,0,0,0,1,0.911
+E13:ORG_Могилянська_школа_журналістики_НаУКМА|ORG,E13:ORG_НаУКМА|ORG,Могилянська школа журналістики (НаУКМА),НаУКМА,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.689,0.6,0.278,0.25,0,0,1,1,0.9
+E13:ВООЗ|ORG,E13:ORG_Всесвітня_організація_охорони_здоров_я_ВООЗ|ORG,ВООЗ,Всесвітня організація охорони здоров'я (ВООЗ),ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.965,0.61,0.19,0.2,0,0,1,1,0.9
+E13:ORG_YouTuber|ORG,E13:ORG_YouTuber_у|ORG,YouTuber,YouTuber'у,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.761,0.96,0.889,1.0,0,0,0,1,0.881
+G9:OFF-01,R8:Dzherelo_O01,ДСНС України,ДСНС,ORG,ORG,ЛР9 граф Neo4j,ЛР8 RDF,0.702,0.867,1.0,1.0,0,0,0,1,0.869
+R8:Dzherelo_O01,E13:ДСНС_України|ORG,ДСНС,ДСНС України,ORG,ORG,ЛР8 RDF,ЛР13 витяг,0.702,0.867,1.0,1.0,0,0,0,1,0.869
+E13:ORG_Сігрід_Раузінг|ORG,E13:ORG_фонд_Сігрід_Раузінг|ORG,Сігрід Раузінг,фонд «Сігрід Раузінг»,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.899,0.841,1.0,0.667,0,0,0,1,0.866
+R8:Instrument_I01,E13:METHOD_реверсивний_пошук|METHOD,Реверсивний пошук зображень,реверсивний пошук,METHOD,METHOD,ЛР8 RDF,ЛР13 витяг,0.77,0.926,1.0,0.667,0,0,0,1,0.838
+G9:TOOL-01,E13:METHOD_реверсивний_пошук|METHOD,Реверсивний пошук зображень,реверсивний пошук,METHOD,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.77,0.926,1.0,0.667,0,0,0,1,0.838
+E13:YouTube|PLATFORM,E13:ORG_YouTuber_у|ORG,YouTube,YouTuber'у,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.693,0.94,0.824,1.0,0,0,0,1,0.837
+R8:Akaunt_A01,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.682,0.931,0.96,0.6,0,0,0,1,0.785
+G9:ACC-001,R8:Akaunt_A01,Анонімний Telegram-канал #1,Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.682,0.931,0.96,0.6,0,0,0,1,0.785
+G9:ACC-002,R8:Akaunt_A01,Анонімний Telegram-канал #2,Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.678,0.931,0.96,0.6,0,0,0,1,0.784
+R8:Akaunt_A01,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.678,0.931,0.96,0.6,0,0,0,1,0.784
+G9:ACC-003,R8:Akaunt_A01,Анонімний Telegram-канал #3,Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.68,0.931,0.96,0.6,0,0,0,1,0.784
+R8:Akaunt_A01,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.68,0.931,0.96,0.6,0,0,0,1,0.784
+R8:Akaunt_A01,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.676,0.931,0.96,0.6,0,0,0,1,0.783
+G9:ACC-007,R8:Akaunt_A01,Анонімний Telegram-канал #7,Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.676,0.931,0.96,0.6,0,0,0,1,0.783
+G9:ACC-006,R8:Akaunt_A01,Анонімний Telegram-канал #6,Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.676,0.931,0.96,0.6,0,0,0,1,0.783
+R8:Akaunt_A01,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.677,0.931,0.96,0.6,0,0,0,1,0.783
+R8:Akaunt_A01,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.676,0.931,0.96,0.6,0,0,0,1,0.783
+G9:ACC-004,R8:Akaunt_A01,Анонімний Telegram-канал #4,Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.677,0.931,0.96,0.6,0,0,0,1,0.783
+G9:ACC-005,R8:Akaunt_A01,Анонімний Telegram-канал #5,Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.676,0.931,0.96,0.6,0,0,0,1,0.783
+R8:Akaunt_A01,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.676,0.931,0.96,0.6,0,0,0,1,0.783
+R8:Akaunt_A01,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.674,0.931,0.96,0.6,0,0,0,1,0.782
+G9:ACC-008,R8:Akaunt_A01,Анонімний Telegram-канал #8,Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.674,0.931,0.96,0.6,0,0,0,1,0.782
+E13:ORG_Google|ORG,E13:ORG_Google_Usenet|ORG,Google,Google Usenet,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.673,0.892,1.0,0.5,0,0,0,1,0.764
+E13:PLATFORM_Google|PLATFORM,E13:ORG_Google_Usenet|ORG,Google,Google Usenet,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.673,0.892,1.0,0.5,0,0,0,1,0.764
+E13:Facebook|PLATFORM,E13:PLATFORM_Facebook_Messenger|PLATFORM,Facebook,Facebook Messenger,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.653,0.889,1.0,0.5,0,0,0,1,0.756
+E13:ORG_Facebook|ORG,E13:PLATFORM_Facebook_Messenger|PLATFORM,Facebook,Facebook Messenger,ORG,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.653,0.889,1.0,0.5,0,0,0,1,0.756
+E13:PERSON_Найтінгейл|PERSON,E13:PERSON_Флоренс_Найтінгейл|PERSON,Найтінгейл,Флоренс Найтінгейл,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.758,0.685,1.0,0.5,0,0,0,1,0.752
+E13:PHENOMENON_Упереджене_викладення_фактів|PHENOMENON,E13:METHOD_упереджене_висвітлення_фактів|METHOD,Упереджене викладення фактів,упереджене висвітлення фактів,PHENOMENON,METHOD,ЛР13 витяг,ЛР13 витяг,0.682,0.911,0.877,0.5,0,0,0,1,0.74
+E13:Exif|METHOD,E13:PHENOMENON_Exif_Print|PHENOMENON,Exif,Exif Print,METHOD,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.604,0.88,1.0,0.5,0,0,0,1,0.737
+E13:ORG_Національний_фонд|ORG,E13:ORG_Національний_фонд_в_підтримку_демократії|ORG,Національний фонд,Національний фонд в підтримку демократії,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.573,0.885,1.0,0.5,0,0,0,1,0.728
+E13:соціальні_мережі|PLATFORM,E13:PLATFORM_соціальних_мереж_і_месенджерів|PLATFORM,соціальні мережі,соціальних мереж і месенджерів,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.673,0.869,0.696,0.667,0,0,0,1,0.717
+E13:ORG_Могилянська_школа_журналістики_НаУКМА|ORG,E13:ORG_Могилянської_школи_журналістики|ORG,Могилянська школа журналістики (НаУКМА),Могилянської школи журналістики,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.618,0.932,0.918,0.4,0,0,0,1,0.712
+G9:TOOL-02,E13:аналіз_EXIF|METHOD,Аналіз EXIF-метаданих,аналіз EXIF,METHOD,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.553,0.905,0.706,0.667,0,0,0,1,0.684
+R8:Instrument_I02,E13:аналіз_EXIF|METHOD,Аналіз EXIF-метаданих,аналіз EXIF,METHOD,METHOD,ЛР8 RDF,ЛР13 витяг,0.553,0.905,0.706,0.667,0,0,0,1,0.684
+E13:PLATFORM_месенджерів|PLATFORM,E13:PLATFORM_соціальних_мереж_і_месенджерів|PLATFORM,месенджерів,соціальних мереж і месенджерів,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.695,0.558,1.0,0.333,0,0,0,1,0.671
+E13:ORG_Департамент_міжнародно-правової_співпраці_та_повернення_активів_Офісу_генера|ORG,E13:ORG_Департаменті_міжнародно-правової_співпраці|ORG,Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України,Департаменті міжнародно-правової співпраці,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.678,0.688,0.817,0.444,0,0,0,1,0.668
+G9:TOOL-03,E13:METHOD_геолокація|METHOD,Геолокація за супутниковими знімками,геолокація,METHOD,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.506,0.856,1.0,0.333,0,0,0,1,0.665
+E13:ORG_Православної_церкви_України|ORG,E13:ORG_російська_православна_церква|ORG,Православної церкви України,російська православна церква,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.559,0.684,0.691,0.667,0,0,0,1,0.639
+E13:ORG_Департамент_міжнародно-правової_співпраці_та_повернення_активів_Офісу_генера|ORG,E13:ORG_Офісу_генерального_прокурора_України|ORG,Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України,Офісу генерального прокурора України,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.607,0.531,1.0,0.333,0,0,0,1,0.635
+E13:Exif|METHOD,E13:аналіз_EXIF|METHOD,Exif,аналіз EXIF,METHOD,METHOD,ЛР13 витяг,ЛР13 витяг,0.729,0.0,1.0,0.5,0,0,0,1,0.605
+E13:дезінформація|PHENOMENON,E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON,дезінформація,Дезінформування від зворотного,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.589,0.848,0.512,0.5,0,0,0,1,0.604
+E13:дезінформація|PHENOMENON,E13:METHOD_дезінформування_від_зворотного|METHOD,дезінформація,дезінформування від зворотного,PHENOMENON,METHOD,ЛР13 витяг,ЛР13 витяг,0.589,0.848,0.512,0.5,0,0,0,1,0.604
+E13:Андрій_Коваленко|PERSON,E13:PERSON_Андрій_Шаповалов|PERSON,Андрій Коваленко,Андрій Шаповалов,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.443,0.883,0.75,0.333,0,0,0,1,0.586
+E13:дезінформація|PHENOMENON,E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON,дезінформація,маніпулятивне спотворення фактів; дезінформація,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.508,0.529,1.0,0.25,0,0,0,1,0.584
+E13:бот|PHENOMENON,E13:соціальний_бот|PHENOMENON,бот,соціальний бот,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.37,0.468,1.0,0.5,0,0,0,1,0.573
+E13:фейк|PHENOMENON,E13:PHENOMENON_фейк-ньюз_-с|PHENOMENON,фейк,фейк-ньюз(-с),PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.336,0.889,0.615,0.5,0,0,0,1,0.549
+E13:ORG_Національна_поліція_України|ORG,E13:ORG_Національний_фонд|ORG,Національна поліція України,Національний фонд,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.446,0.849,0.591,0.333,0,0,0,1,0.54
+G9:OFF-05,E13:ORG_Національний_фонд|ORG,Національна поліція України,Національний фонд,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.446,0.849,0.591,0.333,0,0,0,1,0.54
+E13:PLATFORM_Facebook_Messenger|PLATFORM,E13:ORG_Messenger_Фейсбук|ORG,Facebook Messenger,Messenger Фейсбук,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.573,0.457,0.692,0.333,0,0,0,1,0.532
+E13:соціальний_бот|PHENOMENON,E13:PHENOMENON_соціальної_інженерії|PHENOMENON,соціальний бот,соціальної інженерії,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.477,0.823,0.471,0.333,0,0,0,1,0.516
+G9:ACC-001,R8:Akaunt_A02,Анонімний Telegram-канал #1,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.407,0.65,0.7,0.333,0,0,0,1,0.514
+G9:ACC-003,R8:Akaunt_A02,Анонімний Telegram-канал #3,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.406,0.65,0.7,0.333,0,0,0,1,0.514
+R8:Akaunt_A02,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Офіційний Telegram-канал регіонального видання,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.406,0.65,0.7,0.333,0,0,0,1,0.514
+R8:Akaunt_A02,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Офіційний Telegram-канал регіонального видання,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.407,0.65,0.7,0.333,0,0,0,1,0.514
+G9:ACC-005,R8:Akaunt_A02,Анонімний Telegram-канал #5,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.403,0.65,0.7,0.333,0,0,0,1,0.513
+R8:Akaunt_A02,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Офіційний Telegram-канал регіонального видання,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.404,0.65,0.7,0.333,0,0,0,1,0.513
+R8:Akaunt_A02,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Офіційний Telegram-канал регіонального видання,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.403,0.65,0.7,0.333,0,0,0,1,0.513
+R8:Akaunt_A02,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Офіційний Telegram-канал регіонального видання,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.403,0.65,0.7,0.333,0,0,0,1,0.513
+G9:ACC-007,R8:Akaunt_A02,Анонімний Telegram-канал #7,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.403,0.65,0.7,0.333,0,0,0,1,0.513
+G9:ACC-002,R8:Akaunt_A02,Анонімний Telegram-канал #2,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.405,0.65,0.7,0.333,0,0,0,1,0.513
+G9:ACC-004,R8:Akaunt_A02,Анонімний Telegram-канал #4,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.404,0.65,0.7,0.333,0,0,0,1,0.513
+R8:Akaunt_A02,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Офіційний Telegram-канал регіонального видання,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.403,0.65,0.7,0.333,0,0,0,1,0.513
+G9:ACC-006,R8:Akaunt_A02,Анонімний Telegram-канал #6,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.403,0.65,0.7,0.333,0,0,0,1,0.513
+R8:Akaunt_A02,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Офіційний Telegram-канал регіонального видання,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.405,0.65,0.7,0.333,0,0,0,1,0.513
+R8:Akaunt_A03,E13:Facebook|PLATFORM,Новинний агрегатор у Facebook,Facebook,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.557,0.0,1.0,0.333,0,0,0,1,0.512
+R8:Akaunt_A03,E13:ORG_Facebook|ORG,Новинний агрегатор у Facebook,Facebook,ACCOUNT,ORG,ЛР8 RDF,ЛР13 витяг,0.557,0.0,1.0,0.333,0,0,0,1,0.512
+R8:Akaunt_A02,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Офіційний Telegram-канал регіонального видання,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.402,0.65,0.7,0.333,0,0,0,1,0.512
+G9:ACC-008,R8:Akaunt_A02,Анонімний Telegram-канал #8,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.402,0.65,0.7,0.333,0,0,0,1,0.512
+G9:ACC-001,E13:Telegram|PLATFORM,Анонімний Telegram-канал #1,Telegram,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.461,0.769,0.471,0.333,0,0,0,1,0.5
+E13:Telegram|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Telegram,Анонімний Telegram-канал #1,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.461,0.769,0.471,0.333,0,0,0,1,0.5
+E13:ORG_TensorFlow|ORG,E13:METHOD_TensorFlow|METHOD,TensorFlow,TensorFlow,ORG,METHOD,ЛР13 витяг,ЛР13 витяг,1.0,1.0,1.0,1.0,0,0,1,0,0.5
+G9:ACC-003,E13:Telegram|PLATFORM,Анонімний Telegram-канал #3,Telegram,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.46,0.769,0.471,0.333,0,0,0,1,0.499
+G9:ACC-002,E13:Telegram|PLATFORM,Анонімний Telegram-канал #2,Telegram,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.459,0.769,0.471,0.333,0,0,0,1,0.499
+E13:Telegram|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Telegram,Анонімний Telegram-канал #3,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.46,0.769,0.471,0.333,0,0,0,1,0.499
+E13:Telegram|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Telegram,Анонімний Telegram-канал #2,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.459,0.769,0.471,0.333,0,0,0,1,0.499
+G9:ACC-005,E13:Telegram|PLATFORM,Анонімний Telegram-канал #5,Telegram,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.457,0.769,0.471,0.333,0,0,0,1,0.498
+G9:ACC-004,E13:Telegram|PLATFORM,Анонімний Telegram-канал #4,Telegram,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.458,0.769,0.471,0.333,0,0,0,1,0.498
+G9:ACC-007,E13:Telegram|PLATFORM,Анонімний Telegram-канал #7,Telegram,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.457,0.769,0.471,0.333,0,0,0,1,0.498
+G9:ACC-008,E13:Telegram|PLATFORM,Анонімний Telegram-канал #8,Telegram,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.456,0.769,0.471,0.333,0,0,0,1,0.498
+E13:Telegram|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Telegram,Анонімний Telegram-канал #8,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.456,0.769,0.471,0.333,0,0,0,1,0.498
+E13:Telegram|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Telegram,Анонімний Telegram-канал #7,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.457,0.769,0.471,0.333,0,0,0,1,0.498
+E13:Telegram|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Telegram,Анонімний Telegram-канал #6,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.457,0.769,0.471,0.333,0,0,0,1,0.498
+E13:Telegram|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Telegram,Анонімний Telegram-канал #5,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.457,0.769,0.471,0.333,0,0,0,1,0.498
+E13:Telegram|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Telegram,Анонімний Telegram-канал #4,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.458,0.769,0.471,0.333,0,0,0,1,0.498
+G9:ACC-006,E13:Telegram|PLATFORM,Анонімний Telegram-канал #6,Telegram,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.457,0.769,0.471,0.333,0,0,0,1,0.498
+E13:PHENOMENON_Бойові_боти|PHENOMENON,E13:PHENOMENON_Зливні_боти|PHENOMENON,Бойові боти,Зливні боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.313,0.758,0.636,0.333,0,0,0,1,0.487
+G9:TOOL-04,E13:аналіз_EXIF|METHOD,Аналіз мережі поширення,аналіз EXIF,METHOD,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.306,0.647,0.706,0.25,0,0,0,1,0.463
+E13:PHENOMENON_Бойові_боти|PHENOMENON,E13:PHENOMENON_Гіперболізовані_боти|PHENOMENON,Бойові боти,Гіперболізовані боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.249,0.736,0.645,0.333,0,0,0,1,0.462
+E13:PHENOMENON_Exif_Print|PHENOMENON,E13:аналіз_EXIF|METHOD,Exif Print,аналіз EXIF,PHENOMENON,METHOD,ЛР13 витяг,ЛР13 витяг,0.44,0.461,0.571,0.333,0,0,0,1,0.456
+E13:PHENOMENON_Зливні_боти|PHENOMENON,E13:PHENOMENON_Технічні_боти|PHENOMENON,Зливні боти,Технічні боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.28,0.725,0.583,0.333,0,0,0,1,0.455
+G9:FCH-01,E13:PHENOMENON_військова_тематика|PHENOMENON,Аналітик Ф-01 (військова тематика),військова тематика,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.951,0.421,0.323,0.667,0,0,1,0,0.45
+G9:FCH-03,E13:PHENOMENON_медіа_та_фото|PHENOMENON,Аналітик Ф-03 (медіа та фото),медіа та фото,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.927,0.585,0.308,0.667,0,0,1,0,0.45
+G9:FCH-04,E13:PHENOMENON_соцмережі_й_боти|PHENOMENON,Аналітик Ф-04 (соцмережі й боти),соцмережі й боти,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.938,0.426,0.207,0.667,0,0,1,0,0.45
+E13:ORG_DCF|ORG,E13:METHOD_DCF_2_0|METHOD,DCF,DCF 2.0,ORG,METHOD,ЛР13 витяг,ЛР13 витяг,0.792,0.867,1.0,1.0,0,0,0,0,0.45
+E13:PHENOMENON_Бойові_боти|PHENOMENON,E13:PHENOMENON_соцмережі_й_боти|PHENOMENON,Бойові боти,соцмережі й боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.274,0.691,0.593,0.333,0,0,0,1,0.449
+G9:OFF-03,R8:Akaunt_A02,Офіційні канали міських рад,Офіційний Telegram-канал регіонального видання,ORG,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.285,0.822,0.493,0.286,0,0,0,1,0.445
+R8:Akaunt_A02,E13:ORG_Офіційні_канали_міських_рад|ORG,Офіційний Telegram-канал регіонального видання,Офіційні канали міських рад,ACCOUNT,ORG,ЛР8 RDF,ЛР13 витяг,0.285,0.822,0.493,0.286,0,0,0,1,0.445
+R8:Akaunt_A01,R8:Akaunt_A02,Анонімний Telegram-канал «Місто зараз»,Офіційний Telegram-канал регіонального видання,ACCOUNT,ACCOUNT,ЛР8 RDF,ЛР8 RDF,0.306,0.641,0.634,0.25,0,0,0,1,0.444
+E13:PHENOMENON_Журналістика_даних|PHENOMENON,E13:PHENOMENON_візуалізація_даних|PHENOMENON,Журналістика даних,візуалізація даних,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.287,0.589,0.611,0.333,0,0,0,1,0.438
+E13:PHENOMENON_Бойові_боти|PHENOMENON,E13:PHENOMENON_Технічні_боти|PHENOMENON,Бойові боти,Технічні боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.272,0.669,0.533,0.333,0,0,0,1,0.429
+E13:PHENOMENON_Гіперболізовані_боти|PHENOMENON,E13:PHENOMENON_Зливні_боти|PHENOMENON,Гіперболізовані боти,Зливні боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.225,0.67,0.581,0.333,0,0,0,1,0.425
+R8:Faktcheker_F01,E13:PHENOMENON_військова_тематика|PHENOMENON,"Аналітик, військова тематика",військова тематика,ANALYST,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.896,0.741,1.0,0.667,0,0,0,0,0.423
+E13:ORG_Національна_поліція_України|ORG,E13:ORG_Національний_фонд_в_підтримку_демократії|ORG,Національна поліція України,Національний фонд в підтримку демократії,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.283,0.837,0.448,0.2,0,0,0,1,0.418
+G9:OFF-05,E13:ORG_Національний_фонд_в_підтримку_демократії|ORG,Національна поліція України,Національний фонд в підтримку демократії,ORG,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.283,0.837,0.448,0.2,0,0,0,1,0.418
+E13:ORG_Міжнародний_фонд_Відродження|ORG,E13:ORG_Національний_фонд|ORG,Міжнародний фонд «Відродження»,Національний фонд,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.26,0.692,0.533,0.25,0,0,0,1,0.413
+R8:Instrument_I02,E13:Exif|METHOD,Аналіз EXIF-метаданих,Exif,METHOD,METHOD,ЛР8 RDF,ЛР13 витяг,0.339,0.73,0.32,0.333,0,0,0,1,0.411
+G9:TOOL-02,E13:Exif|METHOD,Аналіз EXIF-метаданих,Exif,METHOD,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.339,0.73,0.32,0.333,0,0,0,1,0.411
+R8:Akaunt_A03,E13:PLATFORM_Facebook_Messenger|PLATFORM,Новинний агрегатор у Facebook,Facebook Messenger,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.364,0.393,0.615,0.25,0,0,0,1,0.41
+R8:Akaunt_A01,E13:Telegram|PLATFORM,Анонімний Telegram-канал «Місто зараз»,Telegram,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.339,0.741,0.364,0.2,0,0,0,1,0.398
+E13:PHENOMENON_маніпуляцій|PHENOMENON,E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON,маніпуляцій,маніпулятивне спотворення фактів; дезінформація,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.379,0.671,0.316,0.25,0,0,0,1,0.396
+E13:PHENOMENON_Гіперболізовані_боти|PHENOMENON,E13:PHENOMENON_Технічні_боти|PHENOMENON,Гіперболізовані боти,Технічні боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.203,0.603,0.545,0.333,0,0,0,1,0.394
+E13:PHENOMENON_Технічні_боти|PHENOMENON,E13:PHENOMENON_соцмережі_й_боти|PHENOMENON,Технічні боти,соцмережі й боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.205,0.659,0.483,0.333,0,0,0,1,0.391
+E13:PHENOMENON_Зливні_боти|PHENOMENON,E13:PHENOMENON_соцмережі_й_боти|PHENOMENON,Зливні боти,соцмережі й боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.236,0.529,0.533,0.333,0,0,0,1,0.388
+E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON,E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON,Дезінформування від зворотного,маніпулятивне спотворення фактів; дезінформація,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.289,0.646,0.447,0.2,0,0,0,1,0.382
+E13:PHENOMENON__Термінологічне_мінування|PHENOMENON,E13:PHENOMENON_зневажливий_термін|PHENOMENON,Термінологічне «мінування,зневажливий термін,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.267,0.514,0.476,0.333,0,0,0,1,0.382
+E13:METHOD_дезінформування_від_зворотного|METHOD,E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON,дезінформування від зворотного,маніпулятивне спотворення фактів; дезінформація,METHOD,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.289,0.646,0.447,0.2,0,0,0,1,0.382
+E13:PHENOMENON_зневажливий_термін|PHENOMENON,E13:METHOD_термінологічне_мінування|METHOD,зневажливий термін,термінологічне «мінування»,PHENOMENON,METHOD,ЛР13 витяг,ЛР13 витяг,0.267,0.514,0.476,0.333,0,0,0,1,0.382
+E13:PHENOMENON_Гіперболізовані_боти|PHENOMENON,E13:PHENOMENON_соцмережі_й_боти|PHENOMENON,Гіперболізовані боти,соцмережі й боти,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.182,0.597,0.444,0.333,0,0,0,1,0.361
+E13:PHENOMENON_Упереджене_викладення_фактів|PHENOMENON,E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON,Упереджене викладення фактів,маніпулятивне спотворення фактів; дезінформація,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.257,0.614,0.459,0.167,0,0,0,1,0.361
+E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON,E13:METHOD_упереджене_висвітлення_фактів|METHOD,маніпулятивне спотворення фактів; дезінформація,упереджене висвітлення фактів,PHENOMENON,METHOD,ЛР13 витяг,ЛР13 витяг,0.245,0.669,0.427,0.167,0,0,0,1,0.36
+G9:TOOL-04,R8:Instrument_I02,Аналіз мережі поширення,Аналіз EXIF-метаданих,METHOD,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,0.211,0.637,0.455,0.2,0,0,0,1,0.355
+R8:Akaunt_A02,E13:Telegram|PLATFORM,Офіційний Telegram-канал регіонального видання,Telegram,ACCOUNT,PLATFORM,ЛР8 RDF,ЛР13 витяг,0.269,0.725,0.296,0.2,0,0,0,1,0.353
+E13:ORG_Департаменті_міжнародно-правової_співпраці|ORG,E13:ORG_Міжнародний_фонд_Відродження|ORG,Департаменті міжнародно-правової співпраці,Міжнародний фонд «Відродження»,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.276,0.552,0.429,0.167,0,0,0,1,0.348
+E13:ORG_Національний_фонд|ORG,E13:ORG_фонд_Сігрід_Раузінг|ORG,Національний фонд,фонд «Сігрід Раузінг»,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.266,0.451,0.444,0.25,0,0,0,1,0.344
+E13:ORG_Всесвітня_організація_охорони_здоров_я_ВООЗ|ORG,E13:ORG_фактчекінгової_організації|ORG,Всесвітня організація охорони здоров'я (ВООЗ),фактчекінгової організації,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.246,0.574,0.406,0.167,0,0,0,1,0.336
+G9:ACC-029,R8:Akaunt_A01,Твоє Місто (Львів),Анонімний Telegram-канал «Місто зараз»,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.159,0.42,0.667,0.143,0,0,0,1,0.335
+E13:фейкові_новини|PHENOMENON,E13:PHENOMENON_підробка_чи_імітація_новин|PHENOMENON,фейкові новини,підробка чи імітація новин,PHENOMENON,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.216,0.542,0.4,0.25,0,0,0,1,0.334
+E13:ORG_Міжнародний_фонд_Відродження|ORG,E13:ORG_фонд_Сігрід_Раузінг|ORG,Міжнародний фонд «Відродження»,фонд «Сігрід Раузінг»,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.186,0.562,0.468,0.2,0,0,0,1,0.334
+E13:ORG_Міжнародний_фонд_Відродження|ORG,E13:ORG_Національний_фонд_в_підтримку_демократії|ORG,Міжнародний фонд «Відродження»,Національний фонд в підтримку демократії,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.164,0.612,0.471,0.167,0,0,0,1,0.331
+E13:соціальні_мережі|PLATFORM,E13:соціальний_бот|PHENOMENON,соціальні мережі,соціальний бот,PLATFORM,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.705,0.841,0.6,0.333,0,0,0,0,0.316
+E13:ORG_Департамент_міжнародно-правової_співпраці_та_повернення_активів_Офісу_генера|ORG,E13:ORG_Православної_церкви_України|ORG,Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України,Православної церкви України,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.228,0.535,0.412,0.1,0,0,0,1,0.31
+E13:ORG_Національний_фонд_в_підтримку_демократії|ORG,E13:ORG_фонд_Сігрід_Раузінг|ORG,Національний фонд в підтримку демократії,фонд «Сігрід Раузінг»,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.169,0.516,0.407,0.167,0,0,0,1,0.298
+G9:ACC-027,R8:Akaunt_A03,Суспільне Новини,Новинний агрегатор у Facebook,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.159,0.513,0.356,0.25,0,0,0,1,0.297
+E13:ORG_Департамент_міжнародно-правової_співпраці_та_повернення_активів_Офісу_генера|ORG,E13:ORG_Міжнародний_фонд_Відродження|ORG,Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України,Міжнародний фонд «Відродження»,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.247,0.532,0.328,0.091,0,0,0,1,0.293
+R8:Instrument_I02,E13:PHENOMENON_Exif_Print|PHENOMENON,Аналіз EXIF-метаданих,Exif Print,METHOD,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.205,0.446,0.323,0.25,0,0,0,1,0.292
+G9:TOOL-02,E13:PHENOMENON_Exif_Print|PHENOMENON,Аналіз EXIF-метаданих,Exif Print,METHOD,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.205,0.446,0.323,0.25,0,0,0,1,0.292
+E13:ORG_Департаменті_міжнародно-правової_співпраці|ORG,E13:ORG_Православної_церкви_України|ORG,Департаменті міжнародно-правової співпраці,Православної церкви України,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.145,0.541,0.348,0.2,0,0,0,1,0.286
+G9:ACC-032,E13:ORG_посольство_Великої_Британії_в_Україні|ORG,Українська правда,посольство Великої Британії в Україні,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.154,0.486,0.37,0.2,0,0,0,1,0.284
+R8:Akaunt_A01,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал «Місто зараз»,Офіційні канали міських рад,ACCOUNT,ORG,ЛР8 RDF,ЛР13 витяг,0.131,0.574,0.381,0.125,0,0,0,1,0.281
+G9:OFF-03,R8:Akaunt_A01,Офіційні канали міських рад,Анонімний Telegram-канал «Місто зараз»,ORG,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.131,0.574,0.381,0.125,0,0,0,1,0.281
+E13:ORG_Департаменті_міжнародно-правової_співпраці|ORG,E13:ORG_російська_православна_церква|ORG,Департаменті міжнародно-правової співпраці,російська православна церква,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.112,0.591,0.314,0.167,0,0,0,1,0.269
+E13:дезінформація|PHENOMENON,E13:Центр_протидії_дезінформації|ORG,дезінформація,Центр протидії дезінформації,PHENOMENON,ORG,ЛР13 витяг,ЛР13 витяг,0.61,0.55,0.585,0.333,0,0,0,0,0.268
+G9:NAR-05,E13:фейкові_новини|PHENOMENON,Фейкові збори коштів,фейкові новини,NARRATIVE,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.412,0.849,0.667,0.25,0,0,0,0,0.265
+E13:соціальні_мережі|PLATFORM,E13:PHENOMENON_соціальної_інженерії|PHENOMENON,соціальні мережі,соціальної інженерії,PLATFORM,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.421,0.911,0.5,0.333,0,0,0,0,0.261
+E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #6,Офіційні канали міських рад,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #8,Офіційні канали міських рад,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #4,Офіційні канали міських рад,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #1,Офіційні канали міських рад,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.077,0.543,0.34,0.167,0,0,0,1,0.254
+E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #3,Офіційні канали міських рад,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.077,0.543,0.34,0.167,0,0,0,1,0.254
+G9:ACC-008,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #8,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #5,Офіційні канали міських рад,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #2,Офіційні канали міських рад,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.077,0.543,0.34,0.167,0,0,0,1,0.254
+G9:ACC-002,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #2,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.077,0.543,0.34,0.167,0,0,0,1,0.254
+G9:ACC-001,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #1,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.077,0.543,0.34,0.167,0,0,0,1,0.254
+G9:ACC-003,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #3,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.077,0.543,0.34,0.167,0,0,0,1,0.254
+G9:ACC-006,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #6,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #7,Офіційні канали міських рад,PLATFORM,ORG,ЛР13 витяг,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+G9:ACC-005,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #5,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+G9:ACC-004,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #4,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+G9:ACC-007,E13:ORG_Офіційні_канали_міських_рад|ORG,Анонімний Telegram-канал #7,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,0,0,0,1,0.254
+G9:RULE-4,E13:Exif|METHOD,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,Exif,RULE,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.248,0.689,1.0,0.111,0,0,0,0,0.248
+G9:ORG-04,E13:PHENOMENON_медіа_та_фото|PHENOMENON,Детектор медіа,медіа та фото,ORG,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.408,0.537,0.667,0.333,0,0,0,0,0.242
+E13:соціальний_бот|PHENOMENON,E13:PLATFORM_соціальних_мереж_і_месенджерів|PLATFORM,соціальний бот,соціальних мереж і месенджерів,PHENOMENON,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.49,0.683,0.455,0.25,0,0,0,0,0.236
+E13:ORG_Департамент_міжнародно-правової_співпраці_та_повернення_активів_Офісу_генера|ORG,E13:ORG_російська_православна_церква|ORG,Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України,російська православна церква,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.125,0.532,0.266,0.091,0,0,0,1,0.235
+G9:ACC-009,E13:бот|PHENOMENON,Бот-акаунт A1,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.262,0.821,0.375,0.5,0,0,0,0,0.225
+G9:ACC-025,E13:бот|PHENOMENON,Бот-акаунт B7,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.257,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-019,E13:бот|PHENOMENON,Бот-акаунт B1,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.258,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-023,E13:бот|PHENOMENON,Бот-акаунт B5,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.258,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-011,E13:бот|PHENOMENON,Бот-акаунт A3,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.26,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-017,E13:бот|PHENOMENON,Бот-акаунт A9,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.257,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-014,E13:бот|PHENOMENON,Бот-акаунт A6,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.26,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-020,E13:бот|PHENOMENON,Бот-акаунт B2,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.258,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-026,E13:бот|PHENOMENON,Бот-акаунт B8,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.256,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-022,E13:бот|PHENOMENON,Бот-акаунт B4,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.258,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-016,E13:бот|PHENOMENON,Бот-акаунт A8,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.259,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-010,E13:бот|PHENOMENON,Бот-акаунт A2,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.26,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-012,E13:бот|PHENOMENON,Бот-акаунт A4,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.26,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-021,E13:бот|PHENOMENON,Бот-акаунт B3,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.258,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-015,E13:бот|PHENOMENON,Бот-акаунт A7,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.259,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-013,E13:бот|PHENOMENON,Бот-акаунт A5,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.26,0.821,0.375,0.5,0,0,0,0,0.224
+G9:ACC-024,E13:бот|PHENOMENON,Бот-акаунт B6,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.257,0.821,0.375,0.5,0,0,0,0,0.224
+E13:PLATFORM_соціальних_мереж_і_месенджерів|PLATFORM,E13:PHENOMENON_соціальної_інженерії|PHENOMENON,соціальних мереж і месенджерів,соціальної інженерії,PLATFORM,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.337,0.829,0.4,0.25,0,0,0,0,0.217
+G9:ACC-027,E13:фейкові_новини|PHENOMENON,Суспільне Новини,фейкові новини,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.279,0.587,0.6,0.333,0,0,0,0,0.216
+R8:Akaunt_A02,R8:Faktcheker_F02,Офіційний Telegram-канал регіонального видання,"Аналітик, регіональні новини",ACCOUNT,ANALYST,ЛР8 RDF,ЛР8 RDF,0.367,0.69,0.548,0.143,0,0,0,0,0.216
+E13:PERSON_Аналітик_Ф-06|PERSON,E13:аналіз_EXIF|METHOD,Аналітик Ф-06,аналіз EXIF,PERSON,METHOD,ЛР13 витяг,ЛР13 витяг,0.215,0.669,0.417,0.5,0,0,0,0,0.207
+E13:PERSON_Аналітик_Ф-05|PERSON,E13:аналіз_EXIF|METHOD,Аналітик Ф-05,аналіз EXIF,PERSON,METHOD,ЛР13 витяг,ЛР13 витяг,0.216,0.669,0.417,0.5,0,0,0,0,0.207
+E13:PERSON_Аналітик_Ф-02|PERSON,E13:аналіз_EXIF|METHOD,Аналітик Ф-02,аналіз EXIF,PERSON,METHOD,ЛР13 витяг,ЛР13 витяг,0.215,0.669,0.417,0.5,0,0,0,0,0.207
+E13:PERSON_Аналітик_Ф-04|PERSON,E13:аналіз_EXIF|METHOD,Аналітик Ф-04,аналіз EXIF,PERSON,METHOD,ЛР13 витяг,ЛР13 витяг,0.216,0.669,0.417,0.5,0,0,0,0,0.207
+E13:PERSON_Аналітик_Ф-03|PERSON,E13:аналіз_EXIF|METHOD,Аналітик Ф-03,аналіз EXIF,PERSON,METHOD,ЛР13 витяг,ЛР13 витяг,0.218,0.669,0.417,0.5,0,0,0,0,0.207
+E13:PERSON_Аналітик_Ф-01|PERSON,E13:аналіз_EXIF|METHOD,Аналітик Ф-01,аналіз EXIF,PERSON,METHOD,ЛР13 витяг,ЛР13 витяг,0.218,0.669,0.417,0.5,0,0,0,0,0.207
+E13:PHENOMENON_Журналістика_даних|PHENOMENON,E13:ORG_Могилянської_школи_журналістики|ORG,Журналістика даних,Могилянської школи журналістики,PHENOMENON,ORG,ЛР13 витяг,ЛР13 витяг,0.432,0.486,0.449,0.25,0,0,0,0,0.205
+G9:TOOL-04,E13:соціальні_мережі|PLATFORM,Аналіз мережі поширення,соціальні мережі,METHOD,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.298,0.57,0.545,0.25,0,0,0,0,0.202
+G9:ACC-018,E13:бот|PHENOMENON,Бот-акаунт A10,бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.241,0.817,0.353,0.333,0,0,0,0,0.201
+E13:Центр_протидії_дезінформації|ORG,E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON,Центр протидії дезінформації,маніпулятивне спотворення фактів; дезінформація,ORG,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.31,0.614,0.541,0.167,0,0,0,0,0.2
+R8:Faktcheker_F02,E13:фейкові_новини|PHENOMENON,"Аналітик, регіональні новини",фейкові новини,ANALYST,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.261,0.548,0.6,0.25,0,0,0,0,0.2
+E13:PHENOMENON_Журналістика_даних|PHENOMENON,E13:ORG_Могилянська_школа_журналістики_НаУКМА|ORG,Журналістика даних,Могилянська школа журналістики (НаУКМА),PHENOMENON,ORG,ЛР13 витяг,ЛР13 витяг,0.357,0.538,0.5,0.2,0,0,0,0,0.199
+E13:Центр_протидії_дезінформації|ORG,E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON,Центр протидії дезінформації,Дезінформування від зворотного,ORG,PHENOMENON,ЛР13 витяг,ЛР13 витяг,0.294,0.523,0.517,0.25,0,0,0,0,0.193
+E13:Центр_протидії_дезінформації|ORG,E13:METHOD_дезінформування_від_зворотного|METHOD,Центр протидії дезінформації,дезінформування від зворотного,ORG,METHOD,ЛР13 витяг,ЛР13 витяг,0.294,0.523,0.517,0.25,0,0,0,0,0.193
+R8:Pravylo_R2,E13:PHENOMENON_маніпуляцій|PHENOMENON,автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень,маніпуляцій,RULE,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.625,0.381,0.222,0.125,0,0,0,0,0.188
+R8:Pravylo_R2,E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON,автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень,маніпулятивне спотворення фактів; дезінформація,RULE,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.346,0.643,0.411,0.091,0,0,0,0,0.185
+G9:RULE-4,E13:аналіз_EXIF|METHOD,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,аналіз EXIF,RULE,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.189,0.575,0.533,0.1,0,0,0,0,0.167
+G9:FCH-02,R8:Akaunt_A02,Аналітик Ф-02 (регіональні новини),Офіційний Telegram-канал регіонального видання,ANALYST,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.375,0.529,0.237,0.143,0,0,0,0,0.162
+G9:TOOL-04,E13:PLATFORM_соціальних_мереж_і_месенджерів|PLATFORM,Аналіз мережі поширення,соціальних мереж і месенджерів,METHOD,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.219,0.612,0.34,0.2,0,0,0,0,0.162
+G9:FCH-02,E13:аналіз_EXIF|METHOD,Аналітик Ф-02 (регіональні новини),аналіз EXIF,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.097,0.669,0.417,0.25,0,0,0,0,0.161
+G9:FCH-03,E13:аналіз_EXIF|METHOD,Аналітик Ф-03 (медіа та фото),аналіз EXIF,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.082,0.669,0.417,0.25,0,0,0,0,0.158
+G9:ACC-027,E13:PHENOMENON_підробка_чи_імітація_новин|PHENOMENON,Суспільне Новини,підробка чи імітація новин,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.185,0.525,0.381,0.25,0,0,0,0,0.158
+R8:Instrument_I02,E13:PERSON_Аналітик_Ф-06|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-06,METHOD,PERSON,ЛР8 RDF,ЛР13 витяг,0.144,0.624,0.294,0.333,0,0,0,0,0.158
+R8:Instrument_I02,E13:PERSON_Аналітик_Ф-04|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-04,METHOD,PERSON,ЛР8 RDF,ЛР13 витяг,0.145,0.624,0.294,0.333,0,0,0,0,0.158
+R8:Instrument_I02,E13:PERSON_Аналітик_Ф-03|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-03,METHOD,PERSON,ЛР8 RDF,ЛР13 витяг,0.146,0.624,0.294,0.333,0,0,0,0,0.158
+R8:Instrument_I02,E13:PERSON_Аналітик_Ф-02|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-02,METHOD,PERSON,ЛР8 RDF,ЛР13 витяг,0.144,0.624,0.294,0.333,0,0,0,0,0.158
+R8:Instrument_I02,E13:PERSON_Аналітик_Ф-01|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-01,METHOD,PERSON,ЛР8 RDF,ЛР13 витяг,0.146,0.624,0.294,0.333,0,0,0,0,0.158
+R8:Instrument_I02,E13:PERSON_Аналітик_Ф-05|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-05,METHOD,PERSON,ЛР8 RDF,ЛР13 витяг,0.145,0.624,0.294,0.333,0,0,0,0,0.158
+G9:FCH-04,E13:аналіз_EXIF|METHOD,Аналітик Ф-04 (соцмережі й боти),аналіз EXIF,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.075,0.669,0.417,0.25,0,0,0,0,0.157
+R8:Faktcheker_F02,E13:PHENOMENON_підробка_чи_імітація_новин|PHENOMENON,"Аналітик, регіональні новини",підробка чи імітація новин,ANALYST,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.163,0.604,0.377,0.2,0,0,0,0,0.156
+G9:FCH-01,E13:аналіз_EXIF|METHOD,Аналітик Ф-01 (військова тематика),аналіз EXIF,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.068,0.669,0.417,0.25,0,0,0,0,0.156
+G9:FCH-05,E13:аналіз_EXIF|METHOD,Аналітик Ф-05 (здоров'я та медицина),аналіз EXIF,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.068,0.669,0.417,0.25,0,0,0,0,0.156
+G9:FCH-06,E13:аналіз_EXIF|METHOD,Аналітик Ф-06 (фінансові шахрайства),аналіз EXIF,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР13 витяг,0.069,0.669,0.417,0.25,0,0,0,0,0.156
+R8:Akaunt_A03,R8:Faktcheker_F02,Новинний агрегатор у Facebook,"Аналітик, регіональні новини",ACCOUNT,ANALYST,ЛР8 RDF,ЛР8 RDF,0.193,0.524,0.393,0.2,0,0,0,0,0.155
+G9:ACC-012,E13:соціальний_бот|PHENOMENON,Бот-акаунт A4,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.124,0.514,0.37,0.333,0,0,0,0,0.153
+G9:ACC-014,E13:соціальний_бот|PHENOMENON,Бот-акаунт A6,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.124,0.514,0.37,0.333,0,0,0,0,0.153
+G9:ACC-011,E13:соціальний_бот|PHENOMENON,Бот-акаунт A3,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.124,0.514,0.37,0.333,0,0,0,0,0.153
+G9:ACC-009,E13:соціальний_бот|PHENOMENON,Бот-акаунт A1,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.125,0.514,0.37,0.333,0,0,0,0,0.153
+G9:ACC-010,E13:соціальний_бот|PHENOMENON,Бот-акаунт A2,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.124,0.514,0.37,0.333,0,0,0,0,0.153
+G9:ACC-013,E13:соціальний_бот|PHENOMENON,Бот-акаунт A5,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.124,0.514,0.37,0.333,0,0,0,0,0.153
+G9:ACC-021,E13:соціальний_бот|PHENOMENON,Бот-акаунт B3,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-025,E13:соціальний_бот|PHENOMENON,Бот-акаунт B7,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.122,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-023,E13:соціальний_бот|PHENOMENON,Бот-акаунт B5,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-022,E13:соціальний_бот|PHENOMENON,Бот-акаунт B4,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-017,E13:соціальний_бот|PHENOMENON,Бот-акаунт A9,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-020,E13:соціальний_бот|PHENOMENON,Бот-акаунт B2,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-019,E13:соціальний_бот|PHENOMENON,Бот-акаунт B1,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-015,E13:соціальний_бот|PHENOMENON,Бот-акаунт A7,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-024,E13:соціальний_бот|PHENOMENON,Бот-акаунт B6,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-016,E13:соціальний_бот|PHENOMENON,Бот-акаунт A8,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.123,0.514,0.37,0.333,0,0,0,0,0.152
+G9:ACC-026,E13:соціальний_бот|PHENOMENON,Бот-акаунт B8,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.122,0.514,0.37,0.333,0,0,0,0,0.152
+G9:FCH-02,E13:фейкові_новини|PHENOMENON,Аналітик Ф-02 (регіональні новини),фейкові новини,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.288,0.364,0.296,0.25,0,0,0,0,0.149
+G9:FCH-04,E13:PHENOMENON_Бойові_боти|PHENOMENON,Аналітик Ф-04 (соцмережі й боти),Бойові боти,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.261,0.474,0.25,0.25,0,0,0,0,0.149
+R8:Akaunt_A03,E13:фейкові_новини|PHENOMENON,Новинний агрегатор у Facebook,фейкові новини,ACCOUNT,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.177,0.52,0.326,0.25,0,0,0,0,0.149
+G9:RULE-4,E13:PHENOMENON_Exif_Print|PHENOMENON,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,Exif Print,RULE,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.15,0.394,0.571,0.1,0,0,0,0,0.147
+G9:FCH-04,E13:PHENOMENON_Зливні_боти|PHENOMENON,Аналітик Ф-04 (соцмережі й боти),Зливні боти,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.226,0.502,0.25,0.25,0,0,0,0,0.146
+R8:Faktcheker_F02,E13:аналіз_EXIF|METHOD,"Аналітик, регіональні новини",аналіз EXIF,ANALYST,METHOD,ЛР8 RDF,ЛР13 витяг,0.156,0.589,0.263,0.25,0,0,0,0,0.144
+R8:Faktcheker_F02,R8:Instrument_I02,"Аналітик, регіональні новини",Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР8 RDF,ЛР8 RDF,0.109,0.583,0.375,0.2,0,0,0,0,0.144
+G9:ACC-018,E13:соціальний_бот|PHENOMENON,Бот-акаунт A10,соціальний бот,ACCOUNT,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.115,0.505,0.357,0.25,0,0,0,0,0.14
+R8:Faktcheker_F01,E13:аналіз_EXIF|METHOD,"Аналітик, військова тематика",аналіз EXIF,ANALYST,METHOD,ЛР8 RDF,ЛР13 витяг,0.125,0.589,0.263,0.25,0,0,0,0,0.139
+G9:NAR-01,R8:Akaunt_A01,Повна втрата контролю над містом,Анонімний Telegram-канал «Місто зараз»,NARRATIVE,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.149,0.549,0.353,0.111,0,0,0,0,0.136
+R8:Akaunt_A01,R8:Naratyv_N01,Анонімний Telegram-канал «Місто зараз»,Повна втрата контролю над містом,ACCOUNT,NARRATIVE,ЛР8 RDF,ЛР8 RDF,0.149,0.549,0.353,0.111,0,0,0,0,0.136
+G9:FCH-03,R8:Instrument_I02,Аналітик Ф-03 (медіа та фото),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,0.084,0.624,0.294,0.2,0,0,0,0,0.134
+G9:FCH-04,E13:PHENOMENON_Технічні_боти|PHENOMENON,Аналітик Ф-04 (соцмережі й боти),Технічні боти,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.197,0.455,0.231,0.25,0,0,0,0,0.134
+G9:RULE-4,E13:PHENOMENON_медіа_та_фото|PHENOMENON,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,медіа та фото,RULE,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.211,0.568,0.243,0.1,0,0,0,0,0.134
+G9:FCH-02,R8:Instrument_I02,Аналітик Ф-02 (регіональні новини),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,0.07,0.624,0.294,0.2,0,0,0,0,0.131
+G9:FCH-05,R8:Instrument_I02,Аналітик Ф-05 (здоров'я та медицина),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,0.067,0.624,0.294,0.2,0,0,0,0,0.131
+G9:FCH-04,R8:Instrument_I02,Аналітик Ф-04 (соцмережі й боти),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,0.064,0.624,0.294,0.2,0,0,0,0,0.13
+G9:FCH-06,R8:Instrument_I02,Аналітик Ф-06 (фінансові шахрайства),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,0.05,0.624,0.294,0.2,0,0,0,0,0.128
+G9:ACC-029,R8:Naratyv_N01,Твоє Місто (Львів),Повна втрата контролю над містом,ACCOUNT,NARRATIVE,ЛР9 граф Neo4j,ЛР8 RDF,0.104,0.54,0.333,0.143,0,0,0,0,0.128
+R8:Faktcheker_F01,R8:Instrument_I02,"Аналітик, військова тематика",Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР8 RDF,ЛР8 RDF,0.084,0.616,0.25,0.2,0,0,0,0,0.128
+G9:FCH-01,R8:Instrument_I02,Аналітик Ф-01 (військова тематика),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,0.045,0.624,0.294,0.2,0,0,0,0,0.127
+G9:RULE-4,R8:Instrument_I02,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,Аналіз EXIF-метаданих,RULE,METHOD,ЛР9 граф Neo4j,ЛР8 RDF,0.119,0.539,0.341,0.091,0,0,0,0,0.126
+G9:FCH-02,R8:Akaunt_A03,Аналітик Ф-02 (регіональні новини),Новинний агрегатор у Facebook,ANALYST,ACCOUNT,ЛР9 граф Neo4j,ЛР8 RDF,0.206,0.389,0.238,0.2,0,0,0,0,0.125
+G9:FCH-05,E13:ORG_Всесвітня_організація_охорони_здоров_я_ВООЗ|ORG,Аналітик Ф-05 (здоров'я та медицина),Всесвітня організація охорони здоров'я (ВООЗ),ANALYST,ORG,ЛР9 граф Neo4j,ЛР13 витяг,0.276,0.373,0.196,0.143,0,0,0,0,0.124
+R8:Akaunt_A03,E13:PHENOMENON_підробка_чи_імітація_новин|PHENOMENON,Новинний агрегатор у Facebook,підробка чи імітація новин,ACCOUNT,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.122,0.443,0.255,0.2,0,0,0,0,0.118
+G9:FCH-02,E13:PHENOMENON_підробка_чи_імітація_новин|PHENOMENON,Аналітик Ф-02 (регіональні новини),підробка чи імітація новин,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.171,0.397,0.205,0.2,0,0,0,0,0.115
+G9:FCH-04,E13:PHENOMENON_Гіперболізовані_боти|PHENOMENON,Аналітик Ф-04 (соцмережі й боти),Гіперболізовані боти,ANALYST,PHENOMENON,ЛР9 граф Neo4j,ЛР13 витяг,0.181,0.349,0.182,0.25,0,0,0,0,0.114
+R8:Pravylo_R2,E13:фейк|PHENOMENON,автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень,фейк,RULE,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.284,0.422,0.062,0.125,0,0,0,0,0.112
+E13:ORG_OFF-03|ORG,E13:CASE_ID_OFF-04|CASE_ID,OFF-03,OFF-04,ORG,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.652,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-02|CASE_ID,E13:CASE_ID_NAR-05|CASE_ID,NAR-02,NAR-05,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.64,0.933,0.833,1.0,-1,0,0,1,0.1
+G9:RULE-4,R8:Pravylo_R1,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,вік акаунта < 30 днів AND акаунт не верифікований,RULE,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.11,0.583,0.407,0.077,-1,0,0,1,0.1
+E13:CASE_ID_NAR-02|CASE_ID,E13:CASE_ID_NAR-06|CASE_ID,NAR-02,NAR-06,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.636,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-03|CASE_ID,E13:CASE_ID_NAR-04|CASE_ID,NAR-03,NAR-04,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.65,0.933,0.833,1.0,-1,0,0,1,0.1
+G9:FCH-06,E13:PERSON_Аналітик_Ф-01|PERSON,Аналітик Ф-06 (фінансові шахрайства),Аналітик Ф-01,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.215,0.969,0.923,0.333,-1,0,0,1,0.1
+E13:CASE_ID_NAR-03|CASE_ID,E13:CASE_ID_NAR-05|CASE_ID,NAR-03,NAR-05,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.649,0.933,0.833,1.0,-1,0,0,1,0.1
+G9:FCH-06,R8:Faktcheker_F02,Аналітик Ф-06 (фінансові шахрайства),"Аналітик, регіональні новини",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.127,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-06,R8:Faktcheker_F01,Аналітик Ф-06 (фінансові шахрайства),"Аналітик, військова тематика",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.169,0.675,0.762,0.2,-1,0,0,1,0.1
+E13:CASE_ID_NAR-03|CASE_ID,E13:CASE_ID_NAR-06|CASE_ID,NAR-03,NAR-06,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.645,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-04|CASE_ID,E13:CASE_ID_NAR-05|CASE_ID,NAR-04,NAR-05,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.644,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-04|CASE_ID,E13:CASE_ID_NAR-06|CASE_ID,NAR-04,NAR-06,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.64,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-05|CASE_ID,E13:CASE_ID_NAR-06|CASE_ID,NAR-05,NAR-06,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.639,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_OFF-01|CASE_ID,E13:CASE_ID_OFF-03|CASE_ID,OFF-01,OFF-03,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.661,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_OFF-01|CASE_ID,E13:ORG_OFF-03|ORG,OFF-01,OFF-03,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.661,0.933,0.833,1.0,-1,0,0,1,0.1
+G9:RULE-3,R8:Pravylo_R1,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,вік акаунта < 30 днів AND акаунт не верифікований,RULE,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.145,0.575,0.371,0.083,-1,0,0,1,0.1
+E13:CASE_ID_OFF-01|CASE_ID,E13:CASE_ID_OFF-04|CASE_ID,OFF-01,OFF-04,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.652,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_OFF-01|CASE_ID,E13:CASE_ID_OFF-05|CASE_ID,OFF-01,OFF-05,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.651,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:ORG_OFF-01|ORG,E13:CASE_ID_OFF-03|CASE_ID,OFF-01,OFF-03,ORG,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.661,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:ORG_OFF-01|ORG,E13:ORG_OFF-03|ORG,OFF-01,OFF-03,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.661,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:ORG_OFF-01|ORG,E13:CASE_ID_OFF-04|CASE_ID,OFF-01,OFF-04,ORG,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.652,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:ORG_OFF-01|ORG,E13:CASE_ID_OFF-05|CASE_ID,OFF-01,OFF-05,ORG,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.651,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_OFF-03|CASE_ID,E13:CASE_ID_OFF-04|CASE_ID,OFF-03,OFF-04,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.652,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_OFF-03|CASE_ID,E13:CASE_ID_OFF-05|CASE_ID,OFF-03,OFF-05,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.651,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-02|CASE_ID,E13:CASE_ID_NAR-04|CASE_ID,NAR-02,NAR-04,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.641,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-002|ORG,E13:ORG_ACC-004|ORG,ACC-002,ACC-004,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.58,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-002|ORG,E13:ORG_ACC-005|ORG,ACC-002,ACC-005,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.579,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-002|ORG,E13:ORG_ACC-006|ORG,ACC-002,ACC-006,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.577,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-002|ORG,E13:ORG_ACC-007|ORG,ACC-002,ACC-007,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.559,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-002|ORG,E13:ORG_ACC-008|ORG,ACC-002,ACC-008,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.559,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-003|ORG,E13:ORG_ACC-004|ORG,ACC-003,ACC-004,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.584,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-003|ORG,E13:ORG_ACC-005|ORG,ACC-003,ACC-005,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.584,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-003|ORG,E13:ORG_ACC-006|ORG,ACC-003,ACC-006,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.581,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-003|ORG,E13:ORG_ACC-007|ORG,ACC-003,ACC-007,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.564,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-003|ORG,E13:ORG_ACC-008|ORG,ACC-003,ACC-008,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.563,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-004|ORG,E13:ORG_ACC-005|ORG,ACC-004,ACC-005,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.581,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-004|ORG,E13:ORG_ACC-006|ORG,ACC-004,ACC-006,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.579,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-02|CASE_ID,E13:CASE_ID_NAR-03|CASE_ID,NAR-02,NAR-03,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.646,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-004|ORG,E13:ORG_ACC-008|ORG,ACC-004,ACC-008,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.56,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-005|ORG,E13:ORG_ACC-006|ORG,ACC-005,ACC-006,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.578,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-005|ORG,E13:ORG_ACC-007|ORG,ACC-005,ACC-007,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.561,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-005|ORG,E13:ORG_ACC-008|ORG,ACC-005,ACC-008,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.56,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-006|ORG,E13:ORG_ACC-007|ORG,ACC-006,ACC-007,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.559,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-006|ORG,E13:ORG_ACC-008|ORG,ACC-006,ACC-008,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.558,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-007|ORG,E13:ORG_ACC-008|ORG,ACC-007,ACC-008,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.541,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-01|CASE_ID,E13:CASE_ID_NAR-02|CASE_ID,NAR-01,NAR-02,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.646,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-01|CASE_ID,E13:CASE_ID_NAR-03|CASE_ID,NAR-01,NAR-03,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.655,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-01|CASE_ID,E13:CASE_ID_NAR-04|CASE_ID,NAR-01,NAR-04,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.65,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-01|CASE_ID,E13:CASE_ID_NAR-05|CASE_ID,NAR-01,NAR-05,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.649,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_NAR-01|CASE_ID,E13:CASE_ID_NAR-06|CASE_ID,NAR-01,NAR-06,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.645,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-004|ORG,E13:ORG_ACC-007|ORG,ACC-004,ACC-007,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.561,0.943,0.857,1.0,-1,0,0,1,0.1
+G9:ACC-002,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,G9:ACC-005,Анонімний Telegram-канал #2,Анонімний Telegram-канал #5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,G9:ACC-006,Анонімний Telegram-канал #2,Анонімний Telegram-канал #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:RULE-3,R8:Pravylo_R2,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень,RULE,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.142,0.67,0.449,0.067,-1,0,0,1,0.1
+G9:ACC-002,G9:ACC-007,Анонімний Telegram-канал #2,Анонімний Telegram-канал #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,G9:ACC-008,Анонімний Telegram-канал #2,Анонімний Telegram-канал #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,G9:OFF-03,Анонімний Telegram-канал #1,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.077,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-001,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.92,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.92,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:ORG_OFF-03|ORG,E13:CASE_ID_OFF-05|CASE_ID,OFF-03,OFF-05,ORG,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.651,0.933,0.833,1.0,-1,0,0,1,0.1
+G9:ACC-002,G9:ACC-003,Анонімний Telegram-канал #2,Анонімний Telegram-канал #3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,G9:ACC-004,Анонімний Telegram-канал #2,Анонімний Telegram-канал #4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.923,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.925,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,G9:ACC-002,Анонімний Telegram-канал #1,Анонімний Telegram-канал #2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.923,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,G9:ACC-003,Анонімний Telegram-канал #1,Анонімний Telegram-канал #3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.925,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,G9:ACC-004,Анонімний Telegram-канал #1,Анонімний Telegram-канал #4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,G9:ACC-005,Анонімний Telegram-канал #1,Анонімний Telegram-канал #5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:RULE-1,G9:RULE-3,вік акаунта < 30 днів AND акаунт не верифікований,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,RULE,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.145,0.575,0.371,0.083,-1,0,0,1,0.1
+G9:ACC-001,G9:ACC-006,Анонімний Telegram-канал #1,Анонімний Telegram-канал #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.92,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-001,G9:ACC-007,Анонімний Telegram-канал #1,Анонімний Telegram-канал #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.92,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,G9:OFF-03,Анонімний Telegram-канал #2,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.077,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-001,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:CASE_ID_OFF-04|CASE_ID,E13:CASE_ID_OFF-05|CASE_ID,OFF-04,OFF-05,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.642,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_RULE-1|CASE_ID,E13:CASE_ID_RULE-3|CASE_ID,RULE-1,RULE-3,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.619,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_RULE-1|CASE_ID,E13:CASE_ID_RULE-4|CASE_ID,RULE-1,RULE-4,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.618,0.933,0.833,1.0,-1,0,0,1,0.1
+E13:CASE_ID_RULE-3|CASE_ID,E13:CASE_ID_RULE-4|CASE_ID,RULE-3,RULE-4,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.616,0.933,0.833,1.0,-1,0,0,1,0.1
+G9:ACC-002,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.923,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:RULE-2,G9:RULE-3,автор має спростоване твердження у публікації з ≥ 1000 поширень,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,RULE,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.196,0.67,0.449,0.077,-1,0,0,1,0.1
+G9:ACC-002,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:RULE-1,G9:RULE-4,вік акаунта < 30 днів AND акаунт не верифікований,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,RULE,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.11,0.583,0.407,0.077,-1,0,0,1,0.1
+G9:FCH-06,E13:PERSON_Аналітик_Ф-03|PERSON,Аналітик Ф-06 (фінансові шахрайства),Аналітик Ф-03,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.215,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:ACC-003,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,G9:ACC-004,Анонімний Telegram-канал #3,Анонімний Telegram-канал #4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.919,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:FCH-06,E13:PERSON_Аналітик_Ф-02|PERSON,Аналітик Ф-06 (фінансові шахрайства),Аналітик Ф-02,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.212,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:ACC-003,G9:ACC-005,Анонімний Telegram-канал #3,Анонімний Telegram-канал #5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,G9:ACC-006,Анонімний Telegram-канал #3,Анонімний Telegram-канал #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,G9:ACC-007,Анонімний Telegram-канал #3,Анонімний Telegram-канал #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,G9:ACC-008,Анонімний Telegram-канал #3,Анонімний Telegram-канал #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,G9:OFF-03,Анонімний Telegram-канал #3,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.077,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-003,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.925,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.919,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-002,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:ORG_ACC-008|ORG,ACC-002,ACC-008,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.309,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:CASE_ID_ACC-004|CASE_ID,ACC-003,ACC-004,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.793,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:CASE_ID_ACC-005|CASE_ID,ACC-003,ACC-005,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.792,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:CASE_ID_ACC-006|CASE_ID,ACC-003,ACC-006,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.791,0.943,0.857,1.0,-1,0,0,1,0.1
+R8:Faktcheker_F02,E13:PERSON_Аналітик_Ф-06|PERSON,"Аналітик, регіональні новини",Аналітик Ф-06,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.384,0.675,0.762,0.333,-1,0,0,1,0.1
+R8:Faktcheker_F02,E13:PERSON_Аналітик_Ф-05|PERSON,"Аналітик, регіональні новини",Аналітик Ф-05,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.386,0.675,0.762,0.333,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:CASE_ID_ACC-007|CASE_ID,ACC-003,ACC-007,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.781,0.943,0.857,1.0,-1,0,0,1,0.1
+R8:Faktcheker_F02,E13:PERSON_Аналітик_Ф-03|PERSON,"Аналітик, регіональні новини",Аналітик Ф-03,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.389,0.675,0.762,0.333,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:CASE_ID_ACC-008|CASE_ID,ACC-003,ACC-008,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.779,0.943,0.857,1.0,-1,0,0,1,0.1
+R8:Faktcheker_F02,E13:PERSON_Аналітик_Ф-01|PERSON,"Аналітик, регіональні новини",Аналітик Ф-01,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.389,0.675,0.762,0.333,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:ORG_ACC-001|ORG,ACC-003,ACC-001,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.324,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-002|ORG,E13:ORG_ACC-003|ORG,ACC-002,ACC-003,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.582,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:ORG_ACC-004|ORG,ACC-003,ACC-004,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.323,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:ORG_ACC-005|ORG,ACC-003,ACC-005,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.323,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:ORG_ACC-006|ORG,ACC-003,ACC-006,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.321,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:ORG_ACC-007|ORG,ACC-003,ACC-007,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.312,0.943,0.857,1.0,-1,0,0,1,0.1
+R8:Faktcheker_F01,E13:PERSON_Аналітик_Ф-06|PERSON,"Аналітик, військова тематика",Аналітик Ф-06,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.385,0.675,0.762,0.333,-1,0,0,1,0.1
+R8:Faktcheker_F01,E13:PERSON_Аналітик_Ф-05|PERSON,"Аналітик, військова тематика",Аналітик Ф-05,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.387,0.675,0.762,0.333,-1,0,0,1,0.1
+R8:Faktcheker_F01,E13:PERSON_Аналітик_Ф-04|PERSON,"Аналітик, військова тематика",Аналітик Ф-04,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.387,0.675,0.762,0.333,-1,0,0,1,0.1
+R8:Faktcheker_F01,E13:PERSON_Аналітик_Ф-03|PERSON,"Аналітик, військова тематика",Аналітик Ф-03,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.39,0.675,0.762,0.333,-1,0,0,1,0.1
+R8:Faktcheker_F01,E13:PERSON_Аналітик_Ф-02|PERSON,"Аналітик, військова тематика",Аналітик Ф-02,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.385,0.675,0.762,0.333,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:ORG_ACC-008|ORG,ACC-003,ACC-008,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.311,0.943,0.857,1.0,-1,0,0,1,0.1
+R8:Faktcheker_F02,E13:PERSON_Аналітик_Ф-04|PERSON,"Аналітик, регіональні новини",Аналітик Ф-04,ANALYST,PERSON,ЛР8 RDF,ЛР13 витяг,0.386,0.675,0.762,0.333,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:CASE_ID_ACC-005|CASE_ID,ACC-004,ACC-005,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.787,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-003|CASE_ID,E13:ORG_ACC-002|ORG,ACC-003,ACC-002,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:CASE_ID_ACC-002|CASE_ID,ACC-001,ACC-002,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.795,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:CASE_ID_ACC-003|CASE_ID,ACC-001,ACC-003,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.799,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:CASE_ID_ACC-004|CASE_ID,ACC-001,ACC-004,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.794,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:CASE_ID_ACC-005|CASE_ID,ACC-001,ACC-005,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.793,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:CASE_ID_ACC-006|CASE_ID,ACC-001,ACC-006,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.792,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:CASE_ID_ACC-007|CASE_ID,ACC-001,ACC-007,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.782,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:CASE_ID_ACC-008|CASE_ID,ACC-001,ACC-008,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.78,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:ORG_ACC-002|ORG,ACC-001,ACC-002,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:ORG_ACC-003|ORG,ACC-001,ACC-003,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.325,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:ORG_ACC-004|ORG,ACC-001,ACC-004,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.323,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:ORG_ACC-005|ORG,ACC-001,ACC-005,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.323,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:ORG_ACC-006|ORG,ACC-001,ACC-006,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:ORG_ACC-007|ORG,ACC-002,ACC-007,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.31,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:ORG_ACC-008|ORG,ACC-001,ACC-008,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.312,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:CASE_ID_ACC-003|CASE_ID,ACC-002,ACC-003,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.793,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:CASE_ID_ACC-004|CASE_ID,ACC-002,ACC-004,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.789,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:CASE_ID_ACC-005|CASE_ID,ACC-002,ACC-005,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.788,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:CASE_ID_ACC-006|CASE_ID,ACC-002,ACC-006,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.786,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:CASE_ID_ACC-007|CASE_ID,ACC-002,ACC-007,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.777,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:CASE_ID_ACC-008|CASE_ID,ACC-002,ACC-008,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.774,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:ORG_ACC-001|ORG,ACC-002,ACC-001,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.323,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:ORG_ACC-003|ORG,ACC-002,ACC-003,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.323,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:ORG_ACC-004|ORG,ACC-002,ACC-004,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.321,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:ORG_ACC-005|ORG,ACC-002,ACC-005,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.321,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-002|CASE_ID,E13:ORG_ACC-006|ORG,ACC-002,ACC-006,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.32,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-001|CASE_ID,E13:ORG_ACC-007|ORG,ACC-001,ACC-007,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.312,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:ORG_ACC-005|ORG,ACC-006,ACC-005,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.32,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:ORG_ACC-007|ORG,ACC-006,ACC-007,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.309,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:ORG_ACC-008|ORG,ACC-006,ACC-008,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.308,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-007|CASE_ID,E13:CASE_ID_ACC-008|CASE_ID,ACC-007,ACC-008,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.762,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-007|CASE_ID,E13:ORG_ACC-001|ORG,ACC-007,ACC-001,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.318,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-007|CASE_ID,E13:ORG_ACC-002|ORG,ACC-007,ACC-002,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.315,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-007|CASE_ID,E13:ORG_ACC-003|ORG,ACC-007,ACC-003,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.318,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-007|CASE_ID,E13:ORG_ACC-004|ORG,ACC-007,ACC-004,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.316,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-007|CASE_ID,E13:ORG_ACC-005|ORG,ACC-007,ACC-005,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.316,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-007|CASE_ID,E13:ORG_ACC-006|ORG,ACC-007,ACC-006,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.315,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-007|CASE_ID,E13:ORG_ACC-008|ORG,ACC-007,ACC-008,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.305,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-008|CASE_ID,E13:ORG_ACC-001|ORG,ACC-008,ACC-001,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.317,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:CASE_ID_ACC-006|CASE_ID,ACC-004,ACC-006,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.786,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-008|CASE_ID,E13:ORG_ACC-003|ORG,ACC-008,ACC-003,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.317,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-008|CASE_ID,E13:ORG_ACC-004|ORG,ACC-008,ACC-004,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.315,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-008|CASE_ID,E13:ORG_ACC-005|ORG,ACC-008,ACC-005,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.315,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-008|CASE_ID,E13:ORG_ACC-006|ORG,ACC-008,ACC-006,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.314,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-008|CASE_ID,E13:ORG_ACC-007|ORG,ACC-008,ACC-007,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.304,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-001|ORG,E13:ORG_ACC-002|ORG,ACC-001,ACC-002,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.582,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-001|ORG,E13:ORG_ACC-003|ORG,ACC-001,ACC-003,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.587,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-001|ORG,E13:ORG_ACC-004|ORG,ACC-001,ACC-004,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.584,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-001|ORG,E13:ORG_ACC-005|ORG,ACC-001,ACC-005,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.584,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-001|ORG,E13:ORG_ACC-006|ORG,ACC-001,ACC-006,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.581,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-001|ORG,E13:ORG_ACC-007|ORG,ACC-001,ACC-007,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.564,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:ORG_ACC-001|ORG,E13:ORG_ACC-008|ORG,ACC-001,ACC-008,ORG,ORG,ЛР13 витяг,ЛР13 витяг,0.563,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-008|CASE_ID,E13:ORG_ACC-002|ORG,ACC-008,ACC-002,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.314,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:CASE_ID_ACC-007|CASE_ID,ACC-004,ACC-007,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.776,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:CASE_ID_ACC-008|CASE_ID,ACC-004,ACC-008,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.774,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:ORG_ACC-001|ORG,ACC-004,ACC-001,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:ORG_ACC-002|ORG,ACC-004,ACC-002,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.32,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:ORG_ACC-003|ORG,ACC-004,ACC-003,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:ORG_ACC-005|ORG,ACC-004,ACC-005,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.321,0.943,0.857,1.0,-1,0,0,1,0.1
+R8:Faktcheker_F01,R8:Faktcheker_F02,"Аналітик, військова тематика","Аналітик, регіональні новини",ANALYST,ANALYST,ЛР8 RDF,ЛР8 RDF,0.258,0.828,0.519,0.2,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:ORG_ACC-006|ORG,ACC-004,ACC-006,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.319,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:ORG_ACC-007|ORG,ACC-004,ACC-007,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.31,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-004|CASE_ID,E13:ORG_ACC-008|ORG,ACC-004,ACC-008,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.309,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:CASE_ID_ACC-006|CASE_ID,ACC-005,ACC-006,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.785,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:CASE_ID_ACC-007|CASE_ID,ACC-005,ACC-007,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.776,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:ORG_ACC-004|ORG,ACC-006,ACC-004,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.32,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:ORG_ACC-001|ORG,ACC-005,ACC-001,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:ORG_ACC-002|ORG,ACC-005,ACC-002,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.32,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:ORG_ACC-003|ORG,ACC-005,ACC-003,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:ORG_ACC-004|ORG,ACC-005,ACC-004,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.321,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:ORG_ACC-006|ORG,ACC-005,ACC-006,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.319,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:ORG_ACC-007|ORG,ACC-005,ACC-007,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.309,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:ORG_ACC-008|ORG,ACC-005,ACC-008,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.309,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:CASE_ID_ACC-007|CASE_ID,ACC-006,ACC-007,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.774,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:CASE_ID_ACC-008|CASE_ID,ACC-006,ACC-008,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.772,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:ORG_ACC-001|ORG,ACC-006,ACC-001,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:ORG_ACC-002|ORG,ACC-006,ACC-002,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.319,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-006|CASE_ID,E13:ORG_ACC-003|ORG,ACC-006,ACC-003,CASE_ID,ORG,ЛР13 витяг,ЛР13 витяг,0.322,0.943,0.857,1.0,-1,0,0,1,0.1
+E13:CASE_ID_ACC-005|CASE_ID,E13:CASE_ID_ACC-008|CASE_ID,ACC-005,ACC-008,CASE_ID,CASE_ID,ЛР13 витяг,ЛР13 витяг,0.773,0.943,0.857,1.0,-1,0,0,1,0.1
+G9:ACC-011,G9:ACC-012,Бот-акаунт A3,Бот-акаунт A4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.706,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-013,Бот-акаунт A3,Бот-акаунт A5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.705,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-014,Бот-акаунт A3,Бот-акаунт A6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.705,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-013,Бот-акаунт A4,Бот-акаунт A5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.704,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-014,Бот-акаунт A4,Бот-акаунт A6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.704,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-018,Бот-акаунт A3,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.654,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-019,Бот-акаунт A3,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.682,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-020,Бот-акаунт A3,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-021,Бот-акаунт A3,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.708,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-011,G9:ACC-022,Бот-акаунт A3,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-025,Бот-акаунт A7,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.711,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-001,G9:ACC-008,Анонімний Telegram-канал #1,Анонімний Telegram-канал #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-016,Бот-акаунт A7,Бот-акаунт A8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.699,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-017,Бот-акаунт A7,Бот-акаунт A9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.694,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-018,Бот-акаунт A7,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.651,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-019,Бот-акаунт A7,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.678,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-018,Бот-акаунт A8,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.65,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-019,Бот-акаунт A8,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.678,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-020,Бот-акаунт A8,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-020,Бот-акаунт A7,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-021,Бот-акаунт A7,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.678,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-022,Бот-акаунт A7,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-023,Бот-акаунт A7,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-026,Бот-акаунт A7,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.674,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-014,Бот-акаунт A2,Бот-акаунт A6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.704,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-015,Бот-акаунт A2,Бот-акаунт A7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.702,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-016,Бот-акаунт A2,Бот-акаунт A8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.701,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-017,Бот-акаунт A2,Бот-акаунт A9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.697,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-018,Бот-акаунт A2,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.653,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-019,Бот-акаунт A2,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-020,Бот-акаунт A2,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.709,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-014,G9:ACC-018,Бот-акаунт A6,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.652,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-019,Бот-акаунт A6,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-021,Бот-акаунт A5,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-022,Бот-акаунт A5,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-025,Бот-акаунт A3,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.678,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-024,Бот-акаунт A5,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.679,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-025,Бот-акаунт A5,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-026,Бот-акаунт A5,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.676,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-015,Бот-акаунт A3,Бот-акаунт A7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.703,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-016,Бот-акаунт A3,Бот-акаунт A8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.702,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-017,Бот-акаунт A3,Бот-акаунт A9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.698,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-015,Бот-акаунт A6,Бот-акаунт A7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.701,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-016,Бот-акаунт A6,Бот-акаунт A8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.701,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-017,Бот-акаунт A6,Бот-акаунт A9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.696,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-023,Бот-акаунт A3,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-011,G9:ACC-024,Бот-акаунт A3,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-023,Бот-акаунт A5,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.709,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-017,G9:ACC-019,Бот-акаунт A9,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.673,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-018,G9:ACC-019,Бот-акаунт A10,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.631,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-018,G9:ACC-020,Бот-акаунт A10,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.63,0.926,0.87,0.667,-1,1,0,1,0.1
+G9:ACC-018,G9:ACC-021,Бот-акаунт A10,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.631,0.926,0.87,0.667,-1,1,0,1,0.1
+G9:ACC-018,G9:ACC-022,Бот-акаунт A10,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.63,0.926,0.87,0.667,-1,1,0,1,0.1
+G9:ACC-018,G9:ACC-023,Бот-акаунт A10,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.63,0.926,0.87,0.667,-1,1,0,1,0.1
+G9:ACC-018,G9:ACC-024,Бот-акаунт A10,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.63,0.926,0.87,0.667,-1,1,0,1,0.1
+G9:ACC-018,G9:ACC-025,Бот-акаунт A10,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.628,0.926,0.87,0.667,-1,1,0,1,0.1
+G9:ACC-017,G9:ACC-023,Бот-акаунт A9,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.672,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-020,Бот-акаунт A6,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.679,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-021,Бот-акаунт A6,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-015,G9:ACC-024,Бот-акаунт A7,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-023,Бот-акаунт A6,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.679,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-024,Бот-акаунт A6,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-014,G9:ACC-025,Бот-акаунт A6,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-026,Бот-акаунт A6,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.676,0.938,0.87,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #7,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #8,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #4,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.919,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #5,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #6,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #7,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #8,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-014,G9:ACC-022,Бот-акаунт A6,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.679,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-023,Бот-акаунт A4,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-024,Бот-акаунт A4,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.679,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-025,Бот-акаунт A4,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-026,Бот-акаунт A4,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-017,Бот-акаунт A8,Бот-акаунт A9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.693,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-014,Бот-акаунт A5,Бот-акаунт A6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.704,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-015,Бот-акаунт A5,Бот-акаунт A7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.702,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-016,Бот-акаунт A5,Бот-акаунт A8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.701,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-017,Бот-акаунт A5,Бот-акаунт A9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.697,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-018,Бот-акаунт A5,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.653,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-019,Бот-акаунт A5,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-017,G9:ACC-018,Бот-акаунт A9,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.646,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-017,G9:ACC-020,Бот-акаунт A9,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.672,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-017,G9:ACC-021,Бот-акаунт A9,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.673,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-017,G9:ACC-022,Бот-акаунт A9,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.672,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-021,Бот-акаунт A8,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.678,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-022,Бот-акаунт A8,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-023,Бот-акаунт A8,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.676,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-024,Бот-акаунт A8,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.676,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-025,Бот-акаунт A8,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.674,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-017,G9:ACC-024,Бот-акаунт A9,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.672,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-017,G9:ACC-025,Бот-акаунт A9,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.67,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-017,G9:ACC-026,Бот-акаунт A9,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.669,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-013,G9:ACC-020,Бот-акаунт A5,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-005,G9:ACC-008,Анонімний Telegram-канал #5,Анонімний Telegram-канал #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.914,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.914,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-006,G9:ACC-007,Анонімний Telegram-канал #6,Анонімний Telegram-канал #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-011,Бот-акаунт A1,Бот-акаунт A3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.713,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-026,Бот-акаунт A2,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-013,Бот-акаунт A1,Бот-акаунт A5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.712,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-014,Бот-акаунт A1,Бот-акаунт A6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.711,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-006,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.92,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.914,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-006,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-006,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.91,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-006,G9:ACC-008,Анонімний Telegram-канал #6,Анонімний Telegram-канал #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.91,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-006,G9:OFF-03,Анонімний Telegram-канал #6,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-007,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.92,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-012,Бот-акаунт A1,Бот-акаунт A4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.712,0.969,0.923,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #8,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #6,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #7,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,G9:OFF-03,Анонімний Telegram-канал #5,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #8,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #5,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.914,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #6,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #7,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.914,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #5,Анонімний Telegram-канал #8,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #7,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #8,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.91,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,G9:ACC-007,Анонімний Telegram-канал #5,Анонімний Telegram-канал #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,G9:ACC-008,Анонімний Telegram-канал #4,Анонімний Telegram-канал #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,G9:OFF-03,Анонімний Telegram-канал #4,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-007,G9:ACC-008,Анонімний Telegram-канал #7,Анонімний Telegram-канал #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-007,G9:OFF-03,Анонімний Telegram-канал #7,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-004,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #4,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.919,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-003,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #3,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,G9:ACC-005,Анонімний Telegram-канал #4,Анонімний Telegram-канал #5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.914,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,G9:ACC-006,Анонімний Telegram-канал #4,Анонімний Telegram-канал #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-005,G9:ACC-006,Анонімний Telegram-канал #5,Анонімний Telegram-канал #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-004,G9:ACC-007,Анонімний Telegram-канал #4,Анонімний Telegram-канал #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.914,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-008,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #8,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-008,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #8,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.91,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-017,Бот-акаунт A4,Бот-акаунт A9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.697,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-018,Бот-акаунт A4,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.653,0.956,0.889,0.667,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-019,Бот-акаунт A4,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-020,Бот-акаунт A4,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-021,Бот-акаунт A4,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-022,Бот-акаунт A4,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.709,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-011,G9:ACC-026,Бот-акаунт A3,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.678,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-021,Бот-акаунт A1,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.688,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-022,Бот-акаунт A1,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.687,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-006,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-024,Бот-акаунт A1,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.686,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-025,Бот-акаунт A1,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.684,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-026,Бот-акаунт A1,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.684,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-015,Бот-акаунт A4,Бот-акаунт A7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.702,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-012,G9:ACC-016,Бот-акаунт A4,Бот-акаунт A8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.701,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-021,Бот-акаунт A2,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.681,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-011,Бот-акаунт A2,Бот-акаунт A3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.706,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-012,Бот-акаунт A2,Бот-акаунт A4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.705,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-013,Бот-акаунт A2,Бот-акаунт A5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.704,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-019,Бот-акаунт A1,Бот-акаунт B1,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.715,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-009,G9:ACC-020,Бот-акаунт A1,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.687,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-023,Бот-акаунт A1,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.687,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-006,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-006,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-006,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #6,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-007,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #6,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-007,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #8,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-022,Бот-акаунт A2,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-023,Бот-акаунт A2,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.68,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-024,Бот-акаунт A2,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.679,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-010,G9:ACC-025,Бот-акаунт A2,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.677,0.938,0.87,1.0,-1,1,0,1,0.1
+G9:ACC-008,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Анонімний Telegram-канал #8,Анонімний Telegram-канал #1,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-008,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #8,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-008,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #8,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-007,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-007,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #4,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.914,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-007,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #5,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.913,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-008,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #8,Анонімний Telegram-канал #7,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.911,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-010,Бот-акаунт A1,Бот-акаунт A2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.712,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-008,G9:OFF-03,Анонімний Telegram-канал #8,Офіційні канали міських рад,ACCOUNT,ORG,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-009,G9:ACC-015,Бот-акаунт A1,Бот-акаунт A7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.709,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-016,Бот-акаунт A1,Бот-акаунт A8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.708,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-017,Бот-акаунт A1,Бот-акаунт A9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.704,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-009,G9:ACC-018,Бот-акаунт A1,Бот-акаунт A10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.768,0.986,0.963,0.667,-1,1,0,1,0.1
+G9:ACC-008,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #8,Анонімний Telegram-канал #3,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-007,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #7,Анонімний Telegram-канал #2,ACCOUNT,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:OFF-03,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Офіційні канали міських рад,Анонімний Telegram-канал #3,ORG,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.077,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:OFF-03,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Офіційні канали міських рад,Анонімний Telegram-канал #4,ORG,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:OFF-03,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Офіційні канали міських рад,Анонімний Telegram-канал #5,ORG,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:OFF-03,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Офіційні канали міських рад,Анонімний Telegram-канал #6,ORG,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:FCH-01,G9:FCH-03,Аналітик Ф-01 (військова тематика),Аналітик Ф-03 (медіа та фото),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.16,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:OFF-03,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Офіційні канали міських рад,Анонімний Telegram-канал #8,ORG,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-038,G9:ACC-039,Користувач #6,Користувач #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.867,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-038,G9:ACC-040,Користувач #6,Користувач #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.863,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-038,G9:ACC-041,Користувач #6,Користувач #9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.841,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:FCH-01,G9:FCH-02,Аналітик Ф-01 (військова тематика),Аналітик Ф-02 (регіональні новини),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.108,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-01,G9:FCH-05,Аналітик Ф-01 (військова тематика),Аналітик Ф-05 (здоров'я та медицина),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.126,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:ACC-019,G9:ACC-024,Бот-акаунт B1,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:FCH-01,R8:Faktcheker_F02,Аналітик Ф-01 (військова тематика),"Аналітик, регіональні новини",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.158,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-01,E13:PERSON_Аналітик_Ф-02|PERSON,Аналітик Ф-01 (військова тематика),Аналітик Ф-02,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.275,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-01,E13:PERSON_Аналітик_Ф-03|PERSON,Аналітик Ф-01 (військова тематика),Аналітик Ф-03,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.278,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-01,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-01 (військова тематика),Аналітик Ф-04,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.276,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-01,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-01 (військова тематика),Аналітик Ф-05,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.276,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-01,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-01 (військова тематика),Аналітик Ф-06,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.274,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-01,G9:FCH-04,Аналітик Ф-01 (військова тематика),Аналітик Ф-04 (соцмережі й боти),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.11,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-02,G9:FCH-03,Аналітик Ф-02 (регіональні новини),Аналітик Ф-03 (медіа та фото),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.106,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-02,G9:FCH-04,Аналітик Ф-02 (регіональні новини),Аналітик Ф-04 (соцмережі й боти),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.129,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-02,G9:FCH-05,Аналітик Ф-02 (регіональні новини),Аналітик Ф-05 (здоров'я та медицина),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.104,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-02,G9:FCH-06,Аналітик Ф-02 (регіональні новини),Аналітик Ф-06 (фінансові шахрайства),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.097,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-01,G9:FCH-06,Аналітик Ф-01 (військова тематика),Аналітик Ф-06 (фінансові шахрайства),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.144,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:ACC-038,G9:ACC-043,Користувач #6,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.788,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-038,G9:ACC-044,Користувач #6,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.787,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-038,G9:ACC-045,Користувач #6,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.788,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-039,G9:ACC-040,Користувач #7,Користувач #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.863,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-042,G9:ACC-045,Користувач #10,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.755,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-043,G9:ACC-044,Користувач #11,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.744,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-043,G9:ACC-045,Користувач #11,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.745,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-039,G9:ACC-044,Користувач #7,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.787,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-039,G9:ACC-045,Користувач #7,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.788,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-040,G9:ACC-041,Користувач #8,Користувач #9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.837,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-040,G9:ACC-042,Користувач #8,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.795,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:OFF-03,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Офіційні канали міських рад,Анонімний Telegram-канал #2,ORG,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.077,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-034,G9:ACC-041,Користувач #2,Користувач #9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.845,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-042,Користувач #2,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.802,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-043,Користувач #2,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.792,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-041,G9:ACC-043,Користувач #9,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.765,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-041,G9:ACC-044,Користувач #9,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.764,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-041,G9:ACC-045,Користувач #9,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.765,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-042,G9:ACC-043,Користувач #10,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.755,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-042,G9:ACC-044,Користувач #10,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.754,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:OFF-03,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Офіційні канали міських рад,Анонімний Telegram-канал #7,ORG,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.076,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-044,G9:ACC-045,Користувач #12,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.744,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:OFF-03,E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,Офіційні канали міських рад,Анонімний Telegram-канал #1,ORG,PLATFORM,ЛР9 граф Neo4j,ЛР13 витяг,0.077,0.543,0.34,0.167,-1,0,0,1,0.1
+G9:ACC-040,G9:ACC-043,Користувач #8,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.785,0.953,0.909,1.0,-1,1,0,1,0.1
+E13:PERSON_Аналітик_Ф-01|PERSON,E13:PERSON_Аналітик_Ф-02|PERSON,Аналітик Ф-01,Аналітик Ф-02,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.729,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-01|PERSON,E13:PERSON_Аналітик_Ф-03|PERSON,Аналітик Ф-01,Аналітик Ф-03,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.738,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-01|PERSON,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-01,Аналітик Ф-04,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.733,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-01|PERSON,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-01,Аналітик Ф-05,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.733,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-01|PERSON,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-01,Аналітик Ф-06,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.728,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-02|PERSON,E13:PERSON_Аналітик_Ф-03|PERSON,Аналітик Ф-02,Аналітик Ф-03,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.729,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-02|PERSON,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-02,Аналітик Ф-04,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.725,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-02|PERSON,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-02,Аналітик Ф-05,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.724,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-02|PERSON,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-02,Аналітик Ф-06,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.72,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:TOOL-02,G9:TOOL-04,Аналіз EXIF-метаданих,Аналіз мережі поширення,METHOD,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.211,0.637,0.455,0.2,-1,0,0,1,0.1
+G9:FCH-06,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-06 (фінансові шахрайства),Аналітик Ф-04,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.214,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-02,R8:Faktcheker_F01,Аналітик Ф-02 (регіональні новини),"Аналітик, військова тематика",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.151,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-04,E13:PERSON_Аналітик_Ф-01|PERSON,Аналітик Ф-04 (соцмережі й боти),Аналітик Ф-01,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.27,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-04,E13:PERSON_Аналітик_Ф-02|PERSON,Аналітик Ф-04 (соцмережі й боти),Аналітик Ф-02,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.267,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-04,E13:PERSON_Аналітик_Ф-03|PERSON,Аналітик Ф-04 (соцмережі й боти),Аналітик Ф-03,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.27,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-04,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-04 (соцмережі й боти),Аналітик Ф-05,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.268,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-04,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-04 (соцмережі й боти),Аналітик Ф-06,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.266,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-04,R8:Faktcheker_F02,Аналітик Ф-04 (соцмережі й боти),"Аналітик, регіональні новини",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.172,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-05,G9:FCH-06,Аналітик Ф-05 (здоров'я та медицина),Аналітик Ф-06 (фінансові шахрайства),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.084,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-05,R8:Faktcheker_F01,Аналітик Ф-05 (здоров'я та медицина),"Аналітик, військова тематика",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.156,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-05,R8:Faktcheker_F02,Аналітик Ф-05 (здоров'я та медицина),"Аналітик, регіональні новини",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.138,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-05,E13:PERSON_Аналітик_Ф-01|PERSON,Аналітик Ф-05 (здоров'я та медицина),Аналітик Ф-01,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.214,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-05,E13:PERSON_Аналітик_Ф-02|PERSON,Аналітик Ф-05 (здоров'я та медицина),Аналітик Ф-02,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.212,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-06,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-06 (фінансові шахрайства),Аналітик Ф-05,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.213,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-02,E13:PERSON_Аналітик_Ф-01|PERSON,Аналітик Ф-02 (регіональні новини),Аналітик Ф-01,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.269,0.969,0.923,0.333,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-03|PERSON,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-03,Аналітик Ф-04,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.733,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-03|PERSON,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-03,Аналітик Ф-05,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.733,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-03|PERSON,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-03,Аналітик Ф-06,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.728,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:FCH-02,E13:PERSON_Аналітик_Ф-03|PERSON,Аналітик Ф-02 (регіональні новини),Аналітик Ф-03,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.269,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-02,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-02 (регіональні новини),Аналітик Ф-04,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.267,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-02,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-02 (регіональні новини),Аналітик Ф-05,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.267,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-02,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-02 (регіональні новини),Аналітик Ф-06,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.265,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-03,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-03 (медіа та фото),Аналітик Ф-05,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.29,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-03,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-03 (медіа та фото),Аналітик Ф-06,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.288,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-03,G9:FCH-04,Аналітик Ф-03 (медіа та фото),Аналітик Ф-04 (соцмережі й боти),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.134,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-05,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-05 (здоров'я та медицина),Аналітик Ф-06,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.211,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-03,G9:FCH-06,Аналітик Ф-03 (медіа та фото),Аналітик Ф-06 (фінансові шахрайства),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.107,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-03,R8:Faktcheker_F01,Аналітик Ф-03 (медіа та фото),"Аналітик, військова тематика",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.194,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-03,R8:Faktcheker_F02,Аналітик Ф-03 (медіа та фото),"Аналітик, регіональні новини",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.146,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-04,G9:FCH-05,Аналітик Ф-04 (соцмережі й боти),Аналітик Ф-05 (здоров'я та медицина),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.09,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-04,G9:FCH-06,Аналітик Ф-04 (соцмережі й боти),Аналітик Ф-06 (фінансові шахрайства),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.102,0.969,0.923,0.2,-1,0,0,1,0.1
+G9:FCH-04,R8:Faktcheker_F01,Аналітик Ф-04 (соцмережі й боти),"Аналітик, військова тематика",ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.152,0.675,0.762,0.2,-1,0,0,1,0.1
+G9:FCH-03,E13:PERSON_Аналітик_Ф-01|PERSON,Аналітик Ф-03 (медіа та фото),Аналітик Ф-01,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.292,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-03,E13:PERSON_Аналітик_Ф-02|PERSON,Аналітик Ф-03 (медіа та фото),Аналітик Ф-02,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.288,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-03,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-03 (медіа та фото),Аналітик Ф-04,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.29,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-05,E13:PERSON_Аналітик_Ф-03|PERSON,Аналітик Ф-05 (здоров'я та медицина),Аналітик Ф-03,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.214,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-05,E13:PERSON_Аналітик_Ф-04|PERSON,Аналітик Ф-05 (здоров'я та медицина),Аналітик Ф-04,ANALYST,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.213,0.969,0.923,0.333,-1,0,0,1,0.1
+G9:FCH-03,G9:FCH-05,Аналітик Ф-03 (медіа та фото),Аналітик Ф-05 (здоров'я та медицина),ANALYST,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.302,0.969,0.923,0.2,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-04|PERSON,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-04,Аналітик Ф-06,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.724,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PERSON_Аналітик_Ф-05|PERSON,E13:PERSON_Аналітик_Ф-06|PERSON,Аналітик Ф-05,Аналітик Ф-06,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.723,0.969,0.923,1.0,-1,0,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #2,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.923,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #3,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.925,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #4,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #5,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #6,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.92,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #7,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.92,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM,Анонімний Telegram-канал #1,Анонімний Telegram-канал #8,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.918,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #3,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.921,0.985,0.962,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #4,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-038,G9:ACC-042,Користувач #6,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.798,0.953,0.909,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #6,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-035,Користувач #1,Користувач #3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.885,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-036,Користувач #1,Користувач #4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.878,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-037,Користувач #1,Користувач #5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.878,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-038,Користувач #1,Користувач #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.877,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-043,Користувач #1,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.855,0.985,0.96,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-044,Користувач #1,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.828,0.985,0.96,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-045,Користувач #1,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.829,0.985,0.96,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-035,Користувач #2,Користувач #3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.878,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-034,Користувач #1,Користувач #2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.881,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-021,G9:ACC-026,Бот-акаунт B3,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.707,0.969,0.923,1.0,-1,1,0,1,0.1
+E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM,E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM,Анонімний Telegram-канал #2,Анонімний Telegram-канал #5,PLATFORM,PLATFORM,ЛР13 витяг,ЛР13 витяг,0.916,0.985,0.962,1.0,-1,1,0,1,0.1
+G9:ACC-019,G9:ACC-025,Бот-акаунт B1,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.708,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-019,G9:ACC-026,Бот-акаунт B1,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.707,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-018,G9:ACC-026,Бот-акаунт A10,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.627,0.926,0.87,0.667,-1,1,0,1,0.1
+G9:ACC-019,G9:ACC-020,Бот-акаунт B1,Бот-акаунт B2,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-019,G9:ACC-021,Бот-акаунт B1,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.711,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-020,G9:ACC-021,Бот-акаунт B2,Бот-акаунт B3,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-020,G9:ACC-022,Бот-акаунт B2,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-020,G9:ACC-023,Бот-акаунт B2,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.709,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-020,G9:ACC-024,Бот-акаунт B2,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.709,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-020,G9:ACC-025,Бот-акаунт B2,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.707,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-020,G9:ACC-026,Бот-акаунт B2,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.706,0.969,0.923,1.0,-1,1,0,1,0.1
+E13:PERSON_Аналітик_Ф-04|PERSON,E13:PERSON_Аналітик_Ф-05|PERSON,Аналітик Ф-04,Аналітик Ф-05,PERSON,PERSON,ЛР13 витяг,ЛР13 витяг,0.728,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-019,G9:ACC-023,Бот-акаунт B1,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-016,G9:ACC-026,Бот-акаунт A8,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.712,0.969,0.923,1.0,-1,0,0,1,0.1
+G9:ACC-021,G9:ACC-022,Бот-акаунт B3,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-021,G9:ACC-023,Бот-акаунт B3,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-021,G9:ACC-024,Бот-акаунт B3,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-024,G9:ACC-025,Бот-акаунт B6,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.706,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-024,G9:ACC-026,Бот-акаунт B6,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.705,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-025,G9:ACC-026,Бот-акаунт B7,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.703,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-023,G9:ACC-024,Бот-акаунт B5,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.708,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-023,G9:ACC-025,Бот-акаунт B5,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.706,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-023,G9:ACC-026,Бот-акаунт B5,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.706,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-019,G9:ACC-022,Бот-акаунт B1,Бот-акаунт B4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.71,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-037,G9:ACC-039,Користувач #5,Користувач #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.867,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-037,G9:ACC-040,Користувач #5,Користувач #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.863,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-042,Користувач #3,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.805,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-043,Користувач #3,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.795,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-044,Користувач #3,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.794,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-045,Користувач #3,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.821,0.985,0.96,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-037,Користувач #4,Користувач #5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.868,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-041,Користувач #4,Користувач #9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.842,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-042,Користувач #4,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.799,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-043,Користувач #4,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.789,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-044,Користувач #4,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.788,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-022,G9:ACC-023,Бот-акаунт B4,Бот-акаунт B5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.709,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-039,G9:ACC-041,Користувач #7,Користувач #9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.841,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-039,G9:ACC-042,Користувач #7,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.798,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-039,G9:ACC-043,Користувач #7,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.788,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-037,G9:ACC-041,Користувач #5,Користувач #9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.841,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-037,G9:ACC-042,Користувач #5,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.799,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-037,G9:ACC-043,Користувач #5,Користувач #11,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.788,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-037,G9:ACC-044,Користувач #5,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.787,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-037,G9:ACC-045,Користувач #5,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.788,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-040,G9:ACC-044,Користувач #8,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.784,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-040,G9:ACC-045,Користувач #8,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.785,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-041,G9:ACC-042,Користувач #9,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.775,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-045,Користувач #4,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.789,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-039,Користувач #1,Користувач #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.877,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-040,Користувач #1,Користувач #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.873,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-041,Користувач #1,Користувач #9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.851,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-033,G9:ACC-042,Користувач #1,Користувач #10,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.84,0.985,0.96,1.0,-1,1,0,1,0.1
+G9:ACC-022,G9:ACC-024,Бот-акаунт B4,Бот-акаунт B6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.709,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-022,G9:ACC-025,Бот-акаунт B4,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.707,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-022,G9:ACC-026,Бот-акаунт B4,Бот-акаунт B8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.706,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-021,G9:ACC-025,Бот-акаунт B3,Бот-акаунт B7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.708,0.969,0.923,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-039,Користувач #3,Користувач #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.874,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-040,Користувач #3,Користувач #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.87,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-041,Користувач #3,Користувач #9,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.848,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-037,G9:ACC-038,Користувач #5,Користувач #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.867,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-037,Користувач #2,Користувач #5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.871,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-038,Користувач #2,Користувач #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.87,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-039,Користувач #2,Користувач #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.871,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-040,Користувач #2,Користувач #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.867,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-038,Користувач #4,Користувач #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.867,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-039,Користувач #4,Користувач #7,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.868,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-036,G9:ACC-040,Користувач #4,Користувач #8,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.864,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-044,Користувач #2,Користувач #12,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.819,0.985,0.96,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-045,Користувач #2,Користувач #13,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.792,0.953,0.909,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-036,Користувач #3,Користувач #4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.875,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-037,Користувач #3,Користувач #5,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.874,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-035,G9:ACC-038,Користувач #3,Користувач #6,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.874,0.967,0.917,1.0,-1,1,0,1,0.1
+G9:ACC-034,G9:ACC-036,Користувач #2,Користувач #4,ACCOUNT,ACCOUNT,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.871,0.967,0.917,1.0,-1,1,0,1,0.1
+R8:Pravylo_R2,E13:PHENOMENON_фейк-ньюз_-с|PHENOMENON,автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень,фейк-ньюз(-с),RULE,PHENOMENON,ЛР8 RDF,ЛР13 витяг,0.111,0.252,0.086,0.111,0,0,0,0,0.066
+G9:TOOL-04,R8:Faktcheker_F01,Аналіз мережі поширення,"Аналітик, військова тематика",METHOD,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.082,0.568,0.36,0.2,-1,0,0,0,0.05
+G9:TOOL-04,R8:Faktcheker_F02,Аналіз мережі поширення,"Аналітик, регіональні новини",METHOD,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.132,0.638,0.48,0.2,-1,0,0,0,0.05
+G9:TOOL-04,R8:Pravylo_R2,Аналіз мережі поширення,автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень,METHOD,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.217,0.563,0.357,0.1,-1,0,0,0,0.05
+G9:TOOL-04,E13:PERSON_Аналітик_Ф-01|PERSON,Аналіз мережі поширення,Аналітик Ф-01,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.142,0.574,0.333,0.333,-1,0,0,0,0.05
+G9:TOOL-04,E13:PERSON_Аналітик_Ф-02|PERSON,Аналіз мережі поширення,Аналітик Ф-02,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.14,0.574,0.333,0.333,-1,0,0,0,0.05
+G9:TOOL-04,E13:PERSON_Аналітик_Ф-03|PERSON,Аналіз мережі поширення,Аналітик Ф-03,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.142,0.574,0.333,0.333,-1,0,0,0,0.05
+G9:TOOL-04,E13:PERSON_Аналітик_Ф-04|PERSON,Аналіз мережі поширення,Аналітик Ф-04,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.141,0.574,0.333,0.333,-1,0,0,0,0.05
+G9:TOOL-04,E13:PERSON_Аналітик_Ф-05|PERSON,Аналіз мережі поширення,Аналітик Ф-05,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.141,0.574,0.333,0.333,-1,0,0,0,0.05
+G9:TOOL-04,E13:PERSON_Аналітик_Ф-06|PERSON,Аналіз мережі поширення,Аналітик Ф-06,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.14,0.574,0.333,0.333,-1,0,0,0,0.05
+G9:FCH-06,G9:TOOL-02,Аналітик Ф-06 (фінансові шахрайства),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.05,0.624,0.294,0.2,-1,0,0,0,0.05
+G9:FCH-06,G9:TOOL-04,Аналітик Ф-06 (фінансові шахрайства),Аналіз мережі поширення,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.053,0.574,0.333,0.2,-1,0,0,0,0.05
+G9:TOOL-02,G9:RULE-4,Аналіз EXIF-метаданих,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,METHOD,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.119,0.539,0.341,0.091,-1,0,0,0,0.05
+G9:TOOL-02,R8:Faktcheker_F01,Аналіз EXIF-метаданих,"Аналітик, військова тематика",METHOD,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.084,0.616,0.25,0.2,-1,0,0,0,0.05
+G9:TOOL-02,R8:Faktcheker_F02,Аналіз EXIF-метаданих,"Аналітик, регіональні новини",METHOD,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.109,0.583,0.375,0.2,-1,0,0,0,0.05
+G9:TOOL-02,E13:PERSON_Аналітик_Ф-01|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-01,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.146,0.624,0.294,0.333,-1,0,0,0,0.05
+G9:TOOL-02,E13:PERSON_Аналітик_Ф-02|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-02,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.144,0.624,0.294,0.333,-1,0,0,0,0.05
+G9:TOOL-02,E13:PERSON_Аналітик_Ф-03|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-03,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.146,0.624,0.294,0.333,-1,0,0,0,0.05
+G9:TOOL-02,E13:PERSON_Аналітик_Ф-04|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-04,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.145,0.624,0.294,0.333,-1,0,0,0,0.05
+G9:TOOL-02,E13:PERSON_Аналітик_Ф-05|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-05,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.145,0.624,0.294,0.333,-1,0,0,0,0.05
+G9:TOOL-02,E13:PERSON_Аналітик_Ф-06|PERSON,Аналіз EXIF-метаданих,Аналітик Ф-06,METHOD,PERSON,ЛР9 граф Neo4j,ЛР13 витяг,0.144,0.624,0.294,0.333,-1,0,0,0,0.05
+G9:TOOL-04,G9:RULE-2,Аналіз мережі поширення,автор має спростоване твердження у публікації з ≥ 1000 поширень,METHOD,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.295,0.563,0.357,0.125,-1,0,0,0,0.05
+G9:FCH-05,G9:TOOL-02,Аналітик Ф-05 (здоров'я та медицина),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.067,0.624,0.294,0.2,-1,0,0,0,0.05
+G9:FCH-05,G9:TOOL-04,Аналітик Ф-05 (здоров'я та медицина),Аналіз мережі поширення,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.085,0.574,0.333,0.2,-1,0,0,0,0.05
+G9:FCH-03,G9:TOOL-02,Аналітик Ф-03 (медіа та фото),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.084,0.624,0.294,0.2,-1,0,0,0,0.05
+G9:FCH-03,G9:TOOL-04,Аналітик Ф-03 (медіа та фото),Аналіз мережі поширення,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.096,0.574,0.333,0.2,-1,0,0,0,0.05
+G9:FCH-03,G9:RULE-4,Аналітик Ф-03 (медіа та фото),дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,ANALYST,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.197,0.499,0.162,0.091,-1,0,0,0,0.05
+G9:FCH-04,G9:TOOL-02,Аналітик Ф-04 (соцмережі й боти),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.064,0.624,0.294,0.2,-1,0,0,0,0.05
+G9:FCH-04,G9:TOOL-04,Аналітик Ф-04 (соцмережі й боти),Аналіз мережі поширення,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.355,0.574,0.333,0.2,-1,0,0,0,0.05
+G9:FCH-01,G9:TOOL-02,Аналітик Ф-01 (військова тематика),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.045,0.624,0.294,0.2,-1,0,0,0,0.05
+G9:FCH-01,G9:TOOL-04,Аналітик Ф-01 (військова тематика),Аналіз мережі поширення,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.044,0.574,0.333,0.2,-1,0,0,0,0.05
+G9:FCH-02,G9:TOOL-02,Аналітик Ф-02 (регіональні новини),Аналіз EXIF-метаданих,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.07,0.624,0.294,0.2,-1,0,0,0,0.05
+G9:FCH-02,G9:TOOL-04,Аналітик Ф-02 (регіональні новини),Аналіз мережі поширення,ANALYST,METHOD,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.096,0.574,0.333,0.2,-1,0,0,0,0.05
+G9:ORG-04,G9:FCH-03,Детектор медіа,Аналітик Ф-03 (медіа та фото),ORG,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.376,0.482,0.222,0.25,-1,0,0,0,0.05
+G9:ORG-04,G9:RULE-4,Детектор медіа,дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів,ORG,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.166,0.493,0.24,0.1,-1,0,0,0,0.05
+G9:ACC-025,G9:RULE-1,Бот-акаунт B7,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.258,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-025,G9:RULE-3,Бот-акаунт B7,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.09,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-025,R8:Pravylo_R1,Бот-акаунт B7,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.258,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-026,G9:RULE-1,Бот-акаунт B8,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.258,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-026,G9:RULE-3,Бот-акаунт B8,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.09,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-026,R8:Pravylo_R1,Бот-акаунт B8,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.258,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-027,G9:FCH-02,Суспільне Новини,Аналітик Ф-02 (регіональні новини),ACCOUNT,ANALYST,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.341,0.432,0.207,0.25,-1,0,0,0,0.05
+G9:ACC-027,R8:Faktcheker_F02,Суспільне Новини,"Аналітик, регіональні новини",ACCOUNT,ANALYST,ЛР9 граф Neo4j,ЛР8 RDF,0.316,0.593,0.545,0.25,-1,0,0,0,0.05
+G9:ACC-029,G9:NAR-01,Твоє Місто (Львів),Повна втрата контролю над містом,ACCOUNT,NARRATIVE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.104,0.54,0.333,0.143,-1,0,0,0,0.05
+G9:ACC-021,G9:RULE-1,Бот-акаунт B3,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.259,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-021,G9:RULE-3,Бот-акаунт B3,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.099,0.542,0.2,0.111,-1,0,0,0,0.05
+G9:ACC-021,R8:Pravylo_R1,Бот-акаунт B3,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.259,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-022,G9:RULE-1,Бот-акаунт B4,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-022,G9:RULE-3,Бот-акаунт B4,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.09,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-022,R8:Pravylo_R1,Бот-акаунт B4,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-023,G9:RULE-1,Бот-акаунт B5,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-023,G9:RULE-3,Бот-акаунт B5,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.09,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-023,R8:Pravylo_R1,Бот-акаунт B5,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-024,G9:RULE-1,Бот-акаунт B6,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-024,G9:RULE-3,Бот-акаунт B6,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.09,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-024,R8:Pravylo_R1,Бот-акаунт B6,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-018,G9:RULE-1,Бот-акаунт A10,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.266,0.576,0.295,0.143,-1,0,0,0,0.05
+G9:ACC-018,G9:RULE-3,Бот-акаунт A10,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.084,0.481,0.198,0.1,-1,0,0,0,0.05
+G9:ACC-018,R8:Pravylo_R1,Бот-акаунт A10,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.266,0.576,0.295,0.143,-1,0,0,0,0.05
+G9:ACC-019,G9:RULE-1,Бот-акаунт B1,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-019,G9:RULE-3,Бот-акаунт B1,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.099,0.5,0.2,0.111,-1,0,0,0,0.05
+G9:ACC-019,R8:Pravylo_R1,Бот-акаунт B1,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-020,G9:RULE-1,Бот-акаунт B2,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-020,G9:RULE-3,Бот-акаунт B2,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.09,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-020,R8:Pravylo_R1,Бот-акаунт B2,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.259,0.512,0.267,0.167,-1,0,0,0,0.05
+G9:ACC-016,G9:RULE-1,Бот-акаунт A8,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.268,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-016,G9:RULE-3,Бот-акаунт A8,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.091,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-016,R8:Pravylo_R1,Бот-акаунт A8,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.268,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-017,G9:RULE-1,Бот-акаунт A9,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.266,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-017,G9:RULE-3,Бот-акаунт A9,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.09,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-017,R8:Pravylo_R1,Бот-акаунт A9,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.266,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-014,G9:RULE-1,Бот-акаунт A6,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.269,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-014,G9:RULE-3,Бот-акаунт A6,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.091,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-014,R8:Pravylo_R1,Бот-акаунт A6,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.269,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-015,G9:RULE-1,Бот-акаунт A7,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.268,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-015,G9:RULE-3,Бот-акаунт A7,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.091,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-015,R8:Pravylo_R1,Бот-акаунт A7,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.268,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-012,G9:RULE-1,Бот-акаунт A4,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.269,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-012,G9:RULE-3,Бот-акаунт A4,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.091,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-012,R8:Pravylo_R1,Бот-акаунт A4,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.269,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-013,G9:RULE-1,Бот-акаунт A5,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.269,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-013,G9:RULE-3,Бот-акаунт A5,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.091,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-013,R8:Pravylo_R1,Бот-акаунт A5,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.269,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-011,G9:RULE-1,Бот-акаунт A3,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.27,0.594,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-011,G9:RULE-3,Бот-акаунт A3,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.099,0.542,0.2,0.111,-1,0,0,0,0.05
+G9:ACC-011,R8:Pravylo_R1,Бот-акаунт A3,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.27,0.594,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-009,G9:RULE-1,Бот-акаунт A1,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.272,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-009,G9:RULE-3,Бот-акаунт A1,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.1,0.5,0.2,0.111,-1,0,0,0,0.05
+G9:ACC-009,R8:Pravylo_R1,Бот-акаунт A1,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.272,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-010,G9:RULE-1,Бот-акаунт A2,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.269,0.554,0.3,0.167,-1,0,0,0,0.05
+G9:ACC-010,G9:RULE-3,Бот-акаунт A2,публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР9 граф Neo4j,0.091,0.5,0.178,0.111,-1,0,0,0,0.05
+G9:ACC-010,R8:Pravylo_R1,Бот-акаунт A2,вік акаунта < 30 днів AND акаунт не верифікований,ACCOUNT,RULE,ЛР9 граф Neo4j,ЛР8 RDF,0.269,0.554,0.3,0.167,-1,0,0,0,0.05

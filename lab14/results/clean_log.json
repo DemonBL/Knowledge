@@ -1,0 +1,76 @@
+{
+ "corpus_removed": [
+  {
+   "chunk_id": "W13:s002",
+   "reason": "невалідний фрагмент (навігація/обрізаний текст)",
+   "of": "",
+   "sim": null
+  },
+  {
+   "chunk_id": "W16:s071",
+   "reason": "невалідний фрагмент (навігація/обрізаний текст)",
+   "of": "",
+   "sim": null
+  },
+  {
+   "chunk_id": "W25:s055",
+   "reason": "дублікат",
+   "of": "W16:s041",
+   "sim": 1.0
+  },
+  {
+   "chunk_id": "W25:s074",
+   "reason": "дублікат",
+   "of": "W16:s044",
+   "sim": 0.951
+  },
+  {
+   "chunk_id": "INT-NAR-02:s006",
+   "reason": "дублікат",
+   "of": "INT-NAR-01:s005",
+   "sim": 1.0
+  },
+  {
+   "chunk_id": "INT-NAR-03:s004",
+   "reason": "дублікат",
+   "of": "INT-NAR-01:s005",
+   "sim": 1.0
+  },
+  {
+   "chunk_id": "INT-NAR-04:s004",
+   "reason": "дублікат",
+   "of": "INT-NAR-01:s005",
+   "sim": 1.0
+  },
+  {
+   "chunk_id": "INT-NAR-05:s004",
+   "reason": "дублікат",
+   "of": "INT-NAR-01:s005",
+   "sim": 1.0
+  },
+  {
+   "chunk_id": "INT-NAR-06:s004",
+   "reason": "дублікат",
+   "of": "INT-NAR-01:s005",
+   "sim": 1.0
+  },
+  {
+   "chunk_id": "INT-REG-2025:s000",
+   "reason": "розділ нечинної версії, ідентичний чинній",
+   "of": "INT-REG-2026:s000",
+   "sim": 1.0
+  },
+  {
+   "chunk_id": "INT-REG-2025:s003",
+   "reason": "розділ нечинної версії, ідентичний чинній",
+   "of": "INT-REG-2026:s003",
+   "sim": 1.0
+  }
+ ],
+ "corpus_size": {
+  "before": 540,
+  "after": 529
+ },
+ "alternatives": 34,
+ "version": "kb-2026.11-v1"
+}

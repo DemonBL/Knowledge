@@ -1,0 +1,134 @@
+@prefix :     <http://www.lnu.edu.ua/ontologies/disinfo-analysis.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+# ---------------- Джерела інформації ----------------
+:Akaunt_A01 a :AkauntAvtor ; rdfs:label "А-01" ;
+    :maieNazvu "Анонімний Telegram-канал «Місто зараз»" ;
+    :dataStvorennia "2026-09-16"^^xsd:date ;
+    :kilkistPidpysnykiv 850 ; :statusVeryfikatsii false ;
+    :maieIndeksDoviry :TrustZnyzhenyi .
+
+:Akaunt_A02 a :AkauntAvtor ; rdfs:label "А-02" ;
+    :maieNazvu "Офіційний Telegram-канал регіонального видання" ;
+    :dataStvorennia "2019-03-01"^^xsd:date ;
+    :kilkistPidpysnykiv 45000 ; :statusVeryfikatsii true ;
+    :maieIndeksDoviry :TrustVysokyi .
+
+:Akaunt_A03 a :AkauntAvtor ; rdfs:label "А-03" ;
+    :maieNazvu "Новинний агрегатор у Facebook" ;
+    :dataStvorennia "2025-11-02"^^xsd:date ;
+    :kilkistPidpysnykiv 12000 ; :statusVeryfikatsii false ;
+    :maieIndeksDoviry :TrustSerednii .
+
+:Dzherelo_O01 a :OfitsiineDzherelo ; rdfs:label "О-01" ;
+    :maieNazvu "ДСНС" ; :maieIndeksDoviry :TrustVysokyi ;
+    :sprostovuie :Tverdzhennia_T01 ; :pidtverdzhuie :Tverdzhennia_T02 .
+
+:FaktOrg_VoxCheck a :FaktchekinhovaOrhanizatsiia ; rdfs:label "ФО-01" ;
+    :maieNazvu "VoxCheck" ; :maieIndeksDoviry :TrustVysokyi .
+
+# ---------------- Публікації ----------------
+:Publikatsiia_P01 a :Publikatsiia ; rdfs:label "П-01" ;
+    :tekstPublikatsii "Місто зазнало масованого удару, зруйновано всю інфраструктуру" ;
+    :kilkistPoshyren 1200 ; :maieAvtora :Akaunt_A01 ;
+    :mistyt :Mediafail_M01 ; :vysuvaie :Tverdzhennia_T01 .
+
+:Publikatsiia_P02 a :Publikatsiia ; rdfs:label "П-02" ;
+    :tekstPublikatsii "Повітряна тривога у Львівській області через загрозу балістики" ;
+    :kilkistPoshyren 5400 ; :maieAvtora :Akaunt_A02 ;
+    :vysuvaie :Tverdzhennia_T02 .
+
+:Publikatsiia_P03 a :Publikatsiia ; rdfs:label "П-03" ;
+    :tekstPublikatsii "Фото: щойно влучання у торговий центр" ;
+    :kilkistPoshyren 3100 ; :maieAvtora :Akaunt_A03 ;
+    :mistyt :Mediafail_M02 ; :vysuvaie :Tverdzhennia_T03 .
+
+:Publikatsiia_P04 a :Publikatsiia ; rdfs:label "П-04" ;
+    :tekstPublikatsii "Через пошкодження водогону місто залишиться без води на тиждень" ;
+    :kilkistPoshyren 2600 ; :maieAvtora :Akaunt_A03 ;
+    :vysuvaie :Tverdzhennia_T04 .
+
+# ---------------- Медіафайли ----------------
+:Mediafail_M01 a :Mediafail ; rdfs:label "М-01" ;
+    :dataZiomkyEXIF "2022-03-14"^^xsd:date ;
+    :rezultatReversyvnohoPoshuku "збіг із матеріалом іншої події" ;
+    :pereviriaietsiaZaDopomohoiu :Instrument_I01 .
+
+:Mediafail_M02 a :Mediafail ; rdfs:label "М-02" ;
+    :dataZiomkyEXIF "2023-07-06"^^xsd:date ;
+    :rezultatReversyvnohoPoshuku "повторне використання фото іншої події" ;
+    :pereviriaietsiaZaDopomohoiu :Instrument_I02 .
+
+# ---------------- Твердження і наративи ----------------
+:Tverdzhennia_T01 a :Tverdzhennia ; rdfs:label "Т-01" ;
+    :formulyuvanniaTverdzhennia "Зруйновано всю інфраструктуру міста" ;
+    :priorytetPerevirky "високий" ; :nalezhytDoNaratyvu :Naratyv_N01 .
+
+:Tverdzhennia_T02 a :Tverdzhennia ; rdfs:label "Т-02" ;
+    :formulyuvanniaTverdzhennia "У Львівській області оголошено повітряну тривогу" ;
+    :priorytetPerevirky "середній" .
+
+:Tverdzhennia_T03 a :Tverdzhennia ; rdfs:label "Т-03" ;
+    :formulyuvanniaTverdzhennia "Фото зроблено сьогодні на місці нового влучання" ;
+    :priorytetPerevirky "високий" ; :nalezhytDoNaratyvu :Naratyv_N01 .
+
+:Tverdzhennia_T04 a :Tverdzhennia ; rdfs:label "Т-04" ;
+    :formulyuvanniaTverdzhennia "Місто залишиться без води на тиждень" ;
+    :priorytetPerevirky "високий" ; :nalezhytDoNaratyvu :Naratyv_N02 .
+
+:Naratyv_N01 a :Naratyv ; rdfs:label "Н-01" ;
+    :maieNazvu "Повна втрата контролю над містом" .
+:Naratyv_N02 a :Naratyv ; rdfs:label "Н-02" ;
+    :maieNazvu "Колапс критичної інфраструктури" .
+
+# ---------------- Засоби перевірки ----------------
+:Instrument_I01 a :InstrumentVeryfikatsii ; rdfs:label "І-01" ;
+    :maieNazvu "Реверсивний пошук зображень" .
+:Instrument_I02 a :InstrumentVeryfikatsii ; rdfs:label "І-02" ;
+    :maieNazvu "Аналіз EXIF-метаданих" .
+
+:Faktcheker_F01 a :Faktcheker ; rdfs:label "Ф-01" ;
+    :maieNazvu "Аналітик, військова тематика" ;
+    :zastosovuie :Instrument_I01 , :Instrument_I02 ;
+    :vynosyt :Verdykt_V01 , :Verdykt_V03 ;
+    :formalizuietsiaU :Pravylo_R1 , :Pravylo_R2 .
+
+:Faktcheker_F02 a :Faktcheker ; rdfs:label "Ф-02" ;
+    :maieNazvu "Аналітик, регіональні новини" ;
+    :zastosovuie :Instrument_I01 ; :vynosyt :Verdykt_V02 .
+
+# ---------------- Вердикти ----------------
+:Verdykt_V01 a :VerdyktFeik ; rdfs:label "В-01" ;
+    :kategoriiaVerdyktu "фейк" ; :rivenVpevnenosti "високий" ;
+    :obgruntuvannia "Фото з іншої події, ДСНС спростувала твердження" ;
+    :vynosytsiaSchodo :Tverdzhennia_T01 ;
+    :gruntuietsiaNaDokazi :Instrument_I01 , :Dzherelo_O01 .
+
+:Verdykt_V02 a :VerdyktPravda ; rdfs:label "В-02" ;
+    :kategoriiaVerdyktu "правда" ; :rivenVpevnenosti "високий" ;
+    :obgruntuvannia "Підтверджено офіційним повідомленням ДСНС" ;
+    :vynosytsiaSchodo :Tverdzhennia_T02 ;
+    :gruntuietsiaNaDokazi :Dzherelo_O01 .
+
+:Verdykt_V03 a :VerdyktManipuliatsiia ; rdfs:label "В-03" ;
+    :kategoriiaVerdyktu "маніпуляція" ; :rivenVpevnenosti "середній" ;
+    :obgruntuvannia "Справжнє фото, але знято у 2023 році під час іншої події" ;
+    :vynosytsiaSchodo :Tverdzhennia_T03 ;
+    :gruntuietsiaNaDokazi :Instrument_I02 .
+
+# ---------------- Правила верифікації ----------------
+:Pravylo_R1 a :PravyloVeryfikatsii ; rdfs:label "R1" ;
+    :umovaPravyla "вік акаунта < 30 днів AND акаунт не верифікований" ;
+    :diiaPravyla "індекс довіри = знижений" .
+
+:Pravylo_R2 a :PravyloVeryfikatsii ; rdfs:label "R2" ;
+    :umovaPravyla "автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень" ;
+    :diiaPravyla "знизити індекс довіри автора на один рівень шкали" .
+
+# ---------------- Події перевірки (PROV-O) ----------------
+:Perevirka_Act01 a :PerevirkaPodii ;
+    prov:wasAssociatedWith :Faktcheker_F01 ; prov:used :Tverdzhennia_T01 .
+:Verdykt_V01 prov:wasGeneratedBy :Perevirka_Act01 .
+

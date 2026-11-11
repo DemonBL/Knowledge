@@ -1,0 +1,188 @@
+{
+ "run": {
+  "run": 3,
+  "ts": "2026-11-06T20:38:17+00:00",
+  "version": "data/defects",
+  "label": "3 навмисні дефекти (D-1, D-2, D-3)",
+  "status": "BLOCKED",
+  "checks": 19,
+  "passed": 10,
+  "failed_critical": 6,
+  "failed_warning": 1,
+  "skipped": 2,
+  "seconds": 1.93
+ },
+ "results": [
+  {
+   "check": "T08",
+   "test": "test_T08_chunk_ids_unique",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T09",
+   "test": "test_T09_no_exact_duplicate_chunks",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: точні дублікати фрагментів: [('W14:s099', 'W14:s001')] (усього 1)",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T10",
+   "test": "test_T10_chunk_provenance",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: фрагменти без source_url/license: 1 (напр. ['W14:s099'])",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T11",
+   "test": "test_T11_superseded_flagged",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T12",
+   "test": "test_T12_claim_status_complete",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T13",
+   "test": "test_T13_referential_integrity",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: ребра до неіснуючих вузлів: [('MAKES_CLAIM', 'PUB-012', 'CLM-99')]",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T14",
+   "test": "test_T14_confidence_range",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: confidence поза [0, 1]: [('MAKES_CLAIM', 'PUB-012', 'CLM-99', '1.7')]",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T15",
+   "test": "test_T15_rag_evidence_preserved",
+   "file": "test_data.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T16",
+   "test": "test_T16_freshness",
+   "file": "test_data.py",
+   "severity": "warning",
+   "outcome": "failed",
+   "message": "AssertionError: застарілі документи (> 24 міс.): ['W07', 'W22', 'W23', 'W24']",
+   "tool": "pytest / GE-очікування"
+  },
+  {
+   "check": "T17",
+   "test": "test_T17_chunk_schema",
+   "file": "test_schema.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: фрагменти не відповідають схемі: 1; [(529, \"None is not of type 'string'\")]",
+   "tool": "JSON Schema"
+  },
+  {
+   "check": "T18",
+   "test": "test_T18_registry_schema",
+   "file": "test_schema.py",
+   "severity": "critical",
+   "outcome": "skipped",
+   "message": "",
+   "tool": "JSON Schema"
+  },
+  {
+   "check": "T19",
+   "test": "test_T19_alternatives_schema",
+   "file": "test_schema.py",
+   "severity": "critical",
+   "outcome": "skipped",
+   "message": "",
+   "tool": "JSON Schema"
+  },
+  {
+   "check": "T01",
+   "test": "test_T01_shacl_no_violations",
+   "file": "test_shacl.py",
+   "severity": "critical",
+   "outcome": "failed",
+   "message": "AssertionError: SHACL Violation: 4; приклади: [('st_MAKES_CLAIM_137', 'S6: confidence — число 0…1'), ('PUB-010', 'S2: публікація має рівно одного автора'), ('PUB-012', 'S2: публікація висуває рівно одне твердження'), ('PUB-012', 'S2: публікація висуває рівно одне твердження')]",
+   "tool": "SHACL (pySHACL)"
+  },
+  {
+   "check": "T02",
+   "test": "test_T02_shacl_warnings",
+   "file": "test_shacl.py",
+   "severity": "warning",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SHACL (pySHACL)"
+  },
+  {
+   "check": "T03",
+   "test": "test_T03_true_verdict_two_sources",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SPARQL-інваріант (rdflib)"
+  },
+  {
+   "check": "T04",
+   "test": "test_T04_fake_two_evidence",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SPARQL-інваріант (rdflib)"
+  },
+  {
+   "check": "T05",
+   "test": "test_T05_no_refuted_and_confirmed",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SPARQL-інваріант (rdflib)"
+  },
+  {
+   "check": "T06",
+   "test": "test_T06_temporal_flagged",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SPARQL-інваріант (rdflib)"
+  },
+  {
+   "check": "T07",
+   "test": "test_T07_derived_not_before_parent",
+   "file": "test_sparql.py",
+   "severity": "critical",
+   "outcome": "passed",
+   "message": "",
+   "tool": "SPARQL-інваріант (rdflib)"
+  }
+ ]
+}

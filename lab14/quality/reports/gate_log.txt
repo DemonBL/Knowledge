@@ -1,0 +1,22 @@
+$ python quality/gate.py --version baseline
+GATE BLOCKED: 8/19 passed, critical=7, warning=2
+  ✗ test_T09_no_exact_duplicate_chunks — AssertionError: точні дублікати фрагментів: [('W25:s055', 'W16:s041'), ('INT-NAR-02:s006', 'INT-NAR-0
+  ✗ test_T10_chunk_provenance — AssertionError: фрагменти без source_url/license: 540 (напр. ['W01:s000', 'W01:s001', 'W01:s002'])
+  ✗ test_T11_superseded_flagged — AssertionError: нечинні версії регламенту без позначки: ['INT-REG-2025']
+  ✗ test_T12_claim_status_complete — AssertionError: твердження без вердикту й без статусу: ['CLM-01', 'CLM-06', 'CLM-11', 'CLM-20', '
+  ✗ test_T17_chunk_schema — AssertionError: фрагменти не відповідають схемі: 540; [(0, "'license' is a required property"), (1, "'license'
+  ✗ test_T03_true_verdict_two_sources — AssertionError: «правда» з < 2 офіційних джерел без complianceStatus: ['VRD-27', 'VRD-28', 'VRD-29'
+  ✗ test_T06_temporal_flagged — AssertionError: вердикт раніше за публікацію без temporalFlag: ['VRD-01', 'VRD-02', 'VRD-04', 'VRD-09', 'V
+exit=1
+$ python quality/gate.py --version clean
+GATE PASSED: 18/19 passed, critical=0, warning=1
+exit=0
+$ python quality/gate.py --kb-dir data/defects
+GATE BLOCKED: 10/19 passed, critical=6, warning=1
+  ✗ test_T09_no_exact_duplicate_chunks — AssertionError: точні дублікати фрагментів: [('W14:s099', 'W14:s001')] (усього 1)
+  ✗ test_T10_chunk_provenance — AssertionError: фрагменти без source_url/license: 1 (напр. ['W14:s099'])
+  ✗ test_T13_referential_integrity — AssertionError: ребра до неіснуючих вузлів: [('MAKES_CLAIM', 'PUB-012', 'CLM-99')]
+  ✗ test_T14_confidence_range — AssertionError: confidence поза [0, 1]: [('MAKES_CLAIM', 'PUB-012', 'CLM-99', '1.7')]
+  ✗ test_T17_chunk_schema — AssertionError: фрагменти не відповідають схемі: 1; [(529, "None is not of type 'string'")]
+  ✗ test_T01_shacl_no_violations — AssertionError: SHACL Violation: 4; приклади: [('st_MAKES_CLAIM_137', 'S6: confidence — число 0…1'), ('PUB-010', '
+exit=1

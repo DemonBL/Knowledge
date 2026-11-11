@@ -1,0 +1,399 @@
+{
+ "baseline": {
+  "version": "baseline",
+  "tag": "kb-2026.11-v0 (ЛР9 CSV + корпус ЛР10, стан на 2026-10-28)",
+  "measured_at": "2026-11-06",
+  "metrics": [
+   {
+    "id": "M01",
+    "dimension": "повнота",
+    "name": "Частка тверджень зі статусом перевірки (вердикт або явне «не перевірено»)",
+    "value": 0.8,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "critical",
+    "passed": false
+   },
+   {
+    "id": "M02",
+    "dimension": "повнота",
+    "name": "Частка наративів з агрегатами (кількість тверджень і публікацій)",
+    "value": 0.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "major",
+    "passed": false
+   },
+   {
+    "id": "M03",
+    "dimension": "узгодженість",
+    "name": "Порушення логічних правил регламенту (reasoner, SPARQL)",
+    "value": 6,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "critical",
+    "passed": false
+   },
+   {
+    "id": "M04",
+    "dimension": "узгодженість",
+    "name": "Непозначені часові суперечності (вердикт раніше за публікацію)",
+    "value": 10,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "major",
+    "passed": false
+   },
+   {
+    "id": "M05",
+    "dimension": "узгодженість",
+    "name": "Термінологічні розбіжності (варіанти назв без канонічного id)",
+    "value": 8,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "minor",
+    "passed": false
+   },
+   {
+    "id": "M06",
+    "dimension": "точність",
+    "name": "Точність на експертній вибірці (36 записів)",
+    "value": 0.861,
+    "op": ">=",
+    "threshold": 0.9,
+    "severity": "major",
+    "passed": false
+   },
+   {
+    "id": "M07",
+    "dimension": "актуальність",
+    "name": "Нечинні документи без позначки чинності",
+    "value": 1,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "critical",
+    "passed": false
+   },
+   {
+    "id": "M08",
+    "dimension": "актуальність",
+    "name": "Частка документів, оновлених за останні 24 міс.",
+    "value": 0.889,
+    "op": ">=",
+    "threshold": 0.9,
+    "severity": "minor",
+    "passed": false
+   },
+   {
+    "id": "M09",
+    "dimension": "унікальність",
+    "name": "Частка дублікатів фрагментів корпусу",
+    "value": 0.0167,
+    "op": "<=",
+    "threshold": 0.01,
+    "severity": "major",
+    "passed": false
+   },
+   {
+    "id": "M10",
+    "dimension": "унікальність",
+    "name": "Частка нерозв'язаних дублікатів сутностей (на розмічених парах)",
+    "value": 1.0,
+    "op": "<=",
+    "threshold": 0.1,
+    "severity": "major",
+    "passed": false
+   },
+   {
+    "id": "M11",
+    "dimension": "походження",
+    "name": "Частка ребер графа з source + confidence + validFrom",
+    "value": 1.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "critical",
+    "passed": true
+   },
+   {
+    "id": "M12",
+    "dimension": "походження",
+    "name": "Частка фрагментів з джерелом (URL) і ліцензією",
+    "value": 0.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "major",
+    "passed": false
+   },
+   {
+    "id": "M13",
+    "dimension": "валідність",
+    "name": "Порушення SHACL рівня Violation",
+    "value": 0,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "critical",
+    "passed": true
+   },
+   {
+    "id": "M14",
+    "dimension": "доступність",
+    "name": "Частка запланованих джерел, які вдалося отримати",
+    "value": 0.909,
+    "op": ">=",
+    "threshold": 0.95,
+    "severity": "minor",
+    "passed": false
+   },
+   {
+    "id": "M15",
+    "dimension": "доступність",
+    "name": "Частка фрагментів з коректною міткою доступу (RBAC)",
+    "value": 1.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "critical",
+    "passed": true
+   }
+  ],
+  "evidence": {
+   "M06": {
+    "n": 36,
+    "correct": 31
+   },
+   "M08": {
+    "stale": [
+     "W07",
+     "W22",
+     "W23",
+     "W24"
+    ]
+   },
+   "M09": {
+    "duplicates": 9,
+    "chunks": 540
+   },
+   "M13": {
+    "violations": 0,
+    "warnings": 63,
+    "by_message": {
+     "S8: фрагмент обривається без кінцевої пунктуації": 17,
+     "S5: наратив без publicationCount": 6,
+     "S4: немає явного статусу перевірки (status) — повнота": 40
+    }
+   },
+   "M14": {
+    "planned": 44,
+    "missing": [
+     "uk.wikipedia: Ехо камера медіа",
+     "uk.wikipedia: Маніпуляція свідомістю",
+     "uk.wikipedia: Пошук за зображенням",
+     "uk.wikipedia: Фільтрова бульбашка"
+    ]
+   }
+  },
+  "conflicts": {
+   "K1": 6,
+   "K2": 10,
+   "K3": 2,
+   "K4": 2,
+   "K5": 7,
+   "K6": 1
+  }
+ },
+ "after": {
+  "version": "clean",
+  "tag": "kb-2026.11-v1 (після ЛР14)",
+  "measured_at": "2026-11-06",
+  "metrics": [
+   {
+    "id": "M01",
+    "dimension": "повнота",
+    "name": "Частка тверджень зі статусом перевірки (вердикт або явне «не перевірено»)",
+    "value": 1.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "critical",
+    "passed": true
+   },
+   {
+    "id": "M02",
+    "dimension": "повнота",
+    "name": "Частка наративів з агрегатами (кількість тверджень і публікацій)",
+    "value": 1.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "major",
+    "passed": true
+   },
+   {
+    "id": "M03",
+    "dimension": "узгодженість",
+    "name": "Порушення логічних правил регламенту (reasoner, SPARQL)",
+    "value": 0,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "critical",
+    "passed": true
+   },
+   {
+    "id": "M04",
+    "dimension": "узгодженість",
+    "name": "Непозначені часові суперечності (вердикт раніше за публікацію)",
+    "value": 0,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "major",
+    "passed": true
+   },
+   {
+    "id": "M05",
+    "dimension": "узгодженість",
+    "name": "Термінологічні розбіжності (варіанти назв без канонічного id)",
+    "value": 0,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "minor",
+    "passed": true
+   },
+   {
+    "id": "M06",
+    "dimension": "точність",
+    "name": "Точність на експертній вибірці (36 записів)",
+    "value": 0.889,
+    "op": ">=",
+    "threshold": 0.9,
+    "severity": "major",
+    "passed": false
+   },
+   {
+    "id": "M07",
+    "dimension": "актуальність",
+    "name": "Нечинні документи без позначки чинності",
+    "value": 0,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "critical",
+    "passed": true
+   },
+   {
+    "id": "M08",
+    "dimension": "актуальність",
+    "name": "Частка документів, оновлених за останні 24 міс.",
+    "value": 0.889,
+    "op": ">=",
+    "threshold": 0.9,
+    "severity": "minor",
+    "passed": false
+   },
+   {
+    "id": "M09",
+    "dimension": "унікальність",
+    "name": "Частка дублікатів фрагментів корпусу",
+    "value": 0.0,
+    "op": "<=",
+    "threshold": 0.01,
+    "severity": "major",
+    "passed": true
+   },
+   {
+    "id": "M10",
+    "dimension": "унікальність",
+    "name": "Частка нерозв'язаних дублікатів сутностей (на розмічених парах)",
+    "value": 0.217,
+    "op": "<=",
+    "threshold": 0.1,
+    "severity": "major",
+    "passed": false
+   },
+   {
+    "id": "M11",
+    "dimension": "походження",
+    "name": "Частка ребер графа з source + confidence + validFrom",
+    "value": 1.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "critical",
+    "passed": true
+   },
+   {
+    "id": "M12",
+    "dimension": "походження",
+    "name": "Частка фрагментів з джерелом (URL) і ліцензією",
+    "value": 1.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "major",
+    "passed": true
+   },
+   {
+    "id": "M13",
+    "dimension": "валідність",
+    "name": "Порушення SHACL рівня Violation",
+    "value": 0,
+    "op": "<=",
+    "threshold": 0,
+    "severity": "critical",
+    "passed": true
+   },
+   {
+    "id": "M14",
+    "dimension": "доступність",
+    "name": "Частка запланованих джерел, які вдалося отримати",
+    "value": 0.909,
+    "op": ">=",
+    "threshold": 0.95,
+    "severity": "minor",
+    "passed": false
+   },
+   {
+    "id": "M15",
+    "dimension": "доступність",
+    "name": "Частка фрагментів з коректною міткою доступу (RBAC)",
+    "value": 1.0,
+    "op": ">=",
+    "threshold": 1.0,
+    "severity": "critical",
+    "passed": true
+   }
+  ],
+  "evidence": {
+   "M06": {
+    "n": 36,
+    "correct": 32
+   },
+   "M08": {
+    "stale": [
+     "W07",
+     "W22",
+     "W23",
+     "W24"
+    ]
+   },
+   "M09": {
+    "duplicates": 0,
+    "chunks": 529
+   },
+   "M10": {
+    "entities_before": 295,
+    "entities_after": 206
+   },
+   "M13": {
+    "violations": 0,
+    "warnings": 15,
+    "by_message": {
+     "S8: фрагмент обривається без кінцевої пунктуації": 15
+    }
+   },
+   "M14": {
+    "planned": 44,
+    "missing": [
+     "uk.wikipedia: Ехо камера медіа",
+     "uk.wikipedia: Маніпуляція свідомістю",
+     "uk.wikipedia: Пошук за зображенням",
+     "uk.wikipedia: Фільтрова бульбашка"
+    ]
+   }
+  },
+  "conflicts": {}
+ }
+}

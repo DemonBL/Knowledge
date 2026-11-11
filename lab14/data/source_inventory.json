@@ -1,0 +1,266 @@
+[
+ {
+  "name": "uk.wikipedia: Бот програма",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Ботоферма",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Гібридна війна",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Дезінформація щодо пандемії COVID 19",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Дезінформація",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Детектор медіа",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Діпфейк",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Ехо камера медіа",
+  "kind": "wiki",
+  "retrieved": false,
+  "note": "кеш wiki_cache порожній (null) — сторінку не отримано"
+ },
+ {
+  "name": "uk.wikipedia: Журналістика даних",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Інтернет троль",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Інформаційна безпека",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Інформаційна війна",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Клікбейт",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Маніпуляція свідомістю",
+  "kind": "wiki",
+  "retrieved": false,
+  "note": "кеш wiki_cache порожній (null) — сторінку не отримано"
+ },
+ {
+  "name": "uk.wikipedia: Медіаграмотність",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Метадані",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Постправда",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Пошук за зображенням",
+  "kind": "wiki",
+  "retrieved": false,
+  "note": "кеш wiki_cache порожній (null) — сторінку не отримано"
+ },
+ {
+  "name": "uk.wikipedia: Пропаганда",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Психологічна війна",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Російська дезінформація під час російсько української війни",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Російська пропаганда",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Свобода слова",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Соціальна інженерія",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Теорія змови",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Фактчекінг",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Фейкові новини",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Фільтрова бульбашка",
+  "kind": "wiki",
+  "retrieved": false,
+  "note": "кеш wiki_cache порожній (null) — сторінку не отримано"
+ },
+ {
+  "name": "uk.wikipedia: Фішинг",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Цензура",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Центр протидії дезінформації",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Чутки",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: Exif",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "uk.wikipedia: StopFake",
+  "kind": "wiki",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-NAR-01",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-NAR-02",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-NAR-03",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-NAR-04",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-NAR-05",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-NAR-06",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-REG-2025",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-REG-2026",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-RULES",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ },
+ {
+  "name": "INT-SAMPLE-INJ",
+  "kind": "internal",
+  "retrieved": true,
+  "note": ""
+ }
+]
