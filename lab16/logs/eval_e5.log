@@ -1,0 +1,32 @@
+
+### 2026-11-08T15:42:56 $ F:\kms_tools\venv\Scripts\python.exe -u reco/eval.py --emb e5
+16 w* (0.1, 0.6, 0.3) {'popularity': 0.05, 'graph': 0.095, 'embeddings': 0.089, 'hybrid_weighted': 0.119, 'hybrid_rrf': 0.132}
+17 w* (0.4, 0.5, 0.1) {'popularity': 0.06, 'graph': 0.144, 'embeddings': 0.063, 'hybrid_weighted': 0.154, 'hybrid_rrf': 0.125}
+18 w* (0.7, 0.3, -0.0) {'popularity': 0.042, 'graph': 0.188, 'embeddings': 0.155, 'hybrid_weighted': 0.208, 'hybrid_rrf': 0.197}
+19 w* (0.1, 0.5, 0.4) {'popularity': 0.064, 'graph': 0.155, 'embeddings': 0.124, 'hybrid_weighted': 0.157, 'hybrid_rrf': 0.159}
+20 w* (0.4, 0.4, 0.2) {'popularity': 0.055, 'graph': 0.218, 'embeddings': 0.18, 'hybrid_weighted': 0.259, 'hybrid_rrf': 0.217}
+popularity       p5=0.038±0.005  r5=0.043±0.014  ndcg10=0.054±0.009  coverage10=0.042±0.005  novelty10=6.728±0.160
+graph            p5=0.092±0.024  r5=0.137±0.051  ndcg10=0.160±0.047  coverage10=0.464±0.026  novelty10=9.183±0.059
+embeddings       p5=0.072±0.030  r5=0.103±0.038  ndcg10=0.122±0.048  coverage10=0.353±0.014  novelty10=9.683±0.112
+hybrid_weighted  p5=0.107±0.037  r5=0.165±0.068  ndcg10=0.179±0.055  coverage10=0.357±0.122  novelty10=8.477±0.780
+hybrid_rrf       p5=0.096±0.025  r5=0.140±0.036  ndcg10=0.166±0.040  coverage10=0.392±0.022  novelty10=8.587±0.098
+
+### exit 0, 54.9 s
+
+### 2026-11-08T15:43:25 $ F:\kms_tools\venv\Scripts\python.exe -u reco/cold_start.py --emb e5
+16 {'pop_global': 0.063, 'pop_topic': 0.194, 'onboard_hybrid': 0.146, 'warm3': 0.211} {'popularity': 0.0, 'graph': 0.016, 'embeddings': 0.042, 'hybrid_rrf': 0.012, 'hybrid_rrf+new_slot2': 0.053}
+17 {'pop_global': 0.015, 'pop_topic': 0.096, 'onboard_hybrid': 0.11, 'warm3': 0.2} {'popularity': 0.0, 'graph': 0.0, 'embeddings': 0.028, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.03}
+18 {'pop_global': 0.06, 'pop_topic': 0.241, 'onboard_hybrid': 0.194, 'warm3': 0.22} {'popularity': 0.0, 'graph': 0.019, 'embeddings': 0.044, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.023}
+19 {'pop_global': 0.066, 'pop_topic': 0.238, 'onboard_hybrid': 0.155, 'warm3': 0.271} {'popularity': 0.0, 'graph': 0.0, 'embeddings': 0.038, 'hybrid_rrf': 0.0, 'hybrid_rrf+new_slot2': 0.021}
+20 {'pop_global': 0.023, 'pop_topic': 0.182, 'onboard_hybrid': 0.182, 'warm3': 0.32} {'popularity': 0.0, 'graph': 0.064, 'embeddings': 0.1, 'hybrid_rrf': 0.008, 'hybrid_rrf+new_slot2': 0.017}
+A pop_global      p5=0.030±0.018  r5=0.026±0.020  ndcg10=0.045±0.024  coverage10=0.020±0.002
+A pop_topic       p5=0.159±0.056  r5=0.134±0.047  ndcg10=0.190±0.059  coverage10=0.144±0.011
+A onboard_hybrid  p5=0.127±0.027  r5=0.096±0.019  ndcg10=0.157±0.033  coverage10=0.190±0.007
+A warm3           p5=0.155±0.016  r5=0.241±0.052  ndcg10=0.244±0.050  coverage10=0.420±0.033
+B popularity      hit10_new=0.000±0.000  exposure_new=0.000±0.000
+B graph           hit10_new=0.020±0.026  exposure_new=0.164±0.034
+B embeddings      hit10_new=0.050±0.028  exposure_new=0.305±0.024
+B hybrid_rrf      hit10_new=0.004±0.006  exposure_new=0.080±0.024
+B hybrid_rrf+new_slot2 hit10_new=0.029±0.014  exposure_new=0.345±0.022
+
+### exit 0, 28.4 s

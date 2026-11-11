@@ -1,0 +1,167 @@
+16:16:26 ===== docker
+16:16:26 $ docker version --format {{.Server.Version}}
+27.5.1
+
+16:16:28 $ docker compose -p hub16 down -v --rmi all --remove-orphans
+ Container hub16-ui-1  Stopping
+ Container hub16-ui-1  Stopped
+ Container hub16-ui-1  Removing
+ Container hub16-ui-1  Removed
+ Container hub16-api-1  Stopping
+ Container hub16-api-1  Stopped
+ Container hub16-api-1  Removing
+ Container hub16-api-1  Removed
+ Container hub16-graph-1  Stopping
+ Container hub16-graph-1  Stopped
+ Container hub16-graph-1  Removing
+ Container hub16-graph-1  Removed
+ Volume hub16_graph_data  Removing
+ Image hub16:latest  Removing
+ Network hub16_default  Removing
+ Volume hub16_graph_data  Removed
+ Image hub16:latest  Removed
+ Network hub16_default  Removed
+
+16:16:29 $ docker compose -p hub16 build --no-cache --pull
+nter, idna, h11, duckdb, distro, cloudpickle, click, charset_normalizer, certifi, cachetools, blinker, attrs, annotated-types, annotated-doc, uvicorn, typing-inspection, scipy, requests, referencing, rdflib, rank-bm25, python-dateutil, pydantic-core, opentelemetry-api, langchain-protocol, jsonpatch, joblib, jinja2, httpcore2, httpcore, gitdb, anyio, starlette, scikit-learn, requests-toolbelt, pydeck, pydantic, pandas, jsonschema-specifications, httpx2, httpx, gitpython, langsmith, jsonschema, fastapi, langchain-core, altair, streamlit, langgraph-sdk, langgraph-checkpoint, langgraph-prebuilt, langgraph
+#8 294.9 Successfully installed MarkupSafe-3.0.4 PyYAML-6.0.3 altair-5.5.0 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.16.0 attrs-26.1.0 blinker-1.9.0 cachetools-6.2.6 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.1 cloudpickle-3.1.2 distro-1.9.0 duckdb-2.0.0 fastapi-0.162.0 gitdb-4.0.12 gitpython-3.2.1 h11-0.16.0 httpcore-1.0.9 httpcore2-2.16.0 httpx-0.28.1 httpx2-2.16.0 idna-3.20 jinja2-3.1.6 joblib-1.6.0 jsonpatch-1.44 jsonpointer-3.10 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 langchain-core-1.7.6 langchain-protocol-0.0.21 langgraph-1.2.20 langgraph-checkpoint-4.3.1 langgraph-prebuilt-1.1.1 langgraph-sdk-0.4.14 langsmith-0.14.17 narwhals-2.28.0 numpy-2.5.3 opentelemetry-api-1.45.2 orjson-3.13.0 ormsgpack-1.13.0 packaging-25.0 pandas-2.3.3 pillow-11.3.0 protobuf-6.33.6 pyarrow-26.0.1 pydantic-2.14.3 pydantic-core-2.50.4 pydeck-0.9.3 pyoxigraph-0.5.12 pyparsing-3.3.3 python-dateutil-4.0.0 pytz-2026.6 rank-bm25-0.2.2 rdflib-7.6.0 referencing-0.37.0 requests-2.34.2 requests-toolbelt-1.0.0 rpds-py-2026.9.1 scikit-learn-1.9.1 scipy-1.18.1 smmap-5.0.3 sniffio-1.3.1 sqlglot-30.29.0 starlette-1.10.0 streamlit-1.50.0 tenacity-9.2.1 threadpoolctl-3.8.0 toml-0.10.2 tornado-6.6 truststore-0.10.5 typing-extensions-4.16.0 typing-inspection-0.4.5 tzdata-2026.6 urllib3-2.8.0 uuid-utils-0.19.0 uvicorn-0.53.0 watchdog-6.0.0 websockets-17.4 xxhash-4.0.2 zstandard-0.25.0
+#8 294.9 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#8 DONE 295.6s
+
+#9 [graph 5/6] COPY . /hub
+#9 DONE 0.1s
+
+#10 [graph 6/6] RUN useradd --create-home --uid 1000 hub  && mkdir -p /logs /data /hub/lab15/traces /hub/lab15/llm_log /hub/lab16/llm_log  && chown -R hub /logs /data /hub/lab15/traces /hub/lab15/llm_log /hub/lab16/llm_log
+#10 DONE 0.3s
+
+#11 [graph] exporting to image
+#11 exporting layers
+#11 exporting layers 7.7s done
+#11 writing image sha256:2590e9ecf2d822ecd1c8493f3953e0ac16bc89eb55e10c697b08d291a77b36d2 done
+#11 naming to docker.io/library/hub16:latest done
+#11 DONE 7.7s
+
+#12 [graph] resolving provenance for metadata file
+#12 DONE 0.0s
+ graph  Built
+
+16:21:35 $ docker compose -p hub16 up -d
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [graph internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.57kB done
+#1 DONE 0.0s
+
+#2 [graph auth] library/python:pull token for registry-1.docker.io
+#2 DONE 0.0s
+
+#3 [graph internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.9s
+
+#4 [graph 1/6] FROM docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+#4 DONE 0.0s
+
+#5 [graph internal] load build context
+#5 transferring context: 8.01kB 0.0s done
+#5 DONE 0.0s
+
+#6 [graph 3/6] COPY lab16/docker/requirements.txt /tmp/requirements.txt
+#6 CACHED
+
+#7 [graph 4/6] RUN pip install -r /tmp/requirements.txt
+#7 CACHED
+
+#8 [graph 2/6] WORKDIR /hub
+#8 CACHED
+
+#9 [graph 5/6] COPY . /hub
+#9 CACHED
+
+#10 [graph 6/6] RUN useradd --create-home --uid 1000 hub  && mkdir -p /logs /data /hub/lab15/traces /hub/lab15/llm_log /hub/lab16/llm_log  && chown -R hub /logs /data /hub/lab15/traces /hub/lab15/llm_log /hub/lab16/llm_log
+#10 CACHED
+
+#11 [graph] exporting to image
+#11 exporting layers done
+#11 writing image sha256:2590e9ecf2d822ecd1c8493f3953e0ac16bc89eb55e10c697b08d291a77b36d2 done
+#11 naming to docker.io/library/hub16:latest done
+#11 DONE 0.0s
+
+#12 [graph] resolving provenance for metadata file
+#12 DONE 0.0s
+ graph  Built
+ Network hub16_default  Creating
+ Network hub16_default  Created
+ Volume "hub16_graph_data"  Creating
+ Volume "hub16_graph_data"  Created
+ Container hub16-graph-1  Creating
+ Container hub16-graph-1  Created
+ Container hub16-api-1  Creating
+ Container hub16-api-1  Created
+ Container hub16-ui-1  Creating
+ Container hub16-ui-1  Created
+ Container hub16-graph-1  Starting
+ Container hub16-graph-1  Started
+ Container hub16-graph-1  Waiting
+ Container hub16-graph-1  Healthy
+ Container hub16-api-1  Starting
+ Container hub16-api-1  Started
+ Container hub16-api-1  Waiting
+ Container hub16-api-1  Healthy
+ Container hub16-ui-1  Starting
+ Container hub16-ui-1  Started
+
+16:24:50 $ docker compose -p hub16 ps --format table {{.Service}}	{{.Status}}	{{.Ports}}
+SERVICE   STATUS                   PORTS
+api       Up 3 minutes (healthy)   7878/tcp, 8501/tcp, 127.0.0.1:8000->8000/tcp
+graph     Up 3 minutes (healthy)   7878/tcp, 8000/tcp, 8501/tcp
+ui        Up 3 minutes             7878/tcp, 8000/tcp, 127.0.0.1:8501->8501/tcp
+
+16:24:50 $ docker image ls hub16 --format {{.Repository}}:{{.Tag}} {{.Size}}
+hub16:latest 944MB
+
+16:24:51 $ F:\kms_tools\venv\Scripts\python.exe -u demo/run_demo.py
+PASS 1. Рекомендації аналітику з поясненнями (0.02 s)
+PASS 2. Відповідь агента з доказами (48.11 s)
+PASS 3. «Не знаю»: відповіді немає в сховищі (21.15 s)
+PASS 4a. Атака: ін'єкція + підвищення ролі в /ask (0.03 s)
+PASS 4b. Атака: гість заявляє роль admin у /recommend (0.03 s)
+PASS 4c. Атака: SPARQL-запис через API (0.01 s)
+PASS 5. Холодний старт: новий користувач обирає теми (0.02 s)
+PASS + Фільтр свіжості (≤ 60 днів) (0.03 s)
+passed 8/8
+
+16:26:00 $ docker compose -p hub16 logs --no-color --timestamps
+ "GET /health HTTP/1.1" 200 OK
+api-1    | 2026-11-08T14:25:55.280733818Z INFO:     127.0.0.1:35664 - "GET /health HTTP/1.1" 200 OK
+api-1    | 2026-11-08T14:26:00.608516850Z INFO:     172.29.0.1:51596 - "POST /ask HTTP/1.1" 200 OK
+api-1    | 2026-11-08T14:26:00.628820712Z ensure_ollama: [Errno 2] No such file or directory: 'F:\\kms_tools/ollama/ollama.exe'
+api-1    | 2026-11-08T14:26:00.640882946Z INFO:     172.29.0.1:44856 - "POST /ask HTTP/1.1" 200 OK
+api-1    | 2026-11-08T14:26:00.672872115Z INFO:     172.29.0.1:44866 - "POST /recommend HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:10.769147148Z INFO:     172.29.0.3:53044 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:14.862849213Z INFO:     127.0.0.1:51838 - "GET /health HTTP/1.1" 200 OK
+api-1    | 2026-11-08T14:26:00.683647398Z INFO:     172.29.0.1:44874 - "POST /sparql HTTP/1.1" 403 Forbidden
+api-1    | 2026-11-08T14:26:00.707300467Z INFO:     172.29.0.1:44888 - "POST /recommend HTTP/1.1" 200 OK
+api-1    | 2026-11-08T14:26:00.735412642Z INFO:     172.29.0.1:44902 - "POST /recommend HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:16.279338184Z INFO:     172.29.0.3:53060 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:20.395384219Z INFO:     127.0.0.1:51850 - "GET /health HTTP/1.1" 200 OK
+api-1    | 2026-11-08T14:26:00.774393109Z INFO:     127.0.0.1:44916 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:21.784061644Z INFO:     172.29.0.3:36760 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:25.895791925Z INFO:     127.0.0.1:48398 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:27.145380914Z INFO:     172.29.0.3:36764 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:31.441937552Z INFO:     127.0.0.1:50454 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:32.697614726Z INFO:     172.29.0.3:39344 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:36.937007639Z INFO:     127.0.0.1:50458 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:38.367298085Z INFO:     172.29.0.3:39348 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:42.560952850Z INFO:     127.0.0.1:35382 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:44.049725187Z INFO:     172.29.0.3:40480 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:48.320855206Z INFO:     127.0.0.1:35386 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:49.636726630Z INFO:     172.29.0.3:40494 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:53.931402632Z INFO:     127.0.0.1:39080 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:55.254563878Z INFO:     172.29.0.3:51390 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:25:59.406356214Z INFO:     127.0.0.1:39092 - "GET /health HTTP/1.1" 200 OK
+graph-1  | 2026-11-08T14:26:00.682353764Z INFO:     172.29.0.3:38770 - "POST /sparql HTTP/1.1" 403 Forbidden
+graph-1  | 2026-11-08T14:26:00.764550144Z INFO:     172.29.0.3:38774 - "GET /health HTTP/1.1" 200 OK
+
+16:26:01 Демонстратор працює: UI http://127.0.0.1:8501 , API http://127.0.0.1:8000/docs . Зупинка: docker compose -p hub16 down
+16:26:01 ГОТОВО
+DONE (exit 0) 

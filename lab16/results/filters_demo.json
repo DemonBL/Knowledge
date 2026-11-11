@@ -1,0 +1,128 @@
+[
+ {
+  "case": "guest, усі фільтри (за замовчуванням)",
+  "role": "guest",
+  "filters": {},
+  "catalog": 488,
+  "by_sensitivity": {
+   "public": 488,
+   "internal": 0,
+   "restricted": 0
+  },
+  "unverified_in_catalog": 0,
+  "superseded_in_catalog": 0,
+  "top5": [
+   "W19:s003 (public, 2026-10-01, чинний)",
+   "W06:s003 (public, 2026-09-15, чинний)",
+   "W19:s006 (public, 2026-10-01, чинний)",
+   "W19:s002 (public, 2026-10-01, чинний)",
+   "W19:s004 (public, 2026-10-01, чинний)"
+  ]
+ },
+ {
+  "case": "analyst, усі фільтри",
+  "role": "analyst",
+  "filters": {},
+  "catalog": 497,
+  "by_sensitivity": {
+   "public": 488,
+   "internal": 9,
+   "restricted": 0
+  },
+  "unverified_in_catalog": 0,
+  "superseded_in_catalog": 0,
+  "top5": [
+   "INT-REG-2026:s001 (internal, 2026-09-01, чинний)",
+   "INT-REG-2026:s000 (internal, 2026-09-01, чинний)",
+   "INT-RULES:s000 (internal, 2026-10-01, чинний)",
+   "INT-RULES:s002 (internal, 2026-10-01, чинний)",
+   "INT-REG-2026:s002 (internal, 2026-09-01, чинний)"
+  ]
+ },
+ {
+  "case": "admin, усі фільтри",
+  "role": "admin",
+  "filters": {},
+  "catalog": 525,
+  "by_sensitivity": {
+   "public": 488,
+   "internal": 9,
+   "restricted": 28
+  },
+  "unverified_in_catalog": 0,
+  "superseded_in_catalog": 0,
+  "top5": [
+   "INT-REG-2026:s001 (internal, 2026-09-01, чинний)",
+   "INT-REG-2026:s000 (internal, 2026-09-01, чинний)",
+   "INT-RULES:s000 (internal, 2026-10-01, чинний)",
+   "INT-RULES:s002 (internal, 2026-10-01, чинний)",
+   "INT-REG-2026:s002 (internal, 2026-09-01, чинний)"
+  ]
+ },
+ {
+  "case": "admin, без фільтра перевіреності",
+  "role": "admin",
+  "filters": {
+   "require_verified": false
+  },
+  "catalog": 527,
+  "by_sensitivity": {
+   "public": 488,
+   "internal": 11,
+   "restricted": 28
+  },
+  "unverified_in_catalog": 2,
+  "superseded_in_catalog": 0,
+  "top5": [
+   "INT-REG-2026:s001 (internal, 2026-09-01, чинний)",
+   "INT-REG-2026:s000 (internal, 2026-09-01, чинний)",
+   "INT-RULES:s000 (internal, 2026-10-01, чинний)",
+   "INT-RULES:s002 (internal, 2026-10-01, чинний)",
+   "INT-REG-2026:s002 (internal, 2026-09-01, чинний)"
+  ]
+ },
+ {
+  "case": "admin, включно із заміненими (superseded)",
+  "role": "admin",
+  "filters": {
+   "current_only": false
+  },
+  "catalog": 527,
+  "by_sensitivity": {
+   "public": 488,
+   "internal": 11,
+   "restricted": 28
+  },
+  "unverified_in_catalog": 0,
+  "superseded_in_catalog": 2,
+  "top5": [
+   "INT-REG-2025:s001 (internal, 2025-03-01, superseded)",
+   "INT-REG-2026:s001 (internal, 2026-09-01, чинний)",
+   "INT-REG-2026:s000 (internal, 2026-09-01, чинний)",
+   "INT-RULES:s000 (internal, 2026-10-01, чинний)",
+   "INT-RULES:s002 (internal, 2026-10-01, чинний)"
+  ]
+ },
+ {
+  "case": "analyst, свіжість ≤ 60 днів",
+  "role": "analyst",
+  "filters": {
+   "fresh_days": 60
+  },
+  "catalog": 107,
+  "by_sensitivity": {
+   "public": 102,
+   "internal": 5,
+   "restricted": 0
+  },
+  "unverified_in_catalog": 0,
+  "superseded_in_catalog": 0,
+  "top5": [
+   "INT-RULES:s002 (internal, 2026-10-01, чинний)",
+   "INT-RULES:s001 (internal, 2026-10-01, чинний)",
+   "INT-RULES:s003 (internal, 2026-10-01, чинний)",
+   "W19:s006 (public, 2026-10-01, чинний)",
+   "INT-RULES:s000 (internal, 2026-10-01, чинний)"
+  ]
+ }
+]
