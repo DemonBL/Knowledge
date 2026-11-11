@@ -1,0 +1,15 @@
+@prefix hub: <http://www.lnu.edu.ua/kb/hub#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+
+# ЛР15 · форма запису пропозиції знання: без джерела, цитати й автора пропозиція недійсна (provenance обов'язковий).
+hub:FactProposalShape a sh:NodeShape ; sh:targetClass hub:FactProposal ;
+  sh:property [ sh:path hub:source_id ; sh:minCount 1 ; sh:pattern "^(W\\d\\d|INT-[A-Z0-9-]+):s\\d{3}$" ; sh:message "F1: немає id джерела (фрагмента корпусу)" ] ;
+  sh:property [ sh:path hub:quote ; sh:minCount 1 ; sh:minLength 15 ; sh:message "F2: немає цитати-доказу ≥ 15 символів" ] ;
+  sh:property [ sh:path hub:proposer ; sh:minCount 1 ; sh:message "F3: невідомий автор пропозиції" ] ;
+  sh:property [ sh:path hub:predicate ; sh:minCount 1 ;
+                sh:in ( "altLabel" "COOPERATES_WITH" "USES" "PART_OF" "REFUTES" "CONFIRMS" "category" "trust" ) ;
+                sh:message "F4: предикат поза білим списком" ] .
+
+# Вердикт може мати лише одну категорію: пропозиція «другої» категорії без видалення старої — порушення.
+hub:VerdictCategoryShape a sh:NodeShape ; sh:targetClass hub:Verdict ;
+  sh:property [ sh:path hub:category ; sh:maxCount 1 ; sh:message "F5: у вердикта стало б дві категорії — зміну вердикту робить лише аналітик через процедуру перегляду" ] .

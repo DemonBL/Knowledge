@@ -1,0 +1,72 @@
+[
+ {
+  "fact": {
+   "subject": "ORG-02",
+   "predicate": "altLabel",
+   "object": "stopfake.org",
+   "source_id": "W14:s001",
+   "quote": "Сайт для перевіряння фактів stopfake.org запустили 2 березня 2014 року"
+  },
+  "proposal_id": "F92a64b",
+  "status": "applied",
+  "risk": "low",
+  "failed_checks": []
+ },
+ {
+  "fact": {
+   "subject": "ORG-02",
+   "predicate": "COOPERATES_WITH",
+   "object": "Facebook",
+   "source_id": "W14:s004",
+   "quote": "журналісти StopFake стали партнером Facebook у сфері інформаційного захисту"
+  },
+  "proposal_id": "F4336ce",
+  "status": "pending_human_approval",
+  "risk": "medium",
+  "failed_checks": []
+ },
+ {
+  "fact": {
+   "subject": "VRD-28",
+   "predicate": "category",
+   "object": "неможливо перевірити",
+   "source_id": "INT-REG-2026:s001",
+   "quote": "Вердикт «правда» підтверджується двома незалежними офіційними джерелами"
+  },
+  "proposal_id": "Ff1222d",
+  "status": "pending_human_approval",
+  "risk": "high",
+  "failed_checks": []
+ },
+ {
+  "fact": {
+   "subject": "ORG-02",
+   "predicate": "altLabel",
+   "object": "СтопФейк-2014",
+   "source_id": "W14:s001",
+   "quote": "StopFake було засновано у 2015 році"
+  },
+  "proposal_id": "F951b27",
+  "status": "rejected",
+  "reason": "валідація не пройдена",
+  "failed_checks": [
+   "цитата дослівно є в джерелі"
+  ]
+ },
+ {
+  "fact": {
+   "subject": "CLM-17",
+   "predicate": "PART_OF",
+   "object": "NAR-01",
+   "source_id": "W26:s000",
+   "quote": "Пандемія COVID-19 супроводжувалася поширенням дезінформації"
+  },
+  "proposal_id": "F30cb59",
+  "status": "rejected",
+  "reason": "валідація не пройдена",
+  "failed_checks": [
+   "цитата дослівно є в джерелі",
+   "SHACL (форми ЛР14 + fact_shapes.ttl) для кандидата"
+  ]
+ }
+]

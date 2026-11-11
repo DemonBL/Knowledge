@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "knowledge-hub": {
+      "command": "F:\\kms_tools\\venv\\Scripts\\python.exe",
+      "args": ["F:\\4 курс\\Сховище знань\\Hub\\lab15\\mcp_server\\server.py"],
+      "env": {"HUB_ROLE": "analyst", "PYTHONIOENCODING": "utf-8", "HF_HOME": "F:\\kms_tools\\hf", "HF_HUB_OFFLINE": "1"}
+    }
+  }
+}

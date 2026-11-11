@@ -1,0 +1,58 @@
+{
+ "proposals": 5,
+ "applied": 2,
+ "auto_applied": 1,
+ "rejected_validation": 2,
+ "human_reviewed": 2,
+ "human_approved_share": 0.5,
+ "approved_share_all": 0.4,
+ "mean_seconds_to_decision": 223.0,
+ "pending": 0,
+ "rows": [
+  {
+   "proposal_id": "F92a64b",
+   "risk": "low",
+   "final": "applied",
+   "human": null,
+   "decision": null,
+   "seconds_to_decision": null,
+   "auto": true
+  },
+  {
+   "proposal_id": "F4336ce",
+   "risk": "medium",
+   "final": "applied",
+   "human": "Хоптій Дмитро",
+   "decision": "approve",
+   "seconds_to_decision": 174.0,
+   "auto": false
+  },
+  {
+   "proposal_id": "Ff1222d",
+   "risk": "high",
+   "final": "rejected",
+   "human": "Хоптій Дмитро",
+   "decision": "reject",
+   "seconds_to_decision": 272.0,
+   "auto": false
+  },
+  {
+   "proposal_id": "F951b27",
+   "risk": null,
+   "final": "rejected",
+   "human": null,
+   "decision": null,
+   "seconds_to_decision": null,
+   "auto": false
+  },
+  {
+   "proposal_id": "F30cb59",
+   "risk": null,
+   "final": "rejected",
+   "human": null,
+   "decision": null,
+   "seconds_to_decision": null,
+   "auto": false
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "calls": [
+  {
+   "tool": "kb_graph",
+   "args": {
+    "query_type": "claim",
+    "entity": "CLM-13"
+   },
+   "latency_s": 1.64,
+   "result": {
+    "results": [
+     {
+      "id": "G:CLM-13",
+      "text": "CLM-13: «Мобільний зв'язок в Одесі вимкнуть на невизначений строк», пріоритет високий; наратив NAR-02 «Колапс критичної інфраструктури»; вердикт VRD-10: «фейк», впевненість високий, дата 2026-09-26, виніс FCH-04 (Аналітик Ф-04 (соцмережі й боти))"
+     },
+     {
+      "id": "G:OFF-03",
+      "text": "OFF-03 (Офіційні канали міських рад) спростовує твердження CLM-13"
+     },
+     {
+      "id": "G:PUB-049",
+      "text": "першоджерело CLM-13: PUB-049 від ACC-005 (Анонімний Telegram-канал #5, довіра знижений); усього публікацій із твердженням: 6"
+     }
+    ]
+   }
+  },
+  {
+   "tool": "search_docs",
+   "args": {
+    "query": "регламент вердикт фейк докази",
+    "k": 3
+   },
+   "latency_s": 8.04,
+   "result": {
+    "results": [
+     {
+      "id": "W26:s006",
+      "title": "Дезінформація щодо пандемії COVID-19",
+      "date": "2025-09-26",
+      "status": "чинний",
+      "sensitivity": "public",
+      "text": "У лютому 2020 року сенатор США Том Коттон (R-AR), а також професор права Френсіс Бойл припустили, що вірус, можливо, був китайською біологічною зброєю, хоча, на думку багатьох медичних експертів, для цього немає жодних доказів. Радіомовник Rush Limbaugh заявив, ніби вірус, ймовірно, є «лабораторним експериментом ChiCom», і що китайці використовували вірус як зброю, котра поширює медіа-істерію навколо нього, аби нашкодити Дональду Трампу. У лютому 2020 року, The Financial Times оприлюднила допис експерта-вірусолога та провідного дослідника коронавірусу Тревора Бедфорда, який сказав, що «немає жодних доказів генетичної інженерії, які ми можемо знайти», але «у нас є докази, що мутації [у вірусі"
+     },
+     {
+      "id": "W19:s008",
+      "title": "Центр протидії дезінформації",
+      "date": "2026-10-01",
+      "status": "чинний",
+      "sensitivity": "public",
+      "text": "За словами міністра енергетики України Германа Галущенко Центр Протидії Дезінформації «висловив позицію, що це все є фейк» щодо аварії що відбулася 16 липня 2024 року на Південноукраїнській атомній електростанції. Хоча Центр такої заяви не робив. Водночас Укренерго на депутатський запит Ярослава Железняка повідомила що аварія відбулася."
+     },
+     {
+      "id": "W07:s008",
+      "title": "Теорія змови",
+      "date": "2024-07-17",
+      "status": "чинний",
+      "sensitivity": "public",
+      "text": "Принаймні деякі з прихильників теорій вірять в них на основі хибних уявлень щодо елементарних наукових фактів.\nВчені й експерти загалом ігнорують повідомлення, вважаючи їх занадто поверхневими, щоб витрачати час на їх спростування і ризикувати своїм авторитетом.\nЕкспертні спростування ігноруються або пристосовуються шляхом розробки нових сюжетів у оповіданні.\nКоли експерти спростовують теорії, надаючи докази, оповідання доробляються (іноді у дивовижний спосіб) з метою відкинути докази, часто використовуючи самі спростування в оновленій теорії.\nРозповіді про існування змов мають тенденцію до розростання і можуть досягти глобальних масштабів. Коли прихильники мають проблеми з контраргументами,"
+     }
+    ]
+   }
+  },
+  {
+   "tool": "olap_metrics",
+   "args": {
+    "metrics": [
+     "false_verdict_rate"
+    ],
+    "dimensions": [
+     "platform"
+    ]
+   },
+   "latency_s": 0.266,
+   "result": {
+    "results": [
+     {
+      "id": "SQL:f981f7",
+      "text": "Частка хибних вердиктів (%): platform=Facebook, false_verdict_rate=62.7; platform=Instagram, false_verdict_rate=67.5; platform=Telegram, false_verdict_rate=70.9; platform=TikTok, false_verdict_rate=60.7; platform=X, false_verdict_rate=58.0; platform=YouTube, false_verdict_rate=60.0. Обмеження метрики: Залежить від відбору публікацій на перевірку (перевіряють підозрілі) — це не частка фейків у мережі. «Неможливо перевірити» рахується як не хибний."
+     }
+    ],
+    "sql": "SELECT p.platform AS platform, ROUND(100.0 * SUM(CASE WHEN v.is_false THEN f.check_count ELSE 0 END) / SUM(f.check_count), 1) AS false_verdict_rate FROM fact_check AS f JOIN dim_verdict AS v ON v.verdict_key = f.verdict_key JOIN dim_platform AS p ON p.platform_key = f.platform_key GROUP BY 1 ORDER BY 1 LIMIT 20"
+   }
+  }
+ ],
+ "server": {
+  "name": "knowledge-hub",
+  "protocol": "2025-11-25"
+ },
+ "tools": [
+  {
+   "name": "kb_graph",
+   "readOnly": true,
+   "schema": {
+    "properties": {
+     "query_type": {
+      "title": "Query Type",
+      "type": "string"
+     },
+     "entity": {
+      "default": "",
+      "title": "Entity",
+      "type": "string"
+     },
+     "category": {
+      "default": "",
+      "title": "Category",
+      "type": "string"
+     }
+    },
+    "required": [
+     "query_type"
+    ],
+    "type": "object",
+    "title": "kb_graphArguments"
+   }
+  },
+  {
+   "name": "search_docs",
+   "readOnly": true,
+   "schema": {
+    "properties": {
+     "query": {
+      "title": "Query",
+      "type": "string"
+     },
+     "k": {
+      "default": 4,
+      "title": "K",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "type": "object",
+    "title": "search_docsArguments"
+   }
+  },
+  {
+   "name": "olap_metrics",
+   "readOnly": true,
+   "schema": {
+    "properties": {
+     "metrics": {
+      "items": {
+       "type": "string"
+      },
+      "title": "Metrics",
+      "type": "array"
+     },
+     "dimensions": {
+      "anyOf": [
+       {
+        "items": {
+         "type": "string"
+        },
+        "type": "array"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "title": "Dimensions"
+     },
+     "filters": {
+      "anyOf": [
+       {
+        "additionalProperties": true,
+        "type": "object"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "title": "Filters"
+     },
+     "limit": {
+      "default": 20,
+      "title": "Limit",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "metrics"
+    ],
+    "type": "object",
+    "title": "olap_metricsArguments"
+   }
+  },
+  {
+   "name": "propose_fact",
+   "readOnly": false,
+   "schema": {
+    "properties": {
+     "subject": {
+      "title": "Subject",
+      "type": "string"
+     },
+     "predicate": {
+      "title": "Predicate",
+      "type": "string"
+     },
+     "obj": {
+      "title": "Obj",
+      "type": "string"
+     },
+     "source_id": {
+      "title": "Source Id",
+      "type": "string"
+     },
+     "quote": {
+      "title": "Quote",
+      "type": "string"
+     }
+    },
+    "required": [
+     "subject",
+     "predicate",
+     "obj",
+     "source_id",
+     "quote"
+    ],
+    "type": "object",
+    "title": "propose_factArguments"
+   }
+  }
+ ]
+}

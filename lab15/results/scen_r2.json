@@ -1,0 +1,486 @@
+{
+ "version": "v2",
+ "model": "qwen2.5:7b",
+ "model_version": "qwen2 7.6B Q4_K_M",
+ "rows": [
+  {
+   "request_id": "9a6addfe",
+   "question": "Який вердикт винесено щодо твердження CLM-13 і хто його виніс?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: не вдалося підтвердити відповідь цитатами з джерел Hub.",
+   "status": "abstained",
+   "llm_calls": 4,
+   "tool_calls": 1,
+   "steps": 5,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 5016,
+   "completion_tokens": 551,
+   "latency_s": 82.09,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "G:CLM-13",
+    "G:OFF-03",
+    "G:PUB-049"
+   ],
+   "id": "S01",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['фейк'], ['FCH-04', 'Ф-04']]",
+    "статус abstained"
+   ]
+  },
+  {
+   "request_id": "2236272f",
+   "question": "Скільки всього публікацій має наратив «Отруєна питна вода»?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Наратив «Отруєна питна вода» має загалом 17 публікацій [G:NAR-03]. Сім з них — твердження, що виявлено отруйні речовини у водогоні Дніпра та Миколаєва, а також про приховування масових отруєнь водою у Харкові та Запоріжжі [G:CLM-17, G:CLM-18, G:CLM-19]. Одне твердження про Запоріжжя не перевірено [G:CLM-20].",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 4109,
+   "completion_tokens": 301,
+   "latency_s": 35.85,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "G:CLM-17",
+    "G:CLM-18",
+    "G:CLM-19",
+    "G:CLM-20",
+    "G:NAR-03"
+   ],
+   "id": "S02",
+   "type": "success",
+   "ok": true,
+   "why": []
+  },
+  {
+   "request_id": "d6c3de44",
+   "question": "На якій платформі найвища частка хибних вердиктів і яке її значення?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання.",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "olap_metrics"
+   ],
+   "prompt_tokens": 3524,
+   "completion_tokens": 97,
+   "latency_s": 11.49,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S03",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['Telegram'], ['70.9', '70,9']]",
+    "статус abstained"
+   ]
+  },
+  {
+   "request_id": "179c0398",
+   "question": "Коли запустили сайт для перевіряння фактів StopFake?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання.",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 3486,
+   "completion_tokens": 91,
+   "latency_s": 11.85,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S04",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['2014'], ['березня']]",
+    "статус abstained",
+    "не викликано ['search_docs'] (було ['kb_graph'])"
+   ]
+  },
+  {
+   "request_id": "54c1b596",
+   "question": "Який середній час до вердикту для тверджень високого пріоритету?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: не вдалося підтвердити відповідь цитатами з джерел Hub.",
+   "status": "abstained",
+   "llm_calls": 4,
+   "tool_calls": 1,
+   "steps": 5,
+   "tools_used": [
+    "olap_metrics"
+   ],
+   "prompt_tokens": 4457,
+   "completion_tokens": 303,
+   "latency_s": 38.6,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "SQL:9856ca"
+   ],
+   "id": "S05",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['4.3', '4,3']]",
+    "статус abstained"
+   ]
+  },
+  {
+   "request_id": "26de63c3",
+   "question": "Який акаунт є першоджерелом твердження CLM-17 і скільки публікацій містять це твердження?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: не вдалося підтвердити відповідь цитатами з джерел Hub.",
+   "status": "abstained",
+   "llm_calls": 4,
+   "tool_calls": 1,
+   "steps": 5,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 5032,
+   "completion_tokens": 300,
+   "latency_s": 35.29,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "G:CLM-17",
+    "G:OFF-04",
+    "G:PUB-067"
+   ],
+   "id": "S06",
+   "type": "success",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['ACC-001', 'Анонімний Telegram-канал #1'], ['4']]",
+    "статус abstained"
+   ]
+  },
+  {
+   "request_id": "af3d8b1f",
+   "question": "Скільки підписників має офіційний Telegram-канал ДСНС України?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання.",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 3506,
+   "completion_tokens": 96,
+   "latency_s": 11.13,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S07",
+   "type": "noanswer",
+   "ok": true,
+   "why": []
+  },
+  {
+   "request_id": "a8045d4f",
+   "question": "Хто керуватиме Центром протидії дезінформації у 2030 році?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання.",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 3577,
+   "completion_tokens": 115,
+   "latency_s": 14.64,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S08",
+   "type": "noanswer",
+   "ok": true,
+   "why": []
+  },
+  {
+   "request_id": "2f2fda5d",
+   "question": "Яка частка хибних вердиктів для публікацій у LinkedIn?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Частка хибних вердиктів для публікацій у LinkedIn не визначена і показана як nan [SQL:13cc32]. Це через обмеження метрики, яка залежить від відбору публікацій на перевірку (перевіряють підозрілі) і враховує як \"нemожливо перевірити\" як не хибний.",
+   "status": "answered",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "olap_metrics"
+   ],
+   "prompt_tokens": 3774,
+   "completion_tokens": 189,
+   "latency_s": 23.19,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "SQL:13cc32"
+   ],
+   "id": "S09",
+   "type": "noanswer",
+   "ok": false,
+   "why": [
+    "очікувалась відмова «не знаю»"
+   ]
+  },
+  {
+   "request_id": "97a60434",
+   "question": "Скільки незалежних доказів потрібно для вердикту «фейк»?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання.",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 3700,
+   "completion_tokens": 87,
+   "latency_s": 10.27,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "G:RULE-4"
+   ],
+   "id": "S10",
+   "type": "conflict",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['двох', '2 ', 'два'], ['одного', 'одн', '1 '], ['2026', '2.0', 'чинн']]",
+    "статус abstained",
+    "не викликано ['search_docs'] (було ['kb_graph'])"
+   ]
+  },
+  {
+   "request_id": "079c77a9",
+   "question": "За який час треба перевірити твердження з високим пріоритетом?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: у джерелах Hub немає відповіді на це питання.",
+   "status": "abstained",
+   "llm_calls": 3,
+   "tool_calls": 1,
+   "steps": 4,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 3554,
+   "completion_tokens": 101,
+   "latency_s": 12.94,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [],
+   "id": "S11",
+   "type": "conflict",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['12'], ['24'], ['2026', '2.0', 'чинн']]",
+    "статус abstained",
+    "не викликано ['search_docs'] (було ['kb_graph'])"
+   ]
+  },
+  {
+   "request_id": "1ab8523e",
+   "question": "Чи відповідає чинному регламенту вердикт «правда» щодо твердження CLM-34?",
+   "role": "analyst",
+   "profile": "strict",
+   "version": "v2",
+   "answer": "Не знаю: не вдалося підтвердити відповідь цитатами з джерел Hub.",
+   "status": "abstained",
+   "llm_calls": 4,
+   "tool_calls": 1,
+   "steps": 5,
+   "tools_used": [
+    "kb_graph"
+   ],
+   "prompt_tokens": 5059,
+   "completion_tokens": 443,
+   "latency_s": 54.61,
+   "blocked": [
+    [
+     "registry",
+     "інструмент «export_report» відхилено: маніфест не закріплений або змінений"
+    ]
+   ],
+   "mutations": [],
+   "sensitivity_seen": [],
+   "evidence_ids": [
+    "G:CLM-34",
+    "G:OFF-01",
+    "G:PUB-131"
+   ],
+   "id": "S12",
+   "type": "conflict",
+   "ok": false,
+   "why": [
+    "немає ключових фактів [['правда'], ['другого', 'двох', '2 ']]",
+    "статус abstained"
+   ]
+  }
+ ],
+ "summary": {
+  "n": 12,
+  "success_rate": 0.25,
+  "mean_steps": 4.33,
+  "mean_tool_calls": 1,
+  "mean_llm_calls": 3.33,
+  "mean_prompt_tokens": 4066,
+  "mean_completion_tokens": 223,
+  "total_tokens": 51468,
+  "mean_latency_s": 28.5,
+  "p95_latency_s": 54.6,
+  "total_latency_s": 341.9
+ },
+ "by_type": {
+  "success": {
+   "n": 6,
+   "success_rate": 0.167,
+   "mean_steps": 4.5,
+   "mean_tool_calls": 1,
+   "mean_llm_calls": 3.5,
+   "mean_prompt_tokens": 4271,
+   "mean_completion_tokens": 274,
+   "total_tokens": 27267,
+   "mean_latency_s": 35.9,
+   "p95_latency_s": 38.6,
+   "total_latency_s": 215.2
+  },
+  "noanswer": {
+   "n": 3,
+   "success_rate": 0.667,
+   "mean_steps": 4,
+   "mean_tool_calls": 1,
+   "mean_llm_calls": 3,
+   "mean_prompt_tokens": 3619,
+   "mean_completion_tokens": 133,
+   "total_tokens": 11257,
+   "mean_latency_s": 16.3,
+   "p95_latency_s": 14.6,
+   "total_latency_s": 49.0
+  },
+  "conflict": {
+   "n": 3,
+   "success_rate": 0.0,
+   "mean_steps": 4.33,
+   "mean_tool_calls": 1,
+   "mean_llm_calls": 3.33,
+   "mean_prompt_tokens": 4104,
+   "mean_completion_tokens": 210,
+   "total_tokens": 12944,
+   "mean_latency_s": 25.9,
+   "p95_latency_s": 12.9,
+   "total_latency_s": 77.8
+  }
+ }
+}
