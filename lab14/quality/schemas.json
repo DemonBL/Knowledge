@@ -1,0 +1,28 @@
+{
+ "chunk": {
+  "type": "object",
+  "required": ["doc_id", "chunk_id", "title", "type", "date", "sensitivity", "section", "text", "embed_text", "source_url", "license"],
+  "properties": {
+   "chunk_id": {"type": "string", "pattern": "^(W\\d\\d|INT-[A-Z0-9-]+):s\\d{3}$"},
+   "date": {"type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+   "sensitivity": {"enum": ["public", "internal", "restricted"]},
+   "text": {"type": "string", "minLength": 40},
+   "source_url": {"type": "string", "minLength": 8},
+   "license": {"type": "string", "minLength": 3},
+   "status": {"enum": ["чинний", "superseded"]}
+  }
+ },
+ "entity": {
+  "type": "object",
+  "required": ["id", "label", "type", "sameAs", "members"],
+  "properties": {
+   "type": {"enum": ["ORG", "PERSON", "PLATFORM", "METHOD", "PHENOMENON", "CASE_ID", "ACCOUNT", "ANALYST", "NARRATIVE", "RULE"]},
+   "members": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["rid", "name", "source"]}}
+  }
+ },
+ "alternative": {
+  "type": "object",
+  "required": ["subject", "property", "value", "status", "source", "rule", "recorded", "decision"],
+  "properties": {"status": {"enum": ["current", "current-provisional", "alternative"]}, "decision": {"pattern": "^D\\d+$"}}
+ }
+}

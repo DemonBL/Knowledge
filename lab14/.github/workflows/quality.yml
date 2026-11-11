@@ -1,0 +1,29 @@
+name: kb-quality-gate
+# ЛР14 · CI: перевірки якості сховища знань блокують злиття змін у гілку, якщо падає critical-перевірка.
+on:
+  push:
+    branches: [lab14, main]
+    paths: ["lab14/**", "lab09/data/**", "lab10/data/**"]
+  pull_request:
+    paths: ["lab14/**", "lab09/data/**", "lab10/data/**"]
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Залежності
+        run: pip install pandas scikit-learn rdflib==7.* pyshacl==0.40.* rapidfuzz jsonschema pytest
+      - name: Пересобрати очищену версію (детерміновано)
+        run: |
+          python lab14/quality/dedup.py all
+          python lab14/quality/clean.py
+      - name: Quality gate (SHACL + SPARQL + pytest/GE + JSON Schema)
+        run: python lab14/quality/gate.py --version clean --label "CI ${{ github.sha }}"
+      - name: Звіт gate як артефакт
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate-report
+          path: lab14/quality/reports/

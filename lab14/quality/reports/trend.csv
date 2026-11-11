@@ -1,0 +1,4 @@
+run,ts,version,label,status,checks,passed,failed_critical,failed_warning,skipped,seconds
+1,2026-11-06T20:38:12+00:00,baseline,baseline kb-2026.11-v0 (до очищення),BLOCKED,19,8,7,2,2,2.0
+2,2026-11-06T20:38:14+00:00,clean,clean kb-2026.11-v1 (після очищення),PASSED,19,18,0,1,0,1.84
+3,2026-11-06T20:38:17+00:00,data/defects,"3 навмисні дефекти (D-1, D-2, D-3)",BLOCKED,19,10,6,1,2,1.93

@@ -1,0 +1,7 @@
+{
+ "records": 295,
+ "all_pairs": 43365,
+ "candidate_pairs": 1085,
+ "reduction_ratio": 0.975,
+ "stop_keys": []
+}

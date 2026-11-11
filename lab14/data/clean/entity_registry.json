@@ -1,0 +1,5935 @@
+{
+ "threshold": 0.83,
+ "records": 295,
+ "clusters": 206,
+ "merged_clusters": 47,
+ "merge_ops": 90,
+ "unmerge_demo": {
+  "op": "M0085",
+  "members_before": [
+   "E13:ORG_YouTuber_у|ORG",
+   "E13:ORG_YouTuber|ORG",
+   "E13:YouTube|PLATFORM"
+  ],
+  "after": {
+   "into": [
+    "E13:ORG_YouTuber_у|ORG",
+    "E13:ORG_YouTuber|ORG"
+   ],
+   "restored": [
+    "E13:YouTube|PLATFORM"
+   ]
+  }
+ },
+ "entities": [
+  {
+   "id": "E13:CASE_ID_Ф-01|CASE_ID",
+   "label": "Аналітик Ф-01 (військова тематика)",
+   "type": "ANALYST",
+   "sameAs": [
+    "E13:PERSON_Аналітик_Ф-01|PERSON",
+    "E13:PERSON_Ф-01|PERSON",
+    "G9:FCH-01",
+    "R8:Faktcheker_F01"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_Ф-01|CASE_ID",
+     "name": "Ф-01",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Аналітик_Ф-01|PERSON",
+     "name": "Аналітик Ф-01",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Ф-01|PERSON",
+     "name": "Ф-01",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:FCH-01",
+     "name": "Аналітик Ф-01 (військова тематика)",
+     "type": "ANALYST",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Faktcheker_F01",
+     "name": "Аналітик, військова тематика",
+     "type": "ANALYST",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "E13:CASE_ID_Ф-02|CASE_ID",
+   "label": "Аналітик Ф-02 (регіональні новини)",
+   "type": "ANALYST",
+   "sameAs": [
+    "E13:PERSON_Аналітик_Ф-02|PERSON",
+    "E13:PERSON_Ф-02|PERSON",
+    "G9:FCH-02",
+    "R8:Faktcheker_F02"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_Ф-02|CASE_ID",
+     "name": "Ф-02",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Аналітик_Ф-02|PERSON",
+     "name": "Аналітик Ф-02",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Ф-02|PERSON",
+     "name": "Ф-02",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:FCH-02",
+     "name": "Аналітик Ф-02 (регіональні новини)",
+     "type": "ANALYST",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Faktcheker_F02",
+     "name": "Аналітик, регіональні новини",
+     "type": "ANALYST",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "E13:CASE_ID_Ф-03|CASE_ID",
+   "label": "Аналітик Ф-03 (медіа та фото)",
+   "type": "ANALYST",
+   "sameAs": [
+    "E13:PERSON_Аналітик_Ф-03|PERSON",
+    "E13:PERSON_Ф-03|PERSON",
+    "G9:FCH-03"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_Ф-03|CASE_ID",
+     "name": "Ф-03",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Аналітик_Ф-03|PERSON",
+     "name": "Аналітик Ф-03",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Ф-03|PERSON",
+     "name": "Ф-03",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:FCH-03",
+     "name": "Аналітик Ф-03 (медіа та фото)",
+     "type": "ANALYST",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "E13:Exif|METHOD",
+   "label": "Exif",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:Exif|METHOD",
+     "name": "Exif",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:Facebook|PLATFORM",
+   "label": "Facebook",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:ORG_Facebook|ORG"
+   ],
+   "members": [
+    {
+     "rid": "E13:Facebook|PLATFORM",
+     "name": "Facebook",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_Facebook|ORG",
+     "name": "Facebook",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:JEIDA|ORG",
+   "label": "JEIDA",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:JEIDA|ORG",
+     "name": "JEIDA",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_DCF_2_0|METHOD",
+   "label": "DCF 2.0",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:METHOD_DCF_2_0|METHOD",
+     "name": "DCF 2.0",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_GPS|METHOD",
+   "label": "GPS",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:METHOD_GPS|METHOD",
+     "name": "GPS",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_TensorFlow|METHOD",
+   "label": "TensorFlow",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:METHOD_TensorFlow|METHOD",
+     "name": "TensorFlow",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_WebService_API|METHOD",
+   "label": "WebService API",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:METHOD_WebService_API|METHOD",
+     "name": "WebService API",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_антифішинг|METHOD",
+   "label": "антифішинг",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:METHOD_антифішинг|METHOD",
+     "name": "антифішинг",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_геолокація|METHOD",
+   "label": "геолокація",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:METHOD_геолокація|METHOD",
+     "name": "геолокація",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_дезінформування_від_зворотного|METHOD",
+   "label": "дезінформування від зворотного",
+   "type": "METHOD",
+   "sameAs": [
+    "E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON"
+   ],
+   "members": [
+    {
+     "rid": "E13:METHOD_дезінформування_від_зворотного|METHOD",
+     "name": "дезінформування від зворотного",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON",
+     "name": "Дезінформування від зворотного",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_перевірки_повідомлень|METHOD",
+   "label": "перевірки повідомлень",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:METHOD_перевірки_повідомлень|METHOD",
+     "name": "перевірки повідомлень",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_термінологічне_мінування|METHOD",
+   "label": "Термінологічне «мінування",
+   "type": "PHENOMENON",
+   "sameAs": [
+    "E13:PHENOMENON__Термінологічне_мінування|PHENOMENON"
+   ],
+   "members": [
+    {
+     "rid": "E13:METHOD_термінологічне_мінування|METHOD",
+     "name": "термінологічне «мінування»",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PHENOMENON__Термінологічне_мінування|PHENOMENON",
+     "name": "Термінологічне «мінування",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:METHOD_упереджене_висвітлення_фактів|METHOD",
+   "label": "упереджене висвітлення фактів",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:METHOD_упереджене_висвітлення_фактів|METHOD",
+     "name": "упереджене висвітлення фактів",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Adobe_RGB|ORG",
+   "label": "Adobe RGB",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Adobe_RGB|ORG",
+     "name": "Adobe RGB",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Betfair|ORG",
+   "label": "Betfair",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Betfair|ORG",
+     "name": "Betfair",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_COVID-19|ORG",
+   "label": "COVID-19",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_COVID-19|ORG",
+     "name": "COVID-19",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_DCF|ORG",
+   "label": "DCF",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_DCF|ORG",
+     "name": "DCF",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Detroit_Free_Press|ORG",
+   "label": "Detroit Free Press",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Detroit_Free_Press|ORG",
+     "name": "Detroit Free Press",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Digital_Future_of_Journalism|ORG",
+   "label": "Digital Future of Journalism",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Digital_Future_of_Journalism|ORG",
+     "name": "Digital Future of Journalism",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_FakeApp|ORG",
+   "label": "FakeApp",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_FakeApp|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_FakeApp|ORG",
+     "name": "FakeApp",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_FakeApp|PLATFORM",
+     "name": "FakeApp",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Fazze|ORG",
+   "label": "Fazze",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Fazze|ORG",
+     "name": "Fazze",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Flickr|ORG",
+   "label": "Flickr",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_Flickr|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_Flickr|ORG",
+     "name": "Flickr",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Flickr|PLATFORM",
+     "name": "Flickr",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Google_Usenet|ORG",
+   "label": "Google Usenet",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Google_Usenet|ORG",
+     "name": "Google Usenet",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Google|ORG",
+   "label": "Google",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_Google|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_Google|ORG",
+     "name": "Google",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Google|PLATFORM",
+     "name": "Google",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_JEITA|ORG",
+   "label": "JEITA",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_JEITA|ORG",
+     "name": "JEITA",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_LinkedIn|ORG",
+   "label": "LinkedIn",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_LinkedIn|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_LinkedIn|ORG",
+     "name": "LinkedIn",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_LinkedIn|PLATFORM",
+     "name": "LinkedIn",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Mark_Miller|ORG",
+   "label": "Mark Miller",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Mark_Miller|ORG",
+     "name": "Mark Miller",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Messenger_Фейсбук|ORG",
+   "label": "Messenger Фейсбук",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Messenger_Фейсбук|ORG",
+     "name": "Messenger Фейсбук",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Microsoft|ORG",
+   "label": "Microsoft",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Microsoft|ORG",
+     "name": "Microsoft",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Panoramio|ORG",
+   "label": "Panoramio",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_Panoramio|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_Panoramio|ORG",
+     "name": "Panoramio",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Panoramio|PLATFORM",
+     "name": "Panoramio",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_PhishMe|ORG",
+   "label": "PhishMe",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_PhishMe|ORG",
+     "name": "PhishMe",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Pornhub|ORG",
+   "label": "Pornhub",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_Pornhub|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_Pornhub|ORG",
+     "name": "Pornhub",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Pornhub|PLATFORM",
+     "name": "Pornhub",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Reddit|ORG",
+   "label": "Reddit",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_Reddit|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_Reddit|ORG",
+     "name": "Reddit",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Reddit|PLATFORM",
+     "name": "Reddit",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_TensorFlow|ORG",
+   "label": "TensorFlow",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_TensorFlow|ORG",
+     "name": "TensorFlow",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_The_Guardian|ORG",
+   "label": "The Guardian",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_The_Guardian|ORG",
+     "name": "The Guardian",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Vimeo|ORG",
+   "label": "Vimeo",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_Vimeo|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_Vimeo|ORG",
+     "name": "Vimeo",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Vimeo|PLATFORM",
+     "name": "Vimeo",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_YouTuber|ORG",
+   "label": "YouTuber",
+   "type": "ORG",
+   "sameAs": [
+    "E13:ORG_YouTuber_у|ORG"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_YouTuber_у|ORG",
+     "name": "YouTuber'у",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_YouTuber|ORG",
+     "name": "YouTuber",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_eBay|ORG",
+   "label": "eBay",
+   "type": "PLATFORM",
+   "sameAs": [
+    "E13:PLATFORM_eBay|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_eBay|ORG",
+     "name": "eBay",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_eBay|PLATFORM",
+     "name": "eBay",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Всесвітня_організація_охорони_здоров_я_ВООЗ|ORG",
+   "label": "ВООЗ",
+   "type": "ORG",
+   "sameAs": [
+    "E13:ВООЗ|ORG"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_Всесвітня_організація_охорони_здоров_я_ВООЗ|ORG",
+     "name": "Всесвітня організація охорони здоров'я (ВООЗ)",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ВООЗ|ORG",
+     "name": "ВООЗ",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_ДНР|ORG",
+   "label": "ДНР",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_ДНР|ORG",
+     "name": "ДНР",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Департамент_міжнародно-правової_співпраці_та_повернення_активів_Офісу_генера|ORG",
+   "label": "Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Департамент_міжнародно-правової_співпраці_та_повернення_активів_Офісу_генера|ORG",
+     "name": "Департамент міжнародно-правової співпраці та повернення активів Офісу генерального прокурора України",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Департаменті_міжнародно-правової_співпраці|ORG",
+   "label": "Департаменті міжнародно-правової співпраці",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Департаменті_міжнародно-правової_співпраці|ORG",
+     "name": "Департаменті міжнародно-правової співпраці",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_ЛНР|ORG",
+   "label": "ЛНР",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_ЛНР|ORG",
+     "name": "ЛНР",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Могилянська_школа_журналістики_НаУКМА|ORG",
+   "label": "Могилянська школа журналістики (НаУКМА)",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Могилянська_школа_журналістики_НаУКМА|ORG",
+     "name": "Могилянська школа журналістики (НаУКМА)",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Могилянської_школи_журналістики|ORG",
+   "label": "Могилянської школи журналістики",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Могилянської_школи_журналістики|ORG",
+     "name": "Могилянської школи журналістики",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Міжнародний_фонд_Відродження|ORG",
+   "label": "Міжнародний фонд «Відродження»",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Міжнародний_фонд_Відродження|ORG",
+     "name": "Міжнародний фонд «Відродження»",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_НаУКМА|ORG",
+   "label": "НаУКМА",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_НаУКМА|ORG",
+     "name": "НаУКМА",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Національний_фонд_в_підтримку_демократії|ORG",
+   "label": "Національний фонд в підтримку демократії",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Національний_фонд_в_підтримку_демократії|ORG",
+     "name": "Національний фонд в підтримку демократії",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Національний_фонд|ORG",
+   "label": "Національний фонд",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Національний_фонд|ORG",
+     "name": "Національний фонд",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Оксфордському_словнику_англійської_мови|ORG",
+   "label": "Оксфордському словнику англійської мови",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Оксфордському_словнику_англійської_мови|ORG",
+     "name": "Оксфордському словнику англійської мови",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Офісу_генерального_прокурора_України|ORG",
+   "label": "Офісу генерального прокурора України",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Офісу_генерального_прокурора_України|ORG",
+     "name": "Офісу генерального прокурора України",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Православної_церкви_України|ORG",
+   "label": "Православної церкви України",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_Православної_церкви_України|ORG",
+     "name": "Православної церкви України",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_Сігрід_Раузінг|ORG",
+   "label": "Сігрід Раузінг",
+   "type": "ORG",
+   "sameAs": [
+    "E13:ORG_фонд_Сігрід_Раузінг|ORG"
+   ],
+   "members": [
+    {
+     "rid": "E13:ORG_Сігрід_Раузінг|ORG",
+     "name": "Сігрід Раузінг",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_фонд_Сігрід_Раузінг|ORG",
+     "name": "фонд «Сігрід Раузінг»",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_УПЦ_МП|ORG",
+   "label": "УПЦ МП",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_УПЦ_МП|ORG",
+     "name": "УПЦ МП",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_кіберзлочинці|ORG",
+   "label": "кіберзлочинці",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_кіберзлочинці|ORG",
+     "name": "кіберзлочинці",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_посольство_Великої_Британії_в_Україні|ORG",
+   "label": "посольство Великої Британії в Україні",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_посольство_Великої_Британії_в_Україні|ORG",
+     "name": "посольство Великої Британії в Україні",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_російська_православна_церква|ORG",
+   "label": "російська православна церква",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_російська_православна_церква|ORG",
+     "name": "російська православна церква",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_фактчекінгової_організації|ORG",
+   "label": "фактчекінгової організації",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_фактчекінгової_організації|ORG",
+     "name": "фактчекінгової організації",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:ORG_інтернет-маркетологи|ORG",
+   "label": "інтернет-маркетологи",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:ORG_інтернет-маркетологи|ORG",
+     "name": "інтернет-маркетологи",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Ілон_Маск|PERSON",
+   "label": "Ілон Маск",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Ілон_Маск|PERSON",
+     "name": "Ілон Маск",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Аналітик_Ф-04|PERSON",
+   "label": "Аналітик Ф-04 (соцмережі й боти)",
+   "type": "ANALYST",
+   "sameAs": [
+    "E13:CASE_ID_Ф-04|CASE_ID",
+    "E13:PERSON_Ф-04|PERSON",
+    "G9:FCH-04"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_Ф-04|CASE_ID",
+     "name": "Ф-04",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Аналітик_Ф-04|PERSON",
+     "name": "Аналітик Ф-04",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Ф-04|PERSON",
+     "name": "Ф-04",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:FCH-04",
+     "name": "Аналітик Ф-04 (соцмережі й боти)",
+     "type": "ANALYST",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Андрій_Шаповалов|PERSON",
+   "label": "Андрій Шаповалов",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Андрій_Шаповалов|PERSON",
+     "name": "Андрій Шаповалов",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Білл_Дедмен|PERSON",
+   "label": "Білл Дедмен",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Білл_Дедмен|PERSON",
+     "name": "Білл Дедмен",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Володимира_Зеленського|PERSON",
+   "label": "Володимира Зеленського",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Володимира_Зеленського|PERSON",
+     "name": "Володимира Зеленського",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Грубий|PERSON",
+   "label": "Грубий",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Грубий|PERSON",
+     "name": "Грубий",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Даніель_Лауфер|PERSON",
+   "label": "Даніель Лауфер",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Даніель_Лауфер|PERSON",
+     "name": "Даніель Лауфер",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Ендрю|PERSON",
+   "label": "Ендрю",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Ендрю|PERSON",
+     "name": "Ендрю",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Лео_Грассет|PERSON",
+   "label": "Лео Грассет",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Лео_Грассет|PERSON",
+     "name": "Лео Грассет",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Марк_Цукерберг|PERSON",
+   "label": "Марк Цукерберг",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Марк_Цукерберг|PERSON",
+     "name": "Марк Цукерберг",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Мірко_Дротчман|PERSON",
+   "label": "Мірко Дротчман",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Мірко_Дротчман|PERSON",
+     "name": "Мірко Дротчман",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Найтінгейл|PERSON",
+   "label": "Найтінгейл",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Найтінгейл|PERSON",
+     "name": "Найтінгейл",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Ольга_Юркова|PERSON",
+   "label": "Ольга Юркова",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Ольга_Юркова|PERSON",
+     "name": "Ольга Юркова",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Поліна_Лисенко|PERSON",
+   "label": "Поліна Лисенко",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Поліна_Лисенко|PERSON",
+     "name": "Поліна Лисенко",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Стів_Дойг|PERSON",
+   "label": "Стів Дойг",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Стів_Дойг|PERSON",
+     "name": "Стів Дойг",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Томосу|PERSON",
+   "label": "Томосу",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Томосу|PERSON",
+     "name": "Томосу",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Флоренс_Найтінгейл|PERSON",
+   "label": "Флоренс Найтінгейл",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Флоренс_Найтінгейл|PERSON",
+     "name": "Флоренс Найтінгейл",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PERSON_Філіп_Мейер|PERSON",
+   "label": "Філіп Мейер",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PERSON_Філіп_Мейер|PERSON",
+     "name": "Філіп Мейер",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_Exif_Print|PHENOMENON",
+   "label": "Exif Print",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_Exif_Print|PHENOMENON",
+     "name": "Exif Print",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_ransomware|PHENOMENON",
+   "label": "ransomware",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_ransomware|PHENOMENON",
+     "name": "ransomware",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_Бойові_боти|PHENOMENON",
+   "label": "Бойові боти",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_Бойові_боти|PHENOMENON",
+     "name": "Бойові боти",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_Гіперболізовані_боти|PHENOMENON",
+   "label": "Гіперболізовані боти",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_Гіперболізовані_боти|PHENOMENON",
+     "name": "Гіперболізовані боти",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_Журналістика_даних|PHENOMENON",
+   "label": "Журналістика даних",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_Журналістика_даних|PHENOMENON",
+     "name": "Журналістика даних",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_Зливні_боти|PHENOMENON",
+   "label": "Зливні боти",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_Зливні_боти|PHENOMENON",
+     "name": "Зливні боти",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_Технічні_боти|PHENOMENON",
+   "label": "Технічні боти",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_Технічні_боти|PHENOMENON",
+     "name": "Технічні боти",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_Упереджене_викладення_фактів|PHENOMENON",
+   "label": "Упереджене викладення фактів",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_Упереджене_викладення_фактів|PHENOMENON",
+     "name": "Упереджене викладення фактів",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_Фішинг|PHENOMENON",
+   "label": "Фішинг",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_Фішинг|PHENOMENON",
+     "name": "Фішинг",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_вебконтент|PHENOMENON",
+   "label": "вебконтент",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_вебконтент|PHENOMENON",
+     "name": "вебконтент",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_візуалізація_даних|PHENOMENON",
+   "label": "візуалізація даних",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_візуалізація_даних|PHENOMENON",
+     "name": "візуалізація даних",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_військова_тематика|PHENOMENON",
+   "label": "військова тематика",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_військова_тематика|PHENOMENON",
+     "name": "військова тематика",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_зневажливий_термін|PHENOMENON",
+   "label": "зневажливий термін",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_зневажливий_термін|PHENOMENON",
+     "name": "зневажливий термін",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_клікбейт|PHENOMENON",
+   "label": "клікбейт",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_клікбейт|PHENOMENON",
+     "name": "клікбейт",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON",
+   "label": "маніпулятивне спотворення фактів; дезінформація",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_маніпулятивне_спотворення_фактів_дезінформація|PHENOMENON",
+     "name": "маніпулятивне спотворення фактів; дезінформація",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_маніпуляцій|PHENOMENON",
+   "label": "маніпуляцій",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_маніпуляцій|PHENOMENON",
+     "name": "маніпуляцій",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_медіа_та_фото|PHENOMENON",
+   "label": "медіа та фото",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_медіа_та_фото|PHENOMENON",
+     "name": "медіа та фото",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_підробка_чи_імітація_новин|PHENOMENON",
+   "label": "підробка чи імітація новин",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_підробка_чи_імітація_новин|PHENOMENON",
+     "name": "підробка чи імітація новин",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_соцмережі_й_боти|PHENOMENON",
+   "label": "соцмережі й боти",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_соцмережі_й_боти|PHENOMENON",
+     "name": "соцмережі й боти",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_соціальної_інженерії|PHENOMENON",
+   "label": "соціальної інженерії",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_соціальної_інженерії|PHENOMENON",
+     "name": "соціальної інженерії",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_тролінг|PHENOMENON",
+   "label": "тролінг",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_тролінг|PHENOMENON",
+     "name": "тролінг",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_фейк-ньюз_-с|PHENOMENON",
+   "label": "фейк-ньюз(-с)",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_фейк-ньюз_-с|PHENOMENON",
+     "name": "фейк-ньюз(-с)",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PHENOMENON_інфографіка|PHENOMENON",
+   "label": "інфографіка",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PHENOMENON_інфографіка|PHENOMENON",
+     "name": "інфографіка",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PLATFORM_Facebook_Messenger|PLATFORM",
+   "label": "Facebook Messenger",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PLATFORM_Facebook_Messenger|PLATFORM",
+     "name": "Facebook Messenger",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PLATFORM_Instagram|PLATFORM",
+   "label": "Instagram",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PLATFORM_Instagram|PLATFORM",
+     "name": "Instagram",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PLATFORM_Viber|PLATFORM",
+   "label": "Viber)",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PLATFORM_Viber|PLATFORM",
+     "name": "Viber)",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PLATFORM_locr|PLATFORM",
+   "label": "locr",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PLATFORM_locr|PLATFORM",
+     "name": "locr",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PLATFORM_ВКонтакті|PLATFORM",
+   "label": "ВКонтакті",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PLATFORM_ВКонтакті|PLATFORM",
+     "name": "ВКонтакті",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PLATFORM_месенджерів|PLATFORM",
+   "label": "месенджерів",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PLATFORM_месенджерів|PLATFORM",
+     "name": "месенджерів",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:PLATFORM_соціальних_мереж_і_месенджерів|PLATFORM",
+   "label": "соціальних мереж і месенджерів",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:PLATFORM_соціальних_мереж_і_месенджерів|PLATFORM",
+     "name": "соціальних мереж і месенджерів",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:Telegram|PLATFORM",
+   "label": "Telegram",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:Telegram|PLATFORM",
+     "name": "Telegram",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:Twitter|PLATFORM",
+   "label": "Twitter",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:Twitter|PLATFORM",
+     "name": "Twitter",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:VoxCheck|ORG",
+   "label": "VoxCheck",
+   "type": "ORG",
+   "sameAs": [
+    "G9:ORG-01",
+    "R8:FaktOrg_VoxCheck"
+   ],
+   "members": [
+    {
+     "rid": "E13:VoxCheck|ORG",
+     "name": "VoxCheck",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ORG-01",
+     "name": "VoxCheck",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:FaktOrg_VoxCheck",
+     "name": "VoxCheck",
+     "type": "ORG",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "E13:VoxUkraine|ORG",
+   "label": "VoxUkraine",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:VoxUkraine|ORG",
+     "name": "VoxUkraine",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:WhatsApp|PLATFORM",
+   "label": "WhatsApp",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:WhatsApp|PLATFORM",
+     "name": "WhatsApp",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:YouTube|PLATFORM",
+   "label": "YouTube",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:YouTube|PLATFORM",
+     "name": "YouTube",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:Андрій_Коваленко|PERSON",
+   "label": "Андрій Коваленко",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:Андрій_Коваленко|PERSON",
+     "name": "Андрій Коваленко",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:Віктор_Янукович|PERSON",
+   "label": "Віктор Янукович",
+   "type": "PERSON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:Віктор_Янукович|PERSON",
+     "name": "Віктор Янукович",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:МЗС_Чехії|ORG",
+   "label": "МЗС Чехії",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:МЗС_Чехії|ORG",
+     "name": "МЗС Чехії",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:НАБУ|ORG",
+   "label": "НАБУ",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:НАБУ|ORG",
+     "name": "НАБУ",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:Нацрада_з_питань_телебачення_і_радіомовлення|ORG",
+   "label": "Нацрада з питань телебачення і радіомовлення",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:Нацрада_з_питань_телебачення_і_радіомовлення|ORG",
+     "name": "Нацрада з питань телебачення і радіомовлення",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:РНБО|ORG",
+   "label": "РНБО",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:РНБО|ORG",
+     "name": "РНБО",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:Центр_протидії_дезінформації|ORG",
+   "label": "Центр протидії дезінформації",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:Центр_протидії_дезінформації|ORG",
+     "name": "Центр протидії дезінформації",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:аналіз_EXIF|METHOD",
+   "label": "аналіз EXIF",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:аналіз_EXIF|METHOD",
+     "name": "аналіз EXIF",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:бот|PHENOMENON",
+   "label": "бот",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:бот|PHENOMENON",
+     "name": "бот",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:дезінформація|PHENOMENON",
+   "label": "дезінформація",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:дезінформація|PHENOMENON",
+     "name": "дезінформація",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:дипфейк|PHENOMENON",
+   "label": "дипфейк",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:дипфейк|PHENOMENON",
+     "name": "дипфейк",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:пропаганда|PHENOMENON",
+   "label": "пропаганда",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:пропаганда|PHENOMENON",
+     "name": "пропаганда",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:соціальний_бот|PHENOMENON",
+   "label": "соціальний бот",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:соціальний_бот|PHENOMENON",
+     "name": "соціальний бот",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:соціальні_мережі|PLATFORM",
+   "label": "соціальні мережі",
+   "type": "PLATFORM",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:соціальні_мережі|PLATFORM",
+     "name": "соціальні мережі",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:фейк|PHENOMENON",
+   "label": "фейк",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:фейк|PHENOMENON",
+     "name": "фейк",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:фейкові_новини|PHENOMENON",
+   "label": "фейкові новини",
+   "type": "PHENOMENON",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:фейкові_новини|PHENOMENON",
+     "name": "фейкові новини",
+     "type": "PHENOMENON",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "E13:штучний_інтелект|METHOD",
+   "label": "штучний інтелект",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "E13:штучний_інтелект|METHOD",
+     "name": "штучний інтелект",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-001",
+   "label": "Анонімний Telegram-канал #1",
+   "type": "ACCOUNT",
+   "sameAs": [
+    "E13:CASE_ID_ACC-001|CASE_ID",
+    "E13:ORG_ACC-001|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_ACC-001|CASE_ID",
+     "name": "ACC-001",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_ACC-001|ORG",
+     "name": "ACC-001",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM",
+     "name": "Анонімний Telegram-канал #1",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ACC-001",
+     "name": "Анонімний Telegram-канал #1",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-002",
+   "label": "Анонімний Telegram-канал #2",
+   "type": "ACCOUNT",
+   "sameAs": [
+    "E13:CASE_ID_ACC-002|CASE_ID",
+    "E13:ORG_ACC-002|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_ACC-002|CASE_ID",
+     "name": "ACC-002",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_ACC-002|ORG",
+     "name": "ACC-002",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM",
+     "name": "Анонімний Telegram-канал #2",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ACC-002",
+     "name": "Анонімний Telegram-канал #2",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-003",
+   "label": "Анонімний Telegram-канал #3",
+   "type": "ACCOUNT",
+   "sameAs": [
+    "E13:CASE_ID_ACC-003|CASE_ID",
+    "E13:ORG_ACC-003|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_ACC-003|CASE_ID",
+     "name": "ACC-003",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_ACC-003|ORG",
+     "name": "ACC-003",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM",
+     "name": "Анонімний Telegram-канал #3",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ACC-003",
+     "name": "Анонімний Telegram-канал #3",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-004",
+   "label": "Анонімний Telegram-канал #4",
+   "type": "ACCOUNT",
+   "sameAs": [
+    "E13:CASE_ID_ACC-004|CASE_ID",
+    "E13:ORG_ACC-004|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_ACC-004|CASE_ID",
+     "name": "ACC-004",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_ACC-004|ORG",
+     "name": "ACC-004",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM",
+     "name": "Анонімний Telegram-канал #4",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ACC-004",
+     "name": "Анонімний Telegram-канал #4",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-005",
+   "label": "Анонімний Telegram-канал #5",
+   "type": "ACCOUNT",
+   "sameAs": [
+    "E13:CASE_ID_ACC-005|CASE_ID",
+    "E13:ORG_ACC-005|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_ACC-005|CASE_ID",
+     "name": "ACC-005",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_ACC-005|ORG",
+     "name": "ACC-005",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM",
+     "name": "Анонімний Telegram-канал #5",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ACC-005",
+     "name": "Анонімний Telegram-канал #5",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-006",
+   "label": "Анонімний Telegram-канал #6",
+   "type": "ACCOUNT",
+   "sameAs": [
+    "E13:CASE_ID_ACC-006|CASE_ID",
+    "E13:ORG_ACC-006|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_ACC-006|CASE_ID",
+     "name": "ACC-006",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_ACC-006|ORG",
+     "name": "ACC-006",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM",
+     "name": "Анонімний Telegram-канал #6",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ACC-006",
+     "name": "Анонімний Telegram-канал #6",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-007",
+   "label": "Анонімний Telegram-канал #7",
+   "type": "ACCOUNT",
+   "sameAs": [
+    "E13:CASE_ID_ACC-007|CASE_ID",
+    "E13:ORG_ACC-007|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_ACC-007|CASE_ID",
+     "name": "ACC-007",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_ACC-007|ORG",
+     "name": "ACC-007",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM",
+     "name": "Анонімний Telegram-канал #7",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ACC-007",
+     "name": "Анонімний Telegram-канал #7",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-008",
+   "label": "Анонімний Telegram-канал #8",
+   "type": "ACCOUNT",
+   "sameAs": [
+    "E13:CASE_ID_ACC-008|CASE_ID",
+    "E13:ORG_ACC-008|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_ACC-008|CASE_ID",
+     "name": "ACC-008",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_ACC-008|ORG",
+     "name": "ACC-008",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM",
+     "name": "Анонімний Telegram-канал #8",
+     "type": "PLATFORM",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ACC-008",
+     "name": "Анонімний Telegram-канал #8",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-009",
+   "label": "Бот-акаунт A1",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-009",
+     "name": "Бот-акаунт A1",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-010",
+   "label": "Бот-акаунт A2",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-010",
+     "name": "Бот-акаунт A2",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-011",
+   "label": "Бот-акаунт A3",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-011",
+     "name": "Бот-акаунт A3",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-012",
+   "label": "Бот-акаунт A4",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-012",
+     "name": "Бот-акаунт A4",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-013",
+   "label": "Бот-акаунт A5",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-013",
+     "name": "Бот-акаунт A5",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-014",
+   "label": "Бот-акаунт A6",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-014",
+     "name": "Бот-акаунт A6",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-015",
+   "label": "Бот-акаунт A7",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-015",
+     "name": "Бот-акаунт A7",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-016",
+   "label": "Бот-акаунт A8",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-016",
+     "name": "Бот-акаунт A8",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-017",
+   "label": "Бот-акаунт A9",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-017",
+     "name": "Бот-акаунт A9",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-018",
+   "label": "Бот-акаунт A10",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-018",
+     "name": "Бот-акаунт A10",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-019",
+   "label": "Бот-акаунт B1",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-019",
+     "name": "Бот-акаунт B1",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-020",
+   "label": "Бот-акаунт B2",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-020",
+     "name": "Бот-акаунт B2",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-021",
+   "label": "Бот-акаунт B3",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-021",
+     "name": "Бот-акаунт B3",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-022",
+   "label": "Бот-акаунт B4",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-022",
+     "name": "Бот-акаунт B4",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-023",
+   "label": "Бот-акаунт B5",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-023",
+     "name": "Бот-акаунт B5",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-024",
+   "label": "Бот-акаунт B6",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-024",
+     "name": "Бот-акаунт B6",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-025",
+   "label": "Бот-акаунт B7",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-025",
+     "name": "Бот-акаунт B7",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-026",
+   "label": "Бот-акаунт B8",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-026",
+     "name": "Бот-акаунт B8",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-027",
+   "label": "Суспільне Новини",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-027",
+     "name": "Суспільне Новини",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-028",
+   "label": "Укрінформ",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-028",
+     "name": "Укрінформ",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-029",
+   "label": "Твоє Місто (Львів)",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-029",
+     "name": "Твоє Місто (Львів)",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-030",
+   "label": "Громадське",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-030",
+     "name": "Громадське",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-031",
+   "label": "Zaxid.net",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-031",
+     "name": "Zaxid.net",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-032",
+   "label": "Українська правда",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-032",
+     "name": "Українська правда",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-033",
+   "label": "Користувач #1",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-033",
+     "name": "Користувач #1",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-034",
+   "label": "Користувач #2",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-034",
+     "name": "Користувач #2",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-035",
+   "label": "Користувач #3",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-035",
+     "name": "Користувач #3",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-036",
+   "label": "Користувач #4",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-036",
+     "name": "Користувач #4",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-037",
+   "label": "Користувач #5",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-037",
+     "name": "Користувач #5",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-038",
+   "label": "Користувач #6",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-038",
+     "name": "Користувач #6",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-039",
+   "label": "Користувач #7",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-039",
+     "name": "Користувач #7",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-040",
+   "label": "Користувач #8",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-040",
+     "name": "Користувач #8",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-041",
+   "label": "Користувач #9",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-041",
+     "name": "Користувач #9",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-042",
+   "label": "Користувач #10",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-042",
+     "name": "Користувач #10",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-043",
+   "label": "Користувач #11",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-043",
+     "name": "Користувач #11",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-044",
+   "label": "Користувач #12",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-044",
+     "name": "Користувач #12",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ACC-045",
+   "label": "Користувач #13",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ACC-045",
+     "name": "Користувач #13",
+     "type": "ACCOUNT",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:FCH-05",
+   "label": "Аналітик Ф-05 (здоров'я та медицина)",
+   "type": "ANALYST",
+   "sameAs": [
+    "E13:CASE_ID_Ф-05|CASE_ID",
+    "E13:PERSON_Аналітик_Ф-05|PERSON",
+    "E13:PERSON_Ф-05|PERSON"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_Ф-05|CASE_ID",
+     "name": "Ф-05",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Аналітик_Ф-05|PERSON",
+     "name": "Аналітик Ф-05",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Ф-05|PERSON",
+     "name": "Ф-05",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:FCH-05",
+     "name": "Аналітик Ф-05 (здоров'я та медицина)",
+     "type": "ANALYST",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:FCH-06",
+   "label": "Аналітик Ф-06 (фінансові шахрайства)",
+   "type": "ANALYST",
+   "sameAs": [
+    "E13:CASE_ID_Ф-06|CASE_ID",
+    "E13:PERSON_Аналітик_Ф-06|PERSON",
+    "E13:PERSON_Ф-06|PERSON"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_Ф-06|CASE_ID",
+     "name": "Ф-06",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Аналітик_Ф-06|PERSON",
+     "name": "Аналітик Ф-06",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:PERSON_Ф-06|PERSON",
+     "name": "Ф-06",
+     "type": "PERSON",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:FCH-06",
+     "name": "Аналітик Ф-06 (фінансові шахрайства)",
+     "type": "ANALYST",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:NAR-01",
+   "label": "Повна втрата контролю над містом",
+   "type": "NARRATIVE",
+   "sameAs": [
+    "E13:CASE_ID_NAR-01|CASE_ID",
+    "R8:Naratyv_N01"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_NAR-01|CASE_ID",
+     "name": "NAR-01",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:NAR-01",
+     "name": "Повна втрата контролю над містом",
+     "type": "NARRATIVE",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Naratyv_N01",
+     "name": "Повна втрата контролю над містом",
+     "type": "NARRATIVE",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "G9:NAR-02",
+   "label": "Колапс критичної інфраструктури",
+   "type": "NARRATIVE",
+   "sameAs": [
+    "E13:CASE_ID_NAR-02|CASE_ID",
+    "R8:Naratyv_N02"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_NAR-02|CASE_ID",
+     "name": "NAR-02",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:NAR-02",
+     "name": "Колапс критичної інфраструктури",
+     "type": "NARRATIVE",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Naratyv_N02",
+     "name": "Колапс критичної інфраструктури",
+     "type": "NARRATIVE",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "G9:NAR-03",
+   "label": "Отруєна питна вода",
+   "type": "NARRATIVE",
+   "sameAs": [
+    "E13:CASE_ID_NAR-03|CASE_ID"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_NAR-03|CASE_ID",
+     "name": "NAR-03",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:NAR-03",
+     "name": "Отруєна питна вода",
+     "type": "NARRATIVE",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:NAR-04",
+   "label": "Втеча місцевої влади",
+   "type": "NARRATIVE",
+   "sameAs": [
+    "E13:CASE_ID_NAR-04|CASE_ID"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_NAR-04|CASE_ID",
+     "name": "NAR-04",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:NAR-04",
+     "name": "Втеча місцевої влади",
+     "type": "NARRATIVE",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:NAR-05",
+   "label": "Фейкові збори коштів",
+   "type": "NARRATIVE",
+   "sameAs": [
+    "E13:CASE_ID_NAR-05|CASE_ID"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_NAR-05|CASE_ID",
+     "name": "NAR-05",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:NAR-05",
+     "name": "Фейкові збори коштів",
+     "type": "NARRATIVE",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:NAR-06",
+   "label": "Небезпека укриттів і пунктів незламності",
+   "type": "NARRATIVE",
+   "sameAs": [
+    "E13:CASE_ID_NAR-06|CASE_ID"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_NAR-06|CASE_ID",
+     "name": "NAR-06",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:NAR-06",
+     "name": "Небезпека укриттів і пунктів незламності",
+     "type": "NARRATIVE",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:OFF-01",
+   "label": "ДСНС України",
+   "type": "ORG",
+   "sameAs": [
+    "E13:CASE_ID_OFF-01|CASE_ID",
+    "E13:ORG_OFF-01|ORG",
+    "E13:ДСНС_України|ORG",
+    "R8:Dzherelo_O01"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_OFF-01|CASE_ID",
+     "name": "OFF-01",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_OFF-01|ORG",
+     "name": "OFF-01",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ДСНС_України|ORG",
+     "name": "ДСНС України",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:OFF-01",
+     "name": "ДСНС України",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Dzherelo_O01",
+     "name": "ДСНС",
+     "type": "ORG",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "G9:OFF-02",
+   "label": "Повітряні сили ЗСУ",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:OFF-02",
+     "name": "Повітряні сили ЗСУ",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:OFF-03",
+   "label": "Офіційні канали міських рад",
+   "type": "ORG",
+   "sameAs": [
+    "E13:CASE_ID_OFF-03|CASE_ID",
+    "E13:ORG_OFF-03|ORG",
+    "E13:ORG_Офіційні_канали_міських_рад|ORG"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_OFF-03|CASE_ID",
+     "name": "OFF-03",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_OFF-03|ORG",
+     "name": "OFF-03",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_Офіційні_канали_міських_рад|ORG",
+     "name": "Офіційні канали міських рад",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:OFF-03",
+     "name": "Офіційні канали міських рад",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:OFF-04",
+   "label": "МОЗ України",
+   "type": "ORG",
+   "sameAs": [
+    "E13:CASE_ID_OFF-04|CASE_ID",
+    "E13:МОЗ_України|ORG"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_OFF-04|CASE_ID",
+     "name": "OFF-04",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:МОЗ_України|ORG",
+     "name": "МОЗ України",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:OFF-04",
+     "name": "МОЗ України",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:OFF-05",
+   "label": "Національна поліція України",
+   "type": "ORG",
+   "sameAs": [
+    "E13:CASE_ID_OFF-05|CASE_ID",
+    "E13:ORG_Національна_поліція_України|ORG"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_OFF-05|CASE_ID",
+     "name": "OFF-05",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "E13:ORG_Національна_поліція_України|ORG",
+     "name": "Національна поліція України",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:OFF-05",
+     "name": "Національна поліція України",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ORG-02",
+   "label": "StopFake",
+   "type": "ORG",
+   "sameAs": [
+    "E13:StopFake|ORG"
+   ],
+   "members": [
+    {
+     "rid": "E13:StopFake|ORG",
+     "name": "StopFake",
+     "type": "ORG",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:ORG-02",
+     "name": "StopFake",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ORG-03",
+   "label": "EUvsDisinfo",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ORG-03",
+     "name": "EUvsDisinfo",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:ORG-04",
+   "label": "Детектор медіа",
+   "type": "ORG",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:ORG-04",
+     "name": "Детектор медіа",
+     "type": "ORG",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:RULE-1",
+   "label": "вік акаунта < 30 днів AND акаунт не верифікований",
+   "type": "RULE",
+   "sameAs": [
+    "E13:CASE_ID_RULE-1|CASE_ID",
+    "R8:Pravylo_R1"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_RULE-1|CASE_ID",
+     "name": "RULE-1",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:RULE-1",
+     "name": "вік акаунта < 30 днів AND акаунт не верифікований",
+     "type": "RULE",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Pravylo_R1",
+     "name": "вік акаунта < 30 днів AND акаунт не верифікований",
+     "type": "RULE",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "G9:RULE-2",
+   "label": "автор має спростоване твердження у публікації з ≥ 1000 поширень",
+   "type": "RULE",
+   "sameAs": [
+    "R8:Pravylo_R2"
+   ],
+   "members": [
+    {
+     "rid": "G9:RULE-2",
+     "name": "автор має спростоване твердження у публікації з ≥ 1000 поширень",
+     "type": "RULE",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Pravylo_R2",
+     "name": "автор має спростоване твердження (фейк / маніпуляція) у публікації з ≥ 1000 поширень",
+     "type": "RULE",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "G9:RULE-3",
+   "label": "публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину",
+   "type": "RULE",
+   "sameAs": [
+    "E13:CASE_ID_RULE-3|CASE_ID"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_RULE-3|CASE_ID",
+     "name": "RULE-3",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:RULE-3",
+     "name": "публікацію без першоджерела репостять ≥ 3 акаунти з низькою довірою за 1 годину",
+     "type": "RULE",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:RULE-4",
+   "label": "дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів",
+   "type": "RULE",
+   "sameAs": [
+    "E13:CASE_ID_RULE-4|CASE_ID"
+   ],
+   "members": [
+    {
+     "rid": "E13:CASE_ID_RULE-4|CASE_ID",
+     "name": "RULE-4",
+     "type": "CASE_ID",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:RULE-4",
+     "name": "дата EXIF медіафайлу раніша за дату події більш ніж на 7 днів",
+     "type": "RULE",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:TOOL-01",
+   "label": "Реверсивний пошук зображень",
+   "type": "METHOD",
+   "sameAs": [
+    "E13:METHOD_реверсивний_пошук|METHOD",
+    "R8:Instrument_I01"
+   ],
+   "members": [
+    {
+     "rid": "E13:METHOD_реверсивний_пошук|METHOD",
+     "name": "реверсивний пошук",
+     "type": "METHOD",
+     "source": "ЛР13 витяг"
+    },
+    {
+     "rid": "G9:TOOL-01",
+     "name": "Реверсивний пошук зображень",
+     "type": "METHOD",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Instrument_I01",
+     "name": "Реверсивний пошук зображень",
+     "type": "METHOD",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "G9:TOOL-02",
+   "label": "Аналіз EXIF-метаданих",
+   "type": "METHOD",
+   "sameAs": [
+    "R8:Instrument_I02"
+   ],
+   "members": [
+    {
+     "rid": "G9:TOOL-02",
+     "name": "Аналіз EXIF-метаданих",
+     "type": "METHOD",
+     "source": "ЛР9 граф Neo4j"
+    },
+    {
+     "rid": "R8:Instrument_I02",
+     "name": "Аналіз EXIF-метаданих",
+     "type": "METHOD",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "G9:TOOL-03",
+   "label": "Геолокація за супутниковими знімками",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:TOOL-03",
+     "name": "Геолокація за супутниковими знімками",
+     "type": "METHOD",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:TOOL-04",
+   "label": "Аналіз мережі поширення",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:TOOL-04",
+     "name": "Аналіз мережі поширення",
+     "type": "METHOD",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "G9:TOOL-05",
+   "label": "Архів вебсторінок (Wayback Machine)",
+   "type": "METHOD",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "G9:TOOL-05",
+     "name": "Архів вебсторінок (Wayback Machine)",
+     "type": "METHOD",
+     "source": "ЛР9 граф Neo4j"
+    }
+   ]
+  },
+  {
+   "id": "R8:Akaunt_A01",
+   "label": "Анонімний Telegram-канал «Місто зараз»",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "R8:Akaunt_A01",
+     "name": "Анонімний Telegram-канал «Місто зараз»",
+     "type": "ACCOUNT",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "R8:Akaunt_A02",
+   "label": "Офіційний Telegram-канал регіонального видання",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "R8:Akaunt_A02",
+     "name": "Офіційний Telegram-канал регіонального видання",
+     "type": "ACCOUNT",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  },
+  {
+   "id": "R8:Akaunt_A03",
+   "label": "Новинний агрегатор у Facebook",
+   "type": "ACCOUNT",
+   "sameAs": [],
+   "members": [
+    {
+     "rid": "R8:Akaunt_A03",
+     "name": "Новинний агрегатор у Facebook",
+     "type": "ACCOUNT",
+     "source": "ЛР8 RDF"
+    }
+   ]
+  }
+ ],
+ "merge_log": [
+  {
+   "op": "M0001",
+   "type": "merge",
+   "into": "E13:ORG_FakeApp|ORG",
+   "from": "E13:PLATFORM_FakeApp|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_FakeApp|PLATFORM"
+   ],
+   "pair": [
+    "E13:ORG_FakeApp|ORG",
+    "E13:PLATFORM_FakeApp|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0002",
+   "type": "merge",
+   "into": "E13:ORG_Panoramio|ORG",
+   "from": "E13:PLATFORM_Panoramio|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Panoramio|PLATFORM"
+   ],
+   "pair": [
+    "E13:ORG_Panoramio|ORG",
+    "E13:PLATFORM_Panoramio|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0003",
+   "type": "merge",
+   "into": "E13:ORG_Pornhub|ORG",
+   "from": "E13:PLATFORM_Pornhub|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Pornhub|PLATFORM"
+   ],
+   "pair": [
+    "E13:ORG_Pornhub|ORG",
+    "E13:PLATFORM_Pornhub|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0004",
+   "type": "merge",
+   "into": "G9:OFF-05",
+   "from": "E13:ORG_Національна_поліція_України|ORG",
+   "moved": [
+    "E13:ORG_Національна_поліція_України|ORG"
+   ],
+   "pair": [
+    "G9:OFF-05",
+    "E13:ORG_Національна_поліція_України|ORG"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0005",
+   "type": "merge",
+   "into": "E13:ORG_Vimeo|ORG",
+   "from": "E13:PLATFORM_Vimeo|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Vimeo|PLATFORM"
+   ],
+   "pair": [
+    "E13:ORG_Vimeo|ORG",
+    "E13:PLATFORM_Vimeo|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0006",
+   "type": "merge",
+   "into": "E13:ORG_Reddit|ORG",
+   "from": "E13:PLATFORM_Reddit|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Reddit|PLATFORM"
+   ],
+   "pair": [
+    "E13:ORG_Reddit|ORG",
+    "E13:PLATFORM_Reddit|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0007",
+   "type": "merge",
+   "into": "E13:VoxCheck|ORG",
+   "from": "R8:FaktOrg_VoxCheck",
+   "moved": [
+    "R8:FaktOrg_VoxCheck"
+   ],
+   "pair": [
+    "R8:FaktOrg_VoxCheck",
+    "E13:VoxCheck|ORG"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0008",
+   "type": "merge",
+   "into": "G9:NAR-01",
+   "from": "R8:Naratyv_N01",
+   "moved": [
+    "R8:Naratyv_N01"
+   ],
+   "pair": [
+    "G9:NAR-01",
+    "R8:Naratyv_N01"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0009",
+   "type": "merge",
+   "into": "E13:VoxCheck|ORG",
+   "from": "G9:ORG-01",
+   "moved": [
+    "G9:ORG-01"
+   ],
+   "pair": [
+    "G9:ORG-01",
+    "R8:FaktOrg_VoxCheck"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0010",
+   "type": "merge",
+   "into": "G9:RULE-1",
+   "from": "R8:Pravylo_R1",
+   "moved": [
+    "R8:Pravylo_R1"
+   ],
+   "pair": [
+    "G9:RULE-1",
+    "R8:Pravylo_R1"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0011",
+   "type": "merge",
+   "into": "G9:ACC-008",
+   "from": "E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM"
+   ],
+   "pair": [
+    "G9:ACC-008",
+    "E13:PLATFORM_Анонімний_Telegram-канал_8|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0012",
+   "type": "merge",
+   "into": "G9:OFF-03",
+   "from": "E13:ORG_Офіційні_канали_міських_рад|ORG",
+   "moved": [
+    "E13:ORG_Офіційні_канали_міських_рад|ORG"
+   ],
+   "pair": [
+    "G9:OFF-03",
+    "E13:ORG_Офіційні_канали_міських_рад|ORG"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0013",
+   "type": "merge",
+   "into": "E13:ORG_eBay|ORG",
+   "from": "E13:PLATFORM_eBay|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_eBay|PLATFORM"
+   ],
+   "pair": [
+    "E13:PLATFORM_eBay|PLATFORM",
+    "E13:ORG_eBay|ORG"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0014",
+   "type": "merge",
+   "into": "G9:ACC-004",
+   "from": "E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM"
+   ],
+   "pair": [
+    "G9:ACC-004",
+    "E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0015",
+   "type": "merge",
+   "into": "G9:ACC-002",
+   "from": "E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM"
+   ],
+   "pair": [
+    "G9:ACC-002",
+    "E13:PLATFORM_Анонімний_Telegram-канал_2|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0016",
+   "type": "merge",
+   "into": "E13:ORG_LinkedIn|ORG",
+   "from": "E13:PLATFORM_LinkedIn|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_LinkedIn|PLATFORM"
+   ],
+   "pair": [
+    "E13:ORG_LinkedIn|ORG",
+    "E13:PLATFORM_LinkedIn|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0017",
+   "type": "merge",
+   "into": "E13:ORG_Google|ORG",
+   "from": "E13:PLATFORM_Google|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Google|PLATFORM"
+   ],
+   "pair": [
+    "E13:ORG_Google|ORG",
+    "E13:PLATFORM_Google|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0018",
+   "type": "merge",
+   "into": "E13:ORG_Flickr|ORG",
+   "from": "E13:PLATFORM_Flickr|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Flickr|PLATFORM"
+   ],
+   "pair": [
+    "E13:ORG_Flickr|ORG",
+    "E13:PLATFORM_Flickr|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0019",
+   "type": "merge",
+   "into": "G9:ACC-007",
+   "from": "E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM"
+   ],
+   "pair": [
+    "G9:ACC-007",
+    "E13:PLATFORM_Анонімний_Telegram-канал_7|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0020",
+   "type": "merge",
+   "into": "G9:TOOL-02",
+   "from": "R8:Instrument_I02",
+   "moved": [
+    "R8:Instrument_I02"
+   ],
+   "pair": [
+    "G9:TOOL-02",
+    "R8:Instrument_I02"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0021",
+   "type": "merge",
+   "into": "G9:NAR-02",
+   "from": "R8:Naratyv_N02",
+   "moved": [
+    "R8:Naratyv_N02"
+   ],
+   "pair": [
+    "G9:NAR-02",
+    "R8:Naratyv_N02"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0022",
+   "type": "merge",
+   "into": "E13:CASE_ID_OFF-01|CASE_ID",
+   "from": "E13:ORG_OFF-01|ORG",
+   "moved": [
+    "E13:ORG_OFF-01|ORG"
+   ],
+   "pair": [
+    "E13:CASE_ID_OFF-01|CASE_ID",
+    "E13:ORG_OFF-01|ORG"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0023",
+   "type": "merge",
+   "into": "G9:ACC-005",
+   "from": "E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM"
+   ],
+   "pair": [
+    "G9:ACC-005",
+    "E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0024",
+   "type": "merge",
+   "into": "E13:Facebook|PLATFORM",
+   "from": "E13:ORG_Facebook|ORG",
+   "moved": [
+    "E13:ORG_Facebook|ORG"
+   ],
+   "pair": [
+    "E13:Facebook|PLATFORM",
+    "E13:ORG_Facebook|ORG"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0025",
+   "type": "merge",
+   "into": "G9:OFF-01",
+   "from": "E13:ДСНС_України|ORG",
+   "moved": [
+    "E13:ДСНС_України|ORG"
+   ],
+   "pair": [
+    "G9:OFF-01",
+    "E13:ДСНС_України|ORG"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0026",
+   "type": "merge",
+   "into": "G9:ACC-006",
+   "from": "E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM"
+   ],
+   "pair": [
+    "G9:ACC-006",
+    "E13:PLATFORM_Анонімний_Telegram-канал_6|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0027",
+   "type": "merge",
+   "into": "E13:METHOD_термінологічне_мінування|METHOD",
+   "from": "E13:PHENOMENON__Термінологічне_мінування|PHENOMENON",
+   "moved": [
+    "E13:PHENOMENON__Термінологічне_мінування|PHENOMENON"
+   ],
+   "pair": [
+    "E13:PHENOMENON__Термінологічне_мінування|PHENOMENON",
+    "E13:METHOD_термінологічне_мінування|METHOD"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0028",
+   "type": "merge",
+   "into": "G9:ACC-001",
+   "from": "E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM"
+   ],
+   "pair": [
+    "G9:ACC-001",
+    "E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0029",
+   "type": "merge",
+   "into": "G9:TOOL-01",
+   "from": "R8:Instrument_I01",
+   "moved": [
+    "R8:Instrument_I01"
+   ],
+   "pair": [
+    "G9:TOOL-01",
+    "R8:Instrument_I01"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0030",
+   "type": "merge",
+   "into": "E13:CASE_ID_OFF-03|CASE_ID",
+   "from": "E13:ORG_OFF-03|ORG",
+   "moved": [
+    "E13:ORG_OFF-03|ORG"
+   ],
+   "pair": [
+    "E13:CASE_ID_OFF-03|CASE_ID",
+    "E13:ORG_OFF-03|ORG"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0031",
+   "type": "merge",
+   "into": "G9:ACC-003",
+   "from": "E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM",
+   "moved": [
+    "E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM"
+   ],
+   "pair": [
+    "G9:ACC-003",
+    "E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0032",
+   "type": "merge",
+   "into": "E13:METHOD_дезінформування_від_зворотного|METHOD",
+   "from": "E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON",
+   "moved": [
+    "E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON"
+   ],
+   "pair": [
+    "E13:PHENOMENON__Дезінформування_від_зворотного|PHENOMENON",
+    "E13:METHOD_дезінформування_від_зворотного|METHOD"
+   ],
+   "evidence": {
+    "score": 1.0,
+    "cos": 1.0,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0033",
+   "type": "merge",
+   "into": "G9:OFF-04",
+   "from": "E13:МОЗ_України|ORG",
+   "moved": [
+    "E13:МОЗ_України|ORG"
+   ],
+   "pair": [
+    "G9:OFF-04",
+    "E13:МОЗ_України|ORG"
+   ],
+   "evidence": {
+    "score": 0.98,
+    "cos": 0.944,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0034",
+   "type": "merge",
+   "into": "G9:ORG-02",
+   "from": "E13:StopFake|ORG",
+   "moved": [
+    "E13:StopFake|ORG"
+   ],
+   "pair": [
+    "G9:ORG-02",
+    "E13:StopFake|ORG"
+   ],
+   "evidence": {
+    "score": 0.953,
+    "cos": 0.867,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0035",
+   "type": "merge",
+   "into": "G9:ACC-008",
+   "from": "E13:CASE_ID_ACC-008|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_ACC-008|CASE_ID"
+   ],
+   "pair": [
+    "G9:ACC-008",
+    "E13:CASE_ID_ACC-008|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.827,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0036",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-01|CASE_ID",
+   "from": "R8:Faktcheker_F01",
+   "moved": [
+    "R8:Faktcheker_F01"
+   ],
+   "pair": [
+    "R8:Faktcheker_F01",
+    "E13:CASE_ID_Ф-01|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0037",
+   "type": "merge",
+   "into": "G9:FCH-05",
+   "from": "E13:PERSON_Ф-05|PERSON",
+   "moved": [
+    "E13:PERSON_Ф-05|PERSON"
+   ],
+   "pair": [
+    "G9:FCH-05",
+    "E13:PERSON_Ф-05|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.18,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0038",
+   "type": "merge",
+   "into": "G9:FCH-05",
+   "from": "E13:CASE_ID_Ф-05|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_Ф-05|CASE_ID"
+   ],
+   "pair": [
+    "G9:FCH-05",
+    "E13:CASE_ID_Ф-05|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.18,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0039",
+   "type": "merge",
+   "into": "G9:ACC-003",
+   "from": "E13:CASE_ID_ACC-003|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_ACC-003|CASE_ID"
+   ],
+   "pair": [
+    "E13:CASE_ID_ACC-003|CASE_ID",
+    "E13:PLATFORM_Анонімний_Telegram-канал_3|PLATFORM"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.833,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0040",
+   "type": "merge",
+   "into": "G9:ACC-006",
+   "from": "E13:CASE_ID_ACC-006|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_ACC-006|CASE_ID"
+   ],
+   "pair": [
+    "G9:ACC-006",
+    "E13:CASE_ID_ACC-006|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.833,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0041",
+   "type": "merge",
+   "into": "G9:ACC-006",
+   "from": "E13:ORG_ACC-006|ORG",
+   "moved": [
+    "E13:ORG_ACC-006|ORG"
+   ],
+   "pair": [
+    "G9:ACC-006",
+    "E13:ORG_ACC-006|ORG"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.032,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0042",
+   "type": "merge",
+   "into": "G9:ACC-003",
+   "from": "E13:ORG_ACC-003|ORG",
+   "moved": [
+    "E13:ORG_ACC-003|ORG"
+   ],
+   "pair": [
+    "G9:ACC-003",
+    "E13:ORG_ACC-003|ORG"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.027,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0043",
+   "type": "merge",
+   "into": "G9:NAR-03",
+   "from": "E13:CASE_ID_NAR-03|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_NAR-03|CASE_ID"
+   ],
+   "pair": [
+    "G9:NAR-03",
+    "E13:CASE_ID_NAR-03|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0044",
+   "type": "merge",
+   "into": "G9:FCH-05",
+   "from": "E13:PERSON_Аналітик_Ф-05|PERSON",
+   "moved": [
+    "E13:PERSON_Аналітик_Ф-05|PERSON"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-05|PERSON",
+    "E13:CASE_ID_Ф-05|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.64,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0045",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-02|CASE_ID",
+   "from": "E13:PERSON_Аналітик_Ф-02|PERSON",
+   "moved": [
+    "E13:PERSON_Аналітик_Ф-02|PERSON"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-02|PERSON",
+    "E13:CASE_ID_Ф-02|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.644,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0046",
+   "type": "merge",
+   "into": "G9:NAR-04",
+   "from": "E13:CASE_ID_NAR-04|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_NAR-04|CASE_ID"
+   ],
+   "pair": [
+    "G9:NAR-04",
+    "E13:CASE_ID_NAR-04|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0047",
+   "type": "merge",
+   "into": "G9:ACC-007",
+   "from": "E13:CASE_ID_ACC-007|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_ACC-007|CASE_ID"
+   ],
+   "pair": [
+    "G9:ACC-007",
+    "E13:CASE_ID_ACC-007|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.826,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0048",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-01|CASE_ID",
+   "from": "E13:PERSON_Аналітик_Ф-01|PERSON",
+   "moved": [
+    "E13:PERSON_Аналітик_Ф-01|PERSON"
+   ],
+   "pair": [
+    "R8:Faktcheker_F01",
+    "E13:PERSON_Аналітик_Ф-01|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.39,
+    "jw": 0.675,
+    "tset": 0.762,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0049",
+   "type": "merge",
+   "into": "E13:PERSON_Аналітик_Ф-04|PERSON",
+   "from": "E13:PERSON_Ф-04|PERSON",
+   "moved": [
+    "E13:PERSON_Ф-04|PERSON"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-04|PERSON",
+    "E13:PERSON_Ф-04|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.639,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0050",
+   "type": "merge",
+   "into": "G9:NAR-05",
+   "from": "E13:CASE_ID_NAR-05|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_NAR-05|CASE_ID"
+   ],
+   "pair": [
+    "G9:NAR-05",
+    "E13:CASE_ID_NAR-05|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0051",
+   "type": "merge",
+   "into": "E13:PERSON_Аналітик_Ф-04|PERSON",
+   "from": "E13:CASE_ID_Ф-04|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_Ф-04|CASE_ID"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-04|PERSON",
+    "E13:CASE_ID_Ф-04|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.639,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0052",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-01|CASE_ID",
+   "from": "E13:PERSON_Ф-01|PERSON",
+   "moved": [
+    "E13:PERSON_Ф-01|PERSON"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-01|PERSON",
+    "E13:PERSON_Ф-01|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.633,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0053",
+   "type": "merge",
+   "into": "G9:RULE-1",
+   "from": "E13:CASE_ID_RULE-1|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_RULE-1|CASE_ID"
+   ],
+   "pair": [
+    "G9:RULE-1",
+    "E13:CASE_ID_RULE-1|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0054",
+   "type": "merge",
+   "into": "G9:ACC-008",
+   "from": "E13:ORG_ACC-008|ORG",
+   "moved": [
+    "E13:ORG_ACC-008|ORG"
+   ],
+   "pair": [
+    "G9:ACC-008",
+    "E13:ORG_ACC-008|ORG"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.038,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0055",
+   "type": "merge",
+   "into": "G9:ACC-002",
+   "from": "E13:ORG_ACC-002|ORG",
+   "moved": [
+    "E13:ORG_ACC-002|ORG"
+   ],
+   "pair": [
+    "G9:ACC-002",
+    "E13:ORG_ACC-002|ORG"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.03,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0056",
+   "type": "merge",
+   "into": "G9:ACC-002",
+   "from": "E13:CASE_ID_ACC-002|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_ACC-002|CASE_ID"
+   ],
+   "pair": [
+    "G9:ACC-002",
+    "E13:CASE_ID_ACC-002|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.833,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0057",
+   "type": "merge",
+   "into": "G9:ACC-007",
+   "from": "E13:ORG_ACC-007|ORG",
+   "moved": [
+    "E13:ORG_ACC-007|ORG"
+   ],
+   "pair": [
+    "G9:ACC-007",
+    "E13:ORG_ACC-007|ORG"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.037,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0058",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-03|CASE_ID",
+   "from": "E13:PERSON_Аналітик_Ф-03|PERSON",
+   "moved": [
+    "E13:PERSON_Аналітик_Ф-03|PERSON"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-03|PERSON",
+    "E13:CASE_ID_Ф-03|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.633,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0059",
+   "type": "merge",
+   "into": "G9:OFF-05",
+   "from": "E13:CASE_ID_OFF-05|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_OFF-05|CASE_ID"
+   ],
+   "pair": [
+    "G9:OFF-05",
+    "E13:CASE_ID_OFF-05|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0060",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-02|CASE_ID",
+   "from": "E13:PERSON_Ф-02|PERSON",
+   "moved": [
+    "E13:PERSON_Ф-02|PERSON"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-02|PERSON",
+    "E13:PERSON_Ф-02|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.644,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0061",
+   "type": "merge",
+   "into": "G9:ACC-005",
+   "from": "E13:CASE_ID_ACC-005|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_ACC-005|CASE_ID"
+   ],
+   "pair": [
+    "E13:CASE_ID_ACC-005|CASE_ID",
+    "E13:PLATFORM_Анонімний_Telegram-канал_5|PLATFORM"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.834,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0062",
+   "type": "merge",
+   "into": "G9:FCH-02",
+   "from": "R8:Faktcheker_F02",
+   "moved": [
+    "R8:Faktcheker_F02"
+   ],
+   "pair": [
+    "G9:FCH-02",
+    "R8:Faktcheker_F02"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.952,
+    "jw": 0.675,
+    "tset": 0.762,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0063",
+   "type": "merge",
+   "into": "G9:OFF-03",
+   "from": "E13:CASE_ID_OFF-03|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_OFF-03|CASE_ID",
+    "E13:ORG_OFF-03|ORG"
+   ],
+   "pair": [
+    "G9:OFF-03",
+    "E13:CASE_ID_OFF-03|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0064",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-01|CASE_ID",
+   "from": "G9:FCH-01",
+   "moved": [
+    "G9:FCH-01"
+   ],
+   "pair": [
+    "G9:FCH-01",
+    "E13:PERSON_Аналітик_Ф-01|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.359,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0065",
+   "type": "merge",
+   "into": "G9:OFF-01",
+   "from": "E13:CASE_ID_OFF-01|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_OFF-01|CASE_ID",
+    "E13:ORG_OFF-01|ORG"
+   ],
+   "pair": [
+    "G9:OFF-01",
+    "E13:ORG_OFF-01|ORG"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0066",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-02|CASE_ID",
+   "from": "G9:FCH-02",
+   "moved": [
+    "G9:FCH-02",
+    "R8:Faktcheker_F02"
+   ],
+   "pair": [
+    "G9:FCH-02",
+    "E13:PERSON_Аналітик_Ф-02|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.358,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0067",
+   "type": "merge",
+   "into": "G9:ACC-001",
+   "from": "E13:ORG_ACC-001|ORG",
+   "moved": [
+    "E13:ORG_ACC-001|ORG"
+   ],
+   "pair": [
+    "E13:ORG_ACC-001|ORG",
+    "E13:PLATFORM_Анонімний_Telegram-канал_1|PLATFORM"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.028,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0068",
+   "type": "merge",
+   "into": "G9:RULE-2",
+   "from": "R8:Pravylo_R2",
+   "moved": [
+    "R8:Pravylo_R2"
+   ],
+   "pair": [
+    "G9:RULE-2",
+    "R8:Pravylo_R2"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.711,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0069",
+   "type": "merge",
+   "into": "G9:FCH-06",
+   "from": "E13:PERSON_Ф-06|PERSON",
+   "moved": [
+    "E13:PERSON_Ф-06|PERSON"
+   ],
+   "pair": [
+    "G9:FCH-06",
+    "E13:PERSON_Ф-06|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.185,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0070",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-03|CASE_ID",
+   "from": "G9:FCH-03",
+   "moved": [
+    "G9:FCH-03"
+   ],
+   "pair": [
+    "G9:FCH-03",
+    "E13:PERSON_Аналітик_Ф-03|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.39,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0071",
+   "type": "merge",
+   "into": "E13:CASE_ID_ACC-004|CASE_ID",
+   "from": "E13:ORG_ACC-004|ORG",
+   "moved": [
+    "E13:ORG_ACC-004|ORG"
+   ],
+   "pair": [
+    "E13:CASE_ID_ACC-004|CASE_ID",
+    "E13:ORG_ACC-004|ORG"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.576,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0072",
+   "type": "merge",
+   "into": "G9:RULE-4",
+   "from": "E13:CASE_ID_RULE-4|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_RULE-4|CASE_ID"
+   ],
+   "pair": [
+    "G9:RULE-4",
+    "E13:CASE_ID_RULE-4|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.394,
+    "tset": 0.03,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0073",
+   "type": "merge",
+   "into": "G9:ACC-005",
+   "from": "E13:ORG_ACC-005|ORG",
+   "moved": [
+    "E13:ORG_ACC-005|ORG"
+   ],
+   "pair": [
+    "E13:CASE_ID_ACC-005|CASE_ID",
+    "E13:ORG_ACC-005|ORG"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.577,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0074",
+   "type": "merge",
+   "into": "G9:ACC-004",
+   "from": "E13:CASE_ID_ACC-004|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_ACC-004|CASE_ID",
+    "E13:ORG_ACC-004|ORG"
+   ],
+   "pair": [
+    "E13:CASE_ID_ACC-004|CASE_ID",
+    "E13:PLATFORM_Анонімний_Telegram-канал_4|PLATFORM"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.834,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0075",
+   "type": "merge",
+   "into": "G9:OFF-04",
+   "from": "E13:CASE_ID_OFF-04|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_OFF-04|CASE_ID"
+   ],
+   "pair": [
+    "G9:OFF-04",
+    "E13:CASE_ID_OFF-04|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0076",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-03|CASE_ID",
+   "from": "E13:PERSON_Ф-03|PERSON",
+   "moved": [
+    "E13:PERSON_Ф-03|PERSON"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-03|PERSON",
+    "E13:PERSON_Ф-03|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.633,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0077",
+   "type": "merge",
+   "into": "E13:PERSON_Аналітик_Ф-04|PERSON",
+   "from": "G9:FCH-04",
+   "moved": [
+    "G9:FCH-04"
+   ],
+   "pair": [
+    "G9:FCH-04",
+    "E13:CASE_ID_Ф-04|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.222,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0078",
+   "type": "merge",
+   "into": "G9:NAR-01",
+   "from": "E13:CASE_ID_NAR-01|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_NAR-01|CASE_ID"
+   ],
+   "pair": [
+    "G9:NAR-01",
+    "E13:CASE_ID_NAR-01|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0079",
+   "type": "merge",
+   "into": "G9:ACC-001",
+   "from": "E13:CASE_ID_ACC-001|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_ACC-001|CASE_ID"
+   ],
+   "pair": [
+    "G9:ACC-001",
+    "E13:CASE_ID_ACC-001|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.833,
+    "jw": 0.0,
+    "tset": 0.121,
+    "code": 1,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0080",
+   "type": "merge",
+   "into": "G9:NAR-02",
+   "from": "E13:CASE_ID_NAR-02|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_NAR-02|CASE_ID"
+   ],
+   "pair": [
+    "G9:NAR-02",
+    "E13:CASE_ID_NAR-02|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0081",
+   "type": "merge",
+   "into": "E13:CASE_ID_Ф-06|CASE_ID",
+   "from": "E13:PERSON_Аналітик_Ф-06|PERSON",
+   "moved": [
+    "E13:PERSON_Аналітик_Ф-06|PERSON"
+   ],
+   "pair": [
+    "E13:PERSON_Аналітик_Ф-06|PERSON",
+    "E13:CASE_ID_Ф-06|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.645,
+    "jw": 0.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0082",
+   "type": "merge",
+   "into": "G9:NAR-06",
+   "from": "E13:CASE_ID_NAR-06|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_NAR-06|CASE_ID"
+   ],
+   "pair": [
+    "G9:NAR-06",
+    "E13:CASE_ID_NAR-06|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.0,
+    "jw": 0.0,
+    "tset": 0.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0083",
+   "type": "merge",
+   "into": "G9:FCH-06",
+   "from": "E13:CASE_ID_Ф-06|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_Ф-06|CASE_ID",
+    "E13:PERSON_Аналітик_Ф-06|PERSON"
+   ],
+   "pair": [
+    "G9:FCH-06",
+    "E13:PERSON_Аналітик_Ф-06|PERSON"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.286,
+    "jw": 1.0,
+    "tset": 1.0,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0084",
+   "type": "merge",
+   "into": "G9:RULE-3",
+   "from": "E13:CASE_ID_RULE-3|CASE_ID",
+   "moved": [
+    "E13:CASE_ID_RULE-3|CASE_ID"
+   ],
+   "pair": [
+    "G9:RULE-3",
+    "E13:CASE_ID_RULE-3|CASE_ID"
+   ],
+   "evidence": {
+    "score": 0.95,
+    "cos": 0.009,
+    "jw": 0.393,
+    "tset": 0.024,
+    "code": 1,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0085",
+   "type": "merge",
+   "into": "E13:ORG_YouTuber|ORG",
+   "from": "E13:YouTube|PLATFORM",
+   "moved": [
+    "E13:YouTube|PLATFORM"
+   ],
+   "pair": [
+    "E13:YouTube|PLATFORM",
+    "E13:ORG_YouTuber|ORG"
+   ],
+   "evidence": {
+    "score": 0.911,
+    "cos": 0.808,
+    "jw": 0.975,
+    "tset": 0.933,
+    "code": 0,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": true
+  },
+  {
+   "op": "M0086",
+   "type": "merge",
+   "into": "E13:ORG_Всесвітня_організація_охорони_здоров_я_ВООЗ|ORG",
+   "from": "E13:ВООЗ|ORG",
+   "moved": [
+    "E13:ВООЗ|ORG"
+   ],
+   "pair": [
+    "E13:ВООЗ|ORG",
+    "E13:ORG_Всесвітня_організація_охорони_здоров_я_ВООЗ|ORG"
+   ],
+   "evidence": {
+    "score": 0.9,
+    "cos": 0.965,
+    "jw": 0.61,
+    "tset": 0.19,
+    "code": 0,
+    "alias": 1,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0087",
+   "type": "merge",
+   "into": "E13:ORG_YouTuber|ORG",
+   "from": "E13:ORG_YouTuber_у|ORG",
+   "moved": [
+    "E13:ORG_YouTuber_у|ORG"
+   ],
+   "pair": [
+    "E13:ORG_YouTuber|ORG",
+    "E13:ORG_YouTuber_у|ORG"
+   ],
+   "evidence": {
+    "score": 0.881,
+    "cos": 0.761,
+    "jw": 0.96,
+    "tset": 0.889,
+    "code": 0,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0088",
+   "type": "merge",
+   "into": "G9:OFF-01",
+   "from": "R8:Dzherelo_O01",
+   "moved": [
+    "R8:Dzherelo_O01"
+   ],
+   "pair": [
+    "G9:OFF-01",
+    "R8:Dzherelo_O01"
+   ],
+   "evidence": {
+    "score": 0.869,
+    "cos": 0.702,
+    "jw": 0.867,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0089",
+   "type": "merge",
+   "into": "E13:ORG_Сігрід_Раузінг|ORG",
+   "from": "E13:ORG_фонд_Сігрід_Раузінг|ORG",
+   "moved": [
+    "E13:ORG_фонд_Сігрід_Раузінг|ORG"
+   ],
+   "pair": [
+    "E13:ORG_Сігрід_Раузінг|ORG",
+    "E13:ORG_фонд_Сігрід_Раузінг|ORG"
+   ],
+   "evidence": {
+    "score": 0.866,
+    "cos": 0.899,
+    "jw": 0.841,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t + gold=1"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "M0090",
+   "type": "merge",
+   "into": "G9:TOOL-01",
+   "from": "E13:METHOD_реверсивний_пошук|METHOD",
+   "moved": [
+    "E13:METHOD_реверсивний_пошук|METHOD"
+   ],
+   "pair": [
+    "R8:Instrument_I01",
+    "E13:METHOD_реверсивний_пошук|METHOD"
+   ],
+   "evidence": {
+    "score": 0.838,
+    "cos": 0.77,
+    "jw": 0.926,
+    "tset": 1.0,
+    "code": 0,
+    "alias": 0,
+    "threshold": 0.83,
+    "rule": "auto score ≥ t"
+   },
+   "actor": "dedup.py v1 (авто, поріг з dev)",
+   "ts": "2026-11-06T12:00:00+02:00",
+   "undone": false
+  },
+  {
+   "op": "U0091",
+   "type": "unmerge",
+   "undo": "M0085",
+   "actor": "Хоптій Д. (власник реєстру)",
+   "ts": "2026-11-06T13:00:00+02:00",
+   "reason": "перегляд: платформа YouTube ≠ автор контенту (YouTuber); хибне злиття через спільний префікс назви"
+  }
+ ]
+}

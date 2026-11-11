@@ -1,0 +1,74 @@
+@prefix hub: <http://www.lnu.edu.ua/kb/hub#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ЛР14 · SHACL-форми якості для RDF-знімка сховища (quality/kb.py: to_rdf).
+# Severity: sh:Violation — блокує зміну в CI; sh:Warning — лише у звіті.
+
+# S1. Акаунт: id за шаблоном, рівень довіри 1–4 узгоджений із назвою, підписники ≥ 0, дата створення
+hub:AccountShape a sh:NodeShape ; sh:targetClass hub:Account ;
+  sh:property [ sh:path hub:id ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^ACC-\\d{3}$" ;
+                sh:message "S1: id акаунта має вигляд ACC-NNN" ] ;
+  sh:property [ sh:path hub:trustLevel ; sh:minCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 1 ; sh:maxInclusive 4 ;
+                sh:message "S1: trustLevel — ціле 1…4" ] ;
+  sh:property [ sh:path hub:trust ; sh:minCount 1 ; sh:in ( "низький" "знижений" "середній" "високий" ) ;
+                sh:message "S1: trust — зі шкали низький/знижений/середній/високий" ] ;
+  sh:property [ sh:path hub:followers ; sh:datatype xsd:integer ; sh:minInclusive 0 ;
+                sh:message "S1: followers — невід'ємне ціле" ] ;
+  sh:property [ sh:path hub:createdAt ; sh:minCount 1 ; sh:datatype xsd:date ;
+                sh:message "S1: createdAt — дата xsd:date" ] .
+
+# S2. Публікація: рівно один автор (PUBLISHED), рівно одне твердження, поширення ≥ 0, дата
+hub:PublicationShape a sh:NodeShape ; sh:targetClass hub:Publication ;
+  sh:property [ sh:path [ sh:inversePath hub:PUBLISHED ] ; sh:minCount 1 ; sh:maxCount 1 ;
+                sh:message "S2: публікація має рівно одного автора" ] ;
+  sh:property [ sh:path hub:MAKES_CLAIM ; sh:minCount 1 ; sh:maxCount 1 ; sh:class hub:Claim ;
+                sh:message "S2: публікація висуває рівно одне твердження" ] ;
+  sh:property [ sh:path hub:shares ; sh:datatype xsd:integer ; sh:minInclusive 0 ; sh:message "S2: shares — невід'ємне ціле" ] ;
+  sh:property [ sh:path hub:publishedAt ; sh:minCount 1 ; sh:datatype xsd:date ; sh:message "S2: publishedAt — дата" ] ;
+  sh:property [ sh:path hub:platform ; sh:in ( "Telegram" "X" "Facebook" ) ; sh:message "S2: платформа зі списку" ] .
+
+# S3. Вердикт: категорія й впевненість зі списку, рівно одне твердження, ≥ 1 доказ, видавець
+hub:VerdictShape a sh:NodeShape ; sh:targetClass hub:Verdict ;
+  sh:property [ sh:path hub:category ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "правда" "маніпуляція" "фейк" "неможливо перевірити" ) ;
+                sh:message "S3: категорія вердикту зі списку" ] ;
+  sh:property [ sh:path hub:confidence ; sh:minCount 1 ; sh:in ( "низький" "середній" "високий" ) ; sh:message "S3: впевненість зі списку" ] ;
+  sh:property [ sh:path hub:ABOUT ; sh:minCount 1 ; sh:maxCount 1 ; sh:class hub:Claim ; sh:message "S3: вердикт стосується рівно одного твердження" ] ;
+  sh:property [ sh:path hub:BASED_ON ; sh:minCount 1 ; sh:message "S3: вердикт має щонайменше один доказ" ] ;
+  sh:property [ sh:path [ sh:inversePath hub:ISSUED ] ; sh:minCount 1 ; sh:maxCount 1 ; sh:class hub:FactChecker ;
+                sh:message "S3: вердикт видає рівно один фактчекер" ] .
+
+# S4. Твердження: наратив ≤ 1, пріоритет зі списку, явний статус перевірки (повнота)
+hub:ClaimShape a sh:NodeShape ; sh:targetClass hub:Claim ;
+  sh:property [ sh:path hub:priority ; sh:minCount 1 ; sh:in ( "високий" "середній" "низький" ) ; sh:message "S4: пріоритет зі списку" ] ;
+  sh:property [ sh:path hub:PART_OF ; sh:maxCount 1 ; sh:class hub:Narrative ; sh:message "S4: не більше одного наративу" ] ;
+  sh:property [ sh:path hub:status ; sh:minCount 1 ; sh:severity sh:Warning ;
+                sh:message "S4: немає явного статусу перевірки (status) — повнота" ] .
+
+# S5. Наратив: агрегати для RAG (повнота) — попередження
+hub:NarrativeShape a sh:NodeShape ; sh:targetClass hub:Narrative ;
+  sh:property [ sh:path hub:publicationCount ; sh:minCount 1 ; sh:datatype xsd:integer ; sh:severity sh:Warning ;
+                sh:message "S5: наратив без publicationCount" ] .
+
+# S6. Походження ребра: джерело, впевненість 0…1, дата
+hub:StatementShape a sh:NodeShape ; sh:targetClass hub:Statement ;
+  sh:property [ sh:path hub:source ; sh:minCount 1 ; sh:message "S6: ребро без джерела (source)" ] ;
+  sh:property [ sh:path hub:confidence ; sh:minCount 1 ; sh:datatype xsd:decimal ; sh:minInclusive 0 ; sh:maxInclusive 1 ;
+                sh:message "S6: confidence — число 0…1" ] ;
+  sh:property [ sh:path hub:validFrom ; sh:minCount 1 ; sh:datatype xsd:date ; sh:message "S6: validFrom — дата" ] .
+
+# S7. Документ корпусу: ліцензія, дата, рівень доступу
+hub:DocumentShape a sh:NodeShape ; sh:targetClass hub:Document ;
+  sh:property [ sh:path hub:license ; sh:minCount 1 ; sh:message "S7: документ без ліцензії" ] ;
+  sh:property [ sh:path hub:date ; sh:minCount 1 ; sh:datatype xsd:date ; sh:message "S7: документ без дати" ] ;
+  sh:property [ sh:path hub:sensitivity ; sh:minCount 1 ; sh:in ( "public" "internal" "restricted" ) ; sh:message "S7: рівень доступу зі списку" ] .
+
+# S8. Фрагмент: id, документ, непорожній текст, рівень доступу; кінцева пунктуація — попередження
+hub:ChunkShape a sh:NodeShape ; sh:targetClass hub:Chunk ;
+  sh:property [ sh:path hub:chunkId ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^(W\\d\\d|INT-[A-Z0-9-]+):s\\d{3}$" ;
+                sh:message "S8: chunk_id має вигляд DOC:sNNN" ] ;
+  sh:property [ sh:path hub:inDocument ; sh:minCount 1 ; sh:class hub:Document ; sh:message "S8: фрагмент без документа" ] ;
+  sh:property [ sh:path hub:text ; sh:minCount 1 ; sh:minLength 40 ; sh:message "S8: текст фрагмента коротший за 40 символів" ] ;
+  sh:property [ sh:path hub:sensitivity ; sh:minCount 1 ; sh:in ( "public" "internal" "restricted" ) ; sh:message "S8: рівень доступу зі списку" ] ;
+  sh:property [ sh:path hub:text ; sh:pattern "[.!?»)…:;\\]\"]\\s*$" ; sh:severity sh:Warning ;
+                sh:message "S8: фрагмент обривається без кінцевої пунктуації" ] .

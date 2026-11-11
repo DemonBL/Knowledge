@@ -1,0 +1,58 @@
+{
+ "ts": "2026-11-06T22:41:42+02:00",
+ "before": {
+  "claims_without_verdict_or_status": 8,
+  "narratives_without_publicationCount": 6,
+  "true_verdict_lt2_sources_unflagged": 6,
+  "verdict_before_first_publication_unflagged": 10,
+  "publications_not_one_author": 0,
+  "relationships_without_provenance": 0,
+  "nodes": 297,
+  "relationships": 808,
+  "accounts_with_pagerank": 45
+ },
+ "after": {
+  "claims_without_verdict_or_status": 0,
+  "narratives_without_publicationCount": 0,
+  "true_verdict_lt2_sources_unflagged": 0,
+  "verdict_before_first_publication_unflagged": 0,
+  "publications_not_one_author": 0,
+  "relationships_without_provenance": 0,
+  "nodes": 297,
+  "relationships": 808,
+  "accounts_with_pagerank": 45
+ },
+ "migration_s": 0.62,
+ "narratives": [
+  {
+   "id": "NAR-01",
+   "claims": 8,
+   "pubs": 31
+  },
+  {
+   "id": "NAR-02",
+   "claims": 8,
+   "pubs": 35
+  },
+  {
+   "id": "NAR-03",
+   "claims": 4,
+   "pubs": 17
+  },
+  {
+   "id": "NAR-04",
+   "claims": 4,
+   "pubs": 15
+  },
+  {
+   "id": "NAR-05",
+   "claims": 4,
+   "pubs": 15
+  },
+  {
+   "id": "NAR-06",
+   "claims": 4,
+   "pubs": 16
+  }
+ ]
+}
